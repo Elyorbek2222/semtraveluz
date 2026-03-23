@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect } from "react";
 import Link from "next/link";
 import { useLang } from "@/lib/language-context";
 
@@ -24,6 +25,14 @@ const tourTypes = [
 export default function ToursClient() {
   const { lang } = useLang();
   const isUz = lang === "uz";
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      (window as any).tourvisor?.init?.();
+    }, 300);
+    return () => clearTimeout(timer);
+  }, []);
 
   return (
     <div className="min-h-screen bg-gray-50">

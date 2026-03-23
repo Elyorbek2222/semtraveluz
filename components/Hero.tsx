@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect } from "react";
 import { ChevronDown } from "lucide-react";
 import { useLang } from "@/lib/language-context";
 
@@ -9,6 +10,14 @@ const popularDestinationsRu = ["🇹🇷 Турция", "🇦🇪 Дубай", "
 export default function Hero() {
   const { t, lang } = useLang();
   const popularDestinations = lang === "uz" ? popularDestinationsUz : popularDestinationsRu;
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      (window as any).tourvisor?.init?.();
+    }, 300);
+    return () => clearTimeout(timer);
+  }, []);
 
   return (
     <>

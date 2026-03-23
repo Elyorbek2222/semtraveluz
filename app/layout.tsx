@@ -6,6 +6,7 @@ import BottomNav from "@/components/BottomNav";
 import AiChat from "@/components/AiChat";
 import { LangProvider } from "@/lib/language-context";
 import Script from "next/script";
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://semtravel.uz"),
@@ -14,7 +15,7 @@ export const metadata: Metadata = {
     template: "%s | SEM Travel",
   },
   description:
-    "SEM Travel — O'zbekistondagi ishonchli sayohat agentligi. 2014 yildan beri 5000+ mijozga xizmat. Turkiya, Dubai, Tailand, Misr turlariga eng arzon narxlar. Viza yordam, mehmonxona, aviabilet.",
+    "SEM Travel — O'zbekistondagi ishonchli sayohat agentligi. 2011 yildan beri 30 000+ mijozga xizmat. Turkiya, Dubai, Tailand, Misr turlariga eng arzon narxlar. Viza yordam, mehmonxona, aviabilet.",
   keywords: [
     "sayohat agentligi toshkent",
     "tur paketlar o'zbekiston",
@@ -39,7 +40,7 @@ export const metadata: Metadata = {
     siteName: "SEM Travel",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/opengraph-image",
         width: 1200,
         height: 630,
         alt: "SEM Travel — Sayohat Agentligi",
@@ -80,6 +81,7 @@ export default function RootLayout({
           <Footer />
           <BottomNav />
           <AiChat />
+          <Analytics />
           <Script src="https://tourvisor.ru/module/init.js" strategy="afterInteractive" />
         </LangProvider>
       </body>

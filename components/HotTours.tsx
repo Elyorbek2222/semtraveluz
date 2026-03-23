@@ -1,14 +1,15 @@
 "use client";
 
+import { useEffect } from "react";
 import Link from "next/link";
 import { Flame, ArrowRight } from "lucide-react";
 import { useLang } from "@/lib/language-context";
 
 const STATS_DATA = [
   { value: "50+", icon: "🌍", key: "countries" as const },
-  { value: "5 000+", icon: "😊", key: "clients" as const },
+  { value: "30 000+", icon: "😊", key: "clients" as const },
   { value: "200+", icon: "🗺️", key: "tours" as const },
-  { value: "10", icon: "🏆", key: "experience" as const },
+  { value: "15+", icon: "🏆", key: "experience" as const },
 ];
 
 interface HotToursProps {
@@ -17,6 +18,14 @@ interface HotToursProps {
 
 export default function HotTours({ showAllByDefault = false }: HotToursProps) {
   const { t } = useLang();
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      (window as any).tourvisor?.init?.();
+    }, 300);
+    return () => clearTimeout(timer);
+  }, []);
 
   return (
     <section className="py-20 bg-gray-50" id="hot-tours">

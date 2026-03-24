@@ -34,8 +34,6 @@ const vizaFreeGroups = [
     countries: [
       { flag: "🇹🇭", uz: "Tailand", ru: "Таиланд", daysUz: "30 kun", daysRu: "30 дней", typeUz: "Vizasiz", typeRu: "Без визы" },
       { flag: "🇲🇾", uz: "Malayziya", ru: "Малайзия", daysUz: "30 kun", daysRu: "30 дней", typeUz: "Vizasiz", typeRu: "Без визы" },
-      { flag: "🇸🇬", uz: "Singapur", ru: "Сингапур", daysUz: "30 kun", daysRu: "30 дней", typeUz: "Vizasiz", typeRu: "Без визы" },
-      { flag: "🇰🇷", uz: "Janubiy Koreya", ru: "Южная Корея", daysUz: "30 kun", daysRu: "30 дней", typeUz: "Vizasiz", typeRu: "Без визы" },
       { flag: "🇮🇩", uz: "Indoneziya", ru: "Индонезия", daysUz: "30 kun", daysRu: "30 дней", typeUz: "Chegara vizasi (bepul)", typeRu: "Виза по прилёту (бесплатно)" },
       { flag: "🇲🇻", uz: "Maldiv", ru: "Мальдивы", daysUz: "30 kun", daysRu: "30 дней", typeUz: "Chegara vizasi (bepul)", typeRu: "Виза по прилёту (бесплатно)" },
       { flag: "🇻🇳", uz: "Vyetnam", ru: "Вьетнам", daysUz: "45 kun", daysRu: "45 дней", typeUz: "E-viza (bepul)", typeRu: "Э-виза (бесплатно)" },
@@ -83,10 +81,10 @@ const visaTabs = [
     countriesRu: "Германия, Франция, Италия, Испания, Греция, Нидерланды, Австрия, Бельгия, Швеция, Швейцария, Польша и ещё 15+ стран Европы",
     processingUz: "15–20 ish kuni",
     processingRu: "15–20 рабочих дней",
-    validityUz: "90 kun (180 kunda)",
-    validityRu: "90 дней (в течение 180)",
-    agencyPriceUz: "900 000 so'm",
-    agencyPriceRu: "900 000 сум",
+    validityUz: "1-90 kun (so'ralgan muddatga)",
+    validityRu: "1–90 дней (по запросу)",
+    agencyPriceUz: "3 000 000 so'm",
+    agencyPriceRu: "3 000 000 сум",
     consularFeeUz: "+ 80 Yevro (elchixona yig'imi)",
     consularFeeRu: "+ 80 евро (консульский сбор)",
     successUz: "~82%",
@@ -105,10 +103,10 @@ const visaTabs = [
     countriesRu: "США — для туризма (B2) и бизнеса (B1)",
     processingUz: "30–90 kun (intervyu sanasiga bog'liq)",
     processingRu: "30–90 дней (зависит от даты интервью)",
-    validityUz: "5–10 yil (ko'p marta kirish)",
-    validityRu: "5–10 лет (многократная)",
-    agencyPriceUz: "1 200 000 so'm",
-    agencyPriceRu: "1 200 000 сум",
+    validityUz: "6 oydan 10 yilgacha (ko'p marta kirish)",
+    validityRu: "от 6 месяцев до 10 лет (многократная)",
+    agencyPriceUz: "3 000 000 so'm",
+    agencyPriceRu: "3 000 000 сум",
     consularFeeUz: "+ $185 (elchixona yig'imi)",
     consularFeeRu: "+ $185 (консульский сбор)",
     successUz: "~65%",
@@ -169,20 +167,61 @@ const visaTabs = [
     ru: "Саудовская Аравия",
     countriesUz: "Saudiya Arabistoni — Riyadh, Jidda, Al-Ula, Qizil dengiz kurortlari",
     countriesRu: "Саудовская Аравия — Эр-Рияд, Джидда, Аль-Ула, курорты Красного моря",
-    processingUz: "1–3 kun (onlayn)",
-    processingRu: "1–3 дня (онлайн)",
-    validityUz: "90 kun (1 yil ichida)",
-    validityRu: "90 дней (в течение 1 года)",
-    agencyPriceUz: "300 000 so'm",
-    agencyPriceRu: "300 000 сум",
-    consularFeeUz: "+ ~$80 (turizm e-viza)",
-    consularFeeRu: "+ ~$80 (туристическая е-виза)",
+    processingUz: "1–7 kun",
+    processingRu: "1–7 дней",
+    validityUz: "30–90 kun",
+    validityRu: "30–90 дней",
+    agencyPriceUz: "300 000 so'm dan",
+    agencyPriceRu: "от 300 000 сум",
+    consularFeeUz: "Viza turiga qarab farq qiladi",
+    consularFeeRu: "Зависит от типа визы",
     successUz: "~90%",
     successRu: "~90%",
     docsUz: ["Zaграnpasport (kamida 6 oy)", "Raqamli foto", "Kredit karta (to'lov uchun)", "Sug'urta talab etiladi"],
     docsRu: ["Загранпаспорт (не менее 6 мес.)", "Цифровое фото", "Кредитная карта (для оплаты)", "Страховка обязательна"],
     tipsUz: ["Turizm vizasi — visitSaudi.com saytida onlayn", "Umra uchun alohida diniy viza kerak (biz yordam beramiz)", "Ramadan davrida sayyohlar uchun ham viza beriladi"],
     tipsRu: ["Туристическая виза — онлайн на visitSaudi.com", "Для Умры отдельная религиозная виза (помогаем оформить)", "Виза доступна для туристов и в период Рамадана"],
+    subtypes: [
+      {
+        emoji: "🏖️",
+        uz: "Turist viza",
+        ru: "Туристическая виза",
+        descUz: "Onlayn (visitSaudi.com). Riyadh, Jidda, Al-Ula, Qizil dengiz kurortlari",
+        descRu: "Онлайн (visitSaudi.com). Эр-Рияд, Джидда, Аль-Ула, курорты Красного моря",
+        processingUz: "1–3 kun",
+        processingRu: "1–3 дня",
+        validityUz: "90 kun (1 yil ichida)",
+        validityRu: "90 дней (в течение 1 года)",
+        priceUz: "300 000 so'm + ~$80",
+        priceRu: "300 000 сум + ~$80",
+      },
+      {
+        emoji: "🕌",
+        uz: "Umrah viza",
+        ru: "Виза для Умры",
+        descUz: "Muqaddas yerlar — Makka va Madina ziyorati uchun diniy viza. Akkreditatsiyalangan agentlik orqali",
+        descRu: "Религиозная виза для посещения Мекки и Медины. Оформляется через аккредитованное агентство",
+        processingUz: "3–7 kun",
+        processingRu: "3–7 дней",
+        validityUz: "30 kun",
+        validityRu: "30 дней",
+        priceUz: "Kelishiladi",
+        priceRu: "По договорённости",
+      },
+      {
+        emoji: "💼",
+        uz: "Biznes viza",
+        ru: "Бизнес-виза",
+        descUz: "Saudiyalik kompaniya taklifi bilan ish uchrashuvlari, konferentsiyalar va shartnomalar uchun",
+        descRu: "По приглашению саудовской компании: деловые встречи, конференции, переговоры",
+        processingUz: "5–10 kun",
+        processingRu: "5–10 дней",
+        validityUz: "30–90 kun (ko'p marta)",
+        validityRu: "30–90 дней (многократная)",
+        priceUz: "Kelishiladi",
+        priceRu: "По договорённости",
+      },
+    ],
   },
   {
     id: "australia",
@@ -539,6 +578,40 @@ export default function VisaClient() {
             <p className="text-xs text-gray-500 mb-5">
               {isUz ? activeVisa.consularFeeUz : activeVisa.consularFeeRu}
             </p>
+
+            {/* Saudi Arabia subtypes */}
+            {"subtypes" in activeVisa && activeVisa.subtypes && (
+              <div className="mb-5">
+                <h4 className="font-bold text-gray-900 text-sm mb-3">
+                  🗂️ {isUz ? "Viza turlari" : "Типы виз"}
+                </h4>
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                  {(activeVisa.subtypes as Array<{emoji: string; uz: string; ru: string; descUz: string; descRu: string; processingUz: string; processingRu: string; validityUz: string; validityRu: string; priceUz: string; priceRu: string}>).map((sub) => (
+                    <div key={sub.uz} className="p-4 rounded-xl" style={{ background: "#F0F9FF", border: "1.5px solid #BAE6FD" }}>
+                      <div className="flex items-center gap-2 mb-2">
+                        <span className="text-xl">{sub.emoji}</span>
+                        <span className="font-extrabold text-sm text-gray-900">{isUz ? sub.uz : sub.ru}</span>
+                      </div>
+                      <p className="text-xs text-gray-500 leading-relaxed mb-3">{isUz ? sub.descUz : sub.descRu}</p>
+                      <div className="space-y-1">
+                        <div className="flex justify-between text-xs">
+                          <span className="text-gray-400">{isUz ? "Muddat" : "Срок"}</span>
+                          <span className="font-semibold text-gray-700">{isUz ? sub.processingUz : sub.processingRu}</span>
+                        </div>
+                        <div className="flex justify-between text-xs">
+                          <span className="text-gray-400">{isUz ? "Amal qilishi" : "Действие"}</span>
+                          <span className="font-semibold text-gray-700">{isUz ? sub.validityUz : sub.validityRu}</span>
+                        </div>
+                        <div className="flex justify-between text-xs">
+                          <span className="text-gray-400">{isUz ? "Narx" : "Цена"}</span>
+                          <span className="font-extrabold" style={{ color: "#0057A8" }}>{isUz ? sub.priceUz : sub.priceRu}</span>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {/* Documents */}

@@ -19,11 +19,11 @@ export const metadata: Metadata = {
     "тур в турцию",
     "тур в дубай",
   ],
-  alternates: { canonical: "https://semtravel.uz/tours" },
+  alternates: { canonical: "https://semtraveluz.vercel.app/tours" },
   openGraph: {
     title: "Turlar Katalogi | SEM Travel",
     description: "50+ mamlakatga tur paketlar. Toshkentdan eng arzon narxlar.",
-    url: "https://semtravel.uz/tours",
+    url: "https://semtraveluz.vercel.app/tours",
     type: "website",
   },
 };

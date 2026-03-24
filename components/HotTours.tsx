@@ -54,7 +54,7 @@ export default function HotTours({ showAllByDefault = false }: HotToursProps) {
         </div>
 
         {/* Tourvisor Hot Tours Widget */}
-        <div className="tv-hot-tours tv-moduleid-9989885"></div>
+        <div className="tv-hot-tours tv-moduleid-9989885" style={{ minHeight: 400 }}></div>
 
         {/* Stats bar */}
         <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-4">

@@ -13,13 +13,14 @@ const PHONE2 = "+998 94 664-22-22";
 const EMAIL = "semtraveluz@mail.ru";
 
 export default function Footer() {
-  const { t } = useLang();
+  const { t, lang } = useLang();
 
   const quickLinks = [
     { label: t.nav.tours, href: "/tours" },
     { label: t.nav.visa, href: "/visa" },
     { label: t.nav.about, href: "/about" },
     { label: t.nav.contact, href: "/contact" },
+    { label: lang === "uz" ? "Maxfiylik siyosati" : "Политика конфиденциальности", href: "/privacy" },
   ];
 
   return (
@@ -137,7 +138,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="border-t border-gray-800 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-gray-500">
           <p>© {new Date().getFullYear()} SEM Travel. {t.footer.rights}</p>
-          <p>semtravel.uz</p>
+          <p>semtraveluz.vercel.app</p>
         </div>
       </div>
     </footer>

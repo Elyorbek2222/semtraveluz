@@ -497,6 +497,839 @@ Gruziya — eng yaqin va arzon xorijiy yo'nalish. Ajoyib oshxona, tarix, tog'lar
 
 **Бесплатная консультация и бронирование:** +998 71 275-55-55 | WhatsApp: +998 94 664-22-22`,
   },
+  {
+    id: 5,
+    slug: "misr-hurghada-sayohati",
+    emoji: "🇪🇬",
+    image: "https://images.unsplash.com/photo-1568322445389-f64ac2515020?w=800&q=70",
+    categoryUz: "Yo'nalishlar",
+    categoryRu: "Направления",
+    titleUz: "Misr Hurghada: 2026-yilgi to'liq sayohat qo'llanmasi",
+    titleRu: "Египет Хургада: полный путеводитель 2026 года",
+    descUz: "Hurghada — Misrning eng mashhur kurort shahri. Qizil dengiz, marjonlar, All Inclusive mehmonxonalar va arzon narxlar haqida to'liq ma'lumot.",
+    descRu: "Хургада — самый популярный курорт Египта. Красное море, кораллы, All Inclusive отели и доступные цены — всё в одном гиде.",
+    date: "2026-03-20",
+    readTimeUz: "6 daqiqa",
+    readTimeRu: "6 минут",
+    author: "SEM Travel",
+    tagsUz: ["Misr", "Hurghada", "All Inclusive", "Plyaj"],
+    tagsRu: ["Египет", "Хургада", "All Inclusive", "Пляж"],
+    contentUz: `Hurghada — Misrning Qizil dengiz sohilidagi eng mashhur kurort shahar. Toshkentdan charter reyslar mavjud va narxlar juda qulay.
+
+## Nima uchun Hurghada?
+
+- **Yil bo'yi issiq** — qishda ham +22–28°C
+- **Kristal toza Qizil dengiz** — eng zo'r suv osti dunyosi
+- **All Inclusive mehmonxonalar** — juda qulaylik
+- **Arzon narxlar** — Turkiyaga qaraganda arzonroq
+
+## Qachon borish kerak?
+
+**Eng yaxshi vaqt:** Oktyabr–Aprel (harorat +22–28°C)
+Iyun–Avgust da harorat +38°C ga yetadi — qiyin bo'ladi.
+
+## Mehmonxona tanlash
+
+| Toifa | Narx/tun | Tavsiya |
+|---|---|---|
+| 3 yulduz | $40–70 | Arzon budget |
+| 4 yulduz | $80–130 | Optimal tanlov |
+| 5 yulduz | $150–300 | Premium dam olish |
+
+**Eng zo'r rayon:** Sahl Hasheesh, Makadi Bay — tinch va chiroyli.
+
+## Nima ko'rish kerak?
+
+- **Qizil dengizda sho'ng'ish (snorkeling/diving)** — majburiy!
+- **Luxor ekskursiyasi** — Fir'avn qabrlari, 4 soatlik yo'l
+- **Cairo/Giza ekskursiyasi** — Misr piramidalari (1 kun)
+- **Sinai yarim oroli** — Sharm el-Sheikh, Dahab
+
+## Hurghada dan Luxor
+
+Luxor ga borish — Misrga kelgan har bir sayyoh uchun majburiy. Hurghada dan:
+- **Avtobus** — $15–20, 4 soat
+- **Samolyot** — $50–80, 45 daqiqa
+- **Ekskursiya** — $60–100 (transport + gid + kirish)
+
+## Ovqatlanish
+
+All Inclusive mehmonxonada ovqat bepul. Tashqarida:
+- **Shawarma** — $2–3
+- **Baliq restorani** — $15–25
+- **O'zbek taomi** — Hurghada da ham topiladi!
+
+## Viza
+
+Misr ga kirishda aeroportda **viza olinadi:**
+- Narxi: **$25** (AQSh dollari)
+- Pasport + $25 — va viza tayyor!
+
+## Transport
+
+- **Aeroportdan mehmonxonaga** — transfer tur narxiga kiradi
+- **Taksida** — narxni oldindan kelishing
+- **Minibuss** — $0.5–2
+
+**SEM Travel Hurghada turlariga bron qilish:** +998 71 275-55-55`,
+    contentRu: `Хургада — самый популярный курортный город Египта на побережье Красного моря. Из Ташкента есть чартерные рейсы по очень доступным ценам.
+
+## Почему Хургада?
+
+- **Тепло круглый год** — даже зимой +22–28°C
+- **Кристально чистое Красное море** — лучший подводный мир
+- **Отели All Inclusive** — максимальное удобство
+- **Доступные цены** — дешевле, чем в Турции
+
+## Когда ехать?
+
+**Лучшее время:** Октябрь–Апрель (температура +22–28°C)
+В июне-августе жара достигает +38°C.
+
+## Выбор отеля
+
+| Категория | Цена/ночь | Рекомендация |
+|---|---|---|
+| 3 звезды | $40–70 | Бюджетный вариант |
+| 4 звезды | $80–130 | Оптимальный выбор |
+| 5 звёзд | $150–300 | Премиум отдых |
+
+**Лучший район:** Сахл Хашиш, Макади Бэй — тихо и красиво.
+
+## Что посмотреть?
+
+- **Снорклинг/дайвинг** — обязательно!
+- **Экскурсия в Луксор** — гробницы фараонов, 4 часа езды
+- **Каир/Гиза** — пирамиды Египта (1 день)
+- **Синайский полуостров** — Шарм-эль-Шейх, Дахаб
+
+## Из Хургады в Луксор
+
+Луксор — обязательная программа для каждого туриста в Египте:
+- **Автобус** — $15–20, 4 часа
+- **Самолёт** — $50–80, 45 минут
+- **Экскурсия** — $60–100 (транспорт + гид + вход)
+
+## Питание
+
+В отеле All Inclusive еда бесплатно. В городе:
+- **Шаурма** — $2–3
+- **Рыбный ресторан** — $15–25
+
+## Виза
+
+Виза оформляется **прямо в аэропорту:**
+- Стоимость: **$25** (доллары США)
+- Паспорт + $25 — и виза готова!
+
+**Забронировать тур в Хургаду через SEM Travel:** +998 71 275-55-55`,
+  },
+  {
+    id: 6,
+    slug: "gruziya-tbilisi-batumi",
+    emoji: "🇬🇪",
+    image: "https://images.unsplash.com/photo-1565008576549-57569a49371d?w=800&q=70",
+    categoryUz: "Yo'nalishlar",
+    categoryRu: "Направления",
+    titleUz: "Gruziya: Tbilisi va Batumi — vizasiz sayohat qo'llanmasi",
+    titleRu: "Грузия: Тбилиси и Батуми — гид для путешествия без визы",
+    descUz: "Gruziya — O'zbekistondan eng yaqin va arzon xorijiy yo'nalish. Vizasiz, ajoyib oshxona, tog'lar va dengiz — barchasi bir mamlakatda.",
+    descRu: "Грузия — ближайшее и доступное зарубежное направление из Узбекистана. Без визы, отличная кухня, горы и море — всё в одной стране.",
+    date: "2026-03-18",
+    readTimeUz: "5 daqiqa",
+    readTimeRu: "5 минут",
+    author: "SEM Travel",
+    tagsUz: ["Gruziya", "Tbilisi", "Batumi", "Vizasiz"],
+    tagsRu: ["Грузия", "Тбилиси", "Батуми", "Без визы"],
+    contentUz: `Gruziya — Kavkaz tog'lari, qadimiy shaharlar, ajoyib sharoblar va mehribon xalq. Eng yaxshi tomoni — vizasiz va juda arzon!
+
+## Nima uchun Gruziya?
+
+- **Vizasiz** — O'zbekiston fuqarolari uchun 365 kungacha
+- **Arzon** — $300–450 ga 5 kun ajoyib dam olish
+- **Yaqin** — Toshkentdan 2–3 soat parvoz
+- **Xavfsiz** — Yevropa darajasidagi xavfsizlik
+
+## Tbilisi — poytaxt shahri
+
+Tbilisi — 1500 yillik tarixga ega shahar. Ko'rish kerak:
+
+- **Eski shahar (Metekhi)** — tarixiy ko'chalar, hammomlar
+- **Narikala qal'asi** — tepalikdan shahar manzarasi
+- **Rustaveli ko'chasi** — asosiy savdo ko'chasi
+- **Mtatsminda park** — telefon simida tog'ga chiqish
+- **Sulphur hammomlar** — Tbilisining brendi
+
+**O'rtacha xarajat:** 2 kishiga 3 kun — $150–200 (mehmonxona + ovqat)
+
+## Batumi — Qora dengiz shahri
+
+Batumi — zamonaviy arxitektura, kazinolar va dengiz. May–Oktyabr eng yaxshi vaqt.
+
+- **Batumi Boulevard** — dengiz bo'yidagi 7 km sayr yo'li
+- **Ali va Nino haykali** — romantik monument
+- **Adjara qishloqlari** — tog' va tabiat
+- **Sarpi (Turkiya chegarasi)** — xarid qilish uchun
+
+## Narxlar
+
+| | Tbilisi | Batumi |
+|---|---|---|
+| Mehmonxona (3★) | $30–50/tun | $40–70/tun |
+| Tushlik | $5–10 | $8–15 |
+| Taksi (10 km) | $3–5 | $4–6 |
+| Muzey kirish | $2–5 | $2–5 |
+
+## Gruziya oshxonasi
+
+Gruziya oshxonasini tatib ko'rmasangiz — hech narsani ko'rmadingiz!
+- **Xinkali** (go'shtli xamirturush) — $0.3/dona
+- **Xachapuri** (pishloqli non) — $3–5
+- **Churchxela** — yong'oqli uzum shirinligi
+- **Gruziya sharob** — dunyodagi eng qadimiy
+
+## Toshkentdan Tbilisiga qanday borish?
+
+- **To'g'ridan-to'g'ri reys** — Uzbekistan Airways, ~2.5 soat
+- **Narx:** $150–250 (borib-qaytish)
+
+**SEM Travel Gruziya turlarini bron qilish:** +998 71 275-55-55`,
+    contentRu: `Грузия — Кавказские горы, древние города, изумительные вина и дружелюбные люди. Главное — без визы и очень дёшево!
+
+## Почему Грузия?
+
+- **Без визы** — для граждан Узбекистана до 365 дней
+- **Дёшево** — отличный отдых за $300–450 на 5 дней
+- **Близко** — 2–3 часа перелёта из Ташкента
+- **Безопасно** — безопасность европейского уровня
+
+## Тбилиси — столица
+
+Тбилиси — город с 1500-летней историей. Что посмотреть:
+
+- **Старый город (Метехи)** — исторические улочки, бани
+- **Крепость Нарикала** — панорама города с высоты
+- **Проспект Руставели** — главная торговая улица
+- **Парк Мтацминда** — подъём на гору по канатной дороге
+- **Серные бани** — бренд Тбилиси
+
+**Средние расходы:** 2 человека, 3 дня — $150–200 (отель + еда)
+
+## Батуми — город на Чёрном море
+
+Батуми — современная архитектура, казино и море. Лучшее время — май–октябрь.
+
+- **Батумский бульвар** — 7 км набережной
+- **Статуя Али и Нино** — романтический монумент
+- **Сёла Аджарии** — горы и природа
+- **Сарпи (граница с Турцией)** — за покупками
+
+## Цены
+
+| | Тбилиси | Батуми |
+|---|---|---|
+| Отель (3★) | $30–50/ночь | $40–70/ночь |
+| Обед | $5–10 | $8–15 |
+| Такси (10 км) | $3–5 | $4–6 |
+| Музей | $2–5 | $2–5 |
+
+## Грузинская кухня
+
+Грузинская кухня — одна из лучших в мире!
+- **Хинкали** — $0.3/штука
+- **Хачапури** — $3–5
+- **Чурчхела** — сладость из орехов и винограда
+- **Грузинское вино** — древнейшее в мире
+
+## Как добраться из Ташкента?
+
+- **Прямой рейс** — Uzbekistan Airways, ~2.5 часа
+- **Стоимость:** $150–250 (туда-обратно)
+
+**Забронировать тур в Грузию через SEM Travel:** +998 71 275-55-55`,
+  },
+  {
+    id: 7,
+    slug: "tailand-phuket-qollanma",
+    emoji: "🇹🇭",
+    image: "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=800&q=70",
+    categoryUz: "Yo'nalishlar",
+    categoryRu: "Направления",
+    titleUz: "Tailand Phuket: to'liq qo'llanma — plyajlar, narxlar, maslahatlar",
+    titleRu: "Таиланд Пхукет: полный гид — пляжи, цены, советы",
+    descUz: "Phuket — Tailandning eng mashhur oroli. Oq qumli plyajlar, tropik tabiat, mazali taom va vizasiz kirish — barchasi bu maqolada.",
+    descRu: "Пхукет — самый известный остров Таиланда. Белые пляжи, тропическая природа, вкусная еда и въезд без визы — всё в этом гиде.",
+    date: "2026-03-22",
+    readTimeUz: "7 daqiqa",
+    readTimeRu: "7 минут",
+    author: "SEM Travel",
+    tagsUz: ["Tailand", "Phuket", "Plyaj", "Vizasiz"],
+    tagsRu: ["Таиланд", "Пхукет", "Пляж", "Без визы"],
+    contentUz: `Phuket — Tailandning Andaman dengizidagi eng mashhur oroli. Har yili 10 million dan ortiq sayyoh tashrif buyuradi. Nima uchun bu qadar mashhur?
+
+## Viza
+
+O'zbekiston fuqarolari Tailandga **vizasiz** kiradi — 30 kunlik muddatga. Faqat pasport va qaytish bileti bo'lsa yetarli.
+
+## Qachon borish kerak?
+
+- **Noyabr–Aprel** (quruq mavsum) — **eng yaxshi vaqt**, dengiz tinch, havo ochiq
+- **May–Oktyabr** (yomg'ir mavsum) — arzonroq, lekin yomg'ir ko'p
+
+## Phuket plyajlari
+
+| Plyaj | Xususiyat | Narx |
+|---|---|---|
+| Patong Beach | Eng gavjum, nightlife | Bepul |
+| Kata Beach | Serfing, oilaviy | Bepul |
+| Karon Beach | Tinch, keng | Bepul |
+| Maya Bay | Izolyatsiya, film qahramonlari | Bepul |
+| Freedom Beach | Maxfiy, go'zal | Bepul |
+
+## Nima ko'rish kerak?
+
+- **Phi Phi orollari** — bir kunlik sayohat, $30–50
+- **Big Buddha** — ulkan Budda haykali, bepul
+- **Old Phuket Town** — Portugalliya uslubidagi binolar
+- **Phang Nga Bay** — James Bond oroli
+- **Elephant sanctuary** — fillarga g'amxo'rlik
+
+## Mehmonxonalar
+
+- **3 yulduz:** $40–70/tun (Patong)
+- **4 yulduz:** $80–150/tun (Kata, Karon)
+- **5 yulduz:** $200–500/tun (Surin, Bang Tao)
+
+**Maslahat:** Patong — ya'ni nightlife uchun. Kata/Karon — oilaviy va romantikiligi bilan zo'r.
+
+## Taom
+
+Tailand oshxonasi — dunyodagi eng zo'r 5 ta orasida!
+- **Pad Thai** (qovurilgan guruch noodles) — $2–3
+- **Tom Yum** (achchiq-nordon sho'rva) — $3–5
+- **Som Tam** (papaya salati) — $2
+- **Mango Sticky Rice** — $2
+- **Street food** — $1–3 ga to'q ovqat
+
+## Transport
+
+- **Tuk-tuk** — qalin sayyohlik, $3–10
+- **Skuter ijarasi** — $8–15/kun (eng qulay)
+- **Grab (Uber analog)** — arzon va qulay
+
+## Toshkentdan Phukketga qanday borish?
+
+To'g'ridan-to'g'ri reys yo'q, 1–2 to'xtash (Bangkok, Kuala Lumpur, Dubai).
+- **Narx:** $400–600 (borib-qaytish)
+- **Vaqt:** 9–14 soat
+
+**SEM Travel Tailand turlarini bron qilish:** +998 71 275-55-55`,
+    contentRu: `Пхукет — самый известный остров Таиланда в Андаманском море. Более 10 миллионов туристов ежегодно. Почему так популярен?
+
+## Виза
+
+Граждане Узбекистана въезжают в Таиланд **без визы** — на 30 дней. Нужен только паспорт и обратный билет.
+
+## Когда ехать?
+
+- **Ноябрь–Апрель** (сухой сезон) — **лучшее время**, море спокойное, небо чистое
+- **Май–Октябрь** (сезон дождей) — дешевле, но много дождей
+
+## Пляжи Пхукета
+
+| Пляж | Особенность | Вход |
+|---|---|---|
+| Patong Beach | Самый оживлённый, ночная жизнь | Бесплатно |
+| Kata Beach | Сёрфинг, семейный | Бесплатно |
+| Karon Beach | Тихий, широкий | Бесплатно |
+| Maya Bay | Уединённый, из фильма | Бесплатно |
+| Freedom Beach | Секретный, красивый | Бесплатно |
+
+## Что посмотреть?
+
+- **Острова Пхи-Пхи** — однодневная поездка, $30–50
+- **Большой Будда** — огромная статуя, бесплатно
+- **Старый Пхукет-таун** — португальская архитектура
+- **Залив Пханг Нга** — остров Джеймса Бонда
+- **Elephant Sanctuary** — общение со слонами
+
+## Отели
+
+- **3 звезды:** $40–70/ночь (Патонг)
+- **4 звезды:** $80–150/ночь (Ката, Карон)
+- **5 звёзд:** $200–500/ночь (Сурин, Банг Тао)
+
+**Совет:** Патонг — для ночной жизни. Ката/Карон — лучше для семей и романтики.
+
+## Еда
+
+Тайская кухня — в топ-5 лучших в мире!
+- **Пад Тай** — $2–3
+- **Том Ям** — $3–5
+- **Сом Там** — $2
+- **Манго со Sticky Rice** — $2
+- **Street food** — сытно за $1–3
+
+## Транспорт
+
+- **Тук-тук** — туристический, $3–10
+- **Аренда скутера** — $8–15/день (удобнее всего)
+- **Grab (аналог Uber)** — дёшево и удобно
+
+## Как добраться из Ташкента?
+
+Прямых рейсов нет, 1–2 пересадки (Бангкок, Куала-Лумпур, Дубай).
+- **Цена:** $400–600 (туда-обратно)
+- **Время:** 9–14 часов
+
+**Забронировать тур в Таиланд через SEM Travel:** +998 71 275-55-55`,
+  },
+  {
+    id: 8,
+    slug: "yangi-yil-xorijda",
+    emoji: "🎆",
+    image: "https://images.unsplash.com/photo-1467810563316-b5476525c0f9?w=800&q=70",
+    categoryUz: "Maslahatlar",
+    categoryRu: "Советы",
+    titleUz: "Yangi yilni xorijda kutib olish: top 5 yo'nalish Toshkentdan",
+    titleRu: "Встретить Новый год за рубежом: топ 5 направлений из Ташкента",
+    descUz: "2026-2027 yangi yilini xorijda kutib olmoqchimisiz? Mana eng mashhur 5 ta yo'nalish, narxlar va maslahatlar.",
+    descRu: "Хотите встретить Новый 2026-2027 год за рубежом? Топ-5 направлений, цены и советы для незабываемого праздника.",
+    date: "2026-03-24",
+    readTimeUz: "5 daqiqa",
+    readTimeRu: "5 минут",
+    author: "SEM Travel",
+    tagsUz: ["Yangi yil", "Xorijda", "Dam olish", "Top yo'nalishlar"],
+    tagsRu: ["Новый год", "За рубежом", "Отдых", "Топ направления"],
+    contentUz: `Yangi yilni xorijda kutib olish — eng yaxshi qo'shma sovg'a! Lekin bron qilishni kech qolmang — yangi yil turlari oktabrda tugab ketadi.
+
+## 1. Dubai — hashamat va salut
+
+**Narx:** $900–1,400/kishi (5 kun)
+**Nima uchun:** Dunyodagi eng katta yangi yil salutlaridan biri Burj Khalifa tepasida. Fantastik manzara.
+
+- Burj Khalifa yangi yil salugi — top darajali
+- Dubai Mall — ulkan bayram dekoratsiyalari
+- Atlantis New Year party
+- Desert safari
+
+**Eslatma:** Dubai dekabr-yanvarda +22°C — ideal ob-havo.
+
+## 2. Istanbul — ikki dunyoning ko'prigi
+
+**Narx:** $600–900/kishi (5 kun)
+**Nima uchun:** Yevropa va Osiyo orasidagi shahar. Boğaziçi ko'prigida yangi yil — unutilmas tajriba.
+
+- Taksim maydoni bayram
+- Boğaziçi bo'yida salut
+- Galata minorasi
+- Kapali Charshi — xarid
+
+## 3. Tbilisi — romantik va arzon
+
+**Narx:** $350–500/kishi (5 kun)
+**Nima uchun:** Gruziya yangi yilni (Ded Moroz bilan!) juda katta nishonlaydi. Arzon va juda kayfiyatli.
+
+- Rustaveli ko'chasi bayram
+- Ko'chada bepul konsertlar
+- Gruziya sharob va ovqat
+- Qor bo'lishi mumkin — romantik!
+
+## 4. Tailand (Phuket/Bangkok)
+
+**Narx:** $800–1,100/kishi (7 kun)
+**Nima uchun:** Issiq dengiz, plyajda yangi yil — noyob tajriba. Bangkok'da ulkan show.
+
+- Plyajda yangi yil saluti
+- Full Moon party
+- Bangkok Countdown
+- +28°C dengizda suzish
+
+## 5. Bali, Indoneziya
+
+**Narx:** $900–1,200/kishi (7 kun)
+**Nima uchun:** Bali yangi yilni «Nyepi» bayramida o'zgacha nishonlaydi. Tropik jannat.
+
+- Ubud ziyofatlari
+- Kuta plyajida salut
+- Spa va relax
+- Vizasiz kirish
+
+---
+
+## Muhim eslatma!
+
+Yangi yil turlari **3–4 oy oldin** sotiladi. Oktabr-noyabrda bron qilmasangiz, narxlar 2 barobarga ko'tariladi yoki joy qolmaydi.
+
+**Hoziroq bron qiling:** +998 71 275-55-55 | WhatsApp +998 94 664-22-22`,
+    contentRu: `Встретить Новый год за рубежом — лучший подарок себе! Но не затягивайте с бронированием — новогодние туры раскупают ещё в октябре.
+
+## 1. Дубай — роскошь и салют
+
+**Цена:** $900–1400/чел (5 дней)
+**Почему:** Один из крупнейших новогодних салютов в мире — у Бурдж Халифа. Незабываемо.
+
+- Салют у Бурдж Халифа — топ уровень
+- Dubai Mall — грандиозные украшения
+- Новогодняя вечеринка Atlantis
+- Сафари в пустыне
+
+**Примечание:** В декабре-январе +22°C — идеальная погода.
+
+## 2. Стамбул — мост двух миров
+
+**Цена:** $600–900/чел (5 дней)
+**Почему:** Город между Европой и Азией. Новый год на берегу Босфора — незабываемо.
+
+- Праздник на площади Таксим
+- Салют у Босфора
+- Галатская башня
+- Гранд Базар — шопинг
+
+## 3. Тбилиси — романтично и дёшево
+
+**Цена:** $350–500/чел (5 дней)
+**Почему:** Грузия отмечает Новый год с Дедом Морозом очень масштабно. Дёшево и атмосферно.
+
+- Праздник на проспекте Руставели
+- Бесплатные концерты на улицах
+- Грузинское вино и еда
+- Возможен снег — романтика!
+
+## 4. Таиланд (Пхукет/Бангкок)
+
+**Цена:** $800–1100/чел (7 дней)
+**Почему:** Тёплое море, Новый год на пляже — уникальный опыт. В Бангкоке — огромное шоу.
+
+- Салют на пляже
+- Full Moon party
+- Bangkok Countdown
+- Купаться при +28°C
+
+## 5. Бали, Индонезия
+
+**Цена:** $900–1200/чел (7 дней)
+**Почему:** Бали отмечает Новый год по-особому — «Ньепи». Тропический рай.
+
+- Праздники в Убуде
+- Салют на пляже Кута
+- СПА и релакс
+- Въезд без визы
+
+---
+
+## Важно!
+
+Новогодние туры **раскупают за 3–4 месяца**. Если не забронировать в октябре-ноябре, цены вырастут вдвое или мест не будет.
+
+**Бронируйте сейчас:** +998 71 275-55-55 | WhatsApp +998 94 664-22-22`,
+  },
+  {
+    id: 9,
+    slug: "oilaviy-sayohat-qayerga",
+    emoji: "👨‍👩‍👧‍👦",
+    image: "https://images.unsplash.com/photo-1503220317375-aaad61436b1b?w=800&q=70",
+    categoryUz: "Maslahatlar",
+    categoryRu: "Советы",
+    titleUz: "Oilaviy sayohat: bolalar bilan qayerga borish kerak? Top 5 yo'nalish",
+    titleRu: "Семейный отдых: куда поехать с детьми? Топ-5 направлений",
+    descUz: "Bolalar bilan sayohat qilish haqida o'ylayapsizmi? Mana oilaviy sayohat uchun eng mos 5 ta yo'nalish — xavfsiz, qiziqarli va arzon.",
+    descRu: "Думаете о путешествии с детьми? Вот 5 лучших направлений для семейного отдыха — безопасных, интересных и доступных.",
+    date: "2026-03-19",
+    readTimeUz: "6 daqiqa",
+    readTimeRu: "6 минут",
+    author: "SEM Travel",
+    tagsUz: ["Oilaviy", "Bolalar bilan", "Sayohat", "Maslahat"],
+    tagsRu: ["Семейный", "С детьми", "Путешествие", "Советы"],
+    contentUz: `Bolalar bilan sayohat qilish — alohida mas'uliyat. To'g'ri joy tanlash muhim: xavfsiz, qiziqarli, qulay va bolalarga mos.
+
+## 1. Turkiya (Antalya) — eng yaxshi tanlov
+
+**Nima uchun oilaviy?**
+- All Inclusive — bolalar ovqati haqida bosh qotirmaysiz
+- Suv parklari (Aquapark) — bolalar uchun jannat
+- Qumli plyajlar — kichik bolalar uchun ideal
+- Ko'plab 5 yulduzli oilaviy mehmonxonalar
+
+**Tavsiya:** Barut Hotels, Rixos, Maxx Royal — bolalar uchun alohida klublari bor.
+
+**Narx:** $600–900/kishi (7 kun, All Inclusive)
+
+## 2. Dubai — bolalar uchun attraksionlar
+
+**Nima uchun oilaviy?**
+- Dubai Mall ichida muzqaymoq trekki
+- Dubai Frame
+- Legoland, Motiongate, Bollywood Parks
+- Atlantis Aquaventure Waterpark
+- Dubai Safari Park
+
+**Kamchilik:** Qimmatroq — $1,200–1,800/kishi
+
+## 3. Gruziya — tabiat va madaniyat
+
+**Nima uchun oilaviy?**
+- Tbilisi hayvonot bog'i
+- Vake park
+- Mtatsminda tog' va karusel
+- Gudauri (qishda ski kurort)
+- Arzon va xavfsiz
+
+**Narx:** $350–500/kishi (5 kun)
+
+## 4. Tailand — tropik sarguzasht
+
+**Nima uchun oilaviy?**
+- Fillar bilan uchrashuv
+- Tropik tabiat
+- Nong Nooch Botanical Garden
+- Dream World amusement park
+- Plajlar va kristal dengiz
+
+**Narx:** $700–1,000/kishi (7 kun)
+
+## 5. Misr — tarix va dengiz
+
+**Nima uchun oilaviy?**
+- Fir'avn piramidalari — bolalar uchun hayratlanarli
+- Qizil dengiz (snorkeling)
+- Luxor va Karnak ibodatxonalari
+- Hurghada Sealarium (suv osti dunyosi)
+
+**Narx:** $550–800/kishi (7 kun)
+
+---
+
+## Bolalar bilan sayohat uchun maslahatlar
+
+1. **Erta bron qiling** — oilaviy nomerlari tez tugaydi
+2. **All Inclusive tanlang** — oziq-ovqat muammosi yo'q
+3. **Transfer qo'shing** — aeroport charchoqni kamaytiradi
+4. **Sug'urta majburiy** — bolalar uchun tibbiy sug'urta albatta
+5. **Qora kunlar fondi** — rejalashtirilmagan xarajatlar uchun +20%
+
+**Oilaviy tur bron qilish:** +998 71 275-55-55`,
+    contentRu: `Путешествие с детьми — особая ответственность. Важно выбрать правильное место: безопасное, интересное, комфортное и подходящее для детей.
+
+## 1. Турция (Анталья) — лучший выбор
+
+**Почему семейный?**
+- All Inclusive — не думаете о детском питании
+- Аквапарки — рай для детей
+- Песчаные пляжи — идеально для малышей
+- Много 5-звёздочных семейных отелей
+
+**Рекомендуем:** Barut Hotels, Rixos, Maxx Royal — отдельные детские клубы.
+
+**Цена:** $600–900/чел (7 дней, All Inclusive)
+
+## 2. Дубай — аттракционы для детей
+
+**Почему семейный?**
+- Каток в Dubai Mall
+- Dubai Frame
+- Legoland, Motiongate, Bollywood Parks
+- Atlantis Aquaventure Waterpark
+- Dubai Safari Park
+
+**Минус:** Дороже — $1200–1800/чел
+
+## 3. Грузия — природа и культура
+
+**Почему семейный?**
+- Тбилисский зоопарк
+- Парк Ваке
+- Гора Мтацминда и карусели
+- Гудаури (горнолыжный курорт зимой)
+- Дёшево и безопасно
+
+**Цена:** $350–500/чел (5 дней)
+
+## 4. Таиланд — тропические приключения
+
+**Почему семейный?**
+- Общение со слонами
+- Тропическая природа
+- Nong Nooch Botanical Garden
+- Dream World
+- Пляжи и кристальное море
+
+**Цена:** $700–1000/чел (7 дней)
+
+## 5. Египет — история и море
+
+**Почему семейный?**
+- Пирамиды — дети в восторге
+- Красное море (снорклинг)
+- Луксор и храм Карнак
+- Sealarium в Хургаде
+
+**Цена:** $550–800/чел (7 дней)
+
+---
+
+## Советы для путешествия с детьми
+
+1. **Бронируйте заранее** — семейные номера раскупают быстро
+2. **Выбирайте All Inclusive** — нет проблем с едой
+3. **Добавьте трансфер** — уменьшает усталость от аэропорта
+4. **Страховка обязательна** — медицинская страховка для детей
+5. **Резервный фонд** — +20% на непредвиденные расходы
+
+**Забронировать семейный тур:** +998 71 275-55-55`,
+  },
+  {
+    id: 10,
+    slug: "schengen-viza-olish",
+    emoji: "🇪🇺",
+    image: "https://images.unsplash.com/photo-1519677100203-a0e668c92439?w=800&q=70",
+    categoryUz: "Viza",
+    categoryRu: "Виза",
+    titleUz: "Schengen vizasi: O'zbekistondan qanday olish mumkin? 2026 qo'llanma",
+    titleRu: "Шенгенская виза: как получить из Узбекистана? Руководство 2026",
+    descUz: "Yevropa Shengen zonasiga viza olish — ko'pchilik uchun murakkab jarayon. Bu qo'llanmada hamma narsa sodda tushuntirilgan: hujjatlar, muddatlar, narxlar.",
+    descRu: "Шенгенская виза — сложный процесс для многих. В этом руководстве всё объяснено просто: документы, сроки, стоимость и советы.",
+    date: "2026-03-21",
+    readTimeUz: "8 daqiqa",
+    readTimeRu: "8 минут",
+    author: "SEM Travel",
+    tagsUz: ["Schengen", "Yevropa", "Viza", "Hujjatlar"],
+    tagsRu: ["Шенген", "Европа", "Виза", "Документы"],
+    contentUz: `Schengen vizasi — Yevropaning 27 mamlakatiga kirish imkonini beradi: Germaniya, Fransiya, Italiya, Ispaniya va boshqalar. Bir viza bilan 27 mamlakatni kezishingiz mumkin!
+
+## Shengen zonasi mamlakatlari
+
+Avstriya, Belgiya, Chexiya, Daniya, Estoniya, Finlandiya, Fransiya, Germaniya, Gretsiya, Vengriya, Islandiya, Italiya, Latviya, Liechtenstein, Litva, Lyuksemburg, Malta, Niderlandiya, Norvegiya, Polsha, Portugaliya, Slovakiya, Sloveniya, Ispaniya, Shvetsiya, Shveytsariya, Xorvatiya.
+
+## Viza turlari
+
+| Tur | Muddati | Uchun |
+|---|---|---|
+| C vizasi (turист) | 90 kun/180 kun | Sayohat, turizm |
+| Bir martalik | 1 kirish | Birinchi bor boruvchilar |
+| Ko'p martalik | Bir necha kirish | Tajribali sayyohlar |
+
+## Kerakli hujjatlar
+
+### Majburiy:
+1. **Pasport** — 6 oydan ortiq amal qilish muddati, 2 ta bo'sh bet
+2. **Ilgari pasport** (agar bo'lsa) — vizalar tarixini ko'rsatish uchun
+3. **Ariza shakli** — konsullik saytidan yuklab olish
+4. **Fotosurat** — 3.5×4.5 sm, oq fon, 6 oy ichida olingan (2 ta)
+5. **Tibbiy sug'urta** — kamida €30,000 qoplamasi bor
+
+### Moliyaviy hujjatlar:
+6. **Bank ko'chirmasi** — 3 oylik, yetarli mablag' (kuniga €100 tavsiya etiladi)
+7. **Ish joyi ma'lumotnomasi** — lavozim, maosh, ish joyi
+8. **Soliq deklaratsiyasi** yoki **daromad hujjati**
+
+### Sayohat hujjatlari:
+9. **Mehmonxona bronlash** — barcha tunlar uchun
+10. **Aviabilet bronlash** — borib-qaytish
+11. **Sayohat dasturi** (itinerary)
+
+### Qo'shimcha (talab qilinishi mumkin):
+12. **Nikoh guvohnomasi** (oila bilan borganda)
+13. **Bolaning tug'ilganlik guvohnomasi**
+14. **Kutib oluvchi shaxsning taklifi** (do'stnikida qolganda)
+
+## Narxlar
+
+- **Konsullik to'lovi:** €90 (kattalar), €45 (6–12 yosh), bepul (6 yoshgacha)
+- **Servis to'lovi:** €30–50 (viza markaziga)
+- **Sug'urta:** $20–40
+- **Jami:** €140–180 taxminan
+
+## Muddatlar
+
+- **Ariza topshirish:** Sayohatdan kamida 15 kun oldin (3 oy oldin ham bo'ladi)
+- **Ko'rib chiqiladi:** 10–15 ish kuni (ba'zan 1 oy)
+- **Toshkent VFS Global markazi** — buyurtma qilish: vfsglobal.com
+
+## Qaysi mamlakat konsulligiga murojaat qilish?
+
+**Birinchi kirish qoidasi:** Eng ko'p vaqt o'tkazadigan mamlakatning konsulligiga murojaat qilish kerak.
+
+**Masalan:** 10 kun Italiyada, 3 kun Fransiyada → Italiya konsulligi.
+
+## SEM Travel viza xizmati
+
+SEM Travel Schengen viza olishda to'liq yordam beradi:
+- Hujjatlar ro'yxatini tayyorlash
+- Ariza to'ldirish
+- VFS Global uchun buyurtma
+- Hujjatlarni tekshirish va to'g'rilash
+- Rad etilish ehtimolini minimallash
+
+**Murojaat:** +998 71 275-55-55`,
+    contentRu: `Шенгенская виза открывает 27 стран Европы: Германия, Франция, Италия, Испания и другие. Одна виза — 27 стран!
+
+## Страны Шенгенской зоны
+
+Австрия, Бельгия, Чехия, Дания, Эстония, Финляндия, Франция, Германия, Греция, Венгрия, Исландия, Италия, Латвия, Лихтенштейн, Литва, Люксембург, Мальта, Нидерланды, Норвегия, Польша, Португалия, Словакия, Словения, Испания, Швеция, Швейцария, Хорватия.
+
+## Типы виз
+
+| Тип | Срок | Для кого |
+|---|---|---|
+| Виза C (турист) | 90 дней/180 дней | Туризм, путешествия |
+| Однократная | 1 въезд | Первый раз |
+| Многократная | Несколько въездов | Опытные путешественники |
+
+## Необходимые документы
+
+### Обязательные:
+1. **Загранпаспорт** — срок действия 6+ месяцев, 2 чистых страницы
+2. **Старый загранпаспорт** (если есть) — для истории виз
+3. **Анкета** — скачать с сайта консульства
+4. **Фото** — 3.5×4.5 см, белый фон, сделано 6 месяцев назад (2 штуки)
+5. **Медицинская страховка** — покрытие не менее €30 000
+
+### Финансовые документы:
+6. **Выписка из банка** — за 3 месяца, достаточный баланс (рекомендуется €100/день)
+7. **Справка с работы** — должность, зарплата, место работы
+8. **Налоговая декларация** или **документ о доходах**
+
+### Документы о поездке:
+9. **Бронирование отеля** — на все ночи
+10. **Бронирование авиабилетов** — туда-обратно
+11. **Маршрут поездки** (itinerary)
+
+### Дополнительные (могут потребоваться):
+12. **Свидетельство о браке** (при поездке с семьёй)
+13. **Свидетельство о рождении ребёнка**
+14. **Приглашение от принимающего лица** (при проживании у друзей)
+
+## Стоимость
+
+- **Консульский сбор:** €90 (взрослые), €45 (6–12 лет), бесплатно (до 6 лет)
+- **Сервисный сбор VFS:** €30–50
+- **Страховка:** $20–40
+- **Итого:** примерно €140–180
+
+## Сроки
+
+- **Подача заявки:** минимум за 15 дней до поездки (можно за 3 месяца)
+- **Рассмотрение:** 10–15 рабочих дней (иногда до 1 месяца)
+- **VFS Global в Ташкенте** — запись: vfsglobal.com
+
+## В консульство какой страны обращаться?
+
+**Правило первого въезда:** нужно обращаться в консульство страны, где вы проведёте больше всего времени.
+
+**Например:** 10 дней в Италии, 3 дня во Франции → консульство Италии.
+
+## Помощь с визой от SEM Travel
+
+SEM Travel оказывает полную помощь в получении Шенгенской визы:
+- Подготовка пакета документов
+- Заполнение анкеты
+- Запись в VFS Global
+- Проверка и исправление документов
+- Минимизация риска отказа
+
+**Обращайтесь:** +998 71 275-55-55`,
+  },
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {

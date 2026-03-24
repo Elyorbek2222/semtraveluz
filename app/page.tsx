@@ -3,6 +3,7 @@ import Services from "@/components/Services";
 import HotTours from "@/components/HotTours";
 import StatsWhyUs from "@/components/StatsWhyUs";
 import Testimonials from "@/components/Testimonials";
+import FAQ from "@/components/FAQ";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <HotTours />
       <StatsWhyUs />
       <Testimonials />
+      <FAQ />
     </>
   );
 }

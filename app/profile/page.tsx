@@ -1,3 +1,9 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  robots: { index: false, follow: false },
+};
+
 export default function ProfilePage() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center px-4 pb-20 pt-24 text-center">

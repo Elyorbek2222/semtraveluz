@@ -89,7 +89,7 @@ export default function Testimonials() {
               ))}
             </div>
             <div className="text-left">
-              <div className="font-bold text-gray-900 text-sm">5 000+ mamnun mijoz</div>
+              <div className="font-bold text-gray-900 text-sm">30 000+ mamnun mijoz</div>
               <div className="flex items-center gap-1">
                 <StarRow />
                 <span className="text-xs text-gray-500">4.9 / 5.0</span>

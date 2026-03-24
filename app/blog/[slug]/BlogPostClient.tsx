@@ -103,28 +103,6 @@ export default function BlogPostClient({ post }: { post: BlogPost }) {
 
   return (
     <>
-      {/* Article Schema (GEO) */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BlogPosting",
-            headline: title,
-            description: isUz ? post.descUz : post.descRu,
-            image: post.image,
-            datePublished: post.date,
-            author: { "@type": "Organization", name: "SEM Travel", url: "https://semtravel.uz" },
-            publisher: {
-              "@type": "Organization",
-              name: "SEM Travel",
-              logo: { "@type": "ImageObject", url: "https://semtravel.uz/logo-color.png" },
-            },
-            mainEntityOfPage: { "@type": "WebPage", "@id": `https://semtravel.uz/blog/${post.slug}` },
-          }),
-        }}
-      />
-
       <div className="min-h-screen bg-gray-50">
         {/* HERO */}
         <section className="relative overflow-hidden" style={{ minHeight: 320 }}>
@@ -158,6 +136,28 @@ export default function BlogPostClient({ post }: { post: BlogPost }) {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 py-8">
           <div className="bg-white rounded-2xl p-6 sm:p-8 mb-8 shadow-sm">
             {renderMarkdown(content)}
+          </div>
+
+          {/* INLINE DESTINATION CTA */}
+          <div className="rounded-2xl p-5 mb-6 flex flex-col sm:flex-row items-center justify-between gap-4"
+            style={{ background: "#F0F7FF", border: "1.5px solid #BFDBFE" }}>
+            <div>
+              <p className="font-bold text-gray-900 text-sm mb-0.5">
+                {isUz
+                  ? `${tags[0]} ga tur bron qilmoqchimisiz?`
+                  : `Хотите забронировать тур в ${tags[0]}?`}
+              </p>
+              <p className="text-xs text-gray-500">
+                {isUz ? "SEM Travel — eng arzon narxlar kafolati" : "SEM Travel — гарантия лучшей цены"}
+              </p>
+            </div>
+            <a
+              href="/tours"
+              className="flex-shrink-0 inline-flex items-center gap-2 px-5 py-2.5 rounded-full font-bold text-sm text-white"
+              style={{ background: "#0057A8" }}
+            >
+              {isUz ? "Turlarni ko'rish →" : "Смотреть туры →"}
+            </a>
           </div>
 
           {/* TAGS */}

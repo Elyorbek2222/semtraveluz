@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect } from "react";
+import Image from "next/image";
 import { ChevronDown } from "lucide-react";
 import { useLang } from "@/lib/language-context";
 
@@ -11,27 +11,20 @@ export default function Hero() {
   const { t, lang } = useLang();
   const popularDestinations = lang === "uz" ? popularDestinationsUz : popularDestinationsRu;
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      (window as any).tourvisor?.init?.();
-    }, 300);
-    return () => clearTimeout(timer);
-  }, []);
 
   return (
     <>
       {/* ── HERO ── */}
       <section className="relative overflow-hidden" style={{ minHeight: 420, background: "linear-gradient(160deg, #0057A8 0%, #003F7A 100%)", paddingBottom: 80 }}>
         {/* Background image overlay */}
-        <div
-          className="absolute inset-0"
-          style={{
-            backgroundImage: "url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=70')",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            opacity: 0.18,
-          }}
+        <Image
+          src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=70"
+          alt=""
+          fill
+          priority
+          className="absolute inset-0 object-cover"
+          style={{ opacity: 0.18 }}
+          sizes="100vw"
         />
 
         <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 pt-28 pb-16">
@@ -71,7 +64,7 @@ export default function Hero() {
             {lang === "uz" ? "🔍 Tur qidirish" : "🔍 Поиск туров"}
           </p>
           {/* Tourvisor Search Widget */}
-          <div className="tv-search-form tv-moduleid-9976360"></div>
+          <div className="tv-search-form tv-moduleid-9976360" style={{ minHeight: 120 }}></div>
         </div>
       </div>
 

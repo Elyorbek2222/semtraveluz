@@ -1,11 +1,11 @@
 # SEM Travel — O'zbekiston Sayohat Agentligi
 
 ## Kompaniya haqida
-SEM Travel — 2014 yildan beri O'zbekistonda faoliyat yuritayotgan litsenziyalangan sayohat agentligi.
-Manzil: Toshkent, O'zbekiston
-Telefon: +998 71 200-00-00
-Email: info@semtravel.uz
-Veb-sayt: https://semtravel.uz
+SEM Travel — 2011 yildan beri O'zbekistonda faoliyat yuritayotgan litsenziyalangan sayohat agentligi.
+Manzil: Kattahirmontepa 12a/1, Park City J-K, Olmazor, Toshkent, O'zbekiston
+Telefon: +998712755555, +998946642222
+Email: semtraveluz@mail.ru
+Veb-sayt: https://semtraveluz.vercel.app
 Ish vaqti: Dushanba–Shanba, 09:00–19:00
 
 ## Xizmatlar
@@ -17,8 +17,8 @@ Ish vaqti: Dushanba–Shanba, 09:00–19:00
 - Sug'urta
 
 ## Raqamlar
-- 2014 yildan beri faoliyat
-- 5 000+ mamnun mijoz
+- 2011 yildan beri faoliyat
+- 30 000+ mamnun mijoz
 - 50+ mamlakat yo'nalishlari
 - 200+ tur paketi
 - 4.9/5.0 o'rtacha reyting
@@ -36,7 +36,7 @@ Ish vaqti: Dushanba–Shanba, 09:00–19:00
 ## Ko'p so'raladigan savollar
 
 **SEM Travel qayerda joylashgan?**
-Toshkent, O'zbekistonda. Ofisimiz manzili: Mirzo Ulug'bek ko'chasi, 45.
+Toshkent, O'zbekistonda. Ofisimiz manzili: Kattahirmontepa 12a/1, Park City J-K, Olmazor tumani.
 
 **Qanday turlar bor?**
 Turkiya, BAA, Misr, Tailand, Indoneziya, Gretsiya, Maldiv va 50+ mamlakatga tur paketlar mavjud.
@@ -54,18 +54,18 @@ Telegramga yoki WhatsAppga yozing, yoki saytdagi formani to'ldiring. 15 daqiqada
 Jo'nashdan 21 kun oldin — to'liq qaytarish. 14 kun oldin — 50% qaytarish. 7 kun oldin — 25% qaytarish.
 
 ## Ijtimoiy tarmoqlar
-- Telegram: https://t.me/SEMTravelUz
-- Instagram: https://instagram.com/semtravel.uz
+- Telegram: https://t.me/semtravel
+- Instagram: https://www.instagram.com/semtravel_official/
 
 ---
 # SEM Travel — Туристическое агентство в Узбекистане
 
 ## О компании
-SEM Travel — лицензированное туристическое агентство в Узбекистане, работающее с 2014 года.
-Адрес: Ташкент, Узбекистан
-Телефон: +998 71 200-00-00
-Email: info@semtravel.uz
-Сайт: https://semtravel.uz
+SEM Travel — лицензированное туристическое агентство в Узбекистане, работающее с 2011 года.
+Адрес: Каттахирмонтепа 12a/1, Park City J-K, Олмазорский район, Ташкент, Узбекистан
+Телефон: +998712755555, +998946642222
+Email: semtraveluz@mail.ru
+Сайт: https://semtraveluz.vercel.app
 Часы работы: Пн–Сб, 09:00–19:00
 
 ## Услуги
@@ -76,10 +76,17 @@ Email: info@semtravel.uz
 - Трансфер
 - Страховка
 
+## Цифры
+- Работаем с 2011 года
+- 30 000+ довольных клиентов
+- 50+ направлений
+- 200+ турпакетов
+- Средний рейтинг 4.9/5.0
+
 ## Часто задаваемые вопросы
 
 **Где находится SEM Travel?**
-В Ташкенте, Узбекистан. Адрес офиса: ул. Мирзо Улугбека, 45.
+В Ташкенте, Узбекистан. Адрес офиса: Каттахирмонтепа 12a/1, Park City J-K, Олмазорский район.
 
 **Какие туры есть?**
 Турпакеты в Турцию, ОАЭ, Египет, Таиланд, Индонезию, Грецию, Мальдивы и 50+ стран.
@@ -92,3 +99,6 @@ Email: info@semtravel.uz
 
 **Как забронировать?**
 Напишите в Telegram или WhatsApp, или заполните форму на сайте. Ответим в течение 15 минут.
+
+**Политика отмены?**
+За 21 день до вылета — полный возврат. За 14 дней — возврат 50%. За 7 дней — возврат 25%.

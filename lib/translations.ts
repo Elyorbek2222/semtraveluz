@@ -191,6 +191,12 @@ export interface Translations {
     address: string;
     hours: string;
   };
+  faq: {
+    badge: string;
+    title: string;
+    subtitle: string;
+    items: Array<{ q: string; a: string }>;
+  };
   common: {
     backToTours: string;
     notFound: string;
@@ -463,6 +469,37 @@ export const translations: Record<Lang, Translations> = {
       address: "Toshkent, Olmazor, Kattahirmontepa 12a/1",
       hours: "Dush–Shan: 9:00–19:00",
     },
+    faq: {
+      badge: "Ko'p so'raladigan savollar",
+      title: "Savollaringizga javob",
+      subtitle: "Eng ko'p so'raladigan savollarga to'liq javoblar",
+      items: [
+        {
+          q: "Bron qilish uchun qanday to'lov usullari mavjud?",
+          a: "Naqd pul, bank kartasi (UZCARD, Humo, Visa, MasterCard) va bank o'tkazmasi orqali to'lashingiz mumkin. Qisman to'lov ham qabul qilinadi — dastlabki bron uchun 30% avans yetarli.",
+        },
+        {
+          q: "Viza kerakmi? Yordam berasizlarmi?",
+          a: "Ko'plab yo'nalishlarga (Turkiya, Misr, Tailand) O'zbekiston fuqarolari uchun viza talab qilinmaydi yoki chegara yoki online orqali olinadi. Schengen, BAA, Indoneziya va boshqa vizalar uchun to'liq yordam ko'rsatamiz.",
+        },
+        {
+          q: "Tur narxiga nima kiradi?",
+          a: "Ko'pchilik turlarimizga parvoz (borib-qaytish), mehmonxona, aeroportdan transfer va sug'urta kiradi. All Inclusive paketlarda ovqatlanish ham kiradi. Har bir tur kartasida aniq ro'yxat ko'rsatilgan.",
+        },
+        {
+          q: "Sayohat paytida muammo chiqsa nima qilaman?",
+          a: "Bizning 24/7 qo'llab-quvvatlash xizmati doimo aloqada. Sayohat paytida istalgan muammo yuzaga kelsa — mehmonxona, parvoz yoki boshqa masala — menejerimizga qo'ng'iroq qiling, darhol yordam beramiz.",
+        },
+        {
+          q: "Bron qilishdan qancha oldin buyurtma berish kerak?",
+          a: "Oddiy turlarga kamida 2 hafta oldin bron qilish tavsiya etiladi. Issiq turlar uchun 2–3 kun ham yetarli. Yangi yil va bayram davrlariga 1–2 oy oldin bron qilganingiz ma'qul.",
+        },
+        {
+          q: "Bekor qilish siyosati qanday?",
+          a: "Jo'nashdan 21 kun oldin — to'liq qaytarish. 14 kun oldin — 50% qaytarish. 7 kun oldin — 25% qaytarish. Batafsil ma'lumot uchun maxfiylik siyosatimizni o'qing.",
+        },
+      ],
+    },
     common: {
       backToTours: "← Turlarga qaytish",
       notFound: "Sahifa topilmadi",
@@ -733,6 +770,37 @@ export const translations: Record<Lang, Translations> = {
       rights: "Все права защищены.",
       address: "Ташкент, Олмазор, Каттахирмонтепа 12а/1",
       hours: "Пн–Сб: 9:00–19:00",
+    },
+    faq: {
+      badge: "Часто задаваемые вопросы",
+      title: "Ответы на ваши вопросы",
+      subtitle: "Полные ответы на самые популярные вопросы",
+      items: [
+        {
+          q: "Какие способы оплаты доступны?",
+          a: "Наличные, банковская карта (UZCARD, Humo, Visa, MasterCard) и банковский перевод. Также принимается частичная оплата — для первичного бронирования достаточно аванса 30%.",
+        },
+        {
+          q: "Нужна ли виза? Помогаете с оформлением?",
+          a: "Во многие направления (Турция, Египет, Таиланд) гражданам Узбекистана виза не нужна или оформляется на границе/онлайн. Для Шенгена, ОАЭ, Индонезии и других стран оказываем полную помощь с визой.",
+        },
+        {
+          q: "Что входит в стоимость тура?",
+          a: "В большинство туров входят: перелёт (туда-обратно), отель, трансфер из аэропорта и страховка. В пакеты All Inclusive также включено питание. Полный список указан на карточке каждого тура.",
+        },
+        {
+          q: "Что делать, если во время поездки возникнет проблема?",
+          a: "Наша поддержка работает 24/7. Если во время путешествия возникнет любая проблема — с отелем, перелётом или по другому вопросу — позвоните менеджеру, мы поможем немедленно.",
+        },
+        {
+          q: "За сколько дней нужно бронировать?",
+          a: "Для обычных туров рекомендуем бронировать за 2 недели. Для горящих туров достаточно 2–3 дней. На новогодние и праздничные периоды лучше бронировать за 1–2 месяца.",
+        },
+        {
+          q: "Какова политика отмены?",
+          a: "За 21 день до вылета — полный возврат. За 14 дней — возврат 50%. За 7 дней — возврат 25%. Подробнее читайте в нашей политике конфиденциальности.",
+        },
+      ],
     },
     common: {
       backToTours: "← Назад к турам",

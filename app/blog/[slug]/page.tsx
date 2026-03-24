@@ -20,11 +20,11 @@ export async function generateMetadata({
     title: post.titleUz,
     description: post.descUz,
     keywords: [...post.tagsUz, "sem travel", "sayohat agentligi toshkent"],
-    alternates: { canonical: `https://semtravel.uz/blog/${slug}` },
+    alternates: { canonical: `https://semtraveluz.vercel.app/blog/${slug}` },
     openGraph: {
       title: post.titleUz,
       description: post.descUz,
-      url: `https://semtravel.uz/blog/${slug}`,
+      url: `https://semtraveluz.vercel.app/blog/${slug}`,
       type: "article",
       publishedTime: post.date,
       authors: [post.author],
@@ -42,5 +42,40 @@ export default async function BlogPostPage({
   const post = getBlogPost(slug);
   if (!post) notFound();
 
-  return <BlogPostClient post={post} />;
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: post.titleUz,
+    description: post.descUz,
+    image: post.image,
+    datePublished: post.date,
+    dateModified: post.date,
+    author: {
+      "@type": "Organization",
+      name: "SEM Travel",
+      url: "https://semtraveluz.vercel.app",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "SEM Travel",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://semtraveluz.vercel.app/logo-color.png",
+      },
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `https://semtraveluz.vercel.app/blog/${slug}`,
+    },
+  };
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
+      <BlogPostClient post={post} />
+    </>
+  );
 }

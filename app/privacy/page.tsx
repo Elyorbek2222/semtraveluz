@@ -92,7 +92,7 @@ export default function PrivacyPage() {
           <div className="mt-3 space-y-1 text-sm text-gray-600">
             <p>📧 <a href="mailto:semtraveluz@mail.ru" className="text-primary hover:underline">semtraveluz@mail.ru</a></p>
             <p>📞 <a href="tel:+998712755555" className="text-primary hover:underline">+998 71 275-55-55</a></p>
-            <p>📍 Kattahirmontepa 12a/1, Park City J-K, Olmazor, Toshkent</p>
+            <p>📍 Katta Xirmontepa ko'chasi, 12B, Uchtepa tumani, Toshkent</p>
           </div>
         </section>
       </div>

@@ -29,9 +29,10 @@ const organizationSchema = {
       "email": "semtraveluz@mail.ru",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Kattahirmontepa 12a/1, Park City J-K",
+        "streetAddress": "Katta Xirmontepa ko'chasi, 12B",
         "addressLocality": "Toshkent",
-        "addressRegion": "Olmazor",
+        "addressRegion": "Uchtepa",
+        "postalCode": "100152",
         "addressCountry": "UZ",
       },
       "openingHoursSpecification": [

@@ -254,10 +254,9 @@ export default function ContactClient() {
               <div>
                 <p className="font-semibold text-gray-800">
                   {isUz
-                    ? "Toshkent, Olmazor, Kattahirmontepa 12a/1"
-                    : "Ташкент, Олмазор, Каттахирмонтепа 12а/1"}
+                    ? "Toshkent, Uchtepa tumani, Katta Xirmontepa, 12B"
+                    : "Ташкент, Учтепинский район, Катта Хирмонтепа, 12Б"}
                 </p>
-                <p className="text-gray-500">Park City J-K</p>
               </div>
             </div>
             <div className="flex items-center gap-3">

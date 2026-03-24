@@ -185,26 +185,26 @@ const visaTabs = [
     tipsRu: ["Туристическая виза — онлайн на visitSaudi.com", "Для Умры отдельная религиозная виза (помогаем оформить)", "Виза доступна для туристов и в период Рамадана"],
   },
   {
-    id: "uae",
-    flag: "🇦🇪",
-    uz: "Dubai (BAA) viza",
-    ru: "Дубай (ОАЭ)",
-    countriesUz: "Birlashgan Arab Amirliklari — Dubai, Abu Dhabi, Sharjah, Ras Al Khaimah",
-    countriesRu: "ОАЭ — Дубай, Абу-Даби, Шарджа, Рас-эль-Хайма",
-    processingUz: "3–5 ish kuni",
-    processingRu: "3–5 рабочих дней",
-    validityUz: "30 yoki 90 kun",
-    validityRu: "30 или 90 дней",
-    agencyPriceUz: "500 000 so'm",
-    agencyPriceRu: "500 000 сум",
-    consularFeeUz: "Narxga kiritilgan",
-    consularFeeRu: "Включено в стоимость",
-    successUz: "~96%",
-    successRu: "~96%",
-    docsUz: ["Zaграnpasport (kamida 6 oy)", "Biometrik foto (aq fon)", "Bank ko'chirmasi", "Aviabilet bron", "Mehmonxona bron yoki taklif xati"],
-    docsRu: ["Загранпаспорт (не менее 6 мес.)", "Биометрическое фото (белый фон)", "Выписка из банка", "Бронь авиабилета", "Бронь отеля или приглашение"],
-    tipsUz: ["Dubai — O'zbekistondan eng ko'p borilgan mamlakat", "30 kunlik viza 90 kunlikdan arzonroq", "Biz Dubai aeroportida kutib olish uchun ham yordam beramiz"],
-    tipsRu: ["Дубай — самое популярное направление из Узбекистана", "Виза на 30 дней дешевле, чем на 90", "Также помогаем с трансфером в аэропорту Дубая"],
+    id: "australia",
+    flag: "🇦🇺",
+    uz: "Avstraliya viza",
+    ru: "Австралия",
+    countriesUz: "Avstraliya — Sidney, Melburn, Brisben, Perth, Qizil qoya (Uluru) va boshqa",
+    countriesRu: "Австралия — Сидней, Мельбурн, Брисбен, Перт, Красная скала (Улуру) и другие",
+    processingUz: "20–40 ish kuni",
+    processingRu: "20–40 рабочих дней",
+    validityUz: "3, 6 yoki 12 oy (ko'p marta kirish)",
+    validityRu: "3, 6 или 12 месяцев (многократная)",
+    agencyPriceUz: "1 500 000 so'm",
+    agencyPriceRu: "1 500 000 сум",
+    consularFeeUz: "+ ~145 AUD (elchixona yig'imi)",
+    consularFeeRu: "+ ~145 AUD (консульский сбор)",
+    successUz: "~70%",
+    successRu: "~70%",
+    docsUz: ["Zaграnpasport (kamida 6 oy)", "Biometrik foto", "Bank ko'chirmasi (6 oy, min. $5 000)", "Ish joyi ma'lumotnomasi va maosh", "Sayohat tarixi (boshqa mamlakatlar vizalari)", "Mehmonxona va aviabilet bron", "Savol-javob formasini to'ldirish (onlayn)"],
+    docsRu: ["Загранпаспорт (не менее 6 мес.)", "Биометрическое фото", "Выписка из банка (6 мес., мин. $5 000)", "Справка с работы и зарплата", "История поездок (визы других стран)", "Бронь отеля и авиабилета", "Заполнение онлайн-анкеты"],
+    tipsUz: ["Ariza 2–3 oy oldin berilishi tavsiya etiladi", "Kuchli moliyaviy holat va sayohat tarixi muhim", "Ingliz tili sertifikati (IELTS va b.) vizani osonlashtiradi", "Avstraliya vaqtida topshirilsa studentlar ham olishi mumkin"],
+    tipsRu: ["Рекомендуется подавать за 2–3 месяца", "Сильная финансовая позиция и история поездок важны", "Сертификат английского (IELTS и др.) упрощает процесс", "Студенты также могут получить при своевременной подаче"],
   },
 ];
 
@@ -255,8 +255,25 @@ export default function VisaClient() {
   const [openGroup, setOpenGroup] = useState<string | null>(null);
   const [activeTab, setActiveTab] = useState("schengen");
   const [openFaq, setOpenFaq] = useState<number | null>(null);
+  const [showForm, setShowForm] = useState(false);
+  const [form, setForm] = useState({ name: "", phone: "" });
+  const [sent, setSent] = useState(false);
 
   const activeVisa = visaTabs.find((t) => t.id === activeTab)!;
+
+  function handleFormSubmit(e: React.FormEvent) {
+    e.preventDefault();
+    if (!form.phone) return;
+    const text = encodeURIComponent(
+      isUz
+        ? `Yangi viza so'rovi!\n\nViza turi: ${activeVisa.uz}\nIsm: ${form.name || "Ko'rsatilmagan"}\nTelefon: ${form.phone}\n\nSEM Travel saytidan`
+        : `Новая заявка на визу!\n\nТип визы: ${activeVisa.ru}\nИмя: ${form.name || "Не указано"}\nТелефон: ${form.phone}\n\nС сайта SEM Travel`
+    );
+    window.open(`https://t.me/semtravel?text=${text}`, "_blank");
+    setSent(true);
+    setForm({ name: "", phone: "" });
+    setTimeout(() => { setSent(false); setShowForm(false); }, 3000);
+  }
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -323,6 +340,88 @@ export default function VisaClient() {
           </div>
         </div>
       </section>
+
+      {/* ── BOOKING FORM MODAL ── */}
+      {showForm && (
+        <div
+          className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-4"
+          style={{ background: "rgba(0,0,0,0.5)", backdropFilter: "blur(4px)" }}
+          onClick={(e) => { if (e.target === e.currentTarget) setShowForm(false); }}
+        >
+          <div className="bg-white rounded-2xl w-full max-w-md p-6 shadow-2xl">
+            {sent ? (
+              <div className="text-center py-4">
+                <div className="text-5xl mb-3">✅</div>
+                <p className="font-extrabold text-gray-900 text-lg mb-1">
+                  {isUz ? "So'rovingiz qabul qilindi!" : "Заявка принята!"}
+                </p>
+                <p className="text-sm text-gray-500">
+                  {isUz ? "Menejerimiz tez orada siz bilan bog'lanadi." : "Менеджер свяжется с вами в ближайшее время."}
+                </p>
+              </div>
+            ) : (
+              <>
+                <div className="flex items-center justify-between mb-5">
+                  <div>
+                    <h3 className="font-extrabold text-gray-900 text-lg">
+                      {activeVisa.flag} {isUz ? activeVisa.uz : activeVisa.ru}
+                    </h3>
+                    <p className="text-xs text-gray-500 mt-0.5">
+                      {isUz ? "Menejerimiz siz bilan bog'lanadi" : "Менеджер свяжется с вами"}
+                    </p>
+                  </div>
+                  <button
+                    onClick={() => setShowForm(false)}
+                    className="w-8 h-8 rounded-full flex items-center justify-center text-gray-400 hover:bg-gray-100"
+                  >
+                    ✕
+                  </button>
+                </div>
+
+                <form onSubmit={handleFormSubmit} className="space-y-3">
+                  <div>
+                    <label className="block text-sm font-semibold text-gray-700 mb-1">
+                      {isUz ? "Ismingiz" : "Ваше имя"}
+                    </label>
+                    <input
+                      type="text"
+                      placeholder={isUz ? "To'liq ism" : "Полное имя"}
+                      value={form.name}
+                      onChange={(e) => setForm({ ...form, name: e.target.value })}
+                      className="w-full px-4 py-3 rounded-xl text-sm outline-none"
+                      style={{ border: "1.5px solid #E5E7EB", background: "#F9FAFB" }}
+                    />
+                  </div>
+                  <div>
+                    <label className="block text-sm font-semibold text-gray-700 mb-1">
+                      {isUz ? "Telefon raqamingiz *" : "Ваш номер телефона *"}
+                    </label>
+                    <input
+                      type="tel"
+                      required
+                      placeholder="+998 90 123-45-67"
+                      value={form.phone}
+                      onChange={(e) => setForm({ ...form, phone: e.target.value })}
+                      className="w-full px-4 py-3 rounded-xl text-sm outline-none"
+                      style={{ border: "1.5px solid #E5E7EB", background: "#F9FAFB" }}
+                    />
+                  </div>
+                  <button
+                    type="submit"
+                    className="w-full py-3.5 rounded-xl font-bold text-white text-sm transition-opacity hover:opacity-90"
+                    style={{ background: "#0057A8" }}
+                  >
+                    📩 {isUz ? "Telegramga yuborish" : "Отправить в Telegram"}
+                  </button>
+                  <p className="text-xs text-gray-400 text-center">
+                    {isUz ? "Bepul maslahat. Spam yo'q." : "Бесплатная консультация. Без спама."}
+                  </p>
+                </form>
+              </>
+            )}
+          </div>
+        </div>
+      )}
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 mt-8">
 
@@ -472,17 +571,14 @@ export default function VisaClient() {
               </div>
             </div>
 
-            <div className="mt-5 flex flex-col sm:flex-row gap-3">
-              <a
-                href={`https://wa.me/998946642222?text=${encodeURIComponent(isUz
-                  ? `Salom! ${activeVisa.uz} viza olishda yordam kerak.`
-                  : `Здравствуйте! Нужна помощь с визой в ${activeVisa.ru}.`)}`}
-                target="_blank" rel="noopener noreferrer"
-                className="flex-1 flex items-center justify-center gap-2 py-3 rounded-xl font-bold text-sm text-white"
-                style={{ background: "#25D366" }}
+            <div className="mt-5">
+              <button
+                onClick={() => { setShowForm(true); setSent(false); }}
+                className="w-full flex items-center justify-center gap-2 py-3.5 rounded-xl font-bold text-sm text-white transition-opacity hover:opacity-90"
+                style={{ background: "#0057A8" }}
               >
-                💬 {isUz ? `${activeVisa.uz} vizasini hozir boshlash` : `Начать оформление ${activeVisa.ru}`}
-              </a>
+                📋 {isUz ? `${activeVisa.uz} uchun ariza qoldirish` : `Оставить заявку на ${activeVisa.ru}`}
+              </button>
             </div>
           </div>
         </div>

@@ -1,8 +1,10 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useLang } from "@/lib/language-context";
+import LeadModal from "@/components/LeadModal";
 
 const destinations = [
   {
@@ -53,6 +55,7 @@ const hotelTypes = [
 export default function HotelsClient() {
   const { lang } = useLang();
   const isUz = lang === "uz";
+  const [showModal, setShowModal] = useState(false);
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -93,13 +96,20 @@ export default function HotelsClient() {
               : "100 000+ отелей в 50+ странах. Бронируйте с гарантией лучшей цены."}
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
+            <button
+              onClick={() => setShowModal(true)}
+              className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full font-bold text-sm text-white"
+              style={{ background: "#F5C518", color: "#1a1a2e" }}
+            >
+              📋 {isUz ? "Bron qilish" : "Забронировать"}
+            </button>
             <a
               href="https://wa.me/998946642222"
               target="_blank" rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full font-bold text-sm"
               style={{ background: "#25D366", color: "#fff" }}
             >
-              💬 {isUz ? "WhatsApp orqali so'rash" : "Спросить в WhatsApp"}
+              💬 WhatsApp
             </a>
             <a
               href="tel:+998712755555"
@@ -162,14 +172,13 @@ export default function HotelsClient() {
                       {isUz ? d.priceUz : d.priceRu}
                     </p>
                   </div>
-                  <a
-                    href="https://wa.me/998946642222"
-                    target="_blank" rel="noopener noreferrer"
+                  <button
+                    onClick={() => setShowModal(true)}
                     className="text-xs font-bold px-3 py-1.5 rounded-full text-white"
                     style={{ background: "#0057A8" }}
                   >
                     {isUz ? "Bron" : "Забронировать"}
-                  </a>
+                  </button>
                 </div>
               </div>
             ))}
@@ -237,6 +246,16 @@ export default function HotelsClient() {
           </Link>
         </div>
       </div>
+
+      {showModal && (
+        <LeadModal
+          isUz={isUz}
+          title={isUz ? "🏨 Mehmonxona bron qilish" : "🏨 Бронирование отеля"}
+          type="Mehmonxona bron"
+          source="semtraveluz.vercel.app/hotels"
+          onClose={() => setShowModal(false)}
+        />
+      )}
     </div>
   );
 }

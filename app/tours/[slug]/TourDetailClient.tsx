@@ -1,10 +1,12 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Star, Check, X, Clock, Users, Plane, Hotel, Utensils, Shield } from "lucide-react";
 import { useLang } from "@/lib/language-context";
 import type { Tour } from "@/lib/tours-data";
+import LeadModal from "@/components/LeadModal";
 
 const BADGE_LABELS: Record<string, { uz: string; ru: string; color: string }> = {
   travelersChoice: { uz: "Sayohatchilar tanlovi", ru: "Выбор путешественников", color: "#0057A8" },
@@ -32,6 +34,7 @@ export default function TourDetailClient({
 }) {
   const { lang } = useLang();
   const isUz = lang === "uz";
+  const [showModal, setShowModal] = useState(false);
 
   const title = tour.title;
   const desc = isUz ? tour.descUz : tour.descRu;
@@ -259,6 +262,13 @@ export default function TourDetailClient({
                   {isUz ? "1 kishi uchun, parvozdan" : "за 1 человека, от"}
                 </p>
 
+                <button
+                  onClick={() => setShowModal(true)}
+                  className="w-full flex items-center justify-center gap-2 py-3.5 rounded-full font-bold text-sm text-white mb-2"
+                  style={{ background: "#0057A8" }}
+                >
+                  📋 {isUz ? "Bron qilish" : "Забронировать"}
+                </button>
                 <a
                   href={`https://wa.me/998946642222?text=${encodeURIComponent(
                     isUz
@@ -270,16 +280,7 @@ export default function TourDetailClient({
                   className="w-full flex items-center justify-center gap-2 py-3 rounded-full font-bold text-sm text-white mb-2"
                   style={{ background: "#25D366" }}
                 >
-                  💬 {isUz ? "WhatsApp orqali bron" : "Забронировать в WhatsApp"}
-                </a>
-                <a
-                  href="https://t.me/semtravel"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-full flex items-center justify-center gap-2 py-3 rounded-full font-bold text-sm text-white mb-2"
-                  style={{ background: "#229ED9" }}
-                >
-                  ✈️ {isUz ? "Telegram orqali bron" : "Забронировать в Telegram"}
+                  💬 WhatsApp
                 </a>
                 <a
                   href="tel:+998712755555"
@@ -326,6 +327,16 @@ export default function TourDetailClient({
           </div>
         </div>
       </div>
+
+      {showModal && (
+        <LeadModal
+          isUz={isUz}
+          title={`${tour.title} — ${isUz ? "Bron qilish" : "Бронирование"}`}
+          type={`Tur: ${tour.title}`}
+          source={`semtraveluz.vercel.app/tours/${tour.slug}`}
+          onClose={() => setShowModal(false)}
+        />
+      )}
     </div>
   );
 }

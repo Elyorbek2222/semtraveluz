@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { ChevronDown, Check } from "lucide-react";
 import { useLang } from "@/lib/language-context";
+import { sendLead } from "@/lib/send-lead";
 
 // ── VIZASIZ DAVLATLAR ──────────────────────────────────────────────────────
 const vizaFreeGroups = [
@@ -297,18 +298,21 @@ export default function VisaClient() {
   const [showForm, setShowForm] = useState(false);
   const [form, setForm] = useState({ name: "", phone: "" });
   const [sent, setSent] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   const activeVisa = visaTabs.find((t) => t.id === activeTab)!;
 
-  function handleFormSubmit(e: React.FormEvent) {
+  async function handleFormSubmit(e: React.FormEvent) {
     e.preventDefault();
     if (!form.phone) return;
-    const text = encodeURIComponent(
-      isUz
-        ? `Yangi viza so'rovi!\n\nViza turi: ${activeVisa.uz}\nIsm: ${form.name || "Ko'rsatilmagan"}\nTelefon: ${form.phone}\n\nSEM Travel saytidan`
-        : `Новая заявка на визу!\n\nТип визы: ${activeVisa.ru}\nИмя: ${form.name || "Не указано"}\nТелефон: ${form.phone}\n\nС сайта SEM Travel`
-    );
-    window.open(`https://t.me/semtravel?text=${text}`, "_blank");
+    setLoading(true);
+    await sendLead({
+      name: form.name,
+      phone: form.phone,
+      type: `Viza: ${isUz ? activeVisa.uz : activeVisa.ru}`,
+      source: "semtraveluz.vercel.app/visa",
+    });
+    setLoading(false);
     setSent(true);
     setForm({ name: "", phone: "" });
     setTimeout(() => { setSent(false); setShowForm(false); }, 3000);
@@ -447,10 +451,13 @@ export default function VisaClient() {
                   </div>
                   <button
                     type="submit"
-                    className="w-full py-3.5 rounded-xl font-bold text-white text-sm transition-opacity hover:opacity-90"
+                    disabled={loading}
+                    className="w-full py-3.5 rounded-xl font-bold text-white text-sm transition-opacity hover:opacity-90 disabled:opacity-50"
                     style={{ background: "#0057A8" }}
                   >
-                    📩 {isUz ? "Telegramga yuborish" : "Отправить в Telegram"}
+                    {loading
+                      ? (isUz ? "Yuborilmoqda..." : "Отправка...")
+                      : `📩 ${isUz ? "So'rov yuborish" : "Отправить заявку"}`}
                   </button>
                   <p className="text-xs text-gray-400 text-center">
                     {isUz ? "Bepul maslahat. Spam yo'q." : "Бесплатная консультация. Без спама."}

@@ -1,7 +1,9 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import { useLang } from "@/lib/language-context";
+import LeadModal from "@/components/LeadModal";
 
 const transferTypes = [
   {
@@ -70,6 +72,7 @@ const steps = [
 export default function TransferClient() {
   const { lang } = useLang();
   const isUz = lang === "uz";
+  const [showModal, setShowModal] = useState(false);
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -101,13 +104,20 @@ export default function TransferClient() {
               : "Аэропорт, отель, город — до любого адреса. Сервис 24/7."}
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
+            <button
+              onClick={() => setShowModal(true)}
+              className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full font-bold text-sm"
+              style={{ background: "#F5C518", color: "#1a1a2e" }}
+            >
+              📋 {isUz ? "Transfer buyurtma berish" : "Заказать трансфер"}
+            </button>
             <a
               href="https://wa.me/998946642222"
               target="_blank" rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full font-bold text-sm"
               style={{ background: "#25D366", color: "#fff" }}
             >
-              💬 {isUz ? "Transfer buyurtma berish" : "Заказать трансфер"}
+              💬 WhatsApp
             </a>
             <a
               href="tel:+998712755555"
@@ -242,6 +252,16 @@ export default function TransferClient() {
           </Link>
         </div>
       </div>
+
+      {showModal && (
+        <LeadModal
+          isUz={isUz}
+          title={isUz ? "🚗 Transfer buyurtma berish" : "🚗 Заказать трансфер"}
+          type="Transfer xizmati"
+          source="semtraveluz.vercel.app/transfer"
+          onClose={() => setShowModal(false)}
+        />
+      )}
     </div>
   );
 }

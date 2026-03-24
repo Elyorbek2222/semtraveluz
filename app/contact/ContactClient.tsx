@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { useLang } from "@/lib/language-context";
+import { sendLead } from "@/lib/send-lead";
 
 const WHATSAPP = "998946642222";
 const TELEGRAM = "https://t.me/semtravel";
@@ -73,14 +74,20 @@ export default function ContactClient() {
 
   const [form, setForm] = useState({ name: "", phone: "", message: "" });
   const [sent, setSent] = useState(false);
+  const [loading, setLoading] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!form.name || !form.phone) return;
-    const text = encodeURIComponent(
-      `Yangi so'rov (semtraveluz.vercel.app)\n\nIsm: ${form.name}\nTelefon: ${form.phone}\nXabar: ${form.message || "—"}`
-    );
-    window.open(`https://t.me/semtravel?text=${text}`, "_blank");
+    setLoading(true);
+    await sendLead({
+      name: form.name,
+      phone: form.phone,
+      message: form.message,
+      type: "Umumiy so'rov",
+      source: "semtraveluz.vercel.app/contact",
+    });
+    setLoading(false);
     setSent(true);
     setForm({ name: "", phone: "", message: "" });
     setTimeout(() => setSent(false), 5000);
@@ -231,10 +238,13 @@ export default function ContactClient() {
               </div>
               <button
                 type="submit"
-                className="w-full py-3 rounded-xl font-bold text-white text-sm transition-opacity hover:opacity-90"
+                disabled={loading}
+                className="w-full py-3 rounded-xl font-bold text-white text-sm transition-opacity hover:opacity-90 disabled:opacity-50"
                 style={{ background: "#0057A8" }}
               >
-                📩 {isUz ? "Telegramga yuborish" : "Отправить в Telegram"}
+                {loading
+                  ? (isUz ? "Yuborilmoqda..." : "Отправка...")
+                  : `📩 ${isUz ? "So'rov yuborish" : "Отправить заявку"}`}
               </button>
             </form>
           )}

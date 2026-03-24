@@ -1,33 +1,73 @@
 import type { Metadata } from "next";
 import ToursClient from "./ToursClient";
+import { TOURS } from "@/lib/tours-data";
 
 export const metadata: Metadata = {
-  title: "Turlar Katalogi — Toshkentdan Eng Arzon Tur Paketlar",
+  title: "Turlar Katalogi — Toshkentdan Eng Arzon Tur Paketlar | SEM Travel",
   description:
-    "SEM Travel turlar katalogi: Turkiya, Dubai, Tailand, Misr, Maldiv va 50+ mamlakatga tayyor tur paketlar. Parvoz + mehmonxona + transfer. Toshkentdan eng arzon narxlar.",
+    "SEM Travel turlar katalogi 2025: Turkiya, Dubai, Tailand, Misr, Maldiv, Gretsiya va 50+ mamlakatga tayyor tur paketlar. Parvoz + mehmonxona + transfer. Toshkentdan eng arzon narxlar.",
   keywords: [
-    "turlar toshkent",
+    "turlar toshkent 2025",
     "tur paketlar o'zbekiston",
-    "turkiya tur",
-    "dubai tur",
+    "turkiya tur toshkent",
+    "dubai tur toshkent",
     "tailand tur",
-    "misr tur",
+    "misr tur arzon",
     "all inclusive tur",
-    "arzon turlar",
+    "arzon turlar toshkent",
+    "maldiv tur",
+    "gretsiya tur",
     "горящие туры ташкент",
-    "туры из ташкента",
-    "тур в турцию",
-    "тур в дубай",
+    "туры из ташкента 2025",
+    "тур в турцию из ташкента",
+    "тур в дубай из ташкента",
+    "всё включено туры",
+    "семейные туры из ташкента",
   ],
   alternates: { canonical: "https://semtraveluz.vercel.app/tours" },
   openGraph: {
-    title: "Turlar Katalogi | SEM Travel",
-    description: "50+ mamlakatga tur paketlar. Toshkentdan eng arzon narxlar.",
+    title: "Turlar Katalogi — Toshkentdan | SEM Travel",
+    description: "50+ mamlakatga tur paketlar. Parvoz + mehmonxona + transfer. Toshkentdan eng arzon narxlar.",
     url: "https://semtraveluz.vercel.app/tours",
     type: "website",
   },
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "SEM Travel — Turlar katalogi",
+  "description": "Toshkentdan 50+ mamlakatga tayyor tur paketlar",
+  "url": "https://semtraveluz.vercel.app/tours",
+  "numberOfItems": TOURS.length,
+  "itemListElement": TOURS.map((tour, i) => ({
+    "@type": "ListItem",
+    "position": i + 1,
+    "url": `https://semtraveluz.vercel.app/tours/${tour.slug}`,
+    "name": tour.title,
+    "item": {
+      "@type": "TouristTrip",
+      "name": tour.title,
+      "url": `https://semtraveluz.vercel.app/tours/${tour.slug}`,
+      "touristType": tour.category,
+      "offers": {
+        "@type": "Offer",
+        "price": tour.price,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+      },
+    },
+  })),
+};
+
 export default function ToursPage() {
-  return <ToursClient />;
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <ToursClient />
+    </>
+  );
 }

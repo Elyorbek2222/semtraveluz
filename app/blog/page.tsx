@@ -13,12 +13,12 @@ export const metadata: Metadata = {
     "sayohat agentligi toshkent",
     "sayohat maqolalari",
   ],
-  alternates: { canonical: "https://semtravel.uz/blog" },
+  alternates: { canonical: "https://semtraveluz.vercel.app/blog" },
   openGraph: {
     title: "Blog | SEM Travel — Sayohat bo'yicha maqolalar",
     description:
       "Sayohat maslahatlari, viza rasmiylashtiruv va yo'nalishlar haqida foydali maqolalar.",
-    url: "https://semtravel.uz/blog",
+    url: "https://semtraveluz.vercel.app/blog",
     type: "website",
   },
 };

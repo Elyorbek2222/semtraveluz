@@ -72,7 +72,7 @@ export default async function Image() {
               SEM Travel
             </span>
             <span style={{ color: "#F5C518", fontSize: 22, fontWeight: 700 }}>
-              semtravel.uz
+              semtraveluz.vercel.app
             </span>
           </div>
         </div>

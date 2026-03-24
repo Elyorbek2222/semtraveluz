@@ -78,7 +78,7 @@ export default function ContactClient() {
     e.preventDefault();
     if (!form.name || !form.phone) return;
     const text = encodeURIComponent(
-      `Yangi so'rov (semtravel.uz)\n\nIsm: ${form.name}\nTelefon: ${form.phone}\nXabar: ${form.message || "—"}`
+      `Yangi so'rov (semtraveluz.vercel.app)\n\nIsm: ${form.name}\nTelefon: ${form.phone}\nXabar: ${form.message || "—"}`
     );
     window.open(`https://t.me/semtravel?text=${text}`, "_blank");
     setSent(true);

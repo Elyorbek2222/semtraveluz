@@ -12,11 +12,11 @@ export const metadata: Metadata = {
     "контакты SEM Travel",
     "турагентство ташкент адрес",
   ],
-  alternates: { canonical: "https://semtravel.uz/contact" },
+  alternates: { canonical: "https://semtraveluz.vercel.app/contact" },
   openGraph: {
     title: "Bog'lanish | SEM Travel",
     description: "Telefon, manzil, WhatsApp va Telegram orqali bog'laning.",
-    url: "https://semtravel.uz/contact",
+    url: "https://semtraveluz.vercel.app/contact",
     type: "website",
   },
 };

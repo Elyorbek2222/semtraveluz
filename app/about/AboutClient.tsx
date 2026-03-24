@@ -43,10 +43,11 @@ const values = [
 ];
 
 const team = [
-  { name: "Sherzod Ergashev", nameRu: "Шерзод Эргашев", roleUz: "Bosh direktor", roleRu: "Генеральный директор", emoji: "👨‍💼" },
-  { name: "Munira Qodirov", nameRu: "Мунира Кодирова", roleUz: "Tur menejeri", roleRu: "Менеджер по турам", emoji: "👩‍💼" },
-  { name: "Eldor Nazarov", nameRu: "Элдор Назаров", roleUz: "Viza bo'limi", roleRu: "Визовый отдел", emoji: "🧑‍💼" },
-  { name: "Gulnora Xoliqova", nameRu: "Гулнора Холикова", roleUz: "Mijozlar bilan ishlash", roleRu: "Работа с клиентами", emoji: "👩‍💼" },
+  { name: "Sardorbek Orifjonov", nameRu: "Сардорбек Орифжонов", roleUz: "Asoschi", roleRu: "Основатель", emoji: "👨‍💼" },
+  { name: "Elyorbek Orifjonov", nameRu: "Эльёрбек Орифжонов", roleUz: "Direktor", roleRu: "Директор", emoji: "👨‍💼" },
+  { name: "Davronbek Rakhmonov", nameRu: "Давронбек Рахмонов", roleUz: "Tur menejeri", roleRu: "Менеджер по турам", emoji: "🧑‍💼" },
+  { name: "Begzod Akmalov", nameRu: "Бегзод Акмалов", roleUz: "Avia menejeri", roleRu: "Авиа менеджер", emoji: "🧑‍💼" },
+  { name: "Abdurakhim Fayzullaev", nameRu: "Абдурахим Файзуллаев", roleUz: "Viza menejeri", roleRu: "Визовый менеджер", emoji: "🧑‍💼" },
 ];
 
 const milestones = [

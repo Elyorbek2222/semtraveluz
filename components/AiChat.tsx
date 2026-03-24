@@ -72,8 +72,8 @@ export default function AiChat() {
     <>
       {/* Chat bubble */}
       {open && (
-        <div className="fixed z-50 shadow-2xl rounded-3xl overflow-hidden"
-          style={{ bottom: 90, right: 16, width: 300, maxHeight: "70vh", display: "flex", flexDirection: "column",
+        <div className="fixed z-50 bottom-[148px] right-4 md:bottom-[170px] md:right-4"
+          style={{ width: 300, maxHeight: "65vh", display: "flex", flexDirection: "column",
             boxShadow: "0 8px 40px rgba(0,0,0,0.18)", borderRadius: "18px 18px 4px 18px" }}>
           {/* Header */}
           <div className="flex items-center gap-3 px-4 py-3" style={{ background: "linear-gradient(135deg, #0057A8, #003F7A)" }}>
@@ -152,8 +152,8 @@ export default function AiChat() {
 
       {/* FAB button */}
       <button onClick={() => setOpen(!open)}
-        className="fixed z-50 flex items-center justify-center rounded-full text-white transition-transform active:scale-90 hover:scale-105"
-        style={{ bottom: 24, right: 16, width: 58, height: 58,
+        className="fixed z-50 flex items-center justify-center rounded-full text-white transition-transform active:scale-90 hover:scale-105 bottom-20 right-[76px] md:right-4 md:bottom-[104px]"
+        style={{ width: 58, height: 58,
           background: "linear-gradient(135deg, #0057A8 0%, #003F7A 100%)",
           boxShadow: "0 4px 20px rgba(0,87,168,0.5)" }}
         aria-label="AI Konsultant">

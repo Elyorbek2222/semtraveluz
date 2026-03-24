@@ -20,7 +20,7 @@ export default function WhatsAppFloat() {
       target="_blank"
       rel="noopener noreferrer"
       aria-label="WhatsApp orqali bog'lanish"
-      className="fixed bottom-6 right-6 z-50 group"
+      className="fixed z-50 group bottom-20 right-4 md:bottom-6 md:right-6"
     >
       {/* Pulse ring */}
       <span className="absolute inset-0 rounded-full bg-green-400 opacity-30 animate-ping" />

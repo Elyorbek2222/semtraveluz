@@ -6,7 +6,7 @@ import BottomNav from "@/components/BottomNav";
 import AiChat from "@/components/AiChat";
 import JsonLd from "@/components/JsonLd";
 import { LangProvider } from "@/lib/language-context";
-import Script from "next/script";
+import TourvisorInit from "@/components/TourvisorInit";
 import { Analytics } from "@vercel/analytics/next";
 
 const organizationSchema = {
@@ -149,7 +149,7 @@ export default function RootLayout({
           <BottomNav />
           <AiChat />
           <Analytics />
-          <Script src="https://tourvisor.ru/module/init.js" strategy="afterInteractive" />
+          <TourvisorInit />
         </LangProvider>
       </body>
     </html>

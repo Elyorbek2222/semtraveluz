@@ -1,6 +1,5 @@
 "use client";
 
-import { useEffect } from "react";
 import Link from "next/link";
 import { Flame, ArrowRight } from "lucide-react";
 import { useLang } from "@/lib/language-context";
@@ -18,14 +17,6 @@ interface HotToursProps {
 
 export default function HotTours({ showAllByDefault = false }: HotToursProps) {
   const { t } = useLang();
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      (window as any).tourvisor?.init?.();
-    }, 300);
-    return () => clearTimeout(timer);
-  }, []);
 
   return (
     <section className="py-20 bg-gray-50" id="hot-tours">

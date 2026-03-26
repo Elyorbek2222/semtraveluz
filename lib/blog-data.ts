@@ -1330,6 +1330,996 @@ SEM Travel оказывает полную помощь в получении Ш
 
 **Обращайтесь:** +998 71 275-55-55`,
   },
+  {
+    id: 11,
+    slug: "issiq-kol-2026",
+    emoji: "🌊",
+    image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=70",
+    categoryUz: "Qirgiziston turu",
+    categoryRu: "Тур в Кыргызстан",
+    titleUz: "Issiq-Ko'l 2026 — Narxlar, Mehmonxonalar va Sanalar | SEM Travel",
+    titleRu: "Иссык-Куль 2026 — Цены, Отели и Даты вылета | SEM Travel",
+    descUz: "Toshkentdan Issiq-Ko'lga 2026 yil yozida tur: 7 kecha $400 dan, 10 kecha $530 dan. Aviaparvoz, transfer va mehmonxona kiritilgan. Sanalar, narxlar va bron qilish.",
+    descRu: "Тур на Иссык-Куль из Ташкента лето 2026: 7 ночей от $400, 10 ночей от $530. Авиаперелёт, трансфер и отель включены. Даты заезда, цены и бронирование.",
+    date: "2026-03-26",
+    readTimeUz: "4 daqiqa",
+    readTimeRu: "4 минуты",
+    author: "SEM Travel",
+    tagsUz: ["Issiq-Ko'l", "Qirgiziston", "Yoz ta'tili 2026", "Plyaj turi", "Toshkentdan"],
+    tagsRu: ["Иссык-Куль", "Кыргызстан", "Летний отдых 2026", "Пляжный тур", "Из Ташкента"],
+    contentUz: `Issiq-Ko'l — Markaziy Osiyoning eng yirik ko'li va O'zbekistonliklarning sevimli yozgi dam olish manzili. Dengiz sathidan 1606 m balandlikda joylashgan bu ko'l toza havo, kristall suv va ajoyib tog' manzaralari bilan mashhur. **Viza shart emas** — O'zbekiston fuqarolari Qirgizistonga vizasiz kiradi.
+
+## Issiq-Ko'l nima uchun mashhur?
+
+- **Toza ekologiya** — sanoat korxonalari yo'q, havo va suv toza
+- **Mineralga boy suv** — dengiz suvi kabi tuz tarkibiga ega, davolovchi xususiyatlar
+- **Tog' va plyaj** — bir joyda tog' manzarasi va plyaj dam olishi
+- **Arzon narx** — Turkiya yoki Dubayga qaraganda ancha tejamkor
+- **Yaqin masofada** — Toshkentdan 1.5 soatlik uchish
+
+---
+
+## 7 Kecha / 8 Kun — Narxlar va Sanalar
+
+**2026 yil yoz sanalari:**
+
+| Sanalar | |
+|---|---|
+| 27.06.2026 | 04.07.2026 |
+| 04.07.2026 | 11.07.2026 |
+| 11.07.2026 | 18.07.2026 |
+| 18.07.2026 | 25.07.2026 |
+| 25.07.2026 | 01.08.2026 |
+
+**Mehmonxonalar va narxlar (1 kishiga, joylashtirish bilan):**
+
+| Mehmonxona | Turi | Narx |
+|---|---|---|
+| 🏡 La Marina | Mehmonxona | **$400** |
+| 🏨 Tri Koroni | Mehmonxona | **$560** |
+| 🏨 Avrora Plyus | Mehmonxona | **$579** |
+| 🏥 Qirg'iz Dengizi | Sanatoriy | **$580** |
+| 🏖 Oltin Qumlar | Pansionat | **$580** |
+| 🏖 Vavilon | Pansionat | **$584** |
+| 🏝 Ayan Resort | Pansionat | **$588** |
+| 🏖 Oltun-Qum | Pansionat | **$599** |
+
+---
+
+## 10 Kecha / 11 Kun — Narxlar va Sanalar
+
+**2026 yil yoz sanalari:**
+
+| Sanalar | |
+|---|---|
+| 30.06.2026 | 10.07.2026 |
+| 07.07.2026 | 17.07.2026 |
+| 14.07.2026 | 24.07.2026 |
+| 21.07.2026 | 31.07.2026 |
+| 28.07.2026 | 07.08.2026 |
+
+**Mehmonxonalar va narxlar:**
+
+| Mehmonxona | Turi | Narx |
+|---|---|---|
+| 🏡 La Marina | Mehmonxona | **$530** |
+| 🏨 Tri Koroni | Mehmonxona | **$680** |
+| 🏖 Vavilon | Pansionat | **$699** |
+| 🏥 Qirg'iz Dengizi | Sanatoriy | **$740** |
+| 🏖 Oltun-Qum | Pansionat | **$750** |
+
+---
+
+## Turga nima kiradi?
+
+- ✈️ **Aviaparvoz** — Toshkent – Issiq-Ko'l – Toshkent (to'g'ridan-to'g'ri reys)
+- 🚌 **Transfer** — aeroport → mehmonxona → aeroport
+- 🏨 **Turar joy** — tanlangan mehmonxonada
+
+---
+
+## Tez-tez so'raladigan savollar
+
+## Issiq-Ko'lga viza kerakmi?
+
+Yo'q. O'zbekiston fuqarolari Qirgizistonga **vizasiz** kiradi. Faqat pasport kerak (kamida 6 oy amal qilishi kerak).
+
+## Issiq-Ko'lga eng arzon tur qancha turadi?
+
+2026 yilda Toshkentdan Issiq-Ko'lga **7 kechalik tur $400 dan** boshlanadi (La Marina mehmonxonasi, aviaparvoz va transfer bilan). 10 kechalik tur esa **$530 dan** boshlanadi.
+
+## Qaysi mehmonxona eng yaxshi?
+
+- **Arzon va qulay:** La Marina ($400/7 kecha)
+- **O'rta narx:** Tri Koroni, Avrora Plyus ($560–579/7 kecha)
+- **Davolovchi:** Qirg'iz Dengizi sanatoriysi ($580/7 kecha)
+- **Plyaj uchun:** Vavilon, Oltun-Qum pansionatlari
+
+## Issiq-Ko'lga qachon borish kerak?
+
+Eng yaxshi vaqt — **iyun oxiri — avgust boshi**. Suv harorati +22–24°C ga yetadi. Aynan shu davr uchun biz sanalarni taklif qilyapmiz.
+
+## Bolalar bilan borsa bo'ladimi?
+
+Ha, Issiq-Ko'l oilaviy dam olish uchun juda mos. Ko'lning sayoz qirg'og'i, toza havo va tinch muhit bolalar uchun xavfsiz.
+
+---
+
+**Hoziroq bron qiling — joy soni cheklangan!** SEM Travel orqali bron qilishda barcha tashvishlarni biz hal qilamiz.`,
+    contentRu: `Иссык-Куль — крупнейшее озеро Центральной Азии и любимое место летнего отдыха узбекистанцев. Расположенное на высоте 1606 м над уровнем моря, оно привлекает чистым воздухом, кристальной водой и живописными горными пейзажами. **Виза не нужна** — граждане Узбекистана въезжают в Кыргызстан без визы.
+
+## Почему Иссык-Куль?
+
+- **Чистая экология** — нет промышленных предприятий, воздух и вода чистые
+- **Минерализованная вода** — схожа по составу с морской, обладает лечебными свойствами
+- **Горы и пляж** — горные пейзажи и пляжный отдых в одном месте
+- **Доступные цены** — значительно дешевле Турции или Дубая
+- **Близко** — 1.5 часа лёта из Ташкента
+
+---
+
+## 7 ночей / 8 дней — Цены и Даты
+
+**Даты заезда, лето 2026:**
+
+| Заезд | Выезд |
+|---|---|
+| 27.06.2026 | 04.07.2026 |
+| 04.07.2026 | 11.07.2026 |
+| 11.07.2026 | 18.07.2026 |
+| 18.07.2026 | 25.07.2026 |
+| 25.07.2026 | 01.08.2026 |
+
+**Отели и цены (на 1 человека, с размещением):**
+
+| Отель | Тип | Цена |
+|---|---|---|
+| 🏡 La Marina | Гостевой дом | **$400** |
+| 🏨 Три Короны | Отель | **$560** |
+| 🏨 Аврора Плюс | Отель | **$579** |
+| 🏥 Кыргызское Взморье | Санаторий | **$580** |
+| 🏖 Золотые Пески | Пансионат | **$580** |
+| 🏖 Вавилон | Пансионат | **$584** |
+| 🏝 Аян Резорт | Пансионат | **$588** |
+| 🏖 Алтын-Кум | Пансионат | **$599** |
+
+---
+
+## 10 ночей / 11 дней — Цены и Даты
+
+**Даты заезда, лето 2026:**
+
+| Заезд | Выезд |
+|---|---|
+| 30.06.2026 | 10.07.2026 |
+| 07.07.2026 | 17.07.2026 |
+| 14.07.2026 | 24.07.2026 |
+| 21.07.2026 | 31.07.2026 |
+| 28.07.2026 | 07.08.2026 |
+
+**Отели и цены:**
+
+| Отель | Тип | Цена |
+|---|---|---|
+| 🏡 La Marina | Гостевой дом | **$530** |
+| 🏨 Три Короны | Отель | **$680** |
+| 🏖 Вавилон | Пансионат | **$699** |
+| 🏥 Кыргызское Взморье | Санаторий | **$740** |
+| 🏖 Алтын-Кум | Пансионат | **$750** |
+
+---
+
+## Что входит в тур?
+
+- ✈️ **Авиаперелёт** — Ташкент – Иссык-Куль – Ташкент (прямой рейс)
+- 🚌 **Трансфер** — аэропорт → отель → аэропорт
+- 🏨 **Проживание** — в выбранном отеле
+
+---
+
+## Часто задаваемые вопросы
+
+## Нужна ли виза на Иссык-Куль?
+
+Нет. Граждане Узбекистана въезжают в Кыргызстан **без визы**. Нужен только загранпаспорт (срок действия не менее 6 месяцев).
+
+## Сколько стоит самый дешёвый тур на Иссык-Куль из Ташкента?
+
+В 2026 году тур на **7 ночей начинается от $400** (гостевой дом La Marina, с авиаперелётом и трансфером). Тур на **10 ночей — от $530**.
+
+## Какой отель выбрать?
+
+- **Бюджетный вариант:** La Marina ($400/7 ночей)
+- **Средний ценовой сегмент:** Три Короны, Аврора Плюс ($560–579/7 ночей)
+- **Лечебный отдых:** Санаторий Кыргызское Взморье ($580/7 ночей)
+- **Пляжный отдых:** Вавилон, Алтын-Кум пансионаты
+
+## Когда лучше ехать на Иссык-Куль?
+
+Лучшее время — **конец июня — начало августа**. Температура воды достигает +22–24°C. Именно на эти даты предлагаем туры.
+
+## Можно ли ехать с детьми?
+
+Да, Иссык-Куль отлично подходит для семейного отдыха. Пологий берег, чистый воздух и спокойная обстановка — идеально для детей.
+
+---
+
+**Бронируйте сейчас — количество мест ограничено!** При бронировании через SEM Travel мы берём на себя все хлопоты.`,
+  },
+  {
+    id: 12,
+    slug: "tbilisi-trabzon-batumi-2026",
+    emoji: "🔔",
+    image: "https://images.unsplash.com/photo-1565008576549-57569a49371d?w=800&q=70",
+    categoryUz: "Gruziya va Turkiya turi",
+    categoryRu: "Тур Грузия и Турция",
+    titleUz: "Tbilisi + Trabzon + Batumi 2026 — Qora dengiz bo'ylab sayohat | SEM Travel",
+    titleRu: "Тбилиси + Трабзон + Батуми 2026 — Путешествие по Чёрному морю | SEM Travel",
+    descUz: "Toshkentdan Tbilisi–Trabzon–Batumi turi 2026: ikkita davlat, uchta shahar, $849 dan. Barcha ekskursiyalar narxga kiritilgan. Iyun-iyul sanalari va bron qilish.",
+    descRu: "Тур Тбилиси–Трабзон–Батуми из Ташкента 2026: две страны, три города, от $849. Все экскурсии включены. Даты вылета июнь-июль и бронирование.",
+    date: "2026-03-26",
+    readTimeUz: "4 daqiqa",
+    readTimeRu: "4 минуты",
+    author: "SEM Travel",
+    tagsUz: ["Gruziya", "Turkiya", "Tbilisi", "Batumi", "Trabzon", "Qora dengiz", "2026"],
+    tagsRu: ["Грузия", "Турция", "Тбилиси", "Батуми", "Трабзон", "Чёрное море", "2026"],
+    contentUz: `Tbilisi, Trabzon va Batumi — uchta ajoyib shahar, ikkita davlat va Qora dengiz bo'ylab unutilmas sayohat. Bu tur bir necha yo'nalishni birlashtirib, eng ko'p taassurot beradi. Gruziya va Turkiyaga **viza shart emas** — O'zbekiston fuqarolari uchun.
+
+## Tur haqida
+
+- **Mamlakat:** Gruziya + Turkiya
+- **Shaharlar:** Tbilisi → Trabzon → Batumi
+- **Davomiylik:** 7 kecha / 8 kun
+- **Narx:** **$849 dan** (1 kishiga, barcha ekskursiyalar bilan)
+- **Barcha ekskursiyalar narxga kiritilgan — qo'shimcha to'lovsiz!**
+
+---
+
+## Uchish sanalari
+
+| Jo'nash | Qaytish |
+|---|---|
+| 11.06.2026 | 18.06.2026 |
+| 18.06.2026 | 25.06.2026 |
+| 25.06.2026 | 02.07.2026 |
+
+---
+
+## Mehmonxonalar
+
+| Shahar | Mehmonxona |
+|---|---|
+| 🏛 Tbilisi | Gallery Palace |
+| 🌊 Batumi | La Quinta by Wyndham Batumi |
+| 🏙 Trabzon | Best Western Plus Trabzon |
+
+---
+
+## Dasturga kiritilgan ekskursiyalar
+
+- 🏛 **Tbilisi ekskursiyasi** — shahar bo'ylab sayohat (5–6 soat)
+- ⛪️ **Mtsxeta ekskursiyasi** — Gruziyaning qadimiy poytaxti
+- 🕍 **Svetitskhoveli sobori va Jvari monastiri** — UNESCO merosi
+- 🌆 **Batumi kechki sayohati** — dengiz bo'yi va shahar chiroqlari
+- 🏞 **Sumela monastiri** — Trabzon yaqinidagi qoyaga o'yilgan monastir
+- 🌊 **Uzungöl ko'li** — tog' ko'li va Turkiyaning eng mashhur tabiiy joyi
+- 🌿 **Batumi botanika bog'i** — 2000 dan ortiq o'simlik turi
+- 🏰 **Goniya qal'asi** — antik davr qal'asi, Batumi yaqinida
+
+---
+
+## Tez-tez so'raladigan savollar
+
+## Tbilisi–Trabzon–Batumi turiga viza kerakmi?
+
+Yo'q. O'zbekiston fuqarolari Gruziya va Turkiyaga **vizasiz** kiradi. Faqat amal qilish muddati kamida 6 oy bo'lgan xalqaro pasport kerak.
+
+## Bu tur qancha turadi?
+
+Narx **$849 dan** boshlanadi (1 kishi uchun). Narxga aviaparvoz, mehmonxona va **barcha ekskursiyalar** kiritilgan — qo'shimcha to'lov yo'q.
+
+## Qaysi ekskursiyalar kiritilgan?
+
+Jami 8 ta ekskursiya: Tbilisi shahar turı, Mtsxeta, Svetitskhoveli sobori, Batumi kechki sayohati, Sumela monastiri, Uzungöl ko'li, Botanika bog'i va Goniya qal'asi. **Barchasi narxga kiritilgan.**
+
+## Eng yaxshi vaqt qachon?
+
+Iyun–iyul oylarida Qora dengiz bo'yida ob-havo ideal: +25–28°C, dengiz ham iliq. Aynan shu sanalar uchun turlar mavjud.
+
+---
+
+**Hoziroq bron qiling — joy soni cheklangan!** SEM Travel orqali bron qilishda barcha tashvishlarni biz hal qilamiz.`,
+    contentRu: `Тбилиси, Трабзон и Батуми — три прекрасных города, две страны и незабываемое путешествие вдоль Чёрного моря. Этот тур объединяет несколько направлений и дарит максимум впечатлений. **Виза не нужна** — граждане Узбекистана въезжают в Грузию и Турцию без визы.
+
+## О туре
+
+- **Страны:** Грузия + Турция
+- **Города:** Тбилиси → Трабзон → Батуми
+- **Продолжительность:** 7 ночей / 8 дней
+- **Цена:** **от $849** (на 1 человека, все экскурсии включены)
+- **Все экскурсии включены в стоимость — без доплат!**
+
+---
+
+## Даты вылета
+
+| Вылет | Возвращение |
+|---|---|
+| 11.06.2026 | 18.06.2026 |
+| 18.06.2026 | 25.06.2026 |
+| 25.06.2026 | 02.07.2026 |
+
+---
+
+## Отели по программе тура
+
+| Город | Отель |
+|---|---|
+| 🏛 Тбилиси | Gallery Palace |
+| 🌊 Батуми | La Quinta by Wyndham Batumi |
+| 🏙 Трабзон | Best Western Plus Trabzon |
+
+---
+
+## Экскурсии по программе
+
+- 🏛 **Обзорная экскурсия по Тбилиси** — по городу (5–6 часов)
+- ⛪️ **Экскурсия в Мцхету** — древняя столица Грузии
+- 🕍 **Собор Светицховели и монастырь Джвари** — объект ЮНЕСКО
+- 🌆 **Вечерняя прогулка по Батуми** — набережная и огни города
+- 🏞 **Монастырь Сумела** — монастырь в скале близ Трабзона
+- 🌊 **Озеро Узунгёль** — горное озеро, одно из красивейших мест Турции
+- 🌿 **Ботанический сад Батуми** — более 2000 видов растений
+- 🏰 **Крепость Гонио** — античная крепость близ Батуми
+
+---
+
+## Часто задаваемые вопросы
+
+## Нужна ли виза для тура Тбилиси–Трабзон–Батуми?
+
+Нет. Граждане Узбекистана въезжают в Грузию и Турцию **без визы**. Необходим только загранпаспорт со сроком действия не менее 6 месяцев.
+
+## Сколько стоит тур Тбилиси–Трабзон–Батуми?
+
+Цена начинается **от $849 на человека**. В стоимость включены авиаперелёт, проживание в отелях и **все экскурсии по программе** — без доплат.
+
+## Какие экскурсии включены?
+
+Всего 8 экскурсий: обзорная по Тбилиси, Мцхета, Светицховели и Джвари, вечерний Батуми, монастырь Сумела, озеро Узунгёль, Ботанический сад и крепость Гонио. **Все включены в цену.**
+
+## Когда лучше ехать?
+
+Июнь–июль — идеальное время для Черноморского побережья: +25–28°C, море тёплое. Именно на эти даты и предлагаются туры.
+
+---
+
+**Бронируйте сейчас — количество мест ограничено!** При бронировании через SEM Travel мы берём на себя все хлопоты.`,
+  },
+  {
+    id: 13,
+    slug: "turkiya-mo-jizalari-2026",
+    emoji: "🇹🇷",
+    image: "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?w=800&q=70",
+    categoryUz: "Turkiya ekskursiya turi",
+    categoryRu: "Экскурсионный тур Турция",
+    titleUz: "Turkiya Mo'jizalari 2026 — Istanbul, Kappadokiya, Pamukkale | SEM Travel",
+    titleRu: "Чудеса Турции 2026 — Стамбул, Каппадокия, Памуккале | SEM Travel",
+    descUz: "Toshkentdan Turkiya bo'ylab ekskursiya turi 2026: Istanbul–Kappadokiya–Pamukkale. May oyidan $732 dan. Aviaparvoz, mehmonxona, ovqat, sug'urta va ekskursiyalar kiritilgan.",
+    descRu: "Экскурсионный тур по Турции из Ташкента 2026: Стамбул–Каппадокия–Памуккале. С мая от $732. Авиаперелёт, отель, питание, страховка и экскурсии включены.",
+    date: "2026-03-26",
+    readTimeUz: "4 daqiqa",
+    readTimeRu: "4 минуты",
+    author: "SEM Travel",
+    tagsUz: ["Turkiya", "Istanbul", "Kappadokiya", "Pamukkale", "Ekskursiya turi", "2026", "Erta bron"],
+    tagsRu: ["Турция", "Стамбул", "Каппадокия", "Памуккале", "Экскурсионный тур", "2026", "Раннее бронирование"],
+    contentUz: `Turkiya Mo'jizalari — O'zbekistonliklarning eng ommabop Turkiya ekskursiya turi. Bir safarda Istanbul, Kappadokiya va Pamukkale — Turkiyaning eng go'zal shaharlarini ziyorat qilasiz. **Majburiy qo'shimcha to'lovlarsiz!**
+
+## Tur haqida
+
+- **Marshrut:** Istanbul → Kappadokiya → Ko'nya (o'tish) → Pamukkale → Bursa (o'tish)
+- **Davomiylik:** 7 kecha / 8 kun
+- **Uchish:** Toshkentdan har shanba
+- **Aviakompaniya:** Centrum Air
+- **Transport:** Mercedes qulay avtobuslar
+- **Gidlar:** Rus tilida so'zlashuvchi tarixchi gidlar
+
+---
+
+## Narxlar (erta bron)
+
+| Oy | Narx (1 kishiga) |
+|---|---|
+| May 2026 | **$732 dan** |
+| Iyun 2026 | **$754 dan** |
+| Iyul 2026 | **$765 dan** |
+| Avgust 2026 | **$765 dan** |
+
+*Narx 2 kishilik xonada yashash uchun. Nashriyot paytidagi narx.*
+
+---
+
+## Marshrut va tunashlar
+
+| Shahar | Tunashlar |
+|---|---|
+| 🌆 Istanbul (1-qism) | 2 kecha |
+| 🌋 Kappadokiya | 2 kecha |
+| 🌊 Pamukkale | 2 kecha |
+| 🌆 Istanbul (2-qism) | 1 kecha |
+
+---
+
+## Turga nima kiradi?
+
+- ✈️ **Aviaparvoz** — Toshkent–Istanbul–Toshkent (Centrum Air)
+- 🚌 **Transfer** — barcha marshrut bo'ylab
+- 🍰 **Ovqatlanish** — Istanbul (BB: nonushta), boshqa shaharlarda HB (nonushta + kechki ovqat)
+- 🏨 **Turar joy** — barcha shaharlarda
+- 🧬 **Tibbiy sug'urta**
+- 🕌 **Ko'rik ekskursiyalar**
+
+✨ **Majburiy qo'shimcha to'lovlar yo'q!**
+
+---
+
+## Ko'riladigan joylar
+
+**Istanbul:**
+- Sulaymoniya majmui va Moviy masjid
+- Ayasofya
+- Topkapi saroyi
+- Bozorlar — Grand Bazaar, Misr bozori
+
+**Kappadokiya:**
+- Göreme milliy bog'i
+- Yeraltı shahri (Derinkuyu yoki Kaymaklı)
+- Uçhisar qal'asi
+- Ixtiyoriy: Havo sharida uchish 🎈
+
+**Pamukkale:**
+- Oq travertin havuzlari (Pamukkale — "paxta qal'asi")
+- Hierapolis antik shahri
+- Kleopatra havuzi
+
+---
+
+## Tez-tez so'raladigan savollar
+
+## Turkiya Mo'jizalari turiga viza kerakmi?
+
+Yo'q. O'zbekiston fuqarolari Turkiyaga **vizasiz** kiradi. Faqat xalqaro pasport kerak (kamida 6 oy amal qilishi kerak).
+
+## Bu turda qancha shaharni ko'rsa bo'ladi?
+
+Bitta safarda **5 shahar**: Istanbul (2 marta), Kappadokiya, Ko'nya va Pamukkale. Shuningdek, Bursa orqali o'tiladi.
+
+## Narxga nima kiritilgan?
+
+Aviaparvoz, barcha shaharlarda mehmonxona, nonushta va kechki ovqat (Istanbul da faqat nonushta), tibbiy sug'urta, transfer va ko'rik ekskursiyalar. **Majburiy qo'shimcha to'lov yo'q.**
+
+## Qachon bron qilish kerak?
+
+Bu **erta bron** taklifi. Joy soni cheklangan — qancha erta bron qilsangiz, narx shuncha qulay.
+
+---
+
+**Hoziroq bron qiling** — har shanba uchish mavjud. SEM Travel orqali bron qilishda barcha hujjatlarni biz tayyorlaymiz.`,
+    contentRu: `Чудеса Турции — самый популярный экскурсионный тур по Турции среди узбекистанцев. За одну поездку вы посетите Стамбул, Каппадокию и Памуккале — самые красивые места Турции. **Без обязательных доплат!**
+
+## О туре
+
+- **Маршрут:** Стамбул → Каппадокия → Конья (проездом) → Памуккале → Бурса (проездом)
+- **Продолжительность:** 7 ночей / 8 дней
+- **Вылет:** из Ташкента каждую субботу
+- **Авиакомпания:** Centrum Air
+- **Транспорт:** комфортабельные автобусы Mercedes
+- **Гиды:** русскоязычные гиды-историки
+
+---
+
+## Цены (раннее бронирование)
+
+| Месяц | Цена (на 1 человека) |
+|---|---|
+| Май 2026 | **от $732** |
+| Июнь 2026 | **от $754** |
+| Июль 2026 | **от $765** |
+| Август 2026 | **от $765** |
+
+*Стоимость указана на 1 человека при двухместном размещении. Актуально на момент публикации.*
+
+---
+
+## Маршрут и ночёвки
+
+| Город | Ночей |
+|---|---|
+| 🌆 Стамбул (1-я часть) | 2 ночи |
+| 🌋 Каппадокия | 2 ночи |
+| 🌊 Памуккале | 2 ночи |
+| 🌆 Стамбул (2-я часть) | 1 ночь |
+
+---
+
+## Что входит в тур?
+
+- ✈️ **Авиаперелёт** — Ташкент–Стамбул–Ташкент (Centrum Air)
+- 🚌 **Трансферы** — по всему маршруту
+- 🍰 **Питание** — HB (завтрак + ужин) во всех городах, BB (только завтрак) в Стамбуле
+- 🏨 **Проживание** — во всех городах
+- 🧬 **Медицинская страховка**
+- 🕌 **Обзорные экскурсии**
+
+✨ **Без обязательных доплат!**
+
+---
+
+## Что вы увидите
+
+**Стамбул:**
+- Мечеть Сулеймание и Голубая мечеть
+- Айя-София
+- Дворец Топкапы
+- Гранд-базар и Египетский базар
+
+**Каппадокия:**
+- Национальный парк Гёреме
+- Подземный город (Деринкую или Каймаклы)
+- Крепость Учхисар
+- Опционально: полёт на воздушном шаре 🎈
+
+**Памуккале:**
+- Белоснежные травертиновые бассейны (Памуккале — «хлопковый замок»)
+- Античный город Иераполис
+- Бассейн Клеопатры
+
+---
+
+## Часто задаваемые вопросы
+
+## Нужна ли виза для тура «Чудеса Турции»?
+
+Нет. Граждане Узбекистана въезжают в Турцию **без визы**. Нужен только загранпаспорт со сроком действия не менее 6 месяцев.
+
+## Сколько городов можно посетить за одну поездку?
+
+За одну поездку вы увидите **5 городов**: Стамбул (2 раза), Каппадокию, Конью и Памуккале. Также проезжаете через Бурсу.
+
+## Что включено в стоимость?
+
+Авиаперелёт, проживание во всех городах, питание (завтрак+ужин, в Стамбуле только завтрак), медицинская страховка, трансферы и обзорные экскурсии. **Обязательных доплат нет.**
+
+## Когда лучше бронировать?
+
+Это предложение **раннего бронирования**. Количество мест ограничено — чем раньше бронируете, тем выгоднее цена.
+
+---
+
+**Бронируйте сейчас** — вылеты каждую субботу. При бронировании через SEM Travel все документы оформляем мы.`,
+  },
+  {
+    id: 14,
+    slug: "gruziya-mo-jizalari-2026",
+    emoji: "🇬🇪",
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=70",
+    categoryUz: "Gruziya turi",
+    categoryRu: "Тур в Грузию",
+    titleUz: "Gruziya Mo'jizalari 2026 — Tbilisi va Batumi | Erta bron $629 | SEM Travel",
+    titleRu: "Чудеса Грузии 2026 — Тбилиси и Батуми | Раннее бронирование от $629 | SEM Travel",
+    descUz: "Toshkentdan Gruziya turi 2026: Tbilisi–Batumi yoki Tbilisi–Bakuriani–Batumi, $629 dan. 3 ekskursiya sovg'a. 23 may uchish. Aviaparvoz, 4* mehmonxona, nonushta, sug'urta kiritilgan.",
+    descRu: "Тур в Грузию из Ташкента 2026: Тбилиси–Батуми или Тбилиси–Бакуриани–Батуми, от $629. 3 экскурсии в подарок. Вылет 23 мая. Авиаперелёт, отель 4*, завтраки, страховка включены.",
+    date: "2026-03-26",
+    readTimeUz: "4 daqiqa",
+    readTimeRu: "4 минуты",
+    author: "SEM Travel",
+    tagsUz: ["Gruziya", "Tbilisi", "Batumi", "Bakuriani", "Erta bron", "2026", "Sovg'a"],
+    tagsRu: ["Грузия", "Тбилиси", "Батуми", "Бакуриани", "Раннее бронирование", "2026", "Подарок"],
+    contentUz: `Gruziya — tog'lar, Qora dengiz, toza havo, boy tarix va rang-barang madaniyat bilan O'zbekistonliklarning eng sevimli sayohat manzillaridan biri. Ota-onangizga eng yaxshi sovg'a — Gruziya sayohati! **Viza shart emas.**
+
+## Tur haqida
+
+- **Davlat:** Gruziya 🇬🇪
+- **Davomiylik:** 6 kecha / 7 kun
+- **Uchish sanasi:** 23 may 2026 (bahor-yoz erta bron)
+- **Narx:** **$629 dan** (1 kishi, 2 kishilik xona)
+- **3 ta ekskursiya sovg'a!**
+
+---
+
+## Marshrut variantlari
+
+| Variant | Marshrut | Narx |
+|---|---|---|
+| 🌷 1-variant | Tbilisi–Batumi (3+3 kecha) | **$629** |
+| 🌷 2-variant | Tbilisi–Bakuriani–Batumi (2+2+2 kecha) | **$629** |
+
+---
+
+## Sovg'a ekskursiyalar 🎁
+
+- 📍 **Tbilisi ko'rik sayohati** — shaharning eng mashhur joylari
+- 📍 **Borjomi bog'iga tashrif** — mineral suv va tabiat
+- 📍 **Batumi ko'rik sayohati** — Qora dengiz qirg'og'i va shahar
+
+---
+
+## Turga nima kiradi?
+
+- ✈️ **Aviaparvoz** — Toshkent–Tbilisi (borishda), Batumi–Toshkent (qaytishda)
+- 🚌 **Transfer** — barcha marshrut bo'ylab
+- 🏨 **Turar joy** — 4 yulduzli mehmonxonalar
+- 🍳 **Ovqatlanish** — nonushta asosida
+- 🧬 **Tibbiy sug'urta**
+- 🎁 **3 ta ko'rik ekskursiya**
+
+*Narx 2 kishilik xonada 1 kishiga. Nashriyot paytidagi narx.*
+
+---
+
+## Nima uchun Gruziya?
+
+- **Toza havo** — Kavkaz tog'larining sog'lom iqlimi
+- **Qora dengiz** — Batumida ajoyib plyaj dam olishi
+- **Boy tarix** — qadimiy cherkovlar, qal'alar, eski shahar
+- **Mazali oshxona** — xinkali, xachapuri, gruzin sharoblari
+- **Yaqin va arzon** — Toshkentdan 3 soat, narxlar qulay
+
+---
+
+## Tez-tez so'raladigan savollar
+
+## Gruziyaga viza kerakmi?
+
+Yo'q. O'zbekiston fuqarolari Gruziyaga **vizasiz** kiradi. Faqat xalqaro pasport kerak (kamida 6 oy amal qilishi kerak).
+
+## Gruziya turi qancha turadi?
+
+**$629 dan** boshlanadi (1 kishi, 2 kishilik xonada). Narxga aviaparvoz, 4* mehmonxona, nonushta, sug'urta va 3 ta ekskursiya kiritilgan.
+
+## Qaysi marshrut yaxshiroq — Tbilisi–Batumi yoki Tbilisi–Bakuriani–Batumi?
+
+- **Tbilisi–Batumi** — dengiz va shahar sevuvchilar uchun (3+3 kecha)
+- **Tbilisi–Bakuriani–Batumi** — tog' va tabiat sevuvchilar uchun (2+2+2 kecha), Bakurianida ski-kurort va tabiat go'zalligi
+
+## Qachon bron qilish kerak?
+
+Bu **erta bron** taklifi. Joy soni cheklangan. Qancha erta bron qilsangiz, joy kafolatlangan.
+
+---
+
+**23 may uchishi — hoziroq bron qiling!** Ota-onangizga, oilangizga yoki juftligingizga eng yaxshi sovg'a. SEM Travel orqali bron qilishda barcha tashvishlarni biz hal qilamiz.`,
+    contentRu: `Грузия — горы, Чёрное море, свежий воздух, богатая история и колоритная культура. Это лучшее направление для отдыха и самый тёплый подарок родителям! **Виза не нужна.**
+
+## О туре
+
+- **Страна:** Грузия 🇬🇪
+- **Продолжительность:** 6 ночей / 7 дней
+- **Дата вылета:** 23 мая 2026 (раннее бронирование весна-лето)
+- **Цена:** **от $629** (на 1 человека, при двухместном размещении)
+- **3 экскурсии в подарок!**
+
+---
+
+## Варианты маршрута
+
+| Вариант | Маршрут | Цена |
+|---|---|---|
+| 🌷 Вариант 1 | Тбилиси–Батуми (3+3 ночи) | **$629** |
+| 🌷 Вариант 2 | Тбилиси–Бакуриани–Батуми (2+2+2 ночи) | **$629** |
+
+---
+
+## Экскурсии в подарок 🎁
+
+- 📍 **Обзорная экскурсия по Тбилиси** — главные достопримечательности города
+- 📍 **Заезд в парк Боржоми** — минеральная вода и природа
+- 📍 **Обзорная экскурсия по Батуми** — черноморское побережье и город
+
+---
+
+## Что входит в стоимость?
+
+- ✈️ **Авиаперелёт** — Ташкент–Тбилиси (туда), Батуми–Ташкент (обратно)
+- 🚌 **Трансферы** — по всему маршруту
+- 🏨 **Проживание** — отели 4 звезды
+- 🍳 **Питание** — на базе завтраков
+- 🧬 **Медицинская страховка**
+- 🎁 **3 обзорные экскурсии**
+
+*Стоимость указана за 1 человека при двухместном размещении. Актуально на момент публикации.*
+
+---
+
+## Почему Грузия?
+
+- **Свежий воздух** — горный климат Кавказа
+- **Чёрное море** — пляжный отдых в Батуми
+- **Богатая история** — древние церкви, крепости, старый город
+- **Вкусная кухня** — хинкали, хачапури, грузинские вина
+- **Близко и доступно** — 3 часа из Ташкента, цены приятные
+
+---
+
+## Часто задаваемые вопросы
+
+## Нужна ли виза в Грузию?
+
+Нет. Граждане Узбекистана въезжают в Грузию **без визы**. Нужен только загранпаспорт со сроком действия не менее 6 месяцев.
+
+## Сколько стоит тур в Грузию?
+
+Цена начинается **от $629 на человека** (при двухместном размещении). В стоимость включены авиаперелёт, отель 4*, завтраки, страховка и 3 экскурсии.
+
+## Какой маршрут выбрать — Тбилиси–Батуми или Тбилиси–Бакуриани–Батуми?
+
+- **Тбилиси–Батуми** — для любителей моря и городского отдыха (3+3 ночи)
+- **Тбилиси–Бакуриани–Батуми** — для любителей гор и природы (2+2+2 ночи), Бакуриани — горнолыжный курорт с красивой природой
+
+## Когда нужно бронировать?
+
+Это предложение **раннего бронирования**. Количество мест ограничено — чем раньше бронируете, тем гарантированнее место.
+
+---
+
+**Вылет 23 мая — бронируйте прямо сейчас!** Лучший подарок родителям, семье или второй половинке. При бронировании через SEM Travel все хлопоты берём на себя.`,
+  },
+  {
+    id: 15,
+    slug: "xitoy-biznes-tur-2026",
+    emoji: "🚀",
+    image: "https://images.unsplash.com/photo-1547981609-4b6bfe67ca0b?w=800&q=70",
+    categoryUz: "Biznes Trip",
+    categoryRu: "Бизнес-тур",
+    titleUz: "Xitoyga 8 Kunlik Biznes Safari — Chengdu, Zhangjiajie, Guangzhou | Asoschilar Club × SEM Travel",
+    titleRu: "Бизнес-сафари в Китай 8 дней — Чэнду, Чжанцзяцзе, Гуанчжоу | Asoschilar Club × SEM Travel",
+    descUz: "24 aprel – 2 may 2026: Xitoyga eksklyuziv biznes safari. Standart $2500, Biznes $2750. Club a'zolariga $150 chegirma. Canton Fair, zavodlar, Avatar tog'lari. Joy soni cheklangan.",
+    descRu: "24 апреля – 2 мая 2026: эксклюзивный бизнес-сафари в Китай. Стандарт $2500, Бизнес $2750. Скидка $150 для членов клуба. Canton Fair, заводы, горы Аватар. Мест мало.",
+    date: "2026-03-26",
+    readTimeUz: "5 daqiqa",
+    readTimeRu: "5 минут",
+    author: "SEM Travel",
+    tagsUz: ["Biznes Trip", "Xitoy", "Canton Fair", "Guangzhou", "Zhangjiajie", "Asoschilar Club", "Import", "2026"],
+    tagsRu: ["Бизнес-тур", "Китай", "Canton Fair", "Гуанчжоу", "Чжанцзяцзе", "Asoschilar Club", "Импорт", "2026"],
+    contentUz: `Biznesingizni kengaytirmoqchimisiz? **Bu safar — xarajat emas, imkoniyat.** Bitta to'g'ri kontakt butun biznesingizni o'zgartirishi mumkin.
+
+**Asoschilar Club × SEM Travel** — faqat tadbirkorlar va biznes egalari uchun eksklyuziv guruh safari.
+
+**24 aprel – 2 may 2026** | Toshkent → Chengdu → Zhangjiajie → Guangzhou → Toshkent
+
+---
+
+## Nega bu safari muhim?
+
+- 🤝 **To'g'ridan-to'g'ri kontakt** — vositachilarsiz ishlab chiqaruvchilar bilan ishlash
+- 📦 **Yangi mahsulotlar** — trend tovarlarni birinchi bo'lib topish
+- 💰 **Narxlar o'rganish** — to'g'ridan-to'g'ri kelishuv = yuqori marja
+- 🌐 **Global aloqalar** — xalqaro hamkorlar va yangi imkoniyatlar
+
+---
+
+## Marshrut: Chengdu → Zhangjiajie → Guangzhou
+
+| Shahar | Dastur |
+|---|---|
+| 🏙 **Chengdu** | Boshlanish, Panda bog'i, zamonaviy shahar, madaniyat |
+| 🏔 **Zhangjiajie** | Avatar tog'lari, shisha ko'priklar, Tianmen tog'i — WOW tajriba |
+| 🏭 **Guangzhou** | Asosiy biznes: Canton Fair, zavodlarga tashrif, B2B uchrashuvlar |
+
+---
+
+## Haftalik dastur (24.04 – 02.05)
+
+| Kun | Dastur |
+|---|---|
+| 1-kun | Xalqaro parvoz, transfer, mehmonxonaga joylashish |
+| 2-kun | Chengdu shahri + madaniyat + moslashish |
+| 3-kun | Tezkor poyezd — Zhangjiajie tomonga yo'l |
+| 4-kun | **Zhangjiajie: WOW** — Avatar tog'lari, shisha ko'priklar |
+| 5-kun | **Tabiat & tajriba** — Glass bridge, Tianmen tog'i |
+| 6-kun | Guangzhouga o'tish — poyezd + joylashish |
+| 7-kun | **Asosiy biznes** — Canton Fair + zavodlarga tashrif |
+| 8-kun | Yakun & qaytish — natijalar, kontaktlar, aeroport |
+| +3 kun | **Biznes format** — Canton Fair davom, supplier uchrashuvlar |
+
+---
+
+## Canton Fair — nima bu?
+
+**Canton Fair** — Xitoyning eng yirik xalqaro savdo ko'rgazmasi. Minglab supplierlar, real shartnomalar imkoniyati. Quyidagi sohalarda ishlaydigan tadbirkorlar uchun juda muhim:
+
+- 🧸 Bolalar o'yinchoqlari va ona-bola tovarlari
+- 👗 Moda va kiyim-kechak
+- 🛏 Uy tekstili (postil, adyol, sochiq)
+- 📎 Kanselariya tovarlar
+- 💊 Sog'liq va sayohatga oid tovarlar
+
+---
+
+## Kimlar bilan borasiz?
+
+- 👥 **Yopiq biznes guruh** — faqat tadbirkorlar va biznes egalari
+- 🤝 **Networking** — yangi hamkorlar va real aloqalar
+- 🧠 **Mastermind** — tajriba almashish va g'oyalar
+- 💬 **Real muhokama** — biznes muammolar va yechimlar
+
+**Bu safari — sizni o'sishga majbur qiladigan muhit.**
+
+---
+
+## Qaysi format siz uchun?
+
+| | Standart | Biznes |
+|---|---|---|
+| **Maqsad** | "Tanishish uchun" | "Pul ishlash uchun" |
+| Canton Fair | ✅ | ✅ |
+| Bozorni tushunish | ✅ | ✅ |
+| Supplier uchrashuvlar | — | ✅ |
+| Zavodlarga chiqish | — | ✅ |
+| Chuqur ko'rgazma | — | ✅ |
+| Networking & kelishuvlar | — | ✅ |
+| **Narx** | **$2,500** | **$2,750** |
+
+🎁 **Asoschilar Club a'zolariga $150 chegirma!**
+
+---
+
+## Paketga nima kiradi?
+
+- ✔ **Aviachiptalar** — Toshkent–Xitoy–Toshkent
+- ✔ **4★ mehmonxonalar** — qulay lokatsiya, sifatli xonalar
+- ✔ **Nonushta** barcha shaharlarda
+- ✔ **Barcha transfer** — tashkil etilgan
+- ✔ **Tarjimon va to'liq hamrohlik**
+- ✔ **Ko'rgazmalarga kirish** — Canton Fair va boshqalar
+
+---
+
+## Tez-tez so'raladigan savollar
+
+## Xitoyga viza kerakmi?
+
+Ha. O'zbekiston fuqarolari Xitoyga **viza kerak**. SEM Travel viza rasmiylashtirish jarayonida to'liq yordam beradi.
+
+## Standart va Biznes format qanday farq qiladi?
+
+**Standart ($2500)** — bozorni ko'rish, Canton Fair, umumiy tushuncha olish. **Biznes ($2750)** — supplierlar bilan uchrashuvlar, zavodlarga chiqish, chuqur ko'rgazma ishi, networking va real kelishuvlar. Soha egalari uchun Biznes format tavsiya etiladi.
+
+## Asoschilar Club a'zolari uchun chegirma bormi?
+
+Ha — **$150 chegirma** Asoschilar Club a'zolari uchun. Bu chegirma faqat bugun qaror qilganlar uchun.
+
+## Joy soni qancha?
+
+**Joy soni cheklangan** — eksklyuziv yopiq guruh. Erta murojaat qiling.
+
+---
+
+⚠️ **Bu tur hamma uchun emas. Faqat qaror qiladiganlar uchun.**
+
+Bron qilish uchun murojaat qiling:
+**Telegram:** @abduqodir_jabboraliyev
+**Tel:** +998 99 033 99 38`,
+    contentRu: `Думаете о расширении бизнеса? **Этот тур — не расходы, это инвестиция.** Один правильный контакт может полностью изменить ваш бизнес.
+
+**Asoschilar Club × SEM Travel** — эксклюзивный групповой бизнес-тур только для предпринимателей и владельцев бизнеса.
+
+**24 апреля – 2 мая 2026** | Ташкент → Чэнду → Чжанцзяцзе → Гуанчжоу → Ташкент
+
+---
+
+## Почему этот тур важен?
+
+- 🤝 **Прямые контакты** — работа с производителями без посредников
+- 📦 **Новые продукты** — первыми находить трендовые товары
+- 💰 **Изучение цен** — прямой договор = высокая маржа
+- 🌐 **Глобальные связи** — международные партнёры и новые возможности
+
+---
+
+## Маршрут: Чэнду → Чжанцзяцзе → Гуанчжоу
+
+| Город | Программа |
+|---|---|
+| 🏙 **Чэнду** | Старт, Парк панд, современный город, адаптация |
+| 🏔 **Чжанцзяцзе** | Горы Аватар, стеклянные мосты, гора Тяньмэнь — WOW опыт |
+| 🏭 **Гуанчжоу** | Основной бизнес: Canton Fair, посещение заводов, B2B-встречи |
+
+---
+
+## Недельная программа (24.04 – 02.05)
+
+| День | Программа |
+|---|---|
+| День 1 | Международный перелёт, трансфер, заселение в отель |
+| День 2 | Знакомство с Чэнду — город + культура + адаптация |
+| День 3 | Скоростной поезд — в сторону Чжанцзяцзе |
+| День 4 | **Чжанцзяцзе: WOW** — горы Аватар, стеклянные мосты |
+| День 5 | **Природа & опыт** — Glass bridge, гора Тяньмэнь |
+| День 6 | Переезд в Гуанчжоу — поезд + заселение |
+| День 7 | **Основной бизнес** — Canton Fair + посещение заводов |
+| День 8 | Итоги & возвращение — контакты, результаты, аэропорт |
+| +3 дня | **Бизнес-формат** — Canton Fair продолжение, встречи с поставщиками |
+
+---
+
+## Canton Fair — что это?
+
+**Canton Fair** — крупнейшая международная торговая ярмарка Китая. Тысячи поставщиков, реальные возможности для заключения контрактов. Особенно важно для предпринимателей в сферах:
+
+- 🧸 Детские игрушки и товары для мам
+- 👗 Мода и одежда
+- 🛏 Домашний текстиль (постельное, одеяла, полотенца)
+- 📎 Канцелярские товары
+- 💊 Товары для здоровья и путешествий
+
+---
+
+## С кем вы едете?
+
+- 👥 **Закрытая бизнес-группа** — только предприниматели и владельцы бизнеса
+- 🤝 **Нетворкинг** — новые партнёры и реальные связи
+- 🧠 **Мастермайнд** — обмен опытом и идеями
+- 💬 **Реальные обсуждения** — бизнес-проблемы и решения
+
+**Этот тур — среда, которая заставляет расти.**
+
+---
+
+## Какой формат подходит вам?
+
+| | Стандарт | Бизнес |
+|---|---|---|
+| **Цель** | "Познакомиться" | "Зарабатывать" |
+| Canton Fair | ✅ | ✅ |
+| Понимание рынка | ✅ | ✅ |
+| Встречи с поставщиками | — | ✅ |
+| Посещение заводов | — | ✅ |
+| Глубокая работа на выставке | — | ✅ |
+| Нетворкинг & договоры | — | ✅ |
+| **Цена** | **$2 500** | **$2 750** |
+
+🎁 **Скидка $150 для членов Asoschilar Club!**
+
+---
+
+## Что входит в пакет?
+
+- ✔ **Авиабилеты** — Ташкент–Китай–Ташкент
+- ✔ **Отели 4★** — удобное расположение, качественные номера
+- ✔ **Завтраки** во всех городах
+- ✔ **Все трансферы** — полностью организованы
+- ✔ **Переводчик и полное сопровождение**
+- ✔ **Вход на выставки** — Canton Fair и другие
+
+---
+
+## Часто задаваемые вопросы
+
+## Нужна ли виза в Китай?
+
+Да. Гражданам Узбекистана **необходима виза** для въезда в Китай. SEM Travel оказывает полное содействие в оформлении.
+
+## В чём разница между Стандарт и Бизнес форматом?
+
+**Стандарт ($2500)** — ознакомление с рынком, Canton Fair, общее понимание. **Бизнес ($2750)** — встречи с поставщиками, посещение заводов, глубокая работа на выставке, нетворкинг и реальные сделки. Для владельцев бизнеса рекомендуется формат Бизнес.
+
+## Есть ли скидка для членов Asoschilar Club?
+
+Да — **скидка $150** для членов Asoschilar Club. Скидка действует только для тех, кто принимает решение сегодня.
+
+## Сколько мест в группе?
+
+**Количество мест ограничено** — закрытая эксклюзивная группа. Обращайтесь заблаговременно.
+
+---
+
+⚠️ **Этот тур не для всех. Только для тех, кто принимает решения.**
+
+Для бронирования обращайтесь:
+**Telegram:** @abduqodir_jabboraliyev
+**Тел:** +998 99 033 99 38`,
+  },
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {

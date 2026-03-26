@@ -85,7 +85,7 @@ export default function ContactClient() {
       phone: form.phone,
       message: form.message,
       type: "Umumiy so'rov",
-      source: "semtraveluz.vercel.app/contact",
+      source: "semtravel.uz/contact",
     });
     setLoading(false);
     setSent(true);

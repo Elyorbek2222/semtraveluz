@@ -21,11 +21,11 @@ export const metadata: Metadata = {
     "страны без визы для узбекистана",
     "виза в индию онлайн",
   ],
-  alternates: { canonical: "https://semtraveluz.vercel.app/visa" },
+  alternates: { canonical: "https://semtravel.uz/visa" },
   openGraph: {
     title: "Viza Yordam | SEM Travel",
     description: "Professional viza xizmatlari. Hujjatlar — ariza — kuzatish.",
-    url: "https://semtraveluz.vercel.app/visa",
+    url: "https://semtravel.uz/visa",
     type: "website",
   },
 };

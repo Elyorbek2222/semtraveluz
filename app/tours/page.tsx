@@ -24,11 +24,11 @@ export const metadata: Metadata = {
     "всё включено туры",
     "семейные туры из ташкента",
   ],
-  alternates: { canonical: "https://semtraveluz.vercel.app/tours" },
+  alternates: { canonical: "https://semtravel.uz/tours" },
   openGraph: {
     title: "Turlar Katalogi — Toshkentdan | SEM Travel",
     description: "50+ mamlakatga tur paketlar. Parvoz + mehmonxona + transfer. Toshkentdan eng arzon narxlar.",
-    url: "https://semtraveluz.vercel.app/tours",
+    url: "https://semtravel.uz/tours",
     type: "website",
   },
 };
@@ -38,17 +38,17 @@ const jsonLd = {
   "@type": "ItemList",
   "name": "SEM Travel — Turlar katalogi",
   "description": "Toshkentdan 50+ mamlakatga tayyor tur paketlar",
-  "url": "https://semtraveluz.vercel.app/tours",
+  "url": "https://semtravel.uz/tours",
   "numberOfItems": TOURS.length,
   "itemListElement": TOURS.map((tour, i) => ({
     "@type": "ListItem",
     "position": i + 1,
-    "url": `https://semtraveluz.vercel.app/tours/${tour.slug}`,
+    "url": `https://semtravel.uz/tours/${tour.slug}`,
     "name": tour.title,
     "item": {
       "@type": "TouristTrip",
       "name": tour.title,
-      "url": `https://semtraveluz.vercel.app/tours/${tour.slug}`,
+      "url": `https://semtravel.uz/tours/${tour.slug}`,
       "touristType": tour.category,
       "offers": {
         "@type": "Offer",

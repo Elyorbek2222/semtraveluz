@@ -138,7 +138,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="border-t border-gray-800 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-gray-500">
           <p>© {new Date().getFullYear()} SEM Travel. {t.footer.rights}</p>
-          <p>semtraveluz.vercel.app</p>
+          <p>semtravel.uz</p>
         </div>
       </div>
     </footer>

@@ -258,7 +258,7 @@ export default function TransferClient() {
           isUz={isUz}
           title={isUz ? "🚗 Transfer buyurtma berish" : "🚗 Заказать трансфер"}
           type="Transfer xizmati"
-          source="semtraveluz.vercel.app/transfer"
+          source="semtravel.uz/transfer"
           onClose={() => setShowModal(false)}
         />
       )}

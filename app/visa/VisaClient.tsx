@@ -310,7 +310,7 @@ export default function VisaClient() {
       name: form.name,
       phone: form.phone,
       type: `Viza: ${isUz ? activeVisa.uz : activeVisa.ru}`,
-      source: "semtraveluz.vercel.app/visa",
+      source: "semtravel.uz/visa",
     });
     setLoading(false);
     setSent(true);

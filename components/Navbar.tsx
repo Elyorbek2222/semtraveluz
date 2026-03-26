@@ -8,6 +8,7 @@ import { Menu, X, Phone, Globe, User, LogIn, ChevronDown } from "lucide-react";
 import clsx from "clsx";
 import { useLang } from "@/lib/language-context";
 import type { Lang } from "@/lib/translations";
+import LeadModal from "@/components/LeadModal";
 
 const PHONE1 = "+998 71 275-55-55";
 const PHONE2 = "+998 94 664-22-22";
@@ -20,6 +21,7 @@ const languages: { code: Lang; label: string; flag: string }[] = [
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [cabinetOpen, setCabinetOpen] = useState(false);
+  const [consultOpen, setConsultOpen] = useState(false);
   const { lang, setLang, t } = useLang();
   const pathname = usePathname();
   const cabinetRef = useRef<HTMLDivElement>(null);
@@ -117,6 +119,15 @@ export default function Navbar() {
               {PHONE1}
             </a>
 
+            {/* Free consultation CTA */}
+            <button
+              onClick={() => setConsultOpen(true)}
+              className="flex items-center gap-1.5 text-sm font-bold px-4 py-2 rounded-full text-white transition-all hover:opacity-90"
+              style={{ background: "#FF6B35" }}
+            >
+              📩 {lang === "uz" ? "Bepul maslahat" : "Консультация"}
+            </button>
+
             {/* Cabinet button */}
             <div className="relative" ref={cabinetRef}>
               <button
@@ -172,6 +183,16 @@ export default function Navbar() {
         </div>
       </div>
 
+      {consultOpen && (
+        <LeadModal
+          isUz={lang === "uz"}
+          title={lang === "uz" ? "📩 Bepul maslahat" : "📩 Бесплатная консультация"}
+          type="Bepul maslahat"
+          source="semtravel.uz (navbar)"
+          onClose={() => setConsultOpen(false)}
+        />
+      )}
+
       {/* ── MOBILE MENU ── */}
       {mobileOpen && (
         <div
@@ -217,6 +238,15 @@ export default function Navbar() {
                 </button>
               ))}
             </div>
+
+            {/* Free consultation CTA mobile */}
+            <button
+              onClick={() => { setConsultOpen(true); setMobileOpen(false); }}
+              className="w-full flex items-center justify-center gap-2 py-3 px-3 rounded-xl text-sm font-bold text-white mb-1"
+              style={{ background: "#FF6B35" }}
+            >
+              📩 {lang === "uz" ? "Bepul maslahat olish" : "Бесплатная консультация"}
+            </button>
 
             {/* Cabinet */}
             <a

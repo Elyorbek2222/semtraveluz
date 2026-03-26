@@ -16,11 +16,11 @@ export const metadata: Metadata = {
     "отель в турции",
     "отель в дубае",
   ],
-  alternates: { canonical: "https://semtraveluz.vercel.app/hotels" },
+  alternates: { canonical: "https://semtravel.uz/hotels" },
   openGraph: {
     title: "Mehmonxona Bron | SEM Travel",
     description: "50+ mamlakatda mehmonxona bron. Eng yaxshi narx kafolati.",
-    url: "https://semtraveluz.vercel.app/hotels",
+    url: "https://semtravel.uz/hotels",
     type: "website",
   },
 };

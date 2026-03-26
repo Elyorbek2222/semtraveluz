@@ -333,7 +333,7 @@ export default function TourDetailClient({
           isUz={isUz}
           title={`${tour.title} — ${isUz ? "Bron qilish" : "Бронирование"}`}
           type={`Tur: ${tour.title}`}
-          source={`semtraveluz.vercel.app/tours/${tour.slug}`}
+          source={`semtravel.uz/tours/${tour.slug}`}
           onClose={() => setShowModal(false)}
         />
       )}

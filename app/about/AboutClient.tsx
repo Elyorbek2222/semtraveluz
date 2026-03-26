@@ -135,6 +135,33 @@ export default function AboutClient() {
           ))}
         </div>
 
+        {/* ── QUICK CTA ── */}
+        <div className="flex flex-col sm:flex-row gap-3 mb-10">
+          <Link
+            href="/tours"
+            className="flex-1 flex items-center justify-center gap-2 py-3.5 rounded-2xl font-bold text-sm text-white"
+            style={{ background: "#0057A8" }}
+          >
+            ✈️ {isUz ? "Turlarni ko'rish" : "Смотреть туры"}
+          </Link>
+          <a
+            href="https://wa.me/998946642222"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex-1 flex items-center justify-center gap-2 py-3.5 rounded-2xl font-bold text-sm text-white"
+            style={{ background: "#25D366" }}
+          >
+            💬 {isUz ? "WhatsApp maslahat" : "Консультация WhatsApp"}
+          </a>
+          <a
+            href="tel:+998712755555"
+            className="flex-1 flex items-center justify-center gap-2 py-3.5 rounded-2xl font-bold text-sm"
+            style={{ background: "#F3F4F6", color: "#374151" }}
+          >
+            📞 +998 71 275-55-55
+          </a>
+        </div>
+
         {/* ── WHO WE ARE ── */}
         <div
           className="rounded-2xl p-6 mb-10 bg-white"
@@ -162,7 +189,7 @@ export default function AboutClient() {
               <>
                 <p>
                   <strong>SEM Travel</strong> — 2011 yildan beri O'zbekistonda faoliyat
-                  yuritayotgan litsenziyalangan sayohat agentligi. Biz Toshkent, Olmazor tumanida
+                  yuritayotgan litsenziyalangan sayohat agentligi. Biz Toshkent, Uchtepa tumanida
                   joylashgan bo'lib, 50+ mamlakatga tur paketlar, viza yordam, mehmonxona bron va
                   aviabilet xizmatlarini ko'rsatamiz.
                 </p>
@@ -181,7 +208,7 @@ export default function AboutClient() {
               <>
                 <p>
                   <strong>SEM Travel</strong> — лицензированное туристическое агентство в
-                  Узбекистане, работающее с 2011 года. Мы находимся в Ташкенте, район Олмазор,
+                  Узбекистане, работающее с 2011 года. Мы находимся в Ташкенте, Учтепинский район,
                   и предоставляем услуги по турпакетам в 50+ странах, помощи с визами,
                   бронированию отелей и авиабилетов.
                 </p>
@@ -306,8 +333,8 @@ export default function AboutClient() {
                 </span>
                 <p className="text-gray-600">
                   {isUz
-                    ? "Toshkent, Olmazor, Kattahirmontepa 12a/1, Park City J-K"
-                    : "Ташкент, Олмазор, Каттахирмонтепа 12а/1, Park City J-K"}
+                    ? "Toshkent, Uchtepa tumani, Katta Xirmontepa ko'chasi, 12B"
+                    : "Ташкент, Учтепинский район, ул. Катта Хирмонтепа, 12Б"}
                 </p>
               </div>
             </div>
@@ -339,6 +366,20 @@ export default function AboutClient() {
                 semtraveluz@mail.ru
               </a>
             </div>
+          </div>
+
+          {/* Google Maps */}
+          <div className="mt-4 rounded-xl overflow-hidden" style={{ height: 200 }}>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2997.0!2d69.2085!3d41.3293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDHCsDE5JzQ1LjUiTiA2OcKwMTInMzAuNiJF!5e0!3m2!1suz!2suz!4v1!5m2!1suz!2suz"
+              width="100%"
+              height="200"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="SEM Travel ofisi"
+            />
           </div>
         </div>
 

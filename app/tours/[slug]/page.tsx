@@ -33,11 +33,11 @@ export async function generateMetadata({
       `тур в ${tour.destination}`,
       `отдых ${tour.destination}`,
     ],
-    alternates: { canonical: `https://semtraveluz.vercel.app/tours/${slug}` },
+    alternates: { canonical: `https://semtravel.uz/tours/${slug}` },
     openGraph: {
       title,
       description,
-      url: `https://semtraveluz.vercel.app/tours/${slug}`,
+      url: `https://semtravel.uz/tours/${slug}`,
       type: "website",
       images: [{ url: tour.image, width: 700, alt: tour.title }],
     },
@@ -71,17 +71,17 @@ export default async function TourDetailPage({
       price: tour.price,
       priceCurrency: "USD",
       availability: "https://schema.org/InStock",
-      url: `https://semtraveluz.vercel.app/tours/${slug}`,
+      url: `https://semtravel.uz/tours/${slug}`,
       seller: {
         "@type": "TravelAgency",
         name: "SEM Travel",
-        url: "https://semtraveluz.vercel.app",
+        url: "https://semtravel.uz",
       },
     },
     provider: {
       "@type": "TravelAgency",
       name: "SEM Travel",
-      url: "https://semtraveluz.vercel.app",
+      url: "https://semtravel.uz",
     },
     aggregateRating: {
       "@type": "AggregateRating",
@@ -95,9 +95,9 @@ export default async function TourDetailPage({
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Bosh sahifa", item: "https://semtraveluz.vercel.app" },
-      { "@type": "ListItem", position: 2, name: "Turlar", item: "https://semtraveluz.vercel.app/tours" },
-      { "@type": "ListItem", position: 3, name: tour.title, item: `https://semtraveluz.vercel.app/tours/${slug}` },
+      { "@type": "ListItem", position: 1, name: "Bosh sahifa", item: "https://semtravel.uz" },
+      { "@type": "ListItem", position: 2, name: "Turlar", item: "https://semtravel.uz/tours" },
+      { "@type": "ListItem", position: 3, name: tour.title, item: `https://semtravel.uz/tours/${slug}` },
     ],
   };
 

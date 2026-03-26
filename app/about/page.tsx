@@ -12,11 +12,11 @@ export const metadata: Metadata = {
     "о SEM Travel",
     "туристическое агентство ташкент",
   ],
-  alternates: { canonical: "https://semtraveluz.vercel.app/about" },
+  alternates: { canonical: "https://semtravel.uz/about" },
   openGraph: {
     title: "Haqimizda | SEM Travel",
     description: "2011 yildan beri 30 000+ mijozga xizmat. Toshkentdagi ishonchli sayohat agentligi.",
-    url: "https://semtraveluz.vercel.app/about",
+    url: "https://semtravel.uz/about",
     type: "website",
   },
 };

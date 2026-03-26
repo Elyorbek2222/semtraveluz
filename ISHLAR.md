@@ -96,7 +96,7 @@
 
 ## 10. Texnik SEO
 - JSON-LD schema: TravelAgency + LocalBusiness + WebSite (root layout)
-- Canonical URL lar: `https://semtraveluz.vercel.app/...`
+- Canonical URL lar: `https://semtravel.uz/...`
 - Open Graph meta tags barcha sahifalarda
 - `sitemap.xml` va `robots.txt`
 - Vercel Analytics
@@ -111,7 +111,7 @@
 
 ## 12. Tourvisor Integratsiyasi
 - `components/TourvisorInit.tsx` — `"use client"` wrapper, `onLoad` callback
-- Saytda ishlashi uchun: Tourvisor admin panelida `semtraveluz.vercel.app` domenini qo'shish kerak
+- Saytda ishlashi uchun: Tourvisor admin panelida `semtravel.uz` domenini qo'shish kerak
 
 ---
 

@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Maxfiylik siyosati",
   description: "SEM Travel veb-saytining maxfiylik siyosati va shaxsiy ma'lumotlarni himoya qilish shartlari.",
-  alternates: { canonical: "https://semtraveluz.vercel.app/privacy" },
+  alternates: { canonical: "https://semtravel.uz/privacy" },
 };
 
 export default function PrivacyPage() {
@@ -17,7 +17,7 @@ export default function PrivacyPage() {
           <h2 className="text-xl font-bold text-gray-900 mb-3">1. Umumiy ma'lumot</h2>
           <p className="text-gray-600 leading-relaxed">
             SEM Travel (keyingi o'rinlarda "biz" yoki "kompaniya") sizning shaxsiy ma'lumotlaringizni
-            himoya qilishga qaratilgan. Ushbu siyosat semtraveluz.vercel.app saytidan foydalanganda
+            himoya qilishga qaratilgan. Ushbu siyosat semtravel.uz saytidan foydalanganda
             qanday ma'lumotlar to'planishi va ular qanday ishlatilishi haqida ma'lumot beradi.
           </p>
         </section>

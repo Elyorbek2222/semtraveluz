@@ -252,7 +252,7 @@ export default function HotelsClient() {
           isUz={isUz}
           title={isUz ? "🏨 Mehmonxona bron qilish" : "🏨 Бронирование отеля"}
           type="Mehmonxona bron"
-          source="semtraveluz.vercel.app/hotels"
+          source="semtravel.uz/hotels"
           onClose={() => setShowModal(false)}
         />
       )}

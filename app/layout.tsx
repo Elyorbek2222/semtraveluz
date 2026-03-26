@@ -14,12 +14,12 @@ const organizationSchema = {
   "@graph": [
     {
       "@type": ["TravelAgency", "LocalBusiness"],
-      "@id": "https://semtraveluz.vercel.app/#organization",
+      "@id": "https://semtravel.uz/#organization",
       "name": "SEM Travel",
-      "url": "https://semtraveluz.vercel.app",
+      "url": "https://semtravel.uz",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://semtraveluz.vercel.app/logo-color.png",
+        "url": "https://semtravel.uz/logo-color.png",
         "width": 140,
         "height": 48,
       },
@@ -52,15 +52,15 @@ const organizationSchema = {
     },
     {
       "@type": "WebSite",
-      "@id": "https://semtraveluz.vercel.app/#website",
-      "url": "https://semtraveluz.vercel.app",
+      "@id": "https://semtravel.uz/#website",
+      "url": "https://semtravel.uz",
       "name": "SEM Travel",
-      "publisher": { "@id": "https://semtraveluz.vercel.app/#organization" },
+      "publisher": { "@id": "https://semtravel.uz/#organization" },
       "potentialAction": {
         "@type": "SearchAction",
         "target": {
           "@type": "EntryPoint",
-          "urlTemplate": "https://semtraveluz.vercel.app/tours?q={search_term_string}",
+          "urlTemplate": "https://semtravel.uz/tours?q={search_term_string}",
         },
         "query-input": "required name=search_term_string",
       },
@@ -69,7 +69,7 @@ const organizationSchema = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://semtraveluz.vercel.app"),
+  metadataBase: new URL("https://semtravel.uz"),
   title: {
     default: "SEM Travel — Sayohat Agentligi Toshkent | Turlar, Viza, Mehmonxona",
     template: "%s | SEM Travel",
@@ -123,7 +123,10 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://semtraveluz.vercel.app",
+    canonical: "https://semtravel.uz",
+  },
+  verification: {
+    google: "mMSWc1Nq0MGYDv68Pg77talIvI-709BPl5tGPFmlEd4",
   },
 };
 
@@ -140,6 +143,9 @@ export default function RootLayout({
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
         <link rel="dns-prefetch" href="https://tourvisor.ru" />
         <link rel="dns-prefetch" href="https://images.unsplash.com" />
+        <link rel="alternate" hrefLang="uz" href="https://semtravel.uz" />
+        <link rel="alternate" hrefLang="ru" href="https://semtravel.uz" />
+        <link rel="alternate" hrefLang="x-default" href="https://semtravel.uz" />
       </head>
       <body>
         <JsonLd data={organizationSchema} />

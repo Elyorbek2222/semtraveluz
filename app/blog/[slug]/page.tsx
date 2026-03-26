@@ -20,11 +20,11 @@ export async function generateMetadata({
     title: post.titleUz,
     description: post.descUz,
     keywords: [...post.tagsUz, "sem travel", "sayohat agentligi toshkent"],
-    alternates: { canonical: `https://semtraveluz.vercel.app/blog/${slug}` },
+    alternates: { canonical: `https://semtravel.uz/blog/${slug}` },
     openGraph: {
       title: post.titleUz,
       description: post.descUz,
-      url: `https://semtraveluz.vercel.app/blog/${slug}`,
+      url: `https://semtravel.uz/blog/${slug}`,
       type: "article",
       publishedTime: post.date,
       authors: [post.author],
@@ -53,19 +53,19 @@ export default async function BlogPostPage({
     author: {
       "@type": "Organization",
       name: "SEM Travel",
-      url: "https://semtraveluz.vercel.app",
+      url: "https://semtravel.uz",
     },
     publisher: {
       "@type": "Organization",
       name: "SEM Travel",
       logo: {
         "@type": "ImageObject",
-        url: "https://semtraveluz.vercel.app/logo-color.png",
+        url: "https://semtravel.uz/logo-color.png",
       },
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://semtraveluz.vercel.app/blog/${slug}`,
+      "@id": `https://semtravel.uz/blog/${slug}`,
     },
   };
 

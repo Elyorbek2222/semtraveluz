@@ -5,7 +5,7 @@ const CHAT_ID = process.env.TELEGRAM_CHAT_ID!;
 
 export async function POST(req: NextRequest) {
   try {
-    const { name, phone, message, type, source } = await req.json();
+    const { name, phone, email, message, type, source } = await req.json();
 
     if (!phone) {
       return NextResponse.json({ error: "Phone required" }, { status: 400 });
@@ -15,9 +15,10 @@ export async function POST(req: NextRequest) {
     if (type) lines.push(`📋 *Xizmat:* ${type}`);
     lines.push(`👤 *Ism:* ${name || "Ko'rsatilmagan"}`);
     lines.push(`📞 *Telefon:* ${phone}`);
+    if (email) lines.push(`✉️ *Email:* ${email}`);
     if (message) lines.push(`💬 *Xabar:* ${message}`);
     lines.push("");
-    lines.push(`🌐 *Manba:* ${source || "semtraveluz.vercel.app"}`);
+    lines.push(`🌐 *Manba:* ${source || "semtravel.uz"}`);
 
     const text = lines.join("\n");
 

@@ -2,10 +2,10 @@
 
 ## Kompaniya haqida
 SEM Travel — 2011 yildan beri O'zbekistonda faoliyat yuritayotgan litsenziyalangan sayohat agentligi.
-Manzil: Kattahirmontepa 12a/1, Park City J-K, Olmazor, Toshkent, O'zbekiston
+Manzil: Katta Xirmontepa ko'chasi 12B, Uchtepa tumani, Toshkent, O'zbekiston
 Telefon: +998712755555, +998946642222
 Email: semtraveluz@mail.ru
-Veb-sayt: https://semtraveluz.vercel.app
+Veb-sayt: https://semtravel.uz
 Ish vaqti: Dushanba–Shanba, 09:00–19:00
 
 ## Xizmatlar
@@ -36,7 +36,7 @@ Ish vaqti: Dushanba–Shanba, 09:00–19:00
 ## Ko'p so'raladigan savollar
 
 **SEM Travel qayerda joylashgan?**
-Toshkent, O'zbekistonda. Ofisimiz manzili: Kattahirmontepa 12a/1, Park City J-K, Olmazor tumani.
+Toshkent, O'zbekistonda. Ofisimiz manzili: Katta Xirmontepa ko'chasi 12B, Uchtepa tumani.
 
 **Qanday turlar bor?**
 Turkiya, BAA, Misr, Tailand, Indoneziya, Gretsiya, Maldiv va 50+ mamlakatga tur paketlar mavjud.
@@ -62,10 +62,10 @@ Jo'nashdan 21 kun oldin — to'liq qaytarish. 14 kun oldin — 50% qaytarish. 7 
 
 ## О компании
 SEM Travel — лицензированное туристическое агентство в Узбекистане, работающее с 2011 года.
-Адрес: Каттахирмонтепа 12a/1, Park City J-K, Олмазорский район, Ташкент, Узбекистан
+Адрес: ул. Катта Хирмонтепа, 12Б, Учтепинский район, Ташкент, Узбекистан
 Телефон: +998712755555, +998946642222
 Email: semtraveluz@mail.ru
-Сайт: https://semtraveluz.vercel.app
+Сайт: https://semtravel.uz
 Часы работы: Пн–Сб, 09:00–19:00
 
 ## Услуги
@@ -86,7 +86,7 @@ Email: semtraveluz@mail.ru
 ## Часто задаваемые вопросы
 
 **Где находится SEM Travel?**
-В Ташкенте, Узбекистан. Адрес офиса: Каттахирмонтепа 12a/1, Park City J-K, Олмазорский район.
+В Ташкенте, Узбекистан. Адрес офиса: ул. Катта Хирмонтепа, 12Б, Учтепинский район.
 
 **Какие туры есть?**
 Турпакеты в Турцию, ОАЭ, Египет, Таиланд, Индонезию, Грецию, Мальдивы и 50+ стран.

@@ -14,11 +14,11 @@ export const metadata: Metadata = {
     "трансфер из аэропорта",
     "заказать трансфер",
   ],
-  alternates: { canonical: "https://semtraveluz.vercel.app/transfer" },
+  alternates: { canonical: "https://semtravel.uz/transfer" },
   openGraph: {
     title: "Transfer Xizmati | SEM Travel",
     description: "Aeroport-mehmonxona transfer. 24/7 xizmat. Qulay narxlar.",
-    url: "https://semtraveluz.vercel.app/transfer",
+    url: "https://semtravel.uz/transfer",
     type: "website",
   },
 };

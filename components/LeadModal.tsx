@@ -12,7 +12,7 @@ interface Props {
 }
 
 export default function LeadModal({ isUz, title, type, source, onClose }: Props) {
-  const [form, setForm] = useState({ name: "", phone: "" });
+  const [form, setForm] = useState({ name: "", phone: "", email: "" });
   const [sent, setSent] = useState(false);
   const [loading, setLoading] = useState(false);
 
@@ -20,10 +20,10 @@ export default function LeadModal({ isUz, title, type, source, onClose }: Props)
     e.preventDefault();
     if (!form.phone) return;
     setLoading(true);
-    await sendLead({ name: form.name, phone: form.phone, type, source });
+    await sendLead({ name: form.name, phone: form.phone, email: form.email, type, source });
     setLoading(false);
     setSent(true);
-    setForm({ name: "", phone: "" });
+    setForm({ name: "", phone: "", email: "" });
     setTimeout(() => { setSent(false); onClose(); }, 3000);
   }
 
@@ -85,6 +85,19 @@ export default function LeadModal({ isUz, title, type, source, onClose }: Props)
                   value={form.phone}
                   onChange={(e) => setForm({ ...form, phone: e.target.value })}
                   required
+                  className="w-full px-4 py-3 rounded-xl text-sm outline-none"
+                  style={{ border: "1.5px solid #E5E7EB", background: "#F9FAFB" }}
+                />
+              </div>
+              <div>
+                <label className="block text-sm font-semibold text-gray-700 mb-1">
+                  {isUz ? "Email (ixtiyoriy)" : "Email (необязательно)"}
+                </label>
+                <input
+                  type="email"
+                  placeholder={isUz ? "example@mail.com" : "example@mail.com"}
+                  value={form.email}
+                  onChange={(e) => setForm({ ...form, email: e.target.value })}
                   className="w-full px-4 py-3 rounded-xl text-sm outline-none"
                   style={{ border: "1.5px solid #E5E7EB", background: "#F9FAFB" }}
                 />

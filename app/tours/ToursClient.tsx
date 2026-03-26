@@ -380,7 +380,7 @@ export default function ToursClient() {
           isUz={isUz}
           title={`✈️ ${bookTour.title}`}
           type={`Tur: ${bookTour.title}`}
-          source={`semtraveluz.vercel.app/tours/${bookTour.slug}`}
+          source={`semtravel.uz/tours/${bookTour.slug}`}
           onClose={() => setBookTour(null)}
         />
       )}

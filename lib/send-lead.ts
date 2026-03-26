@@ -1,6 +1,7 @@
 export async function sendLead(data: {
   name?: string;
   phone: string;
+  email?: string;
   message?: string;
   type?: string;
   source?: string;

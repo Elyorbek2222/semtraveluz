@@ -2320,6 +2320,301 @@ Bron qilish uchun murojaat qiling:
 **Telegram:** @abduqodir_jabboraliyev
 **Тел:** +998 99 033 99 38`,
   },
+  {
+    id: 17,
+    slug: "antalya-tur-narxi-2026",
+    emoji: "🏖️",
+    image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=70",
+    categoryUz: "Plyaj dam olishi",
+    categoryRu: "Пляжный отдых",
+    titleUz: "Toshkentdan Antalyaga tur 2026: narxlar, eng yaxshi vaqt va maslahatlar",
+    titleRu: "Тур из Ташкента в Анталью 2026: цены, лучшее время и советы",
+    descUz: "Antalya — O'zbekistondan eng ko'p boriladigan plyaj yo'nalishi. Tur narxi, viza tartibi, eng yaxshi mehmonxonalar va qachon borish kerakligi haqida to'liq ma'lumot.",
+    descRu: "Анталья — самое популярное пляжное направление из Узбекистана. Полная информация о ценах на туры, визовом режиме, лучших отелях и оптимальном времени поездки.",
+    date: "2026-03-26",
+    readTimeUz: "7 daqiqa",
+    readTimeRu: "7 минут",
+    author: "SEM Travel",
+    tagsUz: ["Antalya", "Turkiya", "Plyaj", "All Inclusive"],
+    tagsRu: ["Анталья", "Турция", "Пляж", "All Inclusive"],
+    contentUz: `Antalya — Turkiyaning janubida joylashgan, O'zbekistondan eng ko'p sariladigan plyaj shahri. Har yili 500 000 dan ortiq O'zbek sayyohi Antalyani tanlaydi. Nima uchun? Arzon narxlar, All Inclusive mehmonxonalar, kristall toza dengiz va Toshkentdan to'g'ridan-to'g'ri reyslar.
+
+Bu maqolada Antalyaga tur haqida bilib olishingiz kerak bo'lgan hamma narsani — narxlardan tortib qaysi mehmonxona afzalroq ekanigacha — aniq va to'liq yozamiz.
+
+## Antalyaga qachon borish kerak?
+
+Antalya iqlimi O'zbek sayyohlariga juda qulay — yil davomida deyarli har qachon borish mumkin. Lekin **eng qulay davr — may oyidan oktabrgacha**.
+
+| Oy | Dengiz harorati | Havo harorati | Tavsiya |
+|---|---|---|---|
+| Aprel | +18°C | +22°C | Ekskursiyalar uchun ideal |
+| May–Iyun | +22–24°C | +28–32°C | Plyaj va ekskursiya |
+| Iyul–Avgust | +28°C | +36–40°C | Plyaj (issiq) |
+| Sentabr–Oktabr | +26°C | +28–32°C | **Eng yaxshi davr** |
+| Noyabr–Mart | +16°C | +15°C | Ekskursiya, shahar aylash |
+
+**Tavsiya:** Sentabr-oktabr — narxlar pasayadi, dengiz iliq, odamlar kamroq. Bu O'zbek oilalari uchun ideal vaqt.
+
+## Antalyaga tur narxi 2026
+
+Antalyaga tur narxi bir qancha omillarga bog'liq: uchish muddati, mehmonxona toifasi, oziqlanish turi (All Inclusive yoki yo'q) va bronlash muddati.
+
+| Tur turi | Davomiyligi | Narx (2 kishi) | Nima kiradi |
+|---|---|---|---|
+| Iqtisodiy | 7 kecha | $600–800 | 3* otель, AI, perelёt |
+| O'rtacha | 7 kecha | $900–1 200 | 4* otель, AI, perelёt |
+| Premium | 7 kecha | $1 400–2 000 | 5* otель, AI, perelёt |
+| Bolali oila (4 kishi) | 10 kecha | $1 800–2 800 | 4* otель, AI, perelёt |
+
+**Muhim:** Erta bronlash (3–4 oy oldin) **15–25% arzonroq** tushadi. SEM Travel da hozir bron qilsangiz, narx qaytarilmaydi.
+
+## O'zbekiston fuqarolari uchun Turkiya vizasi
+
+O'zbekiston fuqarolari Turkiyaga **viza kerak emas** — 30 kungacha vizasiz kirish mumkin. Bu Antalyani eng qulay yo'nalishlardan biriga aylantiradi.
+
+**Kerakli hujjatlar:**
+- Xalqaro pasport (kamida 6 oy amal qilish muddati)
+- Qaytish bileti
+- Mehmonxona bronlash tasdiqnomasi
+
+Viza yo'qligi = qo'shimcha xarajat yo'q, vaqt tejaladi.
+
+---
+
+## Antalyaning qaysi rayonlari yaxshiroq?
+
+Antalya bir shahar emas — bu bir necha kurort rayonlari birlashmasi. Har birining o'z xarakteri bor.
+
+**Kemer** — oilaviy dam olish, tinch tabiat, tozalik. Narxlar o'rtacha.
+
+**Lara va Kundu** — ulkan 5 yulduzli mehmonxonalar, All Inclusive, katta plyajlar. Hashamat izlaydiganlarga.
+
+**Side** — tarix va plyaj uyg'unligi. Antik shahar xarobalari, Aspendos teatri yaqin. Ekskursiya ishqibozlariga.
+
+**Alanya** — yoshlar uchun, gechalik hayot, arzon narxlar. Ko'proq yosh juftliklar boradi.
+
+**Belek** — golf kurortlari, oilaviy 5 yulduzli mehmonxonalar. Bir oz qimmatroq.
+
+## Antalyada nima ko'rish kerak?
+
+Antalya faqat plyaj emas — bu boy tarixi va ajoyib tabiati bor shahar.
+
+**Albatta borish kerak:**
+- **Düden şelalesi (Düden sharsharasi)** — shaharga 14 km, bepul kirish
+- **Kemer milliy parki** — Toroslar tog'lari, qoyalar, o'rmon
+- **Aspendos teatri** — 2 000 yillik Rim teatri, hamon kontsertlar o'tkaziladi
+- **Antalya shahar markazi (Kaleiçi)** — qadimiy shahar, muzeylar, restoranlar
+- **Pamukkale** — oq terrасalar, Hierapolis xarobalari (1 kunlik ekskursiya)
+
+**Ekskursiya narxlari taxminan:**
+- Pamukkale: $40–60/kishi
+- Jeep safari: $35–50/kishi
+- Kemada dengiz sayr: $20–30/kishi
+- Aspendos teatri: $10/kishi (kirish)
+
+---
+
+## Qaysi mehmonxonani tanlash kerak?
+
+**3 yulduz — arzon, lekin yetarli:**
+- Rixos Downtown Antalya — shahar markazida
+- Club Lyda Hotel — Kemer, plyaj yaqin
+
+**4 yulduz — eng mashhur tanlov:**
+- Selectum Family Resort Side — bolali oilalar uchun ideal
+- Granada Luxury Belek — sport va faollik
+- Delphin Botanik — Alanya, katta hovuz
+
+**5 yulduz — hashamat:**
+- Rixos Premium Belek — ulkan territory, hamma narsa sifatli
+- Maxx Royal Belek — golf, spa, VIP xizmat
+- Titanic Mardan Palace — Lara, dunyodagi eng ulkan hovuzlardan biri
+
+**SEM Travel maslahat:** 4 yulduzli All Inclusive mehmonxona — narx va sifat nisbati bo'yicha eng to'g'ri tanlov O'zbek oilasi uchun.
+
+## Toshkentdan Antalyaga parvoz
+
+Toshkentdan Antalyaga to'g'ridan-to'g'ri reyslar mavjud. Parvoz muddati: **4–4.5 soat**.
+
+| Aviakompaniya | Parvoz turi | Taxminiy narx |
+|---|---|---|
+| Uzbekistan Airways | To'g'ri | $180–280 |
+| Pegasus Airlines | 1 ta tranzit | $150–220 |
+| Turkish Airlines | 1 ta tranzit (Istanbul) | $200–350 |
+| FlyDubai / Air Arabia | 1–2 tranzit | $130–200 |
+
+**Maslahat:** SEM Travel tur bron qilganda aviabilet ham paketga kiradi — alohida izlab vaqt sarflamaysiz.
+
+---
+
+## Antalyada qancha pul kerak?
+
+Tur narxidan tashqari, qo'l ostida pul qolishi kerak. Taxminiy hisob:
+
+| Xarajat turi | Taxminiy summa (7 kun, 2 kishi) |
+|---|---|
+| Kichik xaridlar, suvenirlar | $100–150 |
+| Ekskursiyalar (2–3 ta) | $150–250 |
+| Restoran va cafe (tashqarida) | $80–120 |
+| Transport (taksi, avtobus) | $30–50 |
+| **Jami qo'shimcha xarajat** | **$360–570** |
+
+All Inclusive mehmonxonada ovqat, ichimlik, sport aktivliklari kiradi — shuning uchun qo'shimcha xarajat sezilarli kamayadi.
+
+## Ko'p so'raladigan savollar
+
+**Antalyaga bolalar bilan borsa bo'ladimi?**
+Ha, Antalya bolali oilalar uchun juda qulay. Ko'plab mehmonxonalarda bolalar klubi, sayoz hovuz, mini-disk bor. 2–10 yoshli bolalar uchun ko'plab mehmonxonalar bepul yoki 50% chegirma beradi.
+
+**All Inclusive nima o'z ichiga oladi?**
+Odatda 3 mahal ovqat (buffet shaklida), alkogolsiz ichimliklar, mahalliy alkogol, snack-bar (oradagi yeguliklar), plyaj soyaboni va kursi kiradi. Premium mehmonxonalarda sport, ekskursiya va spa ham AI ga kirishi mumkin.
+
+**Antalyada pul almashtirish kerakmi?**
+Turkiya lirasi (TRY) — mahalliy valyuta. Ko'plab joylarda dollar va evro qabul qilinadi, lekin lira ko'proq qulay. Mehmonxona yaqinidagi ATM da pul olish yaxshiroq (kurs yaxshi).
+
+**SEM Travel orqali bron qilsam qanday afzalliklar bor?**
+Narx kafolati, hujjat ko'magi (mehmonxona tasdiqnomalari), parvoz vaqtlarini kuzatib borish va Toshkentdan qaytguncha 24/7 aloqa. Muammoli vaziyatda to'g'ridan-to'g'ri SEM Travel menejeringizga murojaat qilasiz.
+
+**Antalyaga qachon bron qilsam arzonroq?**
+3–4 oy oldin bron qilish (early booking) eng arzon narxni beradi. Yozgi muvsim uchun fevral-mart da bron qilish tavsiya etiladi. Oxirgi daqiqa turlar ham arzon bo'ladi, lekin tanlash imkoniyati cheklangan.
+
+---
+
+Antalya — O'zbek sayyohlari uchun eng qulay xorijiy yo'nalishlardan biri: viza yo'q, parvoz qisqa, All Inclusive mehmonxonalar ko'p, narxlar hamyonbop. SEM Travel bu yo'nalishda 7 yildan ortiq tajribaga ega — bepul maslahat uchun bugun bog'laning.`,
+    contentRu: `Анталья — курортный город на юге Турции, самое популярное пляжное направление из Узбекистана. Каждый год туда едут более 500 000 узбекских туристов. Причины просты: доступные цены, отели All Inclusive, чистейшее море и прямые рейсы из Ташкента.
+
+В этом материале — всё, что нужно знать о туре в Анталью: цены, визовый режим, лучшие отели и когда лучше ехать.
+
+## Когда лучше ехать в Анталью?
+
+Климат Антальи хорошо подходит для узбекских туристов. Лучший период — с мая по октябрь.
+
+| Месяц | Море | Воздух | Рекомендация |
+|---|---|---|---|
+| Апрель | +18°C | +22°C | Экскурсии, прогулки |
+| Май–Июнь | +22–24°C | +28–32°C | Пляж + экскурсии |
+| Июль–Август | +28°C | +36–40°C | Пляж (очень жарко) |
+| Сентябрь–Октябрь | +26°C | +28–32°C | **Лучший вариант** |
+| Ноябрь–Март | +16°C | +15°C | Экскурсии, город |
+
+**Совет:** Сентябрь-октябрь — море тёплое, цены ниже, людей меньше. Идеально для семейного отдыха.
+
+## Цены на туры в Анталью 2026
+
+| Тип тура | Длительность | Цена (2 чел.) | Что включено |
+|---|---|---|---|
+| Эконом | 7 ночей | $600–800 | 3*, AI, перелёт |
+| Средний | 7 ночей | $900–1 200 | 4*, AI, перелёт |
+| Премиум | 7 ночей | $1 400–2 000 | 5*, AI, перелёт |
+| Семья (4 чел.) | 10 ночей | $1 800–2 800 | 4*, AI, перелёт |
+
+**Важно:** Раннее бронирование (за 3–4 месяца) даёт скидку 15–25%.
+
+## Нужна ли виза?
+
+Гражданам Узбекистана **виза в Турцию не нужна** — можно находиться до 30 дней без визы. Это делает Анталью одним из самых удобных направлений.
+
+**Необходимые документы:**
+- Загранпаспорт (не менее 6 месяцев до окончания)
+- Обратный билет
+- Подтверждение бронирования отеля
+
+---
+
+## Какой район Антальи выбрать?
+
+**Кемер** — тихий отдых, природа, семьи с детьми. Средние цены.
+
+**Лара и Кунду** — огромные 5-звёздочные отели, All Inclusive, большие пляжи. Для тех, кто ищет комфорт.
+
+**Сиде** — история + пляж. Античные руины, театр Аспендос рядом. Для любителей экскурсий.
+
+**Алания** — молодёжь, ночная жизнь, доступные цены.
+
+**Белек** — гольф-курорты, семейные 5-звёздочные отели. Немного дороже.
+
+## Что посмотреть в Анталье?
+
+**Обязательно:**
+- **Водопад Дюден** — 14 км от города, вход бесплатный
+- **Национальный парк Кемер** — горы Торос, скалы, леса
+- **Театр Аспендос** — 2000-летний римский амфитеатр
+- **Старый город Калеичи** — исторический центр, музеи, рестораны
+- **Памуккале** — белые травертины, руины Иераполя (экскурсия на 1 день)
+
+**Цены на экскурсии:**
+- Памуккале: $40–60/чел.
+- Джип-сафари: $35–50/чел.
+- Морская прогулка на яхте: $20–30/чел.
+
+---
+
+## Какой отель выбрать?
+
+**3 звезды — бюджетно:**
+- Rixos Downtown Antalya — центр города
+- Club Lyda Hotel — Кемер, рядом с пляжем
+
+**4 звезды — оптимальный выбор:**
+- Selectum Family Resort Side — идеально для семей с детьми
+- Granada Luxury Belek — спорт и активность
+- Delphin Botanik — Алания, большой бассейн
+
+**5 звёзд — роскошь:**
+- Rixos Premium Belek — огромная территория, всё высококачественно
+- Maxx Royal Belek — гольф, спа, VIP-сервис
+- Titanic Mardan Palace — Лара, один из крупнейших бассейнов мира
+
+**Совет SEM Travel:** 4-звёздочный All Inclusive — лучшее соотношение цены и качества для узбекских семей.
+
+## Перелёт из Ташкента в Анталью
+
+Прямые рейсы из Ташкента в Анталью: время в пути **4–4.5 часа**.
+
+| Авиакомпания | Тип рейса | Примерная цена |
+|---|---|---|
+| Uzbekistan Airways | Прямой | $180–280 |
+| Pegasus Airlines | 1 пересадка | $150–220 |
+| Turkish Airlines | Через Стамбул | $200–350 |
+| FlyDubai / Air Arabia | 1–2 пересадки | $130–200 |
+
+При бронировании тура через SEM Travel перелёт включён в пакет.
+
+---
+
+## Сколько денег брать с собой?
+
+| Статья расходов | Примерная сумма (7 дней, 2 чел.) |
+|---|---|
+| Покупки, сувениры | $100–150 |
+| Экскурсии (2–3 шт.) | $150–250 |
+| Рестораны вне отеля | $80–120 |
+| Транспорт | $30–50 |
+| **Итого дополнительно** | **$360–570** |
+
+В отеле All Inclusive питание, напитки и спорт уже включены — дополнительные расходы значительно меньше.
+
+## Часто задаваемые вопросы
+
+**Можно ли ехать с детьми?**
+Да, Анталья очень удобна для семей с детьми. В большинстве отелей есть детские клубы, мелководные бассейны, мини-диско. Дети 2–10 лет часто размещаются бесплатно или со скидкой 50%.
+
+**Что входит в All Inclusive?**
+Обычно: 3-разовое питание (шведский стол), безалкогольные напитки, местный алкоголь, снек-бар, шезлонги на пляже. В премиум-отелях — также спорт, экскурсии и спа.
+
+**Нужно ли менять деньги?**
+Местная валюта — турецкая лира (TRY). Во многих местах принимают доллары и евро, но лира удобнее. Лучше снимать в банкомате рядом с отелем.
+
+**Какие преимущества при бронировании через SEM Travel?**
+Гарантия цены, помощь с документами, контроль рейсов и поддержка 24/7 от Ташкента до возвращения домой. При любой проблеме — звоните напрямую вашему менеджеру.
+
+**Когда выгоднее всего бронировать?**
+За 3–4 месяца (раннее бронирование) — самые низкие цены. Для летнего сезона бронируйте в феврале-марте. Туры в последний момент тоже бывают дешёвыми, но выбор ограничен.
+
+---
+
+Анталья — одно из самых удобных зарубежных направлений для узбекских туристов: без визы, короткий перелёт, множество отелей All Inclusive и доступные цены. SEM Travel работает по этому направлению более 7 лет. Звоните — бесплатно проконсультируем и подберём лучший вариант.`,
+  },
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {

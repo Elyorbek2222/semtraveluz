@@ -10,13 +10,16 @@ import LeadModal from "@/components/LeadModal";
 
 // ── DESTINATION FILTER CONFIG ──────────────────────────────────────────────
 const destinations = [
-  { id: "turkiya",  emoji: "🇹🇷", uz: "Turkiya",  ru: "Турция",  match: (t: Tour) => t.country === "Turkiya" },
-  { id: "dubai",    emoji: "🇦🇪", uz: "Dubai",    ru: "Дубай",   match: (t: Tour) => t.destination === "Dubai" },
-  { id: "misr",     emoji: "🇪🇬", uz: "Misr",     ru: "Египет",  match: (t: Tour) => t.country === "Misr" },
-  { id: "tailand",  emoji: "🇹🇭", uz: "Tailand",  ru: "Таиланд", match: (t: Tour) => t.country === "Tailand" },
-  { id: "maldiv",   emoji: "🇲🇻", uz: "Maldiv",   ru: "Мальдивы", match: (t: Tour) => t.country === "Maldiv" },
-  { id: "gretsiya", emoji: "🇬🇷", uz: "Gretsiya", ru: "Греция",  match: (t: Tour) => t.country === "Gretsiya" },
-  { id: "bali",     emoji: "🇮🇩", uz: "Bali",     ru: "Бали",    match: (t: Tour) => t.destination === "Bali" },
+  { id: "turkiya",     emoji: "🇹🇷", uz: "Turkiya",     ru: "Турция",      match: (t: Tour) => t.country === "Turkiya" },
+  { id: "dubai",       emoji: "🇦🇪", uz: "Dubai",       ru: "Дубай",       match: (t: Tour) => t.destination === "Dubai" },
+  { id: "misr",        emoji: "🇪🇬", uz: "Misr",        ru: "Египет",      match: (t: Tour) => t.country === "Misr" },
+  { id: "gruziya",     emoji: "🇬🇪", uz: "Gruziya",     ru: "Грузия",      match: (t: Tour) => t.country === "Gruziya" },
+  { id: "qirgiziston", emoji: "🇰🇬", uz: "Qirg'iziston", ru: "Кыргызстан", match: (t: Tour) => t.country === "Qirg'iziston" },
+  { id: "xitoy",       emoji: "🇨🇳", uz: "Xitoy",       ru: "Китай",       match: (t: Tour) => t.country === "Xitoy" },
+  { id: "tailand",     emoji: "🇹🇭", uz: "Tailand",     ru: "Таиланд",     match: (t: Tour) => t.country === "Tailand" },
+  { id: "maldiv",      emoji: "🇲🇻", uz: "Maldiv",      ru: "Мальдивы",    match: (t: Tour) => t.country === "Maldiv" },
+  { id: "gretsiya",    emoji: "🇬🇷", uz: "Gretsiya",    ru: "Греция",      match: (t: Tour) => t.country === "Gretsiya" },
+  { id: "bali",        emoji: "🇮🇩", uz: "Bali",        ru: "Бали",        match: (t: Tour) => t.destination === "Bali" },
 ];
 
 // ── TOUR TYPE FILTER CONFIG ────────────────────────────────────────────────
@@ -27,6 +30,7 @@ const tourTypes: { id: TourCategory; emoji: string; uz: string; ru: string }[] =
   { id: "couple",      emoji: "💑", uz: "Juftlik",       ru: "Для двоих" },
   { id: "culture",     emoji: "🏛️", uz: "Madaniy",       ru: "Культурный" },
   { id: "adventure",   emoji: "🧗", uz: "Sarguzasht",    ru: "Приключения" },
+  { id: "biznes",      emoji: "💼", uz: "Biznes Trip",   ru: "Бизнес-тур" },
 ];
 
 const BADGE_LABELS: Record<string, { uz: string; ru: string; bg: string; color: string }> = {

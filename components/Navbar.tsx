@@ -153,25 +153,49 @@ export default function Navbar() {
                     <p className="text-white font-bold text-sm">{lang === "uz" ? "Shaxsiy kabinet" : "Личный кабинет"}</p>
                     <p className="text-white/70 text-xs mt-0.5">{lang === "uz" ? "Buyurtmalarim va ma'lumotlarim" : "Мои заказы и данные"}</p>
                   </div>
-                  <div className="p-1">
-                    <iframe
-                      src="https://semtravel.u-on.ru/api/enter.php"
-                      style={{ border: 0 }}
-                      width="100%"
-                      height="220"
-                      title="Shaxsiy kabinet"
-                    />
+                  <div className="p-3 space-y-2">
+                    <a
+                      href="https://semtravel.u-on.ru/api/enter.php"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2.5 w-full px-4 py-3 rounded-xl text-sm font-bold text-white transition-opacity hover:opacity-90"
+                      style={{ background: "#0057A8" }}
+                    >
+                      <LogIn size={15} />
+                      {lang === "uz" ? "Kabinetga kirish" : "Войти в кабинет"}
+                    </a>
+                    <div className="rounded-xl p-3" style={{ background: "#F8FAFC", border: "1px solid #E2E8F0" }}>
+                      <p className="text-xs font-semibold text-gray-500 mb-2">
+                        {lang === "uz" ? "Tezkor murojaat:" : "Быстрая связь:"}
+                      </p>
+                      <div className="flex gap-2">
+                        <a href="https://wa.me/998946642222" target="_blank" rel="noopener noreferrer"
+                          className="flex-1 flex items-center justify-center gap-1.5 py-2 rounded-lg text-xs font-bold text-white"
+                          style={{ background: "#25D366" }}>
+                          💬 WhatsApp
+                        </a>
+                        <a href="https://t.me/semtravel" target="_blank" rel="noopener noreferrer"
+                          className="flex-1 flex items-center justify-center gap-1.5 py-2 rounded-lg text-xs font-bold text-white"
+                          style={{ background: "#229ED9" }}>
+                          ✈️ Telegram
+                        </a>
+                      </div>
+                    </div>
                   </div>
                 </div>
               )}
             </div>
           </div>
 
-          {/* ── MOBILE: phone + burger ── */}
+          {/* ── MOBILE: bepul maslahat + burger ── */}
           <div className="flex md:hidden items-center gap-2">
-            <a href={`tel:${PHONE1.replace(/\s|-/g, "")}`} className="flex items-center gap-1 text-xs font-bold" style={{ color: "#0057A8" }}>
-              <Phone size={13} /> {PHONE1}
-            </a>
+            <button
+              onClick={() => setConsultOpen(true)}
+              className="flex items-center gap-1.5 text-xs font-bold px-3 py-2 rounded-full text-white"
+              style={{ background: "#FF6B35" }}
+            >
+              📩 {lang === "uz" ? "Maslahat" : "Консультация"}
+            </button>
             <button
               className="p-2 rounded-lg text-gray-600 hover:bg-gray-100 transition-colors"
               onClick={() => setMobileOpen(!mobileOpen)}
@@ -219,11 +243,52 @@ export default function Navbar() {
             })}
           </div>
 
-          <div className="px-4 pb-3 pt-1" style={{ borderTop: "1px solid #F3F4F6" }}>
+          <div className="px-4 pb-4 pt-2 space-y-2" style={{ borderTop: "1px solid #F3F4F6" }}>
+
+            {/* Phones */}
+            <div className="flex gap-2">
+              <a href={`tel:${PHONE1.replace(/\s|-/g, "")}`}
+                className="flex-1 flex items-center justify-center gap-2 py-2.5 rounded-xl text-sm font-bold"
+                style={{ background: "#F0F7FF", color: "#0057A8" }}>
+                <Phone size={14} /> {PHONE1}
+              </a>
+            </div>
+            <a href={`tel:${PHONE2.replace(/\s|-/g, "")}`}
+              className="flex items-center gap-2 py-2 px-3 rounded-xl text-sm text-gray-500"
+              style={{ background: "#F9FAFB" }}>
+              <Phone size={13} /> {PHONE2}
+            </a>
+
+            {/* WhatsApp + Telegram */}
+            <div className="flex gap-2">
+              <a href="https://wa.me/998946642222" target="_blank" rel="noopener noreferrer"
+                className="flex-1 flex items-center justify-center gap-1.5 py-2.5 rounded-xl text-sm font-bold text-white"
+                style={{ background: "#25D366" }}>
+                💬 WhatsApp
+              </a>
+              <a href="https://t.me/semtravel" target="_blank" rel="noopener noreferrer"
+                className="flex-1 flex items-center justify-center gap-1.5 py-2.5 rounded-xl text-sm font-bold text-white"
+                style={{ background: "#229ED9" }}>
+                ✈️ Telegram
+              </a>
+            </div>
+
+            {/* Cabinet */}
+            <a
+              href="https://semtravel.u-on.ru/api/enter.php"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2.5 py-3 px-3 rounded-xl text-sm font-bold transition-colors hover:bg-blue-50"
+              style={{ color: "#0057A8", border: "1.5px solid #BFDBFE" }}
+            >
+              <LogIn size={16} />
+              {lang === "uz" ? "Shaxsiy kabinet" : "Личный кабинет"}
+            </a>
+
             {/* Language */}
-            <div className="flex items-center gap-2 py-3">
+            <div className="flex items-center gap-2 pt-1">
               <Globe size={14} className="text-gray-400" />
-              <span className="text-xs text-gray-500 font-medium mr-1">{lang === "uz" ? "Til:" : "Язык:"}</span>
+              <span className="text-xs text-gray-500 font-medium">{lang === "uz" ? "Til:" : "Язык:"}</span>
               {languages.map((l) => (
                 <button
                   key={l.code}
@@ -238,36 +303,6 @@ export default function Navbar() {
                 </button>
               ))}
             </div>
-
-            {/* Free consultation CTA mobile */}
-            <button
-              onClick={() => { setConsultOpen(true); setMobileOpen(false); }}
-              className="w-full flex items-center justify-center gap-2 py-3 px-3 rounded-xl text-sm font-bold text-white mb-1"
-              style={{ background: "#FF6B35" }}
-            >
-              📩 {lang === "uz" ? "Bepul maslahat olish" : "Бесплатная консультация"}
-            </button>
-
-            {/* Cabinet */}
-            <a
-              href="https://semtravel.u-on.ru/api/enter.php"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2.5 py-3 px-3 rounded-xl text-sm font-bold transition-colors hover:bg-blue-50"
-              style={{ color: "#0057A8" }}
-            >
-              <LogIn size={16} />
-              {lang === "uz" ? "Shaxsiy kabinet" : "Личный кабинет"}
-            </a>
-
-            {/* Phone 2 */}
-            <a
-              href={`tel:${PHONE2.replace(/\s|-/g, "")}`}
-              className="flex items-center gap-2.5 py-2.5 px-3 rounded-xl text-sm text-gray-500 hover:bg-gray-50 transition-colors"
-            >
-              <Phone size={14} />
-              {PHONE2}
-            </a>
           </div>
         </div>
       )}

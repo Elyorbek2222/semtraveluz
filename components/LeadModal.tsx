@@ -29,11 +29,12 @@ export default function LeadModal({ isUz, title, type, source, onClose }: Props)
 
   return (
     <div
-      className="fixed inset-0 z-[200] flex items-center justify-center p-4"
+      className="fixed inset-0 z-[200] overflow-y-auto"
       style={{ background: "rgba(0,0,0,0.55)", backdropFilter: "blur(4px)" }}
       onClick={(e) => { if (e.target === e.currentTarget) onClose(); }}
     >
-      <div className="bg-white rounded-2xl w-full max-w-md p-6 shadow-2xl overflow-y-auto" style={{ maxHeight: "90vh" }}>
+      <div className="flex min-h-full items-center justify-center p-4 pt-24 pb-8">
+      <div className="bg-white rounded-2xl w-full max-w-md p-6 shadow-2xl">
         {sent ? (
           <div className="text-center py-6">
             <div className="text-5xl mb-3">✅</div>
@@ -118,6 +119,7 @@ export default function LeadModal({ isUz, title, type, source, onClose }: Props)
             </form>
           </>
         )}
+      </div>
       </div>
     </div>
   );

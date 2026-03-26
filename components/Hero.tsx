@@ -1,16 +1,22 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { ChevronDown } from "lucide-react";
 import { useLang } from "@/lib/language-context";
 
-const popularDestinationsUz = ["🇹🇷 Turkiya", "🇦🇪 Dubai", "🇪🇬 Misr", "🇹🇭 Tailand", "🇲🇻 Maldiv", "🇬🇷 Gretsiya"];
-const popularDestinationsRu = ["🇹🇷 Турция", "🇦🇪 Дубай", "🇪🇬 Египет", "🇹🇭 Таиланд", "🇲🇻 Мальдивы", "🇬🇷 Греция"];
+const destinations = [
+  { slug: "turkiya", flag: "🇹🇷", uz: "Turkiya",  ru: "Турция",   priceFrom: 620 },
+  { slug: "dubai",   flag: "🇦🇪", uz: "Dubai",    ru: "Дубай",    priceFrom: 1100 },
+  { slug: "misr",    flag: "🇪🇬", uz: "Misr",     ru: "Египет",   priceFrom: 790 },
+  { slug: "tailand", flag: "🇹🇭", uz: "Tailand",  ru: "Таиланд",  priceFrom: 1290 },
+  { slug: "maldiv",  flag: "🇲🇻", uz: "Maldiv",   ru: "Мальдивы", priceFrom: 2800 },
+  { slug: "gretsiya",flag: "🇬🇷", uz: "Gretsiya", ru: "Греция",   priceFrom: 1650 },
+];
 
 export default function Hero() {
   const { t, lang } = useLang();
-  const popularDestinations = lang === "uz" ? popularDestinationsUz : popularDestinationsRu;
-
+  const isUz = lang === "uz";
 
   return (
     <>
@@ -44,14 +50,31 @@ export default function Hero() {
             {t.hero.sub}
           </p>
 
-          {/* Popular destinations */}
-          <div className="flex flex-wrap gap-2">
+          {/* Popular destinations — clickable */}
+          <div className="flex flex-wrap gap-2 items-center">
             <span style={{ color: "rgba(255,255,255,0.55)", fontSize: 13 }}>{t.hero.popular}</span>
-            {popularDestinations.map((dest) => (
-              <span key={dest} className="text-sm font-medium text-white px-3 py-1 rounded-full"
-                style={{ background: "rgba(255,255,255,0.12)", border: "1px solid rgba(255,255,255,0.2)" }}>
-                {dest}
-              </span>
+            {destinations.map((dest) => (
+              <Link
+                key={dest.slug}
+                href={`/destinations/${dest.slug}`}
+                className="group flex items-center gap-1.5 text-sm font-semibold text-white px-3 py-1.5 rounded-full transition-all duration-200 hover:scale-105 hover:shadow-lg"
+                style={{
+                  background: "rgba(255,255,255,0.12)",
+                  border: "1px solid rgba(255,255,255,0.2)",
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.background = "rgba(255,255,255,0.25)";
+                  e.currentTarget.style.borderColor = "rgba(255,255,255,0.5)";
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.background = "rgba(255,255,255,0.12)";
+                  e.currentTarget.style.borderColor = "rgba(255,255,255,0.2)";
+                }}
+              >
+                <span>{dest.flag}</span>
+                <span>{isUz ? dest.uz : dest.ru}</span>
+                <span className="text-xs opacity-70" style={{ color: "#F5C518" }}>${dest.priceFrom}+</span>
+              </Link>
             ))}
           </div>
         </div>

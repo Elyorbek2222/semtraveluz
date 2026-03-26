@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -8,6 +9,13 @@ import JsonLd from "@/components/JsonLd";
 import { LangProvider } from "@/lib/language-context";
 import TourvisorInit from "@/components/TourvisorInit";
 import { Analytics } from "@vercel/analytics/next";
+
+const inter = Inter({
+  subsets: ["latin", "cyrillic"],
+  weight: ["400", "600", "700", "800"],
+  display: "swap",
+  preload: true,
+});
 
 const organizationSchema = {
   "@context": "https://schema.org",
@@ -139,16 +147,13 @@ export default function RootLayout({
   return (
     <html lang="uz">
       <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
         <link rel="dns-prefetch" href="https://tourvisor.ru" />
         <link rel="dns-prefetch" href="https://images.unsplash.com" />
         <link rel="alternate" hrefLang="uz" href="https://semtravel.uz" />
         <link rel="alternate" hrefLang="ru" href="https://semtravel.uz" />
         <link rel="alternate" hrefLang="x-default" href="https://semtravel.uz" />
       </head>
-      <body>
+      <body className={inter.className}>
         <JsonLd data={organizationSchema} />
         <LangProvider>
           <Navbar />

@@ -24,7 +24,7 @@ export default function Hero() {
       <section className="relative overflow-hidden" style={{ minHeight: 420, background: "linear-gradient(160deg, #0057A8 0%, #003F7A 100%)", paddingBottom: 80 }}>
         {/* Background image overlay */}
         <Image
-          src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=70"
+          src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=40"
           alt=""
           fill
           priority

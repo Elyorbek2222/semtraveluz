@@ -127,6 +127,7 @@ export const metadata: Metadata = {
   },
   verification: {
     google: "mMSWc1Nq0MGYDv68Pg77talIvI-709BPl5tGPFmlEd4",
+    yandex: "c8cff6d2eb805ab4",
   },
 };
 

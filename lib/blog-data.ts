@@ -2615,6 +2615,1300 @@ Antalya — O'zbek sayyohlari uchun eng qulay xorijiy yo'nalishlardan biri: viza
 
 Анталья — одно из самых удобных зарубежных направлений для узбекских туристов: без визы, короткий перелёт, множество отелей All Inclusive и доступные цены. SEM Travel работает по этому направлению более 7 лет. Звоните — бесплатно проконсультируем и подберём лучший вариант.`,
   },
+  // ── POST 18 ── Maldives pamyatka ──────────────────────────────────────────
+  {
+    id: 18,
+    slug: "maldiv-orollari-pamyatka-2026",
+    emoji: "🏝️",
+    image: "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=800&q=70",
+    categoryUz: "Pamyatka",
+    categoryRu: "Памятка",
+    titleUz: "Maldiv orollari: to'liq sayohat pamyatkasi 2026 — nima bilish kerak?",
+    titleRu: "Мальдивы: полная памятка путешественника 2026 — всё, что нужно знать",
+    descUz: "Maldiv orollariga borish uchun viza, parvoz, narxlar, eng yaxshi orollar va amaliy maslahatlar. O'zbek sayyohlari uchun to'liq qo'llanma.",
+    descRu: "Виза на Мальдивы, перелёт, цены, лучшие острова и практические советы для туристов из Узбекистана. Полное руководство 2026.",
+    date: "2026-03-18",
+    readTimeUz: "8 daqiqa",
+    readTimeRu: "8 минут",
+    author: "SEM Travel",
+    tagsUz: ["Maldiv", "Balmoq", "Asal oyi", "Plyaj", "Pamyatka"],
+    tagsRu: ["Мальдивы", "Медовый месяц", "Пляж", "Памятка", "Острова"],
+    contentUz: `Maldiv orollari — Hind okeanidagi jannat. 1,200 dan ortiq oroldan iborat bu davlat dunyo bo'ylab romanik sayohat va hashamatli dam olish uchun birinchi tanlov hisoblanadi. Lekin Maldivga borish O'zbek sayyohlari uchun qimmat va murakkab ko'rinadi — aslida esa bunday emas.
+
+Bu pamyatkada hamma narsani bilib olasiz: qancha pul kerak, qachon borish kerak, qaysi orolni tanlash kerak va qanday tejash mumkin.
+
+## Maldivga viza kerakmi? O'zbekiston fuqarolari uchun
+
+**Qulay xabar:** O'zbekiston fuqarolari uchun Maldivga viza kerak emas. Aeroportda 30 kunlik "on arrival" viza bepul beriladi. Faqat kerakli hujjatlar:
+- Pasport (6 oydan ortiq amal qilish muddati)
+- Qaytish bileti
+- Mehmonxona bron tasdiqnomasi
+- Zaxirada pul ($50/kun ko'rsatiladi)
+
+## Qachon borish kerak? Ob-havo va mavsumlar
+
+| Davr | Ob-havo | Tavsiya |
+|---|---|---|
+| Yanvar–Aprel | ☀️ Quruq, +28–30°C | **Eng yaxshi vaqt** |
+| May–Iyun | 🌦 Yomg'ir boshlanadi | O'rtacha |
+| Iyul–Avgust | 🌧 Yomg'irli mavsim | Arzon, lekin yomg'ir ko'p |
+| Sentyabr–Oktyabr | 🌧 Yomg'irli | Eng arzon |
+| Noyabr–Dekabr | ☀️ Quruq mavsim boshlanadi | Yaxshi |
+
+**Maslahat:** Yanvar-mart — eng qulay, lekin eng qimmat. Arzon bron qilish uchun 3–4 oy oldin buyurtma bering.
+
+## Maldivdagi orollar: qaysinisini tanlash kerak?
+
+Maldivda ikkita turdagi orollar bor:
+
+**1. Resort orollari (private island)**
+- Butun orol bitta mehmonxonaga tegishli
+- Over-water bungalow (suvdagi villa) — Maldiv ramzi
+- Narx: $300–$1,500+/tun
+- Misol: Soneva Jani, Gili Lankanfushi, Coco Bodu Hithi
+
+**2. Lokal orollar (guesthouse orollari)**
+- Mahalliy aholi yashaydigan orollar
+- Guest house va boutique mehmonxonalar
+- Narx: $80–$200/tun
+- Mashhur: Maafushi, Thulusdhoo, Dhigurah
+
+**O'rtacha byudjet uchun tavsiya:** Lokal orol + kunlik ekskursiyalar = resort tajribasi, lekin 3–4 marta arzon.
+
+## Toshkentdan Maldivga qanday borish mumkin?
+
+To'g'ridan-to'g'ri reys yo'q. Tranzit orqali boriladi:
+
+| Marshrut | Aviakompaniya | Parvoz muddati | Taxminiy narx |
+|---|---|---|---|
+| TAS → DXB → MLE | Emirates / flydubai | 8–10 soat | $500–800 |
+| TAS → DOH → MLE | Qatar Airways | 9–11 soat | $550–850 |
+| TAS → IST → MLE | Turkish Airlines | 11–14 soat | $480–750 |
+| TAS → KUL → MLE | AirAsia / Malaysia | 12–16 soat | $400–650 |
+
+**Male aeroporti (MLE)** — Maldiv poytaxtidagi asosiy aeroport. U yerdan orolga:
+- **Speedboat** — 30–90 daqiqa, $15–50
+- **Seaplane** — 15–45 daqiqa, $150–400 (resort orollar uchun)
+- **Ferry** — 1–3 soat, $2–10 (lokal orollar uchun)
+
+## Maldiv turi qancha turadi? Narxlar 2026
+
+| Tur turi | 7 tun, 2 kishi | Nima kiradi |
+|---|---|---|
+| Lokal orol (budget) | $1,200–1,800 | Parvoz + guesthouse |
+| Lokal orol (o'rta) | $1,800–2,800 | Parvoz + boutique mehmonxona |
+| Resort orol (3-4*) | $2,500–4,500 | Parvoz + resort |
+| Resort orol (5*) | $5,000–10,000+ | Parvoz + over-water villa |
+
+**Eslatma:** Maldivda ovqat alohida va qimmat. Budget hisobda kun boshiga $30–60 qo'shing.
+
+## Maldivda nima qilish mumkin? Eng yaxshi faoliyatlar
+
+- **Snorkeling** — marjon riflari, baliqlar, toshbaqalar (bepul yoki $15–30)
+- **Scuba diving** — litsenziyali drayving markazi ($80–150/dive)
+- **Dolphin watching** — kechki kemaga chiqish ($25–40)
+- **Sandbank picnic** — qumsol orolga ekskursiya ($50–80)
+- **Biolumin beach** — kechasi porlaydi (mavsumga qarab)
+- **Whale shark snorkeling** — Ari Atoll, dünyo tajirib ($100–150)
+
+## Maldiv uchun amaliy lifehaklar
+
+- **Kredit karta** olib boring — yirik to'lovlar uchun (Visa/Mastercard hamma joyda)
+- **USD** olib boring — lokal orollar ko'pincha kesh qabul qiladi
+- **Quyoshdan himoya kremi** — SPF 50+ majburiy, marjonlarni himoya qiluvchi (reef-safe) kiriting
+- **Suv osti kamerasi** — GoPro yoki waterproof chexol bilan telefon
+- **Qisqa yubka/futbolka** — lokal orollarda masjid yonida va shahar ko'chalarida yoping
+- **Early booking** — 3–4 oy oldin bron qilsangiz 20–30% tejaysiz
+- **Shoulder season** (aprel-may, noyabr) — ob-havo yaxshi, lekin narx past
+
+## Ko'p so'raladigan savollar (FAQ)
+
+**Maldivda halol ovqat bormi?**
+Ha. Maldiv 100% musulmon davlat. Lokal orollarda barcha ovqat halol. Resort orollarda alkogol bor, lekin lokal orollarda yo'q.
+
+**Maldivga yolg'iz borsa bo'ladimi?**
+Ha, solo travel ham juda mashhur. Maafushi va Thulusdhoo orollarida yolg'iz sayohatchilar uchun arzon guesthouserlar ko'p.
+
+**Maldivda internet bormi?**
+Ha, aksariyat mehmonxonalarda Wi-Fi bor. Lokal SIM karta (Dhiraagu yoki Ooredoo) sotib olsa bo'ladi, 10 GB ≈ $15.
+
+**Maldivda qanday valyuta ishlatiladi?**
+Rasmiy valyuta — Maldiv Rufiyaa (MVR). Lekin USD hamma joyda qabul qilinadi. Kurs: $1 ≈ 15.4 MVR.
+
+**Maldiv boshqa orollardan nimasi bilan farq qiladi?**
+Maldiv — dunyodagi eng past relyefli davlat (o'rtacha 1.5 m). Over-water bungalow, shaffof dengiz va marjon riflari — bu faqat Maldivda shunday.
+
+---
+
+Maldiv — umrida bir marta borish shart bo'lgan joy. SEM Travel bu yo'nalishda narxlarni maxsus kelishib, eng yaxshi orollar va mehmonxonalarni tavsiya qilib beradi. Bepul maslahat uchun: **+998 71 275-55-55**.`,
+    contentRu: `Мальдивы — рай в Индийском океане. Более 1 200 островов, кристально чистое море и самые живописные закаты на планете. Для туристов из Узбекистана Мальдивы кажутся недостижимо дорогими — но это миф. При правильном планировании тур обходится дешевле, чем кажется.
+
+В этой памятке — всё необходимое: виза, перелёт, цены, выбор острова и лайфхаки для экономии.
+
+## Нужна ли виза на Мальдивы гражданам Узбекистана?
+
+**Хорошая новость:** виза не нужна. При прилёте выдаётся бесплатная виза на 30 дней (on arrival). Нужно только:
+- Загранпаспорт (действует более 6 месяцев)
+- Обратный билет
+- Подтверждение бронирования отеля
+- Наличие средств ($50/день)
+
+## Когда лучше лететь на Мальдивы?
+
+| Период | Погода | Рекомендация |
+|---|---|---|
+| Январь–Апрель | ☀️ Сухо, +28–30°C | **Лучшее время** |
+| Май–Июнь | 🌦 Начинаются дожди | Приемлемо |
+| Июль–Август | 🌧 Сезон дождей | Дёшево, но дождливо |
+| Сентябрь–Октябрь | 🌧 Дождливо | Самые низкие цены |
+| Ноябрь–Декабрь | ☀️ Начало сухого сезона | Хорошо |
+
+**Совет:** Январь-март — идеально, но дорого. Бронируйте за 3–4 месяца для скидок 20–30%.
+
+## Какой остров выбрать?
+
+**Резортные острова (private island)**
+- Весь остров — один отель
+- Over-water bungalow — символ Мальдив
+- Цена: $300–1 500+/ночь
+- Примеры: Soneva Jani, Coco Bodu Hithi
+
+**Локальные острова (guesthouse)**
+- Жилые острова с гестхаусами
+- Цена: $80–200/ночь
+- Популярные: Maafushi, Thulusdhoo, Dhigurah
+
+**Для среднего бюджета:** Локальный остров + дневные экскурсии = впечатления как на резорте, но в 3–4 раза дешевле.
+
+## Как добраться из Ташкента на Мальдивы?
+
+Прямых рейсов нет. Летят с пересадкой:
+
+| Маршрут | Авиакомпания | Время в пути | Цена |
+|---|---|---|---|
+| TAS → DXB → MLE | Emirates / flydubai | 8–10 часов | $500–800 |
+| TAS → DOH → MLE | Qatar Airways | 9–11 часов | $550–850 |
+| TAS → IST → MLE | Turkish Airlines | 11–14 часов | $480–750 |
+| TAS → KUL → MLE | AirAsia | 12–16 часов | $400–650 |
+
+Из аэропорта Мале до острова:
+- **Спидбот** — 30–90 мин, $15–50
+- **Гидроплан** — 15–45 мин, $150–400 (для резортов)
+- **Паром** — 1–3 часа, $2–10 (для локальных островов)
+
+## Цены на туры на Мальдивы 2026
+
+| Тип тура | 7 ночей, 2 чел. | Что входит |
+|---|---|---|
+| Локальный остров (бюджет) | $1 200–1 800 | Перелёт + гестхаус |
+| Локальный остров (средний) | $1 800–2 800 | Перелёт + бутик-отель |
+| Резорт (3–4 звезды) | $2 500–4 500 | Перелёт + резорт |
+| Резорт (5 звёзд) | $5 000–10 000+ | Перелёт + villa на воде |
+
+## Чем заняться на Мальдивах?
+
+- **Снорклинг** — кораллы, рыбы, черепахи ($0–30)
+- **Дайвинг** — $80–150/погружение
+- **Наблюдение за дельфинами** — $25–40
+- **Пикник на песчаной отмели** — $50–80
+- **Биолюминесцентный пляж** — ночное свечение (сезонно)
+- **Снорклинг с китовыми акулами** — Ари Атолл ($100–150)
+
+## Лайфхаки для туристов на Мальдивах
+
+- Берите **USD наличными** — на локальных островах карты не везде принимают
+- Крем от солнца **SPF 50+ reef-safe** — обязателен (обычный вредит кораллам)
+- **Waterproof чехол** для телефона или GoPro — пригодится каждый день
+- На локальных островах у мечетей **одевайтесь скромно**
+- **Ранее бронирование** за 3–4 месяца даёт скидку 20–30%
+- **Апрель–май и ноябрь** — погода хорошая, цены ниже высокого сезона
+
+## Часто задаваемые вопросы
+
+**Есть ли халяльная еда на Мальдивах?**
+Да. Мальдивы — 100% мусульманская страна. На локальных островах вся еда халяльная. На резортных островах есть алкоголь, на локальных — нет.
+
+**Можно ли поехать на Мальдивы в одиночку?**
+Да, соло-путешествия очень популярны. На Maafushi и Thulusdhoo много доступных гестхаусов для одиночных туристов.
+
+**Есть ли интернет на Мальдивах?**
+Да, Wi-Fi почти везде. Местная SIM-карта (Dhiraagu или Ooredoo) — 10 GB ≈ $15.
+
+**Чем Мальдивы отличаются от других курортов?**
+Мальдивы — самая низкая страна в мире (средняя высота 1,5 м), вилы на воде, кристально прозрачное море и нетронутые коралловые рифы — этого нет нигде в таком масштабе.
+
+---
+
+Мальдивы — место, которое нужно посетить хотя бы раз в жизни. SEM Travel поможет подобрать лучший остров по вашему бюджету и организует всё — от перелёта до трансфера на острове. Звоните: **+998 71 275-55-55**.`,
+  },
+
+  // ── POST 19 ── Bali guide ──────────────────────────────────────────────────
+  {
+    id: 19,
+    slug: "bali-indoneziya-sayohati-qollanma",
+    emoji: "🌴",
+    image: "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=800&q=70",
+    categoryUz: "Pamyatka",
+    categoryRu: "Памятка",
+    titleUz: "Bali sayohati: O'zbek sayyohlari uchun to'liq qo'llanma 2026",
+    titleRu: "Бали: полный путеводитель для туристов из Узбекистана 2026",
+    descUz: "Bali ga qanday borish, viza, narxlar, eng yaxshi rayonlar va amaliy lifehaklar. Arzon va mazali Bali sayohati uchun hamma narsani bilib oling.",
+    descRu: "Как добраться до Бали, виза, цены, лучшие районы и практические лайфхаки. Всё для доступного и незабываемого путешествия на Бали.",
+    date: "2026-03-22",
+    readTimeUz: "9 daqiqa",
+    readTimeRu: "9 минут",
+    author: "SEM Travel",
+    tagsUz: ["Bali", "Indoneziya", "Plyaj", "Madaniyat", "Budget sayohat"],
+    tagsRu: ["Бали", "Индонезия", "Пляж", "Культура", "Бюджетное путешествие"],
+    contentUz: `Bali — Indoneziyaning eng mashhur orollaridan biri, dunyo bo'ylab sayohatchilarning sevimli manzili. Guruh gijja-gijja ma'badlar, terras sholi dalalari, chiroyli plyajlar va jonli geceleri bilan Bali har xil turist uchun biror narsa taklif qiladi. O'zbekistondan borish mumkinmi? Albatta — va bu siz o'ylagandan arzonroq.
+
+## Balida viza: O'zbekiston fuqarolari uchun
+
+O'zbekiston fuqarolari uchun Bali ga (Indoneziya) **viza on arrival** bor — aeroportda olasiz:
+- **Narx:** $35 (30 kunlik)
+- **Uzaytirish mumkin:** +30 kun uchun $35 to'lov
+- **Zarur hujjatlar:** Pasport, qaytish bileti, mehmonxona bron
+
+**Visa Free variant:** 2024 yildan Indoneziya ba'zi yo'nalishlar uchun viza bekor qilgan — lekin O'zbekiston uchun hali on arrival ($35) kerak.
+
+## Toshkentdan Baliga qanday borish?
+
+To'g'ridan-to'g'ri reys yo'q. Tranzit orqali:
+
+| Marshrut | Umumiy vaqt | Taxminiy narx |
+|---|---|---|
+| TAS → KUL → DPS (Kuala Lumpur orqali) | 10–13 soat | $350–550 |
+| TAS → SIN → DPS (Singapur orqali) | 11–14 soat | $400–600 |
+| TAS → DXB → DPS (Dubai orqali) | 12–16 soat | $450–700 |
+| TAS → BKK → DPS (Bangkok orqali) | 11–15 soat | $380–580 |
+
+**Eng arzon marshrut:** Kuala Lumpur orqali (AirAsia yoki Malaysia Airlines). Ko'pincha tranzitda Kuala Lumpur da 1 kecha qolib ketish foydali — Petronas minoralarini ko'rib, Bali ga dam olgan holda ketasiz.
+
+## Bali rayonlari: qayerda turishni tanlash kerak?
+
+**Seminyak / Kuta** — plyaj, tungi hayot, do'konlar
+- Kim uchun: yoshlar, dam olish maqsadida
+- Narx: $30–150/tun
+
+**Ubud** — tabiat, madaniyat, meditatsiya
+- Kim uchun: madaniyat va tabiat sevadiganlar
+- Narx: $20–80/tun
+
+**Canggu** — surf, digital nomadlar, cafe madaniyati
+- Kim uchun: faol yoshlar, surferlar
+- Narx: $25–100/tun
+
+**Nusa Dua** — hashamat, xavfsiz plyaj, oilaviy
+- Kim uchun: oilalar, hashamat tarafdorlari
+- Narx: $80–300/tun
+
+**Amed / Candidasa** — tinch, snorkeling, diving
+- Kim uchun: tabiat va suv osti sevadiganlar
+- Narx: $15–60/tun
+
+## Balida nima ko'rish kerak?
+
+**Majburiy joylar:**
+- **Tanah Lot** — dengizda suzayotgan ma'bad (kirish $3)
+- **Tirta Gangga** — suv saroyi, terras hovuzlar (kirish $2)
+- **Tegallalang rice terrace** — sholi terrasi (Ubud yaqinida, bepul)
+- **Uluwatu ma'badi** — qoya ustidagi ma'bad, kechki Kecak raqsi ($10–15)
+- **Lempuyang ma'badi** — "Jannatga eshik" — mashhur foto joyi (bepul, ammo yurishingiz kerak)
+- **Jatiluwih UNESCO terrace** — eng ulkan sholi terrasalari
+- **Kintamani vulkani** — Batur vulkani va ko'l manzarasi
+
+**Plyajlar:**
+- Seminyak — sunset plyaj
+- Nusa Dua — tozalik va xavfsizlik
+- Balangan — surferlar uchun
+- Padang Padang — Eat Pray Love filmi joyi
+
+## Bali da narxlar qanday?
+
+| Xarajat | Taxminiy narx |
+|---|---|
+| Budget mehmonxona (villa/hostel) | $15–30/tun |
+| O'rtacha mehmonxona (private pool villa) | $50–120/tun |
+| 5 yulduzli resort | $150–500+/tun |
+| Tushlik (lokal warung) | $2–5 |
+| Tushlik (turist restoran) | $8–20 |
+| Scooter ijarasi | $5–8/kun |
+| Massaj (1 soat) | $8–15 |
+| Manikur/pedikur | $5–10 |
+
+## Bali lifehaklar — real sayyohlardan maslahatlar
+
+- **Scooter** — Balidagi eng qulay transport. Xalqaro haydovchilik guvohnomasi bilan ijaraga oling ($5–8/kun)
+- **Lokal warung** da ovqatlaning — mazali, halol, arzon. $2–5 ga to'yib yeyish mumkin
+- **Oldindan bron qiling** — xususiy hovuzli villalar $50–80 ga boradi, lekin oldindan bron kerak
+- **Quyosh chiqishida Batur vulkaniga** chiqing — tog' boshida quyosh chiqishini ko'rish (guide bilan $20–30)
+- **Uluwatu kechasida Kecak raqsi** — majburiy tajriba ($10–15, oldindan chipta oling)
+- **Narx savdolashadi** — do'konlarda va taksilarda hamma narxni savdolashtirib olish mumkin
+- **Rainy season (oktyabr-mart)** — 30–40% arzon, lekin tushlik vaqtida yomg'ir bo'lishi mumkin
+- **Bali belly** — lokal suvdan saqlanib, faqat butilkadagi suv iching
+- **Sarong** (kiyim) olib boring — ma'badlarga kirish uchun yopishingiz shart
+- **Pertamina** yoqilg'i stantsiyasida yonilg'i oling, ko'chadan sotilgan yonilg'i qimmatroq
+
+## Ko'p so'raladigan savollar
+
+**Baliga bolalar bilan borsa bo'ladimi?**
+Ha, Bali oilaviy sayohat uchun ajoyib. Nusa Dua — bolalar uchun eng xavfsiz va qulay rayon. Ko'plab mehmonxonalarda bolalar klubi va sayoz hovuz bor.
+
+**Balidagi ovqat halolmi?**
+Indoneziyaning 87% i musulmon. Balidagi hindularning orolida halol belgisini qidiring — lokal warunglarning aksariyatida halol taom bor. Halol restoran ilovasi (HalalTrip) yordamida topish mumkin.
+
+**Balida dollar yoki lokal valyuta?**
+Rasmiy valyuta — Indoneziya Rupiyasi (IDR). $1 ≈ 16,000 IDR. Aeroportda emas, shahardagi money changer larda kurs yaxshiroq. Kredit karta katta joylarda qabul qilinadi.
+
+**Bali va Tailand: qaysi biri yaxshiroq?**
+Ikkisi ham ajoyib, lekin maqsad farq qiladi. Bali — madaniyat, tabiat, ma'badlar uchun. Tailand — tungi hayot, massaj, arzon food uchun. Oila uchun Bali, yoshlar uchun ikkalasi ham.
+
+---
+
+Bali — hayotda bir marta borish shart bo'lgan joy. SEM Travel Toshkentdan Baliga to'liq paket turlarni tashkil qiladi. Bepul maslahat: **+998 71 275-55-55**.`,
+    contentRu: `Бали — самый известный остров Индонезии и одно из главных туристических направлений мира. Храмы, рисовые террасы, серфинг, спа и роскошные виллы с частным бассейном по цене московской квартиры — всё это Бали. Для туристов из Узбекистана Бали становится всё популярнее. И правильно: туры доступны, а впечатления — на всю жизнь.
+
+## Нужна ли виза на Бали гражданам Узбекистана?
+
+Да, нужна. Но оформляется она прямо в аэропорту:
+- **Visa on Arrival (VOA):** $35 за 30 дней
+- **Продление:** ещё $35 за +30 дней
+- **Документы:** загранпаспорт, обратный билет, бронь отеля
+
+## Как добраться из Ташкента на Бали?
+
+| Маршрут | Общее время | Цена |
+|---|---|---|
+| TAS → KUL → DPS | 10–13 часов | $350–550 |
+| TAS → SIN → DPS | 11–14 часов | $400–600 |
+| TAS → DXB → DPS | 12–16 часов | $450–700 |
+| TAS → BKK → DPS | 11–15 часов | $380–580 |
+
+**Самый дешёвый вариант:** через Куала-Лумпур (AirAsia / Malaysia Airlines). Можно сделать стоп-овер в КЛ на день и посмотреть башни Петронас.
+
+## Районы Бали: где остановиться?
+
+**Семиньяк / Кута** — пляж, ночная жизнь, шопинг
+- Для кого: молодёжь, отдых
+- Цена: $30–150/ночь
+
+**Убуд** — природа, культура, медитация
+- Для кого: любители культуры и природы
+- Цена: $20–80/ночь
+
+**Чангу** — сёрф, digital nomads, кафе-культура
+- Для кого: активная молодёжь, сёрферы
+- Цена: $25–100/ночь
+
+**Нуса Дуа** — роскошь, безопасный пляж, семейный отдых
+- Для кого: семьи, любители комфорта
+- Цена: $80–300/ночь
+
+## Что обязательно посмотреть на Бали?
+
+- **Танах Лот** — храм на скале в океане ($3)
+- **Тирта Гангга** — водный дворец с прудами ($2)
+- **Рисовые террасы Тегаллаланг** — Убуд, бесплатно
+- **Улувату** — храм на утёсе + вечерний танец Кечак ($10–15)
+- **Ворота в рай (Lempuyang)** — культовое фото
+- **Вулкан Батур** — рассвет на вершине (с гидом $20–30)
+
+## Цены на Бали
+
+| Расход | Примерная цена |
+|---|---|
+| Бюджетный отель/гостевой дом | $15–30/ночь |
+| Вилла с бассейном (средний класс) | $50–120/ночь |
+| Обед в местном варунге | $2–5 |
+| Обед в туристическом ресторане | $8–20 |
+| Аренда скутера | $5–8/день |
+| Массаж (1 час) | $8–15 |
+
+## Лайфхаки для Бали
+
+- **Скутер** — самый удобный транспорт. Аренда $5–8/день с международными правами
+- **Варунги** — местные кафе: вкусно, дёшево, сытно за $2–5
+- **Торгуйтесь** — в магазинах и такси цены снижаются в 1,5–2 раза
+- **Восход на вулкане Батур** — незабываемо, стартуйте в 3:30 ночи
+- **Рисовый сезон (октябрь–март)** — на 30–40% дешевле, но бывают ливни
+- **Сароng** — кусок ткани, обязателен при входе в храмы
+- **Не пейте водопроводную воду** — только бутилированная
+- **Карта Google Maps** отлично работает — скачайте офлайн
+
+## Часто задаваемые вопросы
+
+**Можно ли ехать на Бали с детьми?**
+Да, Нуса Дуа — идеальный район для семей. Чистые пляжи, безопасно, много отелей с детскими клубами.
+
+**Есть ли халяльная еда на Бали?**
+Да. Ищите значок халяль (HalalTrip помогает найти). В местных варунгах чаще всего халяльная еда — Индонезия на 87% мусульманская страна, хотя Бали — индуистский остров.
+
+**Какую валюту брать на Бали?**
+Рупия (IDR). $1 ≈ 16 000 IDR. Меняйте в городе, не в аэропорту — курс лучше. Карты принимают в крупных местах.
+
+---
+
+Бали — место, куда хочется вернуться. SEM Travel организует туры на Бали из Ташкента с полным пакетом услуг. Звоните бесплатно: **+998 71 275-55-55**.`,
+  },
+
+  // ── POST 20 ── Greece guide ────────────────────────────────────────────────
+  {
+    id: 20,
+    slug: "gretsiya-sayohati-pamyatka-2026",
+    emoji: "🇬🇷",
+    image: "https://images.unsplash.com/photo-1555993539-1732b0258235?w=800&q=70",
+    categoryUz: "Pamyatka",
+    categoryRu: "Памятка",
+    titleUz: "Gretsiya sayohati pamyatkasi 2026: Santorini, Afina, viza va narxlar",
+    titleRu: "Путешествие в Грецию 2026: Санторини, Афины, виза и цены — памятка туриста",
+    descUz: "Gretsiya uchun Schengen vizasi qanday olinadi, qaysi orollarni ko'rish kerak, Santorini vs Mykonos, narxlar va lifehaklar. O'zbek sayyohlari uchun.",
+    descRu: "Шенгенская виза для Греции, какие острова посетить, Санторини vs Миконос, цены и лайфхаки. Всё для туристов из Узбекистана.",
+    date: "2026-03-25",
+    readTimeUz: "8 daqiqa",
+    readTimeRu: "8 минут",
+    author: "SEM Travel",
+    tagsUz: ["Gretsiya", "Santorini", "Schengen viza", "Afina", "Plyaj"],
+    tagsRu: ["Греция", "Санторини", "Шенген", "Афины", "Острова"],
+    contentUz: `Gretsiya — Evropaning eng go'zal sayohat manzillaridan biri. Oq-ko'k uylar, qadimiy tarix, mazali taom va tiniq dengiz — bularning hammasi bir joyda. O'zbekistondan borishda Schengen vizasi kerak bo'ladi, lekin u qo'rqinchli emas — SEM Travel bu jarayonni osonlashtiradi.
+
+## Gretsiyaga Schengen vizasi qanday olinadi?
+
+Gretsiya Schengen hududi. O'zbekiston fuqarolari uchun Gretsiya vizasi kerak:
+
+**Zarur hujjatlar:**
+- Pasport + nusxasi (oxirgi 10 yilgi pasportlar)
+- 2 ta fotosurat (35x45 mm)
+- Bank hisobi (so'nggi 3 oylik, kamida $1,000–1,500 qoldiq)
+- Mehmonxona bron tasdiqnomasi
+- Qaytish bileti
+- Sug'urta polisi (kamida €30,000)
+- Ish joyi ma'lumotnomasi (yoki tadbirkorlik hujjati)
+
+**Gretsiya vizasi narxi:** €80 (≈ $88)
+**Ko'rib chiqish muddati:** 5–15 ish kuni
+**Gretsiya elchixonasi:** Toshkent, Nukus ko'chasi 53
+
+**SEM Travel maslahat:** Gretsiya – eng ko'p viza beradigan Schengen davlatlardan biri. Birinchi Schengen vizangiz uchun Gretsiyani tanlash qulay.
+
+## Qachon borish kerak?
+
+| Oy | Ob-havo | Xarakteristika |
+|---|---|---|
+| Aprel–May | +20–25°C | Gullagan tabiat, kam turist |
+| Iyun–Avgust | +28–35°C | Dengiz mavsumi, ko'p turist |
+| Sentyabr–Oktyabr | +22–28°C | **Eng yaxshi vaqt** — iliq, ozroq turist |
+| Noyabr–Mart | +10–15°C | Ekskursiyalar uchun, plyaj emas |
+
+**Tavsiya:** Sentyabr–oktyabr — dengiz hali iliq, narxlar past, odamlar kamroq. Ideal!
+
+## Gretsiyaning eng yaxshi orollari: qaysinisini tanlash?
+
+**Santorini** — dunyodagi eng romantic joy
+- Oia qishlog'i, sunseti, volcano view
+- Kim uchun: juftliklar, asal oyi
+- Narx: qimmat ($150–400+/tun)
+- Kamchilik: juda ko'p turist, tor yo'llar
+
+**Mykonos** — tungi hayot va plyaj
+- Kim uchun: yoshlar, party lovers
+- Narx: qimmat ($120–350+/tun)
+- Mashhur: Paradise Beach, Little Venice
+
+**Krit** — eng yirik orol, tarix va plyaj
+- Kim uchun: oilalar, madaniyat sevadiganlar
+- Narx: o'rtacha ($60–150/tun)
+- Ko'rish: Knossos saroyi, Samaria jar
+
+**Rodos** — tarix va plyaj kombinatsiyasi
+- Kim uchun: har xil turist uchun
+- Narx: o'rtacha ($50–120/tun)
+
+**Korfu** — yashil orol, romantika
+- Kim uchun: tabiat, tinchlik
+- Narx: o'rtacha ($50–100/tun)
+
+**Zakynthos** — Navagio plyaji (Shipwreck Beach)
+- Dunyo bo'ylab eng mashhur plyajlardan biri
+- Kim uchun: dengiz va tabiat sevadiganlar
+
+## Afina: majburiy ko'riladigan joylar
+
+- **Akropol** — qadimiy Afina qal'asi (kirish €20)
+- **Partenon ma'badi** — 2,500 yillik
+- **Plaka** — tarixiy mahalla, restoran va do'konlar
+- **Monastiraki** — bozor va flemarket
+- **Akropol muzeyi** — qadimiy artefaktlar (€10)
+- **Kapnikarea cherkov** — shahar markazida qadimiy cherkov
+
+**Afina — Santorini marshrutı tavsiya:** 2–3 kun Afina + 3–4 kun Santorini = ideal Gretsiya sayohati.
+
+## Gretsiya tur narxlari 2026
+
+| Tur turi | 7 tun, 2 kishi | Nima kiradi |
+|---|---|---|
+| Budget (Krit/Rodos) | $1,200–1,800 | Parvoz + 3* mehmonxona |
+| O'rtacha (Santorini) | $2,000–3,000 | Parvoz + 4* mehmonxona |
+| Hashamat | $3,500–6,000+ | Parvoz + 5* cave hotel |
+
+## Gretsiya amaliy lifehaklar
+
+- **Ferri** — orollar orasida ferri kemada sayohat — arzon va ajoyib tajriba ($20–60)
+- **Greek salad, gyros, souvlaki** — mahalliy taom, arzon ($3–8) va mazali
+- **Supermarket** — mahalliy Lidl yoki AB Vassilopoulos dan oziq-ovqat arzonroq
+- **Sunrise Oia** da — Santorini sunsetini ko'rish uchun kamida 1 soat oldin boring (odamlar juda ko'p)
+- **ATV/Quad bike** — orollarda tabiat ko'rish uchun ($30–50/kun)
+- **Ferri ni oldindan bron qiling** — yozda joylar tezda tugaydi
+- **Tap water** — Afina va ko'p shaharlarda ichish mumkin (chiroyli suv)
+- **Sunscreen** — quyosh kuchli, SPF 50 olib boring
+
+## Ko'p so'raladigan savollar
+
+**Gretsiyaga birinchi marta boruvchilar uchun qaysi orol eng yaxshi?**
+Krit — eng yaxshi birinchi tanlov: katta orol, ko'p plyaj, tarix, arzon narxlar va Afinadan to'g'ridan-to'g'ri reys.
+
+**Santorini vs Mykonos: qaysi biri yaxshi?**
+Santorini — romantika, manzara, juftlik uchun. Mykonos — tungi hayot, plyaj klublari, yoshlar uchun. Oila uchun Krit yoki Rodos.
+
+**Gretsiyada kredit karta qabul qilinadimi?**
+Ha, hamma joyda. Lekin kichik adachalarda va mahalliy bazorlarda kesh ham saqlang.
+
+**Gretsiyadan Schengen bilan boshqa davlatlarga o'tsa bo'ladimi?**
+Ha. Gretsiya Schengen vizasi barcha 27 ta Schengen davlatiga kirish imkonini beradi.
+
+---
+
+Gretsiya — Evropa sayohatini boshlamoqchi bo'lganlar uchun ideal tanlov. SEM Travel Schengen viza yordami va Gretsiya turlarini tashkil qiladi. Bog'laning: **+998 71 275-55-55**.`,
+    contentRu: `Греция — одно из самых живописных направлений Европы. Белые домики на фоне синего неба, руины античных храмов, свежая морская рыба и прозрачное Эгейское море — Греция притягивает туристов со всего мира. Из Узбекистана нужна шенгенская виза, но это не так страшно, как кажется.
+
+## Как получить визу в Грецию (Шенген)?
+
+Греция входит в Шенгенскую зону. Нужна Шенгенская виза:
+
+**Необходимые документы:**
+- Загранпаспорт + копия
+- 2 фото 35×45 мм
+- Выписка из банка (остаток от $1 000–1 500)
+- Бронь отеля + обратный билет
+- Страховой полис (мин. €30 000)
+- Справка с места работы / документы ИП
+
+**Стоимость визы:** €80 (~$88)
+**Срок рассмотрения:** 5–15 рабочих дней
+
+**Совет SEM Travel:** Греция — одна из самых лояльных стран по выдаче шенгенских виз. Если вы оформляете шенген впервые — выбирайте Грецию.
+
+## Когда лучше ехать в Грецию?
+
+| Месяц | Погода | Характеристика |
+|---|---|---|
+| Апрель–Май | +20–25°C | Цветущая природа, мало туристов |
+| Июнь–Август | +28–35°C | Пляжный сезон, много туристов |
+| Сентябрь–Октябрь | +22–28°C | **Лучшее время** — тепло, дешевле |
+| Ноябрь–Март | +10–15°C | Экскурсии, не для пляжа |
+
+## Греческие острова: какой выбрать?
+
+**Санторини** — самое романтичное место на земле
+- Деревня Ойя, закаты, вид на вулкан
+- Для кого: пары, медовый месяц
+- Цена: дорого ($150–400+/ночь)
+
+**Миконос** — ночная жизнь и пляж
+- Для кого: молодёжь, вечеринки
+- Цена: дорого ($120–350+/ночь)
+
+**Крит** — крупнейший остров, история и пляжи
+- Для кого: семьи, любители истории
+- Цена: доступно ($60–150/ночь)
+
+**Родос** — история + пляж
+- Для кого: все категории туристов
+- Цена: доступно ($50–120/ночь)
+
+**Закинф** — пляж Навагио (Shipwreck Beach)
+- Один из самых фотографируемых пляжей мира
+
+## Афины: что обязательно посмотреть
+
+- **Акрополь** — главная достопримечательность Греции (€20)
+- **Парфенон** — 2 500-летний храм
+- **Плака** — исторический квартал, рестораны, магазины
+- **Монастираки** — рынок и блошиный рынок
+- **Музей Акрополя** (€10)
+
+**Рекомендуемый маршрут:** 2–3 дня Афины + 3–4 дня Санторини = идеальная Греция.
+
+## Цены на туры в Грецию 2026
+
+| Тип тура | 7 ночей, 2 чел. | Что включено |
+|---|---|---|
+| Эконом (Крит/Родос) | $1 200–1 800 | Перелёт + 3* отель |
+| Средний (Санторини) | $2 000–3 000 | Перелёт + 4* отель |
+| Люкс | $3 500–6 000+ | Перелёт + пещерный отель |
+
+## Лайфхаки для Греции
+
+- **Паромы** между островами — дёшево и красиво ($20–60), бронируйте заранее
+- **Гирос и сувлаки** — уличная еда за $3–5, очень вкусно
+- **Супермаркет Lidl** — продукты дешевле, чем в туристических местах
+- **Закат в Ойе** — приходите за час, мест мало, людей очень много
+- **ATV/квадроцикл** — отличный способ исследовать острова ($30–50/день)
+
+## Часто задаваемые вопросы
+
+**Какой остров лучше для первого раза?**
+Крит — самый большой выбор пляжей, истории и цен. Прямые рейсы из Афин, всё доступно.
+
+**Санторини или Миконос?**
+Санторини — романтика, закаты, пары. Миконос — вечеринки, клубы, молодёжь.
+
+**Шенген Греции действует в других странах?**
+Да — во всех 27 странах Шенгенской зоны.
+
+---
+
+Греция — идеальное направление для первого европейского путешествия. SEM Travel поможет с визой и организует тур. Звоните: **+998 71 275-55-55**.`,
+  },
+
+  // ── POST 21 ── Thailand lifehacks ─────────────────────────────────────────
+  {
+    id: 21,
+    slug: "tailand-lifehaklar-va-maslahatlar",
+    emoji: "🇹🇭",
+    image: "https://images.unsplash.com/photo-1508009603885-50cf7c579365?w=800&q=70",
+    categoryUz: "Lifehaklar",
+    categoryRu: "Лайфхаки",
+    titleUz: "Tailand lifehaklar: real sayyohlardan 20 ta maslahat — pul tejash va xatolardan qochish",
+    titleRu: "Лайфхаки Таиланда: 20 советов от реальных туристов — экономия и ошибки, которых стоит избежать",
+    descUz: "Tailandda qanday tejash, qanday xatolardan qochish, eng arzon va yaxshi joylar, transport, ovqat va xavfsizlik bo'yicha real maslahatlar.",
+    descRu: "Как сэкономить в Таиланде, каких ошибок избежать, лучшие бюджетные места, транспорт, еда и безопасность — реальные советы от опытных туристов.",
+    date: "2026-03-28",
+    readTimeUz: "7 daqiqa",
+    readTimeRu: "7 минут",
+    author: "SEM Travel",
+    tagsUz: ["Tailand", "Lifehaklar", "Budget sayohat", "Phuket", "Bangkok"],
+    tagsRu: ["Таиланд", "Лайфхаки", "Бюджет", "Пхукет", "Бангкок"],
+    contentUz: `Tailand — Janubi-Sharqiy Osiyoning eng mashhur turistik davlati. Arzon narxlar, ajoyib taom, go'zal plyajlar va do'stona xalq — bularning hammasi Tailandni sevimli manzilga aylantiradi. Lekin birinchi marta boruvchilar ko'plab xatolarga yo'l qo'yadi. Bu maqolada real sayyohlardan 20 ta hayotiy maslahat.
+
+## Viza: O'zbekiston fuqarolari uchun Tailand
+
+O'zbekiston fuqarolari uchun Tailandga **viza on arrival (VOA)** mavjud:
+- Narxi: **2,000 baht** (≈ $55)
+- Muddati: 15 kun
+- Uzaytirish: yana 7–15 kun mumkin (+500 baht)
+
+**Yaxshiroq variant — Thailand e-Visa:**
+- Online ariza: $35 (30 kun)
+- tailande-visa.go.th saytida
+- Ko'rib chiqish: 3–5 ish kuni
+
+## 20 ta Tailand lifehaki
+
+**Pul va narxlar:**
+
+**1. Baht faqat Tailandda almashtiring**
+Toshkentda baht topish qiyin va kurs yomon. Toshkentdan USD/EUR olib, Tailandda Super Rich yoki kasiyolarda almashtiring. $1 ≈ 34–35 THB.
+
+**2. ATM komissiyasi — 220 baht**
+Tailanddagi barcha ATM chet el kartalaridan 220 baht oladi. Bir marta ko'p pul oling — 5,000–10,000 baht bir marta.
+
+**3. Tuk-tuk dagi firib**
+Tuk-tuk haydovchisi sizi "bepul" yoki "arzon" ekskursiyaga olib borsa — bu trap. Mehmonxonadan to'g'ri taksi buyurtma qiling yoki Grab ilovasini ishlating.
+
+**4. Grab — Tailandning Uberi**
+Grab ilovasida taksi narxi oldindan ko'rsatiladi, savdolashish shart emas. Bangkok da metro + Grab = eng tejamkor transport.
+
+**Ovqat va ichimliklar:**
+
+**5. Lokal bozor va street food**
+Tailand street food — dunyodagi eng mazali va arzonilaridan. Pad Thai: 50–80 baht ($1.5–2.5). Som Tam, green curry, mango rice — barchasi 60–120 baht.
+
+**6. 7-Eleven — hayotni qutqaradi**
+Har ko'chada bor. Gaz puli to'lash, arzon ovqat, ichimlik, SIM karta — hammasi bir joyda. Sandvich 45–60 baht.
+
+**7. "Halal food" belgi qidiring**
+Muslim belt deb ataladigan janubiy provinsiyalarda (Krabi, Ko Lanta, Pattaya) ko'plab halol restoran bor. Google Maps da "halal" deb qidiring.
+
+**8. Mango sticky rice — majburiy**
+Tailandning milliy tatlisi: mango + shirin guruch + kokos suti. Bozorda 80–120 baht.
+
+**Plyaj va orollar:**
+
+**9. Phuket vs Koh Samui vs Krabi**
+- **Phuket** — katta, ko'p variant, tungi hayot
+- **Koh Samui** — hashamat va ya oila uchun
+- **Krabi** — qoyali tabiat, backpacker, arzon
+- **Koh Lanta** — tinch, halol ovqat ko'p, oila uchun
+- **Koh Tao** — diving uchun eng mashhur
+
+**10. Longtail qayig'i — orollar orasida**
+Airport boat/ferry ga qaraganda longtail boat arzonroq va tezroq. 150–300 baht.
+
+**11. Snorkeling set — o'zing olib bor**
+Orolda ijaraga berish $5–10/kun. 5+ kunlik safar bo'lsa — Bangkokda Chatuchak bozoridan arzonroq sotib oling.
+
+**Transport:**
+
+**12. Bangkok da BTS Skytrain**
+Bangkok da trafik dahshatli. BTS Skytrain (metro) — eng tez va arzon. Kunlik pass: 150 baht. Ko'plab markaziy joylar metro bilan bog'liq.
+
+**13. Overnight train / bus**
+Bangkok → Chiang Mai overnight train: 700–1,200 baht (vs samolyot 1,500–2,500 baht). Uhlash + transport = ikki narx tejash.
+
+**14. Scooter ijarasi — Phuket da**
+Yaxshi haydovchilik guvohnomasi bilan scooter ijarasi: 200–300 baht/kun. Orollarni erkin ko'rish uchun ideal.
+
+**Ko'riladigan joylar:**
+
+**15. Wat Pho va Wat Arun — ertalab boring**
+Bangkokdagi ma'badlar ertalab 7–9 da kam turist bo'ladi. Tushda esa odamdan turolmaysiz.
+
+**16. Tiger Kingdom — yo'q turing**
+Ba'zi turistik joylar hayvonlarga nisbatan shafqatsiz. Tiger Kingdom, fil yurishi (ankus bilan) — axloqiy jihatdan muammoli. Elephant Nature Park — etik variant.
+
+**17. Floating market — qaysin biri haqiqiy?**
+Damnoen Saduak — turist uchun, qimmat. Amphawa — kechqurun, mahalliy, autentik.
+
+**Sog'liq va xavfsizlik:**
+
+**18. Tailand belly — ehtiyot bo'ling**
+Ko'cha muzini iste'mol qilmang. Muz brendini tekshiring (plastik sumkali muz xavfli). Gut flora uchun probiotik olib boring.
+
+**19. Sug'urta — majburiy**
+Tailandda dori-darmon va kasalxona narxlari chet elliklar uchun qimmat. Sug'urta $30–50 ga sayohat sug'urtasi oling.
+
+**20. Quyosh — kuchli**
+Aprel-may — harorat +38–40°C. Namlik ham yuqori. SPF 50+, quyosh shlyapasi, suv ko'p iching. Issiqlik urishi real xavf.
+
+## Ko'p so'raladigan savollar
+
+**Tailandda qancha pul kerak?**
+Budget sayohatchi: $40–60/kun (mehmonxona + ovqat + transport). O'rtacha: $80–120/kun. Hashamat: $200+/kun.
+
+**Tailand va Bali: qaysi biri yaxshi?**
+Tailand — street food, madaniyat, arzon transport, tungi hayot. Bali — tabiat, ma'badlar, villa bilan basseyn, tinchlik. Birinchi sayohat uchun Tailand ko'proq ko'rinadigan joy beradi.
+
+**Tailandda necha kun bo'lish kerak?**
+Minimal: 10 kun (Bangkok 3 kun + orol 7 kun). Ideal: 14–21 kun — Bangkok + Chiang Mai + orol.
+
+**Phuket vs Krabi: qaysi biri?**
+Phuket — qulay, ko'p variant, hashamat ham bor. Krabi — tabiat, plyaj go'zalligi, arzon. Birinchi marta — Phuket.
+
+---
+
+Tailand — har safar yangi tajriba beradigan davlat. SEM Travel Toshkentdan Tailandga turlar tashkil qiladi. Bepul maslahat: **+998 71 275-55-55**.`,
+    contentRu: `Таиланд — самое посещаемое туристическое направление Юго-Восточной Азии. Дешёвая уличная еда, прекрасные пляжи, древние храмы и дружелюбные люди — всё это делает Таиланд любимым местом отдыха миллионов. Но первый раз туристы часто совершают одни и те же ошибки. Вот 20 реальных лайфхаков от опытных путешественников.
+
+## Виза: для граждан Узбекистана
+
+**Visa on Arrival (VOA):**
+- Стоимость: 2 000 батов (~$55)
+- Срок: 15 дней
+
+**Thailand e-Visa (лучше):**
+- $35, онлайн, 30 дней
+- Оформить на сайте thailande-visa.go.th за 3–5 дней
+
+## 20 лайфхаков для Таиланда
+
+**Деньги:**
+
+**1. Меняйте в Таиланде, не в Узбекистане**
+Везите доллары/евро, меняйте в Super Rich или в кассах обмена. $1 ≈ 34–35 THB — лучший курс.
+
+**2. ATM берёт 220 батов комиссию**
+Снимайте реже и больше — 5 000–10 000 батов за раз. Карта плюс кэш — оптимально.
+
+**3. Grab вместо тук-тука**
+Grab (местный Uber) показывает цену до поездки. Избегайте тук-тукеров с "бесплатными экскурсиями" — это ловушка.
+
+**Еда:**
+
+**4. Стрит-фуд — лучшая еда Таиланда**
+Пад Тай: 50–80 батов, Сом Там, карри — 60–120 батов. Вкуснее ресторанов и в разы дешевле.
+
+**5. 7-Eleven — спасение**
+На каждом углу. Еда, напитки, SIM-карта, оплата счетов — 24/7. Сэндвич от 45 батов.
+
+**6. Ищите знак Halal**
+На юге (Краби, Ко Ланта) много халяльных кафе. В Google Maps ищите "halal food".
+
+**Пляжи и острова:**
+
+**7. Пхукет vs Краби vs Ко Самуи**
+- **Пхукет** — крупный, ночная жизнь, удобства
+- **Краби** — скалы, природа, дешевле
+- **Ко Ланта** — тихо, халяльная еда, для семей
+- **Ко Тао** — лучший дайвинг
+
+**8. Лодка-хвост вместо парома**
+Longtail boat между островами — дешевле и быстрее ferry. 150–300 батов.
+
+**Транспорт:**
+
+**9. BTS Skytrain в Бангкоке**
+Пробки в Бангкоке чудовищные. BTS (надземное метро) — быстро и дёшево. Дневной пасс: 150 батов.
+
+**10. Ночной поезд / автобус**
+Бангкок → Чиангмай на поезде: 700–1 200 батов vs самолёт 1 500–2 500. Едешь ночью — экономишь и на транспорте, и на ночлеге.
+
+**Достопримечательности:**
+
+**11. Храмы — идите с утра**
+Ват Пхо и Ват Арун в 7–9 утра почти пусты. Днём — толпы.
+
+**12. Floating market — Ампхава, не Дамноен Садуак**
+Дамноен Садуак — для туристов, дорого. Ампхава (вечером) — аутентично и в разы интереснее.
+
+**Здоровье и безопасность:**
+
+**13. Страховка — обязательна**
+Медицина в Таиланде для иностранцев дорогая. Страховка за $30–50 покрывает госпитализацию.
+
+**14. Осторожно с уличным льдом**
+Лёд в пакетах (заводской) — безопасен. Колотый лёд в стаканах — риск. Пробиотики в дорогу взять не лишне.
+
+**15. Солнце — серьёзно**
+Апрель–май: +38–40°C + высокая влажность. SPF 50+, головной убор, много воды. Тепловой удар — реальная угроза.
+
+## Часто задаваемые вопросы
+
+**Сколько денег нужно на Таиланд?**
+Бюджетно: $40–60/день. Средний уровень: $80–120/день. Люкс: $200+/день.
+
+**Таиланд или Бали — что лучше?**
+Таиланд — больше разнообразия, уличная еда, ночная жизнь. Бали — природа, виллы с бассейном, медитация. Для первого раза Таиланд даёт больше впечатлений.
+
+**Сколько дней нужно на Таиланд?**
+Минимум 10 дней (Бангкок 3 дня + остров 7 дней). Идеально: 14–21 день — Бангкок + Чиангмай + острова.
+
+---
+
+Таиланд — страна, в которую возвращаются снова и снова. SEM Travel организует туры из Ташкента с полным сервисом. Звоните: **+998 71 275-55-55**.`,
+  },
+
+  // ── POST 22 ── Egypt Sharm el-Sheikh ──────────────────────────────────────
+  {
+    id: 22,
+    slug: "misr-sharm-el-shayx-pamyatka-2026",
+    emoji: "🇪🇬",
+    image: "https://images.unsplash.com/photo-1539768942893-daf53e448371?w=800&q=70",
+    categoryUz: "Pamyatka",
+    categoryRu: "Памятка",
+    titleUz: "Sharm el-Shayx pamyatkasi 2026: viza, narxlar, plyajlar va lifehaklar",
+    titleRu: "Шарм-эль-Шейх памятка 2026: виза, цены, пляжи и лайфхаки для туристов",
+    descUz: "Sharm el-Shayx ga borish uchun hamma narsani bilib oling: viza, narxlar, eng yaxshi plyajlar, diving, All Inclusive va amaliy maslahatlar.",
+    descRu: "Всё о Шарм-эль-Шейхе: виза, цены, лучшие пляжи, дайвинг, All Inclusive и практические советы для туристов из Узбекистана.",
+    date: "2026-04-01",
+    readTimeUz: "7 daqiqa",
+    readTimeRu: "7 минут",
+    author: "SEM Travel",
+    tagsUz: ["Misr", "Sharm el-Shayx", "Diving", "All Inclusive", "Qizil dengiz"],
+    tagsRu: ["Египет", "Шарм-эль-Шейх", "Дайвинг", "Красное море", "All Inclusive"],
+    contentUz: `Sharm el-Shayx — Misr yarimoroli Sinayda joylashgan dunyodagi eng mashhur kurort. Qizil dengizning dengiz ostidagi go'zalligi, All Inclusive mehmonxonalar va toshbaqalar bilan tanish dengiz — bu joy O'zbek sayyohlari orasida ham tobora mashhur bo'lmoqda.
+
+## Misr (Sharm el-Shayx) uchun viza
+
+O'zbekiston fuqarolari uchun Misr ga viza kerak. Lekin olish juda oson:
+
+**Variant 1: E-Visa (online)**
+- evisa.gov.eg saytida ariza
+- Narx: $25 (30 kun)
+- Ko'rib chiqish: 24–72 soat
+- **Eng qulay variant**
+
+**Variant 2: Viza on arrival**
+- Misr aeroportida
+- Narx: $25
+- Muddati: 30 kun
+
+**Variant 3: Sinay faqat (free zone)**
+- Sharm el-Shayx — Sinay yarim oroli = maxsus zona
+- Viza kerak emas, lekin faqat Sinayda qolish kerak
+- Muddati: 15 kun bepul
+
+**SEM Travel maslahat:** E-Visa ni oldindan oling — aeroportda navbat yo'q.
+
+## Qachon borish kerak?
+
+| Oy | Harorat (havo) | Dengiz | Maslahat |
+|---|---|---|---|
+| Yanvar–Mart | +22–26°C | +22°C | Ajoyib, kun qisqa |
+| Aprel–May | +28–33°C | +24°C | **Eng yaxshi vaqt** |
+| Iyun–Avgust | +36–42°C | +28°C | Juda issiq, lekin arzon |
+| Sentyabr–Oktyabr | +30–35°C | +27°C | **Eng yaxshi vaqt** |
+| Noyabr–Dekabr | +24–28°C | +24°C | Yaxshi |
+
+**Tavsiya:** Oktyabr-noyabr — dengiz iliq, havo qulay, narxlar past.
+
+## Sharm el-Shayx rayonlari
+
+**Naama Bay** — shahar markazi
+- Restoran, do'kon, tungi hayot
+- Turli narx diapazoni
+- Ko'pchilik turistlar bu yerda yashaydi
+
+**Sharks Bay** — tinch, diving markazlari
+- Oilaviy, diving va snorkeling uchun ideal
+
+**Nabq Bay** — katta mehmonxonalar, mangrove o'rmonlari
+- Dengizdan uzoqroq, lekin katta resort mehmonxonalar
+
+**Ras Um Sid / Hadaba** — qoyali sohil
+- Snorkeling bevosita mehmonxona oldidan
+
+## Sharm el-Shayxda nima qilish kerak?
+
+**Suv osti dunyosi:**
+- **Snorkeling** — bevosita plyajdan (bepul yoki $10–20 ekskursiya)
+- **Scuba diving** — Sharks Bay, Blue Hole (Dahab) — world class diving
+- **Submarine** — Sinbad kema, dengiz ostida 1 soat ($45–60)
+
+**Ekskursiyalar:**
+- **Sinay tog'i + Muqaddas Ekaterina monastiri** — $30–50
+- **Cairo va Giza piramidasi** — 1 kunlik parvoz + avtobus ($120–180)
+- **Dahab** — hipster shaharchasi, Blue Hole diving ($20–30 avtobus)
+- **Aqaba ko'rfazi kemasi** — Iordaniya qirg'og'i ko'rinishi ($30–40)
+- **ATV safari cho'lda** — Sinay cho'li, beduin qishlog'i ($25–40)
+
+## Sharm el-Shayx narxlari 2026
+
+| Tur turi | 7 tun, 2 kishi | Nima kiradi |
+|---|---|---|
+| Budget | $700–1,000 | Parvoz + 3* AI mehmonxona |
+| O'rtacha | $1,000–1,500 | Parvoz + 4* AI mehmonxona |
+| Premium | $1,500–2,500 | Parvoz + 5* AI mehmonxona |
+
+**Eslatma:** All Inclusive narxida uch mahal ovqat, ichimliklar (alkogolsiz va alkogollilar) va mehmonxona aktivliklari kiradi.
+
+## Sharm el-Shayx lifehaklar
+
+- **All Inclusive** tanlang — Sharmda tashqarida ovqat qimmat ($15–30/ovqat)
+- **Diving paket** — 5–10 dive paketi alohida yurganingdan arzonroq (dive markazlaridan so'rang)
+- **Cairo uchun flybyus** tanlang — Sharmdan Cairoga 6 soat avtobus ($15–20) vs samolyot ($80–120). Vaqtingiz bo'lsa — avtobus.
+- **Non-AI mehmonxona** da 3–5 yulduz band bo'lsa — plyaj va suv uchun $5–10 to'lov kerak bo'ladi. Hisobga oling.
+- **Milliy park ruxsatnomasi** — Ras Mohammed milliy parki uchun kirish $10. Snorkeling juda ajoyib.
+- **Beduin choy** — tungi cho'l ekskursiyasida beduin choyxonasida choy iching — bepul tajriba
+- **Kredit karta** olib boring — katta to'lovlar uchun. Kesh (dollar) ham kerak — kichik savdolar uchun.
+- **Poyafzal** — plyajda toshloq joy ko'p, suv poyafzali (water shoes) oling
+
+## Ko'p so'raladigan savollar
+
+**Sharm el-Shayx xavfsizmi?**
+Ha. Sharm el-Shayx — turistik muhofazalanganrik zona. So'nggi yillarda xavfsizlik sezilarli yaxshilangan. Millionlab turist har yili boradi.
+
+**Sharm el-Shayx yoki Xurgada: qaysi biri yaxshi?**
+Sharm — suv osti go'zalligi, diving, tinch. Xurgada — All Inclusive, katta mehmonxonalar, ko'proq animatsiya. Birinchi marta — Sharm, oilaviy animatsiya uchun — Xurgada.
+
+**Misrda halol ovqat bormi?**
+Misr 90% musulmon davlat. Barcha taom halol. Alkogolsiz variantlar hamma joyda bor.
+
+**Toshkentdan Sharmga parvoz qancha?**
+To'g'ridan-to'g'ri reys bor. Uzbekistan Airways va boshqalar. Parvoz muddati: 4–5 soat.
+
+---
+
+Sharm el-Shayx — Qizil dengizning eng go'zal burchagi. SEM Travel yil bo'yi Sharmga turlar tashkil qiladi. Bog'laning: **+998 71 275-55-55**.`,
+    contentRu: `Шарм-эль-Шейх — один из лучших курортов мира, расположенный на полуострове Синай в Египте. Коралловые рифы Красного моря, отели All Inclusive на любой бюджет, тёплое море круглый год и экзотика Египта — всё в одном месте. Из Ташкента летят прямые рейсы.
+
+## Виза в Египет для граждан Узбекистана
+
+**Вариант 1: E-Visa (онлайн)**
+- Сайт: evisa.gov.eg
+- Стоимость: $25 (30 дней)
+- Рассмотрение: 24–72 часа
+- **Самый удобный вариант**
+
+**Вариант 2: Visa on Arrival**
+- В аэропорту Египта
+- $25, 30 дней
+
+**Вариант 3: Синайская зона (Free Zone)**
+- Шарм-эль-Шейх находится в особой зоне Синая
+- Виза не нужна, но нельзя выезжать за пределы Синая
+- Срок: 15 дней бесплатно
+
+## Когда лучше ехать в Шарм?
+
+| Месяц | Воздух | Море | Рекомендация |
+|---|---|---|---|
+| Янв–Март | +22–26°C | +22°C | Хорошо |
+| Апр–Май | +28–33°C | +24°C | **Отлично** |
+| Июн–Авг | +36–42°C | +28°C | Очень жарко, дёшево |
+| Сен–Окт | +30–35°C | +27°C | **Лучший сезон** |
+| Ноя–Дек | +24–28°C | +24°C | Хорошо |
+
+## Районы Шарм-эль-Шейха
+
+**Naama Bay** — центр города, рестораны, шопинг
+**Sharks Bay** — тихо, для дайвинга и семей
+**Nabq Bay** — крупные отели, мангровые заросли
+**Ras Um Sid** — скалистый берег, снорклинг прямо с берега
+
+## Чем заняться в Шарм-эль-Шейхе?
+
+**Подводный мир:**
+- **Снорклинг** — прямо с пляжа или на лодке ($10–20)
+- **Дайвинг** — Sharks Bay, Blue Hole в Дахабе — world class
+- **Подводная лодка Sinbad** — час под водой ($45–60)
+
+**Экскурсии:**
+- **Гора Синай + монастырь св. Екатерины** — $30–50
+- **Каир и пирамиды Гизы** — перелёт + автобус ($120–180)
+- **Дахаб** — хипстерский городок, Blue Hole ($20–30 автобус)
+- **ATV-сафари в пустыне** — бедуинская деревня ($25–40)
+
+## Цены на туры в Шарм 2026
+
+| Тип тура | 7 ночей, 2 чел. | Что включено |
+|---|---|---|
+| Бюджет | $700–1 000 | Перелёт + 3* AI |
+| Средний | $1 000–1 500 | Перелёт + 4* AI |
+| Премиум | $1 500–2 500 | Перелёт + 5* AI |
+
+## Лайфхаки для Шарма
+
+- **All Inclusive** — обязательно: еда вне отеля $15–30 за приём пищи
+- **Дайвинг-пакет** на 5–10 погружений выгоднее, чем поодиночке
+- **Каир на автобусе** — 6 часов из Шарма, $15–20 (vs самолёт $80–120)
+- **Нац. парк Рас Мухаммад** — вход $10, снорклинг фантастический
+- **Водная обувь** — дно часто каменистое/коралловое, обязательна
+- **Кредитная карта** + немного долларов наличными
+
+## Часто задаваемые вопросы
+
+**Шарм-эль-Шейх безопасен?**
+Да. Это туристическая зона с усиленной охраной. Миллионы туристов ежегодно.
+
+**Шарм или Хургада — что лучше?**
+Шарм — дайвинг, подводный мир, тихий отдых. Хургада — большие AI-отели, анимация. Первый раз — Шарм.
+
+**Халяльная еда в Египте?**
+Египет — 90% мусульманская страна. Вся еда халяльная, безалкогольные варианты везде.
+
+**Сколько лететь из Ташкента?**
+Прямой рейс: 4–5 часов. Uzbekistan Airways и чартерные рейсы.
+
+---
+
+Шарм-эль-Шейх — одно из лучших мест для подводного плавания в мире. SEM Travel организует туры в Египет круглый год. Звоните: **+998 71 275-55-55**.`,
+  },
+
+  // ── POST 23 ── Kyrgyzstan complete pamyatka ───────────────────────────────
+  {
+    id: 23,
+    slug: "qirgiziston-tabiat-va-tog-sayr-qollanma",
+    emoji: "🏔️",
+    image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=70",
+    categoryUz: "Pamyatka",
+    categoryRu: "Памятка",
+    titleUz: "Qirg'iziston sayohati: Issiq Ko'l, tog' marshrutlari va amaliy qo'llanma 2026",
+    titleRu: "Путешествие в Кыргызстан: Иссык-Куль, горные маршруты и практический гид 2026",
+    descUz: "Qirg'izistonga sayohat uchun hamma narsani bilib oling: viza, Issiq Ko'l, eng yaxshi marshrutlar, narxlar va tog' sayohati uchun maslahatlar.",
+    descRu: "Всё о путешествии в Кыргызстан: виза, Иссык-Куль, лучшие маршруты, цены и советы для горного туризма.",
+    date: "2026-04-02",
+    readTimeUz: "8 daqiqa",
+    readTimeRu: "8 минут",
+    author: "SEM Travel",
+    tagsUz: ["Qirg'iziston", "Issiq Ko'l", "Tog' sayohati", "Bishkek", "Tabiat"],
+    tagsRu: ["Кыргызстан", "Иссык-Куль", "Горный туризм", "Бишкек", "Природа"],
+    contentUz: `Qirg'iziston — Markaziy Osiyoning eng go'zal tog' mamlakati. Toshkentdan 1 soatlik parvoz (yoki 8 soatlik avtomobil) masofasida joylashgan bu davlat yil sayin ko'proq O'zbek sayyohlarni o'ziga tortmoqda. Issiq Ko'l — dunyodagi ikkinchi eng katta tog' ko'li, Ala-Too tog' tizmalari, yashil vodiylar va nomadic madaniyat — bularning hammasi bir joyda.
+
+## Qirg'izistonga viza kerakmi?
+
+O'zbekiston fuqarolari uchun Qirg'izistonga **viza kerak emas**. CIS fuqarolari uchun viza erkin. Faqat pasport (yoki ID karta) bilan kirish mumkin.
+
+## Toshkentdan Qirg'izistonga qanday borish?
+
+**Parvoz orqali (Bishkekka):**
+- Toshkent (TAS) → Bishkek (FRU)
+- Parvoz muddati: 50–60 daqiqa
+- Aviakompaniyalar: Uzbekistan Airways, Avia Traffic Company
+- Narx: $50–120 (bir tomonga)
+
+**Avtomobil/avtobus:**
+- Toshkent → Bishkek: 7–9 soat yo'l
+- Toshkent → Osh: 5–6 soat yo'l (Qirg'izistonga eng yaqin)
+- Avtobus: 80,000–120,000 so'm (taxminan)
+
+**Osh yoki Bishkek — qayerdan boshlash?**
+- **Bishkek** — poytaxt, Issiq Ko'lga yaqin, shimoliy marshrutlar
+- **Osh** — janubiy Qirg'iziston, Suleyman Too, O'zbekistonga yaqin
+
+## Issiq Ko'l: dunyo tog' ko'li
+
+Issiq Ko'l — dengiz sathidan 1,607 m balandlikda, 182 km uzunlikda. Dengizga chiqish imkoniyati bo'lmasa ham, bu ko'l "dengiz" degan hissiyotni beradi.
+
+**Issiq Ko'l janubiy qirg'og'i (Karakol tomoni):**
+- Tinch, kam turist, tabiat
+- Karakol shahar — tog' bazasi
+- Arslanbob — yong'oq o'rmonlari
+- Barskoon sharsharasi va qoyon tog' yo'li
+
+**Issiq Ko'l shimoliy qirg'og'i (Cholpon-Ata, Bosteri):**
+- Ko'proq resort va mehmonxona
+- Pansionat va dam olish markazlari
+- O'zbek turistlar orasida mashhur
+- Tun: 800–2,500 so'm (o'zbek so'mi ekvivalenti)
+
+**Ko'l narxlari (2026 mavsumi iyun–sentyabr):**
+
+| Xizmat | Taxminiy narx |
+|---|---|
+| Pansionat (kechasi) | $15–50 |
+| Resort mehmonxona | $50–150 |
+| Ko'lda kayak/SUP | $10–20/soat |
+| Ot minish | $10–20/soat |
+| Atirgul ko'rfazi ekskursiya | $15–25 |
+
+## Bishkek: nima ko'rish kerak?
+
+- **Ala-Too maydoni** — markaziy meydon, Manas haykali
+- **Osh bozori** — eng katta bozor, milliy taomlar, hunarmandchilik
+- **Dordoy bozori** — Osiyodagi eng katta kiyim bozori
+- **Askar (Victory) bog'i** — dam olish uchun
+- **Ala-Archa milliy parki** — shaharga 40 km, tog' sayr (kirish 150 som)
+
+## Qirg'izistondagi eng go'zal marshrutlar
+
+**1. Bishkek → Issiq Ko'l (3–7 kun)**
+- Bishkek → Cholpon-Ata → Karakol → orqaga
+- Hamma joyda kechish imkoniyati
+
+**2. Osh → Sary-Chelek ko'li (2–3 kun)**
+- UNESCO Biosfera zaxirasi
+- Toshkentdan eng yaqin go'zal tabiat
+
+**3. Karakol → Jeti-Oguz (1–2 kun)**
+- Yetti Buqa qoya (Seven Bulls rocks)
+- Ko'k-Jayik alpiy yaylov
+
+**4. Song-Kol tog' ko'li (2–4 kun)**
+- Dengiz sathidan 3,016 m
+- Yurt (to'rvacha) da kechash
+- Kochmanchi (nomad) madaniyatini his qilish
+
+**5. Bishkek → Tokmok → Balasagun (1 kun)**
+- Burana minorasi (1,000 yillik)
+- Cho'l va tog' manzarasi
+
+## Qirg'iziston uchun amaliy maslahatlar
+
+- **USD** olib boring — Bishkek va sayyohlik joylarida dollar qabul qilinadi
+- **SIM karta** — Beeline yoki O'cell, $3–5 ga 10 GB internet
+- **Tog'da ob-havo** — hatto iyulda ham sovuq bo'lishi mumkin. Shim, yupqa kurtka olib boring
+- **Suv** — tog' bulog'larining suvi toza, lekin shahardan tashqarida filtr yoki butilkali suv
+- **Yurt tajribasi** — Song-Kol yoki Issiq Ko'l yaqinidagi yurtlarda kechash ($20–40/kishi, ovqat kiradi)
+- **Ot safari** — Qirg'izistonda ot minish madaniyati kuchli. Karakol yaqinida $20–40/soat
+- **Marshrut taksi** — Bishkek va orasidagi shaharchalar orasida arzon (50–200 som)
+- **Oldindan bron** — iyul-avgust mavsumida joylar tez to'ladi
+
+## Ko'p so'raladigan savollar
+
+**Qirg'iziston va Qozog'iston: qaysi biri sayohat uchun yaxshiroq?**
+Qirg'iziston — tog', tabiat, nomad madaniyati uchun. Qozog'iston — shahar (Almati, Astana), zamonaviy infratuzilma. Tabiat uchun — Qirg'iziston.
+
+**Issiq Ko'lda qachon yaxshi?**
+Iyun oxiri – sentyabr boshi — eng yaxshi mavsim. Suv harorati +22–26°C gacha ko'tariladi.
+
+**Qirg'izistonda ovqat halolmi?**
+Ha. Qirg'iziston 90%+ musulmon. Ko'chma taomlar (lagman, beshbarmaq, samsa) halol. Manty, osh, shorpa — Markaziy Osiyo taomlari.
+
+**Qirg'izistonda qancha pul kerak?**
+Bishkek va Issiq Ko'lda $40–70/kun yetarli (mehmonxona, ovqat, ekskursiya). Yurt va tog' sayr uchun $30–50/kun.
+
+---
+
+Qirg'iziston — yaqin, arzon va unutilmas sayohat. SEM Travel Bishkek va Issiq Ko'lga guruh va individual turlar tashkil qiladi. Bepul maslahat: **+998 71 275-55-55**.`,
+    contentRu: `Кыргызстан — самая живописная горная страна Центральной Азии. В часе лёта от Ташкента вас ждут кристальный Иссык-Куль, заснеженные пики Ала-Тоо, зелёные джайлоо и кочевая культура. Кыргызстан становится всё популярнее среди узбекских туристов — и неудивительно.
+
+## Нужна ли виза в Кыргызстан?
+
+Гражданам Узбекистана виза не нужна. Въезд по загранпаспорту или ID-карте — бесплатно, без ограничений по сроку (туризм до 90 дней).
+
+## Как добраться из Ташкента?
+
+**Самолёт (Бишкек):**
+- Рейс: TAS → FRU, 50–60 минут
+- Авиакомпании: Uzbekistan Airways, Avia Traffic
+- Цена: $50–120 (в одну сторону)
+
+**Автомобиль/автобус:**
+- Ташкент → Бишкек: 7–9 часов
+- Ташкент → Ош: 5–6 часов (ближайший крупный город КР)
+
+## Иссык-Куль: горное море
+
+Иссык-Куль — второе по объёму горное озеро в мире (1 607 м над уровнем моря). Площадь — 6 236 км². Вода солоноватая, незамерзающая, прозрачная до 40 м.
+
+**Южный берег (Каракол):**
+- Тихо, природа, меньше туристов
+- Барскоонский водопад, Джети-Огуз
+- База для горных походов
+
+**Северный берег (Чолпон-Ата, Бостери):**
+- Пансионаты и курорты
+- Популярен среди узбекских туристов
+- Больше инфраструктуры
+
+**Цены на Иссык-Куле (сезон июнь–сентябрь):**
+
+| Услуга | Цена |
+|---|---|
+| Пансионат (ночь) | $15–50 |
+| Курортный отель | $50–150 |
+| Каяк/SUP | $10–20/час |
+| Конная прогулка | $10–20/час |
+
+## Что посмотреть в Бишкеке?
+
+- **Площадь Ала-Тоо** — центр города, памятник Манасу
+- **Ошский базар** — крупнейший рынок, национальные блюда
+- **Дордой базар** — крупнейший вещевой рынок Азии
+- **Нац. парк Ала-Арча** — 40 км от Бишкека, горные тропы (вход 150 сом)
+
+## Лучшие маршруты по Кыргызстану
+
+**1. Бишкек → Иссык-Куль (3–7 дней)**
+Бишкек → Чолпон-Ата → Каракол → обратно
+
+**2. Ош → Сары-Челек (2–3 дня)**
+Заповедник ЮНЕСКО, ближайшая природа от Ташкента
+
+**3. Каракол → Джети-Огуз (1–2 дня)**
+Скала Семь Быков, альпийские луга
+
+**4. Сон-Куль — горное озеро (2–4 дня)**
+3 016 м над уровнем моря, ночь в юрте, кочевая жизнь
+
+## Практические советы по Кыргызстану
+
+- Берите **доллары** — принимают везде в туристических зонах
+- **SIM-карта** Beeline/O'cell — $3–5 за 10 ГБ интернета
+- **В горах** даже в июле бывает холодно — возьмите куртку
+- **Ночь в юрте** на Сон-Куле или Иссык-Куле — $20–40/чел. с едой
+- **Конная прогулка** — у Каракола $20–40/час, национальная традиция
+- **Маршрутки** между городами — дёшево (50–200 сом)
+- **Бронируйте заранее** — июль–август быстро заполняется
+
+## Часто задаваемые вопросы
+
+**Кыргызстан или Казахстан — куда лучше?**
+Кыргызстан — горы, природа, кочевая культура, дешевле. Казахстан — города (Алматы, Астана), современная инфраструктура. За природой — Кыргызстан.
+
+**Когда ехать на Иссык-Куль?**
+Конец июня – начало сентября. Вода прогревается до +22–26°C.
+
+**Еда в Кыргызстане халяльная?**
+Да. Кыргызстан — мусульманская страна. Лагман, бешбармак, самса, манты — всё халяльное.
+
+**Бюджет на Кыргызстан?**
+$40–70/день в Бишкеке и на Иссык-Куле (отель + еда + экскурсии).
+
+---
+
+Кыргызстан — близко, доступно и незабываемо. SEM Travel организует групповые и индивидуальные туры в Бишкек и на Иссык-Куль. Звоните: **+998 71 275-55-55**.`,
+  },
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {

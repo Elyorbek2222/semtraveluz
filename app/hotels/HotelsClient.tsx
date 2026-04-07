@@ -218,8 +218,8 @@ export default function HotelsClient() {
           </h3>
           <p className="text-sm mb-5" style={{ color: "rgba(255,255,255,0.8)" }}>
             {isUz
-              ? "Menejerimiz siz uchun eng yaxshi variantni topib beradi — bepul!"
-              : "Менеджер подберёт лучший вариант для вас — бесплатно!"}
+              ? "Menejerimiz siz uchun eng yaxshi mehmonxonani topib beradi!"
+              : "Менеджер подберёт лучший отель специально для вас!"}
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a href="https://wa.me/998946642222" target="_blank" rel="noopener noreferrer"

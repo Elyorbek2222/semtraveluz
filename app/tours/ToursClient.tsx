@@ -319,13 +319,13 @@ export default function ToursClient() {
             <div className="text-sm text-gray-600 leading-relaxed space-y-2">
               <p><strong>SEM Travel</strong> — 2011 yildan beri Toshkentdan 50+ mamlakatga tur paketlar taklif etayotgan ishonchli sayohat agentligi. Turkiya, Dubai, Tailand, Misr, Maldiv, Gretsiya va boshqa yo'nalishlarga eng arzon narxlar.</p>
               <p>Har bir tur paketi <strong>parvoz + mehmonxona + transfer</strong>ni o'z ichiga oladi. All Inclusive, plyaj dam olishi, oilaviy turlar va honeymoon paketlar mavjud.</p>
-              <p>📞 Bepul maslahat: <strong>+998 71 275-55-55</strong> yoki <strong>+998 94 664-22-22</strong></p>
+              <p>📞 Tur narxini bilish: <strong>+998 71 275-55-55</strong> yoki <strong>+998 94 664-22-22</strong></p>
             </div>
           ) : (
             <div className="text-sm text-gray-600 leading-relaxed space-y-2">
               <p><strong>SEM Travel</strong> — надёжное туристическое агентство в Ташкенте, с 2011 года организующее туры в 50+ стран.</p>
               <p>Каждый турпакет включает <strong>перелёт + отель + трансфер</strong>. Доступны туры All Inclusive, пляжный отдых, семейные туры и honeymoon пакеты.</p>
-              <p>📞 Бесплатная консультация: <strong>+998 71 275-55-55</strong> или <strong>+998 94 664-22-22</strong></p>
+              <p>📞 Подобрать тур: <strong>+998 71 275-55-55</strong> или <strong>+998 94 664-22-22</strong></p>
             </div>
           )}
           <div className="flex flex-wrap gap-2 mt-4">
@@ -350,7 +350,7 @@ export default function ToursClient() {
             {isUz ? "Tur topa olmadingizmi?" : "Не нашли подходящий тур?"}
           </h3>
           <p className="text-sm mb-4" style={{ color: "rgba(255,255,255,0.8)" }}>
-            {isUz ? "Menejerimiz siz uchun maxsus tur topib beradi — bepul!" : "Наш менеджер подберёт тур специально для вас — бесплатно!"}
+            {isUz ? "Menejerimiz siz uchun eng yaxshi turni topib beradi!" : "Менеджер подберёт лучший тур специально для вас!"}
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a href="https://wa.me/998946642222" target="_blank" rel="noopener noreferrer"

@@ -114,7 +114,7 @@ export default function LeadModal({ isUz, title, type, source, onClose }: Props)
                   : (isUz ? "📩 So'rov yuborish" : "📩 Отправить заявку")}
               </button>
               <p className="text-xs text-gray-400 text-center">
-                {isUz ? "Bepul maslahat. Spam yo'q." : "Бесплатная консультация. Без спама."}
+                {isUz ? "Tez javob. Spam yo'q." : "Быстрый ответ. Без спама."}
               </p>
             </form>
           </>

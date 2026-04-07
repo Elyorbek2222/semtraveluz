@@ -182,7 +182,7 @@ export default function BlogPostClient({ post }: { post: BlogPost }) {
               {isUz ? "Tur bron qilmoqchimisiz?" : "Хотите забронировать тур?"}
             </p>
             <p className="text-sm mb-4" style={{ color: "rgba(255,255,255,0.8)" }}>
-              {isUz ? "Bepul maslahat — 15 daqiqada javob!" : "Бесплатная консультация — ответим за 15 минут!"}
+              {isUz ? "Tur narxini bilib oling — 15 daqiqada javob!" : "Подберём тур — ответим за 15 минут!"}
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a href="https://wa.me/998946642222" target="_blank" rel="noopener noreferrer"

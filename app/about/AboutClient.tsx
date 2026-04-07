@@ -393,8 +393,8 @@ export default function AboutClient() {
           </h3>
           <p className="text-sm mb-5" style={{ color: "rgba(255,255,255,0.8)" }}>
             {isUz
-              ? "Bepul maslahat uchun hoziroq bog'laning!"
-              : "Свяжитесь прямо сейчас для бесплатной консультации!"}
+              ? "Tur narxini bilib, hoziroq bron qiling!"
+              : "Узнайте цену тура и забронируйте прямо сейчас!"}
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link

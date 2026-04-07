@@ -99,7 +99,7 @@ export default function BlogClient() {
             {isUz ? "Tur bron qilmoqchimisiz?" : "Хотите забронировать тур?"}
           </h3>
           <p className="text-sm mb-4" style={{ color: "rgba(255,255,255,0.8)" }}>
-            {isUz ? "Menejerimiz siz uchun maxsus tur topib beradi — bepul!" : "Наш менеджер подберёт тур специально для вас — бесплатно!"}
+            {isUz ? "Menejerimiz siz uchun eng yaxshi turni topib beradi!" : "Менеджер подберёт лучший тур специально для вас!"}
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a href="https://wa.me/998946642222" target="_blank" rel="noopener noreferrer"

@@ -93,7 +93,7 @@ export default function DestinationClient({ slug }: { slug: string }) {
             className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full font-extrabold text-base transition-all hover:scale-105 active:scale-95"
             style={{ background: "#FF6B35", color: "#fff", boxShadow: "0 4px 20px rgba(255,107,53,0.4)" }}
           >
-            📩 {isUz ? "Bepul maslahat olish" : "Получить консультацию"}
+            📩 {isUz ? "Tur narxini bilish" : "Подобрать тур"}
           </button>
         </div>
       </section>
@@ -273,8 +273,8 @@ export default function DestinationClient({ slug }: { slug: string }) {
           </h3>
           <p className="text-sm mb-5" style={{ color: "rgba(255,255,255,0.8)" }}>
             {isUz
-              ? "Menejerimiz eng yaxshi narxni topib, bepul maslahat beradi!"
-              : "Наш менеджер найдёт лучшую цену и даст бесплатную консультацию!"}
+              ? "Menejerimiz siz uchun eng yaxshi narxdagi turni topib beradi!"
+              : "Менеджер подберёт лучший тур по оптимальной цене!"}
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <button
@@ -282,7 +282,7 @@ export default function DestinationClient({ slug }: { slug: string }) {
               className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full font-bold text-sm transition-all hover:opacity-90"
               style={{ background: "#FF6B35", color: "#fff" }}
             >
-              📩 {isUz ? "Bepul maslahat" : "Бесплатная консультация"}
+              📩 {isUz ? "Tur narxini bilish" : "Подобрать тур"}
             </button>
             <a
               href="https://wa.me/998946642222"

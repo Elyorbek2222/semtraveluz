@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "chatplace": {
+      "type": "http",
+      "url": "https://mcp.chatplace.io/mcp",
+      "headers": {
+        "Authorization": "Bearer cpk_01d0a7b0f1f8cf547f3c4a851141150038db8452"
+      }
+    }
+  }
+}

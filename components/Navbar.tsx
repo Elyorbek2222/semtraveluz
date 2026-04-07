@@ -125,7 +125,7 @@ export default function Navbar() {
               className="flex items-center gap-1.5 text-sm font-bold px-4 py-2 rounded-full text-white transition-all hover:opacity-90"
               style={{ background: "#FF6B35" }}
             >
-              📩 {lang === "uz" ? "Bepul maslahat" : "Консультация"}
+              📩 {lang === "uz" ? "Tur narxini bilish" : "Подобрать тур"}
             </button>
 
             {/* Cabinet button */}
@@ -194,7 +194,7 @@ export default function Navbar() {
               className="flex items-center gap-1.5 text-xs font-bold px-3 py-2 rounded-full text-white"
               style={{ background: "#FF6B35" }}
             >
-              📩 {lang === "uz" ? "Maslahat" : "Консультация"}
+              📩 {lang === "uz" ? "Narxini bilish" : "Подобрать"}
             </button>
             <button
               className="p-2 rounded-lg text-gray-600 hover:bg-gray-100 transition-colors"
@@ -301,8 +301,8 @@ export default function Navbar() {
       {consultOpen && (
         <LeadModal
           isUz={lang === "uz"}
-          title={lang === "uz" ? "📩 Bepul maslahat" : "📩 Бесплатная консультация"}
-          type="Bepul maslahat"
+          title={lang === "uz" ? "📩 Tur narxini bilish" : "📩 Подобрать тур"}
+          type="Tur narxini bilish"
           source="semtravel.uz (navbar)"
           onClose={() => setConsultOpen(false)}
         />

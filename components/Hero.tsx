@@ -88,6 +88,8 @@ export default function Hero() {
           </p>
           {/* Tourvisor Search Widget */}
           <div className="tv-search-form tv-moduleid-9976360" style={{ minHeight: 120 }}></div>
+          {/* Tourvisor Search History */}
+          <div className="tv-history tv-moduleid-9990306 mt-2"></div>
         </div>
       </div>
 

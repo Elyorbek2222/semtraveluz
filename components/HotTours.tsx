@@ -1,86 +1,94 @@
 "use client";
 
 import Link from "next/link";
-import { Flame, ArrowRight } from "lucide-react";
+import { Flame, ArrowRight, CheckCircle } from "lucide-react";
 import { useLang } from "@/lib/language-context";
 
-const STATS_DATA = [
-  { value: "50+", icon: "🌍", key: "countries" as const },
-  { value: "30 000+", icon: "😊", key: "clients" as const },
-  { value: "200+", icon: "🗺️", key: "tours" as const },
-  { value: "15+", icon: "🏆", key: "experience" as const },
+const STATS = [
+  { value: "50+",     emoji: "🌍", uz: "Mamlakat",      ru: "Стран" },
+  { value: "30 000+", emoji: "😊", uz: "Baxtli mijoz",  ru: "Клиентов" },
+  { value: "200+",    emoji: "🗺️", uz: "Tur yo'nalish", ru: "Направлений" },
+  { value: "15+",     emoji: "🏆", uz: "Yil tajriba",    ru: "Лет опыта" },
 ];
 
-interface HotToursProps {
-  showAllByDefault?: boolean;
-}
+interface HotToursProps { showAllByDefault?: boolean }
 
 export default function HotTours({ showAllByDefault = false }: HotToursProps) {
-  const { t } = useLang();
+  const { lang } = useLang();
+  const isUz = lang === "uz";
 
   return (
-    <section className="py-20 bg-gray-50" id="hot-tours">
+    <section className="py-16 sm:py-20" style={{ background: "#F8FAFC" }} id="hot-tours">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-        {/* Header */}
+        {/* ── Header ── */}
         <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-8">
           <div>
             <div className="flex items-center gap-2 mb-2">
-              <Flame size={22} className="text-accent" />
-              <span className="text-accent font-semibold text-sm uppercase tracking-wide">
-                {t.hotTours.badge}
+              <Flame size={20} style={{ color: "#FF6B35" }} />
+              <span className="text-sm font-bold uppercase tracking-wide" style={{ color: "#FF6B35" }}>
+                {isUz ? "Maxsus takliflar" : "Горящие туры"}
               </span>
             </div>
-            <h2 className="section-title">{t.hotTours.title}</h2>
-            <p className="section-subtitle">{t.hotTours.subtitle}</p>
+            <h2 className="font-black text-gray-900" style={{ fontSize: "clamp(22px,4vw,36px)" }}>
+              {isUz ? "Issiq turlar" : "Горящие туры"}
+            </h2>
+            <p className="text-gray-500 mt-1 text-sm sm:text-base">
+              {isUz
+                ? "Eng arzon narxlardagi eng mashhur yo'nalishlar — bugun bron qiling!"
+                : "Самые популярные направления по лучшим ценам — бронируйте сегодня!"}
+            </p>
           </div>
           {!showAllByDefault && (
             <Link
               href="/tours"
-              className="flex items-center gap-1.5 text-primary font-semibold hover:gap-3 transition-all duration-200 text-sm flex-shrink-0"
+              className="hidden sm:flex items-center gap-1.5 text-sm font-bold hover:gap-3 transition-all flex-shrink-0"
+              style={{ color: "#0057A8" }}
             >
-              {t.hotTours.seeAll} <ArrowRight size={18} />
+              {isUz ? "Barchasini ko'rish" : "Все туры"} <ArrowRight size={16} />
             </Link>
           )}
         </div>
 
-        {/* Tourvisor Hot Tours Widget */}
-        <div className="tv-hot-tours tv-moduleid-9989885" style={{ minHeight: 400 }}></div>
+        {/* ── Tourvisor Hot Tours Widget ── */}
+        <div
+          className="tv-hot-tours tv-moduleid-9989885 rounded-2xl overflow-hidden"
+          style={{ minHeight: 420, background: "#fff" }}
+        />
 
-        {/* Stats bar */}
-        <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-4">
-          {STATS_DATA.map((stat) => (
+        {/* ── Stats ── */}
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mt-12 mb-6">
+          {STATS.map((s) => (
             <div
-              key={stat.key}
-              className="text-center bg-white rounded-2xl p-6 shadow-sm border border-gray-100"
+              key={s.value}
+              className="text-center bg-white rounded-2xl p-5"
+              style={{ boxShadow: "0 1px 8px rgba(0,0,0,0.06)", border: "1px solid #F1F5F9" }}
             >
-              <div className="text-3xl mb-1">{stat.icon}</div>
-              <div className="text-2xl font-extrabold text-primary mb-0.5">
-                {stat.value}
-              </div>
-              <div className="text-gray-400 text-sm">
-                {t.hotTours.stats[stat.key]}
-              </div>
+              <div className="text-3xl mb-1">{s.emoji}</div>
+              <div className="text-2xl font-extrabold mb-0.5" style={{ color: "#0057A8" }}>{s.value}</div>
+              <div className="text-gray-400 text-xs">{isUz ? s.uz : s.ru}</div>
             </div>
           ))}
         </div>
 
-        {/* Trust signals */}
-        <div className="mt-8 bg-primary/5 rounded-2xl p-6 flex flex-wrap justify-center gap-6 text-sm">
+        {/* ── Trust signals ── */}
+        <div
+          className="rounded-2xl p-5 flex flex-wrap justify-center gap-x-6 gap-y-3"
+          style={{ background: "rgba(0,87,168,0.05)", border: "1px solid rgba(0,87,168,0.1)" }}
+        >
           {[
-            { emoji: "✅", text: t.hotTours.trust.priceGuarantee },
-            { emoji: "🔒", text: t.hotTours.trust.securePay },
-            { emoji: "📞", text: t.hotTours.trust.support },
-            { emoji: "🎫", text: t.hotTours.trust.visa },
-          ].map((item) => (
-            <span key={item.text} className="text-gray-700 font-medium">
-              {item.emoji} {item.text}
+            { icon: <CheckCircle size={14} />, uz: "Narx kafolati",          ru: "Гарантия цены" },
+            { icon: "🔒",                       uz: "Xavfsiz to'lov",         ru: "Безопасная оплата" },
+            { icon: "📞",                       uz: "24/7 qo'llab-quvvatlash", ru: "Поддержка 24/7" },
+            { icon: "🎫",                       uz: "Viza yordam",            ru: "Помощь с визой" },
+          ].map((item, i) => (
+            <span key={i} className="flex items-center gap-1.5 text-sm font-semibold text-gray-700">
+              <span style={{ color: "#0057A8" }}>{item.icon}</span>
+              {isUz ? item.uz : item.ru}
             </span>
           ))}
         </div>
       </div>
-
-
     </section>
   );
 }

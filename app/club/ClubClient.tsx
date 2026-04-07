@@ -904,9 +904,17 @@ export default function ClubClient() {
           </div>
         </div>
 
-        <div className="pb-6">
+        <div className="pb-6 flex flex-wrap items-center gap-4">
           <Link href="/" className="text-sm font-medium" style={{ color: "#0057A8" }}>
             ← {isUz ? "Bosh sahifaga qaytish" : "Вернуться на главную"}
+          </Link>
+          <span className="text-gray-300">|</span>
+          <Link
+            href="/club/qoidalar"
+            className="text-sm font-semibold flex items-center gap-1.5 px-3 py-1.5 rounded-full transition-all hover:opacity-80"
+            style={{ background: "#EFF6FF", color: "#0057A8", border: "1px solid #BFDBFE" }}
+          >
+            📋 {isUz ? "Dastur qoidalari" : "Правила программы"}
           </Link>
         </div>
       </div>

@@ -59,8 +59,9 @@ export default function Navbar() {
               src="/logo-color.png"
               alt="SEM Travel — Sayohat Agentligi Toshkent"
               width={130}
-              height={44}
+              height={124}
               className="h-10 w-auto object-contain"
+              priority
             />
           </Link>
 

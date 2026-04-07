@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Star, Clock, ChevronDown, ChevronUp } from "lucide-react";
@@ -18,6 +18,37 @@ export default function DestinationClient({ slug }: { slug: string }) {
   const [bookModal, setBookModal] = useState(false);
 
   const tours = TOURS.filter((t) => t.country === dest.tourCountryMatch);
+
+  // Auto-select country in Tourvisor search widget after it renders
+  useEffect(() => {
+    if (!dest.tvCountryName) return;
+    let attempts = 0;
+    const maxAttempts = 30;
+    const interval = setInterval(() => {
+      attempts++;
+      // Tourvisor renders a select with country options inside the widget container
+      const container = document.querySelector(".tv-search-form");
+      if (!container) {
+        if (attempts >= maxAttempts) clearInterval(interval);
+        return;
+      }
+      const selects = container.querySelectorAll("select");
+      for (const select of selects) {
+        const options = Array.from(select.options);
+        const match = options.find(
+          (opt) => opt.text.trim().toLowerCase() === dest.tvCountryName.toLowerCase()
+        );
+        if (match) {
+          select.value = match.value;
+          select.dispatchEvent(new Event("change", { bubbles: true }));
+          clearInterval(interval);
+          return;
+        }
+      }
+      if (attempts >= maxAttempts) clearInterval(interval);
+    }, 300);
+    return () => clearInterval(interval);
+  }, [dest.tvCountryName]);
 
   const stats = [
     {

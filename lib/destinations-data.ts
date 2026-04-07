@@ -24,6 +24,7 @@ export interface Destination {
   highlightsRu: string[];
   faqs: DestinationFAQ[];
   tourCountryMatch: string; // matches Tour.country
+  tvCountryName: string;   // Tourvisor country name (Russian) for search widget pre-filter
 }
 
 export const DESTINATIONS: Record<string, Destination> = {
@@ -89,6 +90,7 @@ export const DESTINATIONS: Record<string, Destination> = {
       },
     ],
     tourCountryMatch: "Turkiya",
+    tvCountryName: "Турция",
   },
 
   dubai: {
@@ -153,6 +155,7 @@ export const DESTINATIONS: Record<string, Destination> = {
       },
     ],
     tourCountryMatch: "BAA",
+    tvCountryName: "ОАЭ",
   },
 
   misr: {
@@ -217,6 +220,7 @@ export const DESTINATIONS: Record<string, Destination> = {
       },
     ],
     tourCountryMatch: "Misr",
+    tvCountryName: "Египет",
   },
 
   tailand: {
@@ -281,6 +285,7 @@ export const DESTINATIONS: Record<string, Destination> = {
       },
     ],
     tourCountryMatch: "Tailand",
+    tvCountryName: "Таиланд",
   },
 
   maldiv: {
@@ -345,6 +350,7 @@ export const DESTINATIONS: Record<string, Destination> = {
       },
     ],
     tourCountryMatch: "Maldiv",
+    tvCountryName: "Мальдивы",
   },
 
   gretsiya: {
@@ -409,6 +415,7 @@ export const DESTINATIONS: Record<string, Destination> = {
       },
     ],
     tourCountryMatch: "Gretsiya",
+    tvCountryName: "Греция",
   },
 
   qirgiziston: {
@@ -467,6 +474,7 @@ export const DESTINATIONS: Record<string, Destination> = {
       },
     ],
     tourCountryMatch: "Qirg'iziston",
+    tvCountryName: "Кыргызстан",
   },
 
   gruziya: {
@@ -525,6 +533,7 @@ export const DESTINATIONS: Record<string, Destination> = {
       },
     ],
     tourCountryMatch: "Gruziya",
+    tvCountryName: "Грузия",
   },
 
   xitoy: {
@@ -583,6 +592,7 @@ export const DESTINATIONS: Record<string, Destination> = {
       },
     ],
     tourCountryMatch: "Xitoy",
+    tvCountryName: "Китай",
   },
 };
 

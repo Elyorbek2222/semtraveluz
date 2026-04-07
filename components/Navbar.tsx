@@ -156,6 +156,14 @@ export default function Navbar() {
                     <p className="text-white/70 text-xs mt-0.5">{lang === "uz" ? "Buyurtmalarim va ma'lumotlarim" : "Мои заказы и данные"}</p>
                   </div>
                   <div className="p-3 space-y-2">
+                    <div className="flex items-start gap-2 px-1 py-1">
+                      <span className="text-lg leading-none mt-0.5">ℹ️</span>
+                      <p className="text-xs text-gray-500 leading-relaxed">
+                        {lang === "uz"
+                          ? "SEM Travel shaxsiy kabineti. Buyurtmalaringizni kuzatish uchun u-on.ru tizimiga o'tasiz."
+                          : "Личный кабинет SEM Travel. Вы перейдёте в систему u-on.ru для отслеживания заказов."}
+                      </p>
+                    </div>
                     <a
                       href="https://semtravel.u-on.ru/api/enter.php"
                       target="_blank"

@@ -81,6 +81,7 @@ function FlipCard({ front, back, accentColor }: {
           backfaceVisibility: "hidden", WebkitBackfaceVisibility: "hidden",
           transform: "rotateY(180deg)",
           background: accentColor, borderRadius: 16,
+          overflow: "hidden",
         }}>
           {back}
         </div>
@@ -148,14 +149,10 @@ const tiers = [
     id: "classic", nameUz: "Classic", nameRu: "Classic",
     color: "#A07840", bg: "#FDF8F0", border: "#C8A96E", icon: "🥈",
     conditionUz: "Birinchi turdan boshlab", conditionRu: "С первого тура",
-    discountUz: "1–3% chegirma", discountRu: "Скидка 1–3%",
     cashbackUz: "0.5% cashback", cashbackRu: "Кэшбэк 0.5%",
     pointsRate: "0.5% cashback",
     benefits: [
-      { uz: "0.5% cashback har bir turdan (ballar)", ru: "Кэшбэк 0.5% с каждого тура (баллами)" },
-      { uz: "1% chegirma (1–3 ta tur)", ru: "Скидка 1% (1–3 тура)" },
-      { uz: "2% chegirma (4–6 ta tur)", ru: "Скидка 2% (4–6 туров)" },
-      { uz: "3% chegirma (7+ tur)", ru: "Скидка 3% (7 и более туров)" },
+      { uz: "Har turdan 0.5% — kartangizga yoziladi", ru: "0.5% с каждого тура — начисляется на карту" },
       { uz: "$30 sertifikat birinchi turdan keyin", ru: "Сертификат $30 после первого тура" },
       { uz: "Do'st tavsiya qilganda 1% bonus", ru: "Бонус 1% за приведённого друга" },
       { uz: "Telegram yopiq guruhiga kirish", ru: "Доступ в закрытый Telegram-канал" },
@@ -166,31 +163,27 @@ const tiers = [
     id: "gold", nameUz: "Gold", nameRu: "Gold",
     color: "#B8860B", bg: "#FFFBEB", border: "#FCD34D", icon: "🥇",
     conditionUz: "20 000$+ tovar aylanmasi", conditionRu: "Оборот от $20 000",
-    discountUz: "3–5% chegirma", discountRu: "Скидка 3–5%",
     cashbackUz: "1% cashback", cashbackRu: "Кэшбэк 1%",
     pointsRate: "1% cashback",
     benefits: [
-      { uz: "1% cashback har bir turdan (ballar)", ru: "Кэшбэк 1% с каждого тура (баллами)" },
+      { uz: "Har turdan 1% — kartangizga yoziladi", ru: "1% с каждого тура — начисляется на карту" },
       { uz: "Classic barcha imtiyozlari", ru: "Все привилегии Classic" },
-      { uz: "3–5% chegirma keyingi turlarga", ru: "Скидка 3–5% на следующие туры" },
       { uz: "$30 sertifikat do'stlar uchun (180 kun)", ru: "Сертификат $30 для друзей (180 дней)" },
       { uz: "Bepul travel aksessuar — sovg'a", ru: "Бесплатный travel-аксессуар в подарок" },
       { uz: "Prioritet xizmat — tez navbat", ru: "Приоритетное обслуживание" },
       { uz: "Yangi yil va 8-mart bonuslari", ru: "Бонусы на Новый год и 8 марта" },
-      { uz: "Partner chegirmalari (go'zallik, sport)", ru: "Скидки у партнёров (красота, фитнес)" },
+      { uz: "Partner bonuslari (go'zallik, sport)", ru: "Бонусы у партнёров (красота, фитнес)" },
     ],
   },
   {
     id: "platinum", nameUz: "Platinum", nameRu: "Platinum",
     color: "#555", bg: "#F5F5F5", border: "#B0B0B0", icon: "💎",
     conditionUz: "40 000$+ tovar aylanmasi", conditionRu: "Оборот от $40 000",
-    discountUz: "5% chegirma", discountRu: "Скидка 5%",
     cashbackUz: "1.5% cashback", cashbackRu: "Кэшбэк 1.5%",
     pointsRate: "1.5% cashback",
     benefits: [
-      { uz: "1.5% cashback har bir turdan (ballar)", ru: "Кэшбэк 1.5% с каждого тура (баллами)" },
+      { uz: "Har turdan 1.5% — kartangizga yoziladi", ru: "1.5% с каждого тура — начисляется на карту" },
       { uz: "Gold barcha imtiyozlari", ru: "Все привилегии Gold" },
-      { uz: "5% chegirma keyingi turlarga", ru: "Скидка 5% на следующие туры" },
       { uz: "CIP Lounge — VIP aerport zali", ru: "CIP Lounge — VIP-зал аэропорта" },
       { uz: "Shaxsiy menejer 24/7 konsierj", ru: "Личный менеджер 24/7 консьерж" },
       { uz: "Sayohatga 3–5 ta bagaj chekilov", ru: "Обёртка 3–5 чемоданов для поездки" },
@@ -299,10 +292,8 @@ export default function ClubClient() {
   const count2 = useCountUp(30000, 2000, statsVisible);
   const count3 = useCountUp(500, 1500, statsVisible);
 
-  // Calculator logic — real rates: discount 1/2/3%, cashback 0.5/1/1.5%
-  const discounts = [3, 5, 5];
+  // Calculator logic — cashback only
   const cashbacks = [0.5, 1, 1.5];
-  const saving = Math.round(calcTour * discounts[calcTier] / 100);
   const cashback = Math.round(calcTour * cashbacks[calcTier] / 100);
   const tierNames = ["Classic 🥈", "Gold 🥇", "Platinum 💎"];
 
@@ -492,18 +483,14 @@ export default function ClubClient() {
             </div>
           </div>
 
-          <div className="grid grid-cols-3 gap-3 mt-6">
-            <div className="rounded-xl p-4 text-center bg-white" style={{ border: "1px solid #E5E7EB" }}>
-              <div className="text-2xl font-extrabold" style={{ color: "#0057A8" }}>${saving}</div>
-              <div className="text-xs text-gray-500 mt-1">{isUz ? `${discounts[calcTier]}% chegirma` : `Скидка ${discounts[calcTier]}%`}</div>
-            </div>
+          <div className="grid grid-cols-2 gap-3 mt-6">
             <div className="rounded-xl p-4 text-center bg-white" style={{ border: "1px solid #E5E7EB" }}>
               <div className="text-2xl font-extrabold" style={{ color: "#16A34A" }}>${cashback}</div>
-              <div className="text-xs text-gray-500 mt-1">{isUz ? `${cashbacks[calcTier]}% cashback` : `Кэшбэк ${cashbacks[calcTier]}%`}</div>
+              <div className="text-xs text-gray-500 mt-1">{isUz ? `Bu tur uchun cashback (${cashbacks[calcTier]}%)` : `Кэшбэк с этого тура (${cashbacks[calcTier]}%)`}</div>
             </div>
-            <div className="rounded-xl p-4 text-center" style={{ background: "#0057A8" }}>
-              <div className="text-2xl font-extrabold text-white">${saving + cashback}</div>
-              <div className="text-xs mt-1" style={{ color: "rgba(255,255,255,0.8)" }}>{isUz ? "Jami foyda" : "Итого выгода"}</div>
+            <div className="rounded-xl p-4 text-center" style={{ background: "#16A34A" }}>
+              <div className="text-2xl font-extrabold text-white">${cashback * 5}</div>
+              <div className="text-xs mt-1" style={{ color: "rgba(255,255,255,0.85)" }}>{isUz ? "5 tur uchun kartangizda" : "На карте после 5 туров"}</div>
             </div>
           </div>
         </div>
@@ -521,16 +508,17 @@ export default function ClubClient() {
               const backBg = idx === 2 ? "#444" : idx === 1 ? "#92650A" : "#7A5C2E";
 
               const front = (
-                <div className="rounded-2xl overflow-hidden h-full" style={{ border: `2px solid ${tier.border}`, background: tier.bg, boxShadow: idx === 2 ? "0 8px 32px rgba(0,0,0,0.2)" : "0 2px 12px rgba(0,0,0,0.06)" }}>
+                <div className="rounded-2xl overflow-hidden h-full flex flex-col" style={{ border: `2px solid ${tier.border}`, background: tier.bg, boxShadow: idx === 2 ? "0 8px 32px rgba(0,0,0,0.2)" : "0 2px 12px rgba(0,0,0,0.06)" }}>
                   <div className="p-5 text-center" style={{ background: headerBg }}>
                     {idx === 2 && <div className="inline-block mb-2 px-3 py-0.5 rounded-full text-xs font-bold" style={{ background: "#F5C518", color: "#000" }}>{isUz ? "Eng yuqori" : "Топ статус"}</div>}
                     <div className="text-4xl mb-1" style={{ animation: `floatZ ${5 + idx}s ease-in-out ${idx * 0.7}s infinite` }}>{tier.icon}</div>
                     <h3 className="text-2xl font-black text-white">{tier.nameUz}</h3>
                     <p className="text-sm mt-1" style={{ color: "rgba(255,255,255,0.8)" }}>{isUz ? tier.conditionUz : tier.conditionRu}</p>
                   </div>
-                  <div className="px-5 py-3 flex justify-between items-center" style={{ borderBottom: `1px solid ${tier.border}` }}>
-                    <span className="text-base font-extrabold" style={{ color: tier.color }}>{isUz ? tier.discountUz : tier.discountRu}</span>
-                    <span className="text-sm font-bold px-2.5 py-0.5 rounded-full" style={{ background: "#F0FDF4", color: "#16A34A" }}>{isUz ? tier.cashbackUz : tier.cashbackRu}</span>
+                  <div className="px-5 py-3 flex items-center justify-center gap-2" style={{ borderBottom: `1px solid ${tier.border}`, background: "#F0FDF4" }}>
+                    <span className="text-xs font-semibold text-green-700">{isUz ? "Har turdan:" : "С каждого тура:"}</span>
+                    <span className="text-base font-extrabold" style={{ color: "#16A34A" }}>{isUz ? tier.cashbackUz : tier.cashbackRu}</span>
+                    <span className="text-xs text-green-600">{isUz ? "→ kartangizga" : "→ на карту"}</span>
                   </div>
                   <ul className="p-5 space-y-2.5 flex-1">
                     {tier.benefits.slice(0, 5).map((b, i) => (
@@ -590,17 +578,14 @@ export default function ClubClient() {
             </thead>
             <tbody>
               {[
-                { uz: "Cashback (har turdan)", ru: "Кэшбэк (с каждого тура)", vals: ["0.5%", "1%", "1.5%"] },
-                { uz: "Chegirma (1–3 tur)", ru: "Скидка (1–3 тура)", vals: ["1%", "3%", "3%"] },
-                { uz: "Chegirma (4–6 tur)", ru: "Скидка (4–6 туров)", vals: ["2%", "4%", "4%"] },
-                { uz: "Chegirma (7+ tur)", ru: "Скидка (7+ туров)", vals: ["3%", "5%", "5%"] },
-                { uz: "$30 sertifikat (1-turdan)", ru: "Сертификат $30 (после 1-го)", vals: ["✓", "✓", "✓"] },
+                { uz: "Cashback (har turdan kartaga)", ru: "Кэшбэк (с каждого тура на карту)", vals: ["0.5%", "1%", "1.5%"] },
+                { uz: "$30 sertifikat (1-turdan keyin)", ru: "Сертификат $30 (после 1-го тура)", vals: ["✓", "✓", "✓"] },
                 { uz: "$30 do'st uchun sertifikat", ru: "Сертификат $30 для друга", vals: ["✓", "✓", "✓"] },
                 { uz: "Do'st tavsiyasi — 1% bonus", ru: "Бонус 1% за реферала", vals: ["✓", "✓", "✓"] },
                 { uz: "Telegram yopiq guruh", ru: "Закрытый Telegram-канал", vals: ["✓", "✓", "✓"] },
                 { uz: "Tug'ilgan kun bonusi", ru: "Бонус на день рождения", vals: ["✓", "✓", "✓"] },
                 { uz: "Yangi yil / 8-mart bonus", ru: "Бонус Новый год / 8 марта", vals: ["—", "✓", "✓"] },
-                { uz: "Partner chegirmalari", ru: "Скидки у партнёров", vals: ["—", "✓", "✓"] },
+                { uz: "Partner bonuslari", ru: "Бонусы у партнёров", vals: ["—", "✓", "✓"] },
                 { uz: "Travel aksessuar sovg'a", ru: "Travel-аксессуар в подарок", vals: ["—", "✓", "✓"] },
                 { uz: "CIP Lounge (aerport)", ru: "CIP Lounge (аэропорт)", vals: ["—", "—", "✓"] },
                 { uz: "Shaxsiy menejer 24/7", ru: "Личный менеджер 24/7", vals: ["—", "—", "✓"] },

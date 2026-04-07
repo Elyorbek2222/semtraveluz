@@ -155,6 +155,19 @@ export default function DestinationClient({ slug }: { slug: string }) {
           <div className="tv-search-form tv-moduleid-9976360" style={{ minHeight: 120 }} />
         </div>
 
+        {/* ── TOURVISOR CALENDAR ── */}
+        <div className="bg-white rounded-2xl p-5 mb-8" style={{ boxShadow: "0 4px 24px rgba(0,0,0,0.08)", border: "1px solid #E5E7EB" }}>
+          <p className="text-xs font-bold uppercase tracking-widest mb-4" style={{ color: "#9CA3AF" }}>
+            📅 {isUz ? `${dest.nameUz} — narx kalendari` : `Календарь цен — ${dest.nameRu}`}
+          </p>
+          <p className="text-sm text-gray-500 mb-4">
+            {isUz
+              ? "Har bir sana uchun eng arzon narxni toping"
+              : "Найдите самую низкую цену на каждую дату вылета"}
+          </p>
+          <div className="tv-calendar tv-moduleid-9990310" />
+        </div>
+
         {/* ── HIGHLIGHTS ── */}
         <div className="mb-8">
           <h2 className="text-xl font-extrabold text-gray-900 mb-4">

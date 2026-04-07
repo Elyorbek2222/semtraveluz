@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import AboutClient from "./AboutClient";
 
 export const metadata: Metadata = {
-  title: "Haqimizda — SEM Travel Toshkent | 2011 Yildan Beri",
+  title: { absolute: "Haqimizda — SEM Travel Toshkent | 2011 Yildan Beri" },
   description:
     "SEM Travel — 2011 yildan beri O'zbekistonda faoliyat ko'rsatayotgan litsenziyalangan sayohat agentligi. 15 yillik tajriba, 30 000+ mamnun mijoz, 50+ mamlakat. Toshkent, Olmazor.",
   keywords: [

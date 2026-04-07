@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Star, Clock, ChevronDown, ChevronUp } from "lucide-react";
@@ -18,37 +18,6 @@ export default function DestinationClient({ slug }: { slug: string }) {
   const [bookModal, setBookModal] = useState(false);
 
   const tours = TOURS.filter((t) => t.country === dest.tourCountryMatch);
-
-  // Auto-select country in Tourvisor search widget after it renders
-  useEffect(() => {
-    if (!dest.tvCountryName) return;
-    let attempts = 0;
-    const maxAttempts = 30;
-    const interval = setInterval(() => {
-      attempts++;
-      // Tourvisor renders a select with country options inside the widget container
-      const container = document.querySelector(".tv-search-form");
-      if (!container) {
-        if (attempts >= maxAttempts) clearInterval(interval);
-        return;
-      }
-      const selects = container.querySelectorAll("select");
-      for (const select of selects) {
-        const options = Array.from(select.options);
-        const match = options.find(
-          (opt) => opt.text.trim().toLowerCase() === dest.tvCountryName.toLowerCase()
-        );
-        if (match) {
-          select.value = match.value;
-          select.dispatchEvent(new Event("change", { bubbles: true }));
-          clearInterval(interval);
-          return;
-        }
-      }
-      if (attempts >= maxAttempts) clearInterval(interval);
-    }, 300);
-    return () => clearInterval(interval);
-  }, [dest.tvCountryName]);
 
   const stats = [
     {
@@ -152,7 +121,7 @@ export default function DestinationClient({ slug }: { slug: string }) {
           <p className="text-xs font-bold uppercase tracking-widest mb-4" style={{ color: "#9CA3AF" }}>
             🔍 {isUz ? `${dest.nameUz}ga tur qidirish` : `Поиск туров в ${dest.nameRu}`}
           </p>
-          <div className="tv-search-form tv-moduleid-9976360" style={{ minHeight: 120 }} />
+          <div className={`tv-search-form tv-moduleid-${dest.tvModuleId}`} style={{ minHeight: 120 }} />
         </div>
 
         {/* ── TOURVISOR CALENDAR ── */}

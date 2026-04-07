@@ -25,6 +25,7 @@ export default function BottomNav() {
           const label = lang === "uz" ? item.labelUz : item.labelRu;
           return (
             <Link key={item.href} href={item.href}
+              rel={item.href === "/profile" ? "nofollow" : undefined}
               className="flex flex-col items-center gap-0.5 px-2 py-1 min-w-0 flex-1">
               <span className="text-2xl leading-none">{item.emoji}</span>
               <span className="text-center leading-tight"

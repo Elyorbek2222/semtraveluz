@@ -8,6 +8,8 @@ import AiChat from "@/components/AiChat";
 import JsonLd from "@/components/JsonLd";
 import { LangProvider } from "@/lib/language-context";
 import { Analytics } from "@vercel/analytics/next";
+import TourvisorInit from "@/components/tourvisor/TourvisorInit";
+import Script from "next/script";
 
 const inter = Inter({
   subsets: ["latin", "cyrillic"],
@@ -50,6 +52,12 @@ const organizationSchema = {
           "closes": "19:00",
         },
       ],
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 41.288557,
+        "longitude": 69.172061,
+      },
+      "hasMap": "https://maps.google.com/maps?q=41.288557,69.172061",
       "sameAs": [
         "https://t.me/semtravel",
         "https://www.instagram.com/semtravel_official/",
@@ -58,19 +66,39 @@ const organizationSchema = {
       "priceRange": "$$",
     },
     {
+      "@type": ["TravelAgency", "LocalBusiness"],
+      "@id": "https://semtravel.uz/#organization-olmazar",
+      "name": "SEM Travel — Olmazar filiali",
+      "branchOf": { "@id": "https://semtravel.uz/#organization" },
+      "url": "https://semtravel.uz/contact",
+      "telephone": ["+998712755555", "+998946642222"],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Toshkent",
+        "addressRegion": "Olmazar",
+        "addressCountry": "UZ",
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 41.348022,
+        "longitude": 69.253153,
+      },
+      "hasMap": "https://maps.google.com/maps?q=41.348022,69.253153",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "opens": "09:00",
+          "closes": "18:00",
+        },
+      ],
+    },
+    {
       "@type": "WebSite",
       "@id": "https://semtravel.uz/#website",
       "url": "https://semtravel.uz",
       "name": "SEM Travel",
       "publisher": { "@id": "https://semtravel.uz/#organization" },
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "https://semtravel.uz/tours?q={search_term_string}",
-        },
-        "query-input": "required name=search_term_string",
-      },
     },
   ],
 };
@@ -151,13 +179,9 @@ export default function RootLayout({
         <link rel="alternate" hrefLang="uz" href="https://semtravel.uz" />
         <link rel="alternate" hrefLang="ru" href="https://semtravel.uz" />
         <link rel="alternate" hrefLang="x-default" href="https://semtravel.uz" />
+        <link rel="llms-txt" href="https://semtravel.uz/llms.txt" />
       </head>
       <body className={inter.className}>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};m[i].l=1*new Date();for(var j=0;j<document.scripts.length;j++){if(document.scripts[j].src===r){return;}}k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})(window,document,'script','https://mc.yandex.ru/metrika/tag.js','ym');ym(102097944,'init',{webvisor:true,clickmap:true,referrer:document.referrer,url:location.href,accurateTrackBounce:true,trackLinks:true});`,
-          }}
-        />
         <noscript>
           <div><img src="https://mc.yandex.ru/watch/102097944" style={{position:"absolute",left:"-9999px"}} alt="" /></div>
         </noscript>
@@ -170,7 +194,15 @@ export default function RootLayout({
           <AiChat />
           {/* Tourvisor feedback button — barcha sahifalarda */}
           <div className="tv-free-button tv-moduleid-9990312" />
+          <TourvisorInit />
           <Analytics />
+          <Script
+            id="yandex-metrica"
+            strategy="afterInteractive"
+            dangerouslySetInnerHTML={{
+              __html: `(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};m[i].l=1*new Date();for(var j=0;j<document.scripts.length;j++){if(document.scripts[j].src===r){return;}}k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})(window,document,'script','https://mc.yandex.ru/metrika/tag.js','ym');ym(102097944,'init',{webvisor:true,clickmap:true,referrer:document.referrer,url:location.href,accurateTrackBounce:true,trackLinks:true});`,
+            }}
+          />
         </LangProvider>
       </body>
     </html>

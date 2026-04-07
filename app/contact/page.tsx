@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import ContactClient from "./ContactClient";
 
 export const metadata: Metadata = {
-  title: "Bog'lanish — SEM Travel Toshkent | Telefon, Manzil",
+  title: { absolute: "Bog'lanish — SEM Travel Toshkent | Telefon, Manzil" },
   description:
     "SEM Travel bilan bog'laning: +998 71 275-55-55, +998 94 664-22-22. Manzil: Toshkent, Uchtepa tumani, Katta Xirmontepa, 12B. Ish vaqti: Dush–Shan 9:00–19:00. WhatsApp, Telegram.",
   keywords: [

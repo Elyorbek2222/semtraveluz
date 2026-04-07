@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import HotelsClient from "./HotelsClient";
 
 export const metadata: Metadata = {
-  title: "Mehmonxona Bron — Toshkentdan Eng Arzon Narxlar | SEM Travel",
+  title: "Mehmonxona Bron — Toshkentdan Eng Arzon Narxlar",
   description:
     "SEM Travel orqali 50+ mamlakatda mehmonxona bron qiling. Turkiya, Dubai, Tailand, Misr, Gretsiya, Maldiv mehmonxonalari. Eng yaxshi narx kafolati. To'g'ridan-to'g'ri bron.",
   keywords: [

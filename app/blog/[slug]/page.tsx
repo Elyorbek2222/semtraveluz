@@ -17,7 +17,7 @@ export async function generateMetadata({
   if (!post) return {};
 
   return {
-    title: `${post.titleUz} | ${post.titleRu}`,
+    title: post.titleUz,
     description: post.descUz,
     keywords: [
       ...post.tagsUz,
@@ -57,6 +57,7 @@ export default async function BlogPostPage({
   const post = getBlogPost(slug);
   if (!post) notFound();
 
+  const postUrl = `https://semtravel.uz/blog/${slug}`;
   const schema = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
@@ -64,6 +65,7 @@ export default async function BlogPostPage({
     alternativeHeadline: post.titleRu,
     description: post.descUz,
     abstract: post.descRu,
+    url: postUrl,
     image: post.image,
     inLanguage: ["uz", "ru"],
     datePublished: post.date,
@@ -84,8 +86,18 @@ export default async function BlogPostPage({
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://semtravel.uz/blog/${slug}`,
+      "@id": postUrl,
     },
+  };
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Bosh sahifa", item: "https://semtravel.uz" },
+      { "@type": "ListItem", position: 2, name: "Blog", item: "https://semtravel.uz/blog" },
+      { "@type": "ListItem", position: 3, name: post.titleUz, item: postUrl },
+    ],
   };
 
   return (
@@ -93,6 +105,10 @@ export default async function BlogPostPage({
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       <BlogPostClient post={post} />
     </>

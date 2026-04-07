@@ -3,6 +3,49 @@ import { notFound } from "next/navigation";
 import { DESTINATIONS, DESTINATION_SLUGS } from "@/lib/destinations-data";
 import DestinationClient from "./DestinationClient";
 
+function buildDestinationSchema(slug: string) {
+  const dest = DESTINATIONS[slug];
+  if (!dest) return null;
+  const pageUrl = `https://semtravel.uz/destinations/${slug}`;
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "TouristDestination",
+        "@id": `${pageUrl}#destination`,
+        "name": dest.nameUz,
+        "alternateName": dest.nameRu,
+        "description": dest.descUz,
+        "url": pageUrl,
+        "image": dest.heroImage,
+        "touristType": dest.highlightsUz.map((h) => ({
+          "@type": "Audience",
+          "audienceType": h.replace(/^[^\s]+\s/, ""),
+        })),
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": dest.faqs.map((faq) => ({
+          "@type": "Question",
+          "name": faq.qUz,
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": faq.aUz,
+          },
+        })),
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Bosh sahifa", "item": "https://semtravel.uz" },
+          { "@type": "ListItem", "position": 2, "name": "Yo'nalishlar", "item": "https://semtravel.uz/tours" },
+          { "@type": "ListItem", "position": 3, "name": dest.nameUz, "item": pageUrl },
+        ],
+      },
+    ],
+  };
+}
+
 export function generateStaticParams() {
   return DESTINATION_SLUGS.map((slug) => ({ slug }));
 }
@@ -16,7 +59,7 @@ export async function generateMetadata({
   const dest = DESTINATIONS[slug];
   if (!dest) return {};
 
-  const title = `${dest.nameUz} Turlari Toshkentdan — Narxlar ${dest.priceFrom}$ dan | SEM Travel`;
+  const title = `${dest.nameUz} Turlari Toshkentdan — Narxlar ${dest.priceFrom}$ dan`;
   const description = `Toshkentdan ${dest.nameUz}ga tur paketlar ${dest.priceFrom}$ dan. Parvoz + mehmonxona + transfer. Viza: ${dest.visaUz}. Eng yaxshi narxlar kafolati. SEM Travel — 15+ yil tajriba.`;
 
   return {
@@ -48,5 +91,16 @@ export default async function DestinationPage({
 }) {
   const { slug } = await params;
   if (!DESTINATIONS[slug]) notFound();
-  return <DestinationClient slug={slug} />;
+  const schema = buildDestinationSchema(slug);
+  return (
+    <>
+      {schema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      )}
+      <DestinationClient slug={slug} />
+    </>
+  );
 }

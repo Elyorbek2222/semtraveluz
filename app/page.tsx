@@ -6,7 +6,6 @@ import MinPrices from "@/components/tourvisor/MinPrices";
 import StatsWhyUs from "@/components/StatsWhyUs";
 import Testimonials from "@/components/Testimonials";
 import FAQ from "@/components/FAQ";
-import TourvisorInit from "@/components/tourvisor/TourvisorInit";
 
 export default function Home() {
   return (
@@ -19,7 +18,6 @@ export default function Home() {
       <StatsWhyUs />
       <Testimonials />
       <FAQ />
-      <TourvisorInit />
     </>
   );
 }

@@ -3,7 +3,7 @@ import ToursClient from "./ToursClient";
 import { TOURS } from "@/lib/tours-data";
 
 export const metadata: Metadata = {
-  title: "Turlar Katalogi — Toshkentdan Eng Arzon Tur Paketlar | SEM Travel",
+  title: "Turlar Katalogi — Toshkentdan Eng Arzon Tur Paketlar",
   description:
     "SEM Travel turlar katalogi 2025: Turkiya, Dubai, Tailand, Misr, Maldiv, Gretsiya va 50+ mamlakatga tayyor tur paketlar. Parvoz + mehmonxona + transfer. Toshkentdan eng arzon narxlar.",
   keywords: [

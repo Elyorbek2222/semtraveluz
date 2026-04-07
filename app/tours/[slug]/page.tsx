@@ -59,13 +59,17 @@ export default async function TourDetailPage({
     "@context": "https://schema.org",
     "@type": "TouristTrip",
     name: tour.title,
+    url: `https://semtravel.uz/tours/${slug}`,
     description: tour.descUz ?? `${tour.destination} ga ${tour.duration} tur paketi`,
     image: tour.image,
-    touristType: tour.category,
-    itinerary: {
-      "@type": "ItemList",
-      name: tour.title,
-    },
+    inLanguage: ["uz", "ru"],
+    touristType: (Array.isArray(tour.category) ? tour.category : [tour.category])
+      .map((c: string) =>
+        c === "allInclusive" ? "Beach, All Inclusive" :
+        c === "oilaviy" ? "Family" :
+        c === "biznes" ? "Business" :
+        c === "plyaj" ? "Beach" : c
+      ).join(", "),
     offers: {
       "@type": "Offer",
       price: tour.price,
@@ -82,12 +86,6 @@ export default async function TourDetailPage({
       "@type": "TravelAgency",
       name: "SEM Travel",
       url: "https://semtravel.uz",
-    },
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: tour.rating,
-      reviewCount: tour.reviewCount,
-      bestRating: 5,
     },
   };
 

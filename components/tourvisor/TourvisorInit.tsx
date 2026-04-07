@@ -1,6 +1,8 @@
 "use client";
 
 import Script from "next/script";
+import { useEffect, useRef } from "react";
+import { useLang } from "@/lib/language-context";
 
 function formatUzsPrice(text: string): string {
   return text.replace(/(\d[\d\s]{4,})/g, (match) => {
@@ -13,7 +15,6 @@ function formatUzsPrice(text: string): string {
 }
 
 function patchTourvisorPrices() {
-  // Price class names Tourvisor uses
   const selectors = [
     ".tv-price",
     ".tv-tour-price",
@@ -23,10 +24,8 @@ function patchTourvisorPrices() {
     '[class*="Price"]',
     '[class*="cost"]',
   ];
-  const selector = selectors.join(",");
-
-  document.querySelectorAll<HTMLElement>(selector).forEach((el) => {
-    if (el.children.length > 0) return; // skip containers, only leaf nodes
+  document.querySelectorAll<HTMLElement>(selectors.join(",")).forEach((el) => {
+    if (el.children.length > 0) return;
     const original = el.textContent || "";
     const patched = formatUzsPrice(original);
     if (patched !== original) el.textContent = patched;
@@ -42,7 +41,6 @@ const FEEDBACK_TEXT: Record<string, string> = {
 
 function patchFeedbackButton(lang: string) {
   const text = FEEDBACK_TEXT[lang] || FEEDBACK_TEXT["ru"];
-  // Tourvisor feedback button selectors
   const selectors = [
     ".tv-feedback-btn",
     ".tv-feedback button",
@@ -57,29 +55,25 @@ function patchFeedbackButton(lang: string) {
   }
 }
 
-function observeTourvisor() {
-  // Run once immediately
-  patchTourvisorPrices();
-
-  // Set feedback button language on load
-  const lang = localStorage.getItem("lang") || "ru";
-  setTimeout(() => patchFeedbackButton(lang), 2000);
-
-  // Watch for language changes (user switches language)
-  window.addEventListener("storage", (e) => {
-    if (e.key === "lang" && e.newValue) {
-      patchFeedbackButton(e.newValue);
-    }
-  });
-
-  // Watch for dynamically added content (lazy-loaded tours)
-  const observer = new MutationObserver(() => {
-    patchTourvisorPrices();
-  });
-  observer.observe(document.body, { childList: true, subtree: true });
-}
-
 export default function TourvisorInit() {
+  const { lang } = useLang();
+  // ref — Script onLoad closure ichida ham yangi tilni ko'rish uchun
+  const langRef = useRef(lang);
+
+  useEffect(() => {
+    langRef.current = lang;
+
+    // Feedback tugmasi matnini yangilash
+    patchFeedbackButton(lang);
+
+    // Tourvisor JS API orqali tilni o'zgartirish (agar qo'llab-quvvatlasa)
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const tv = (window as any).tourvisor;
+    if (tv?.setLanguage) {
+      tv.setLanguage(lang);
+    }
+  }, [lang]);
+
   return (
     <Script
       src="https://tourvisor.ru/module/init.js"
@@ -87,8 +81,18 @@ export default function TourvisorInit() {
       onLoad={() => {
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
         (window as any).tourvisor?.init?.();
-        // Start price formatter after widget loads
-        setTimeout(observeTourvisor, 1500);
+
+        // Widget yuklanganidan keyin patch qilish
+        setTimeout(() => {
+          patchTourvisorPrices();
+          patchFeedbackButton(langRef.current);
+        }, 1500);
+
+        // Dinamik content uchun kuzatuvchi
+        const observer = new MutationObserver(() => {
+          patchTourvisorPrices();
+        });
+        observer.observe(document.body, { childList: true, subtree: true });
       }}
     />
   );

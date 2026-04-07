@@ -25,6 +25,7 @@ export interface Destination {
   faqs: DestinationFAQ[];
   tourCountryMatch: string; // matches Tour.country
   tvCountryName: string;   // Tourvisor country name (Russian) for search widget pre-filter
+  tvModuleId: string;      // Tourvisor search module ID pre-configured for this country
 }
 
 export const DESTINATIONS: Record<string, Destination> = {
@@ -91,6 +92,7 @@ export const DESTINATIONS: Record<string, Destination> = {
     ],
     tourCountryMatch: "Turkiya",
     tvCountryName: "Турция",
+    tvModuleId: "9976360", // TODO: Tourvisor adminida Turkiya uchun alohida modul yarating
   },
 
   dubai: {
@@ -156,6 +158,7 @@ export const DESTINATIONS: Record<string, Destination> = {
     ],
     tourCountryMatch: "BAA",
     tvCountryName: "ОАЭ",
+    tvModuleId: "9976360", // TODO: Tourvisor adminida Dubai uchun alohida modul yarating
   },
 
   misr: {
@@ -221,6 +224,7 @@ export const DESTINATIONS: Record<string, Destination> = {
     ],
     tourCountryMatch: "Misr",
     tvCountryName: "Египет",
+    tvModuleId: "9976360", // TODO: Tourvisor adminida Misr uchun alohida modul yarating
   },
 
   tailand: {
@@ -286,6 +290,7 @@ export const DESTINATIONS: Record<string, Destination> = {
     ],
     tourCountryMatch: "Tailand",
     tvCountryName: "Таиланд",
+    tvModuleId: "9976360", // TODO: Tourvisor adminida Tailand uchun alohida modul yarating
   },
 
   maldiv: {
@@ -351,6 +356,7 @@ export const DESTINATIONS: Record<string, Destination> = {
     ],
     tourCountryMatch: "Maldiv",
     tvCountryName: "Мальдивы",
+    tvModuleId: "9976360", // TODO: Tourvisor adminida Maldiv uchun alohida modul yarating
   },
 
   gretsiya: {
@@ -416,6 +422,7 @@ export const DESTINATIONS: Record<string, Destination> = {
     ],
     tourCountryMatch: "Gretsiya",
     tvCountryName: "Греция",
+    tvModuleId: "9976360", // TODO: Tourvisor adminida Gretsiya uchun alohida modul yarating
   },
 
   qirgiziston: {
@@ -475,6 +482,7 @@ export const DESTINATIONS: Record<string, Destination> = {
     ],
     tourCountryMatch: "Qirg'iziston",
     tvCountryName: "Кыргызстан",
+    tvModuleId: "9976360", // TODO: Tourvisor adminida Qirgiziston uchun alohida modul yarating
   },
 
   gruziya: {
@@ -534,6 +542,7 @@ export const DESTINATIONS: Record<string, Destination> = {
     ],
     tourCountryMatch: "Gruziya",
     tvCountryName: "Грузия",
+    tvModuleId: "9976360", // TODO: Tourvisor adminida Gruziya uchun alohida modul yarating
   },
 
   xitoy: {
@@ -593,6 +602,7 @@ export const DESTINATIONS: Record<string, Destination> = {
     ],
     tourCountryMatch: "Xitoy",
     tvCountryName: "Китай",
+    tvModuleId: "9976360", // TODO: Tourvisor adminida Xitoy uchun alohida modul yarating
   },
 };
 

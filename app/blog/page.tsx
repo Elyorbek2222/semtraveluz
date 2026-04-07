@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import BlogClient from "./BlogClient";
 
 export const metadata: Metadata = {
-  title: "Blog — SEM Travel | Sayohat maqolalari va maslahatlar | Блог о путешествиях",
+  title: { absolute: "Blog — SEM Travel | Sayohat maqolalari va maslahatlar" },
   description:
     "SEM Travel blogida sayohat maslahatlari, viza qo'llanmalari va eng yaxshi yo'nalishlar. Блог о путешествиях из Узбекистана: советы, памятки, лайфхаки.",
   keywords: [

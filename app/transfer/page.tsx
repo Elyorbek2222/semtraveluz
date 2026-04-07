@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import TransferClient from "./TransferClient";
 
 export const metadata: Metadata = {
-  title: "Transfer Xizmati — Aeroport va Shahar Transferi | SEM Travel",
+  title: "Transfer Xizmati — Aeroport va Shahar Transferi",
   description:
     "SEM Travel transfer xizmati: aeroport-mehmonxona, shahar transferi, VIP transfer, guruh transferi. Toshkent, Samarqand va xalqaro aeroportlardan. 24/7 xizmat.",
   keywords: [

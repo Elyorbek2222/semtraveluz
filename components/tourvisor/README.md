@@ -14,6 +14,7 @@ Barcha Tourvisor widget komponentlari shu papkada.
 | `TourCalendar.tsx` | `9990310` | 📅 Narx kalendari | `destinations/[slug]` |
 | `MinPrices.tsx` | `9990311` | 💰 Minimal narxlar | Bosh sahifa, `tours` sahifasi |
 | `FeedbackButton` | `9990312` | 💬 Feedback tugmasi | `layout.tsx` — **barcha sahifalar** |
+| `TourCatalog` | `9990313` | 🌍 Mamlakatlar katalogi | `tours` sahifasi |
 
 ## Yangi modul qo'shish tartibi
 

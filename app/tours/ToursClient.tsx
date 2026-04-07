@@ -287,10 +287,21 @@ export default function ToursClient() {
           )}
         </div>
 
+        {/* ── TOURVISOR CATALOG ── */}
+        <div className="mb-10">
+          <h2 className="text-xl font-extrabold text-gray-900 mb-1">
+            🌍 {isUz ? "Mamlakatlar katalogi" : "Каталог стран"}
+          </h2>
+          <p className="text-sm text-gray-500 mb-4">
+            {isUz ? "Toshkentdan barcha yo'nalishlarga narxlar" : "Цены по всем направлениям из Ташкента"}
+          </p>
+          <div className="tv-country tv-moduleid-9990313" />
+        </div>
+
         {/* ── TOURVISOR HOT TOURS WIDGET ── */}
         <div className="mb-10">
           <h2 className="text-xl font-extrabold text-gray-900 mb-4">
-            🔥 {isUz ? "Tourvisor: Issiq takliflar" : "Tourvisor: Горящие туры"}
+            🔥 {isUz ? "Issiq takliflar" : "Горящие туры"}
           </h2>
           <div className="tv-hot-tours tv-moduleid-9989885" />
         </div>

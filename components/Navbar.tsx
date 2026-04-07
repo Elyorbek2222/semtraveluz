@@ -48,6 +48,7 @@ export default function Navbar() {
   useEffect(() => { setMobileOpen(false); }, [pathname]);
 
   return (
+    <>
     <header className="fixed top-0 left-0 right-0 z-50" style={{ background: "rgba(255,255,255,0.97)", backdropFilter: "blur(12px)", borderBottom: "1px solid #E5E7EB", boxShadow: "0 1px 12px rgba(0,0,0,0.06)" }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 gap-4">
@@ -207,16 +208,6 @@ export default function Navbar() {
         </div>
       </div>
 
-      {consultOpen && (
-        <LeadModal
-          isUz={lang === "uz"}
-          title={lang === "uz" ? "📩 Bepul maslahat" : "📩 Бесплатная консультация"}
-          type="Bepul maslahat"
-          source="semtravel.uz (navbar)"
-          onClose={() => setConsultOpen(false)}
-        />
-      )}
-
       {/* ── MOBILE MENU ── */}
       {mobileOpen && (
         <div
@@ -307,5 +298,16 @@ export default function Navbar() {
         </div>
       )}
     </header>
+
+      {consultOpen && (
+        <LeadModal
+          isUz={lang === "uz"}
+          title={lang === "uz" ? "📩 Bepul maslahat" : "📩 Бесплатная консультация"}
+          type="Bepul maslahat"
+          source="semtravel.uz (navbar)"
+          onClose={() => setConsultOpen(false)}
+        />
+      )}
+    </>
   );
 }

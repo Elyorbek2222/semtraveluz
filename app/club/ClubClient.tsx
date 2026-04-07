@@ -117,6 +117,93 @@ function FloatShape({ emoji, size, x, y, duration, delay }: {
   );
 }
 
+// ── TIER ICONS (SVG) ──────────────────────────────────────────────────────────
+function ClassicIcon({ size = 40 }: { size?: number }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 40 40" fill="none">
+      <defs>
+        <radialGradient id="cg1" cx="40%" cy="35%" r="60%">
+          <stop offset="0%" stopColor="#E8D5A3"/>
+          <stop offset="50%" stopColor="#C8A96E"/>
+          <stop offset="100%" stopColor="#8B6B35"/>
+        </radialGradient>
+        <radialGradient id="cg2" cx="40%" cy="30%" r="55%">
+          <stop offset="0%" stopColor="#F5E6C0"/>
+          <stop offset="100%" stopColor="#C8A96E"/>
+        </radialGradient>
+      </defs>
+      {/* Ribbon */}
+      <rect x="16" y="0" width="4" height="10" rx="1" fill="#C8A96E" opacity="0.6"/>
+      <rect x="20" y="0" width="4" height="10" rx="1" fill="#A07840" opacity="0.7"/>
+      {/* Medal circle */}
+      <circle cx="20" cy="26" r="13" fill="url(#cg1)" stroke="#A07840" strokeWidth="1"/>
+      <circle cx="20" cy="26" r="10" fill="url(#cg2)" opacity="0.6"/>
+      {/* C letter */}
+      <text x="20" y="31" textAnchor="middle" fontSize="11" fontWeight="900" fontFamily="serif" fill="#6B4C1E">C</text>
+    </svg>
+  );
+}
+
+function GoldIcon({ size = 40 }: { size?: number }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 40 40" fill="none">
+      <defs>
+        <radialGradient id="gg1" cx="40%" cy="35%" r="60%">
+          <stop offset="0%" stopColor="#FFE566"/>
+          <stop offset="40%" stopColor="#F5C518"/>
+          <stop offset="100%" stopColor="#8B6B00"/>
+        </radialGradient>
+        <radialGradient id="gg2" cx="35%" cy="30%" r="55%">
+          <stop offset="0%" stopColor="#FFF0A0"/>
+          <stop offset="100%" stopColor="#D4A017"/>
+        </radialGradient>
+      </defs>
+      {/* Ribbon */}
+      <rect x="16" y="0" width="4" height="10" rx="1" fill="#F5C518" opacity="0.7"/>
+      <rect x="20" y="0" width="4" height="10" rx="1" fill="#B8860B" opacity="0.8"/>
+      {/* Medal circle outer glow */}
+      <circle cx="20" cy="26" r="14" fill="#F5C518" opacity="0.2"/>
+      <circle cx="20" cy="26" r="13" fill="url(#gg1)" stroke="#B8860B" strokeWidth="1"/>
+      <circle cx="20" cy="26" r="10" fill="url(#gg2)" opacity="0.5"/>
+      {/* Star */}
+      <text x="20" y="31" textAnchor="middle" fontSize="12" fontWeight="900" fontFamily="serif" fill="#7A5500">G</text>
+    </svg>
+  );
+}
+
+function PlatinumIcon({ size = 40 }: { size?: number }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 40 40" fill="none">
+      <defs>
+        <linearGradient id="pg1" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stopColor="#F0F0F0"/>
+          <stop offset="40%" stopColor="#C8C8C8"/>
+          <stop offset="100%" stopColor="#888"/>
+        </linearGradient>
+        <linearGradient id="pg2" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stopColor="#fff" stopOpacity="0.9"/>
+          <stop offset="100%" stopColor="#D0D0D0" stopOpacity="0.4"/>
+        </linearGradient>
+      </defs>
+      {/* Diamond shape */}
+      <polygon points="20,3 36,16 20,38 4,16" fill="url(#pg1)" stroke="#999" strokeWidth="0.8"/>
+      {/* Inner facet top */}
+      <polygon points="20,3 36,16 20,16" fill="url(#pg2)" opacity="0.5"/>
+      {/* Inner facet bottom */}
+      <polygon points="20,38 36,16 20,16" fill="#999" opacity="0.2"/>
+      <polygon points="20,38 4,16 20,16" fill="#fff" opacity="0.15"/>
+      {/* Center highlight */}
+      <polygon points="20,8 32,16 20,24 8,16" fill="rgba(255,255,255,0.25)"/>
+    </svg>
+  );
+}
+
+function TierIcon({ id, size = 36 }: { id: string; size?: number }) {
+  if (id === "gold")     return <GoldIcon size={size} />;
+  if (id === "platinum") return <PlatinumIcon size={size} />;
+  return <ClassicIcon size={size} />;
+}
+
 // ── KEYFRAMES (injected once) ─────────────────────────────────────────────────
 const KEYFRAMES = `
 @keyframes floatZ {
@@ -348,7 +435,7 @@ export default function ClubClient() {
           <div className="flex flex-wrap items-center justify-center gap-3 mb-8">
             {tiers.map((t) => (
               <div key={t.id} className="flex items-center gap-2 px-4 py-2 rounded-full font-bold text-sm" style={{ background: "rgba(255,255,255,0.1)", border: "1.5px solid rgba(255,255,255,0.2)", color: "#fff" }}>
-                {t.icon} {t.nameUz}
+                <TierIcon id={t.id} size={22} /> {t.nameUz}
               </div>
             ))}
           </div>
@@ -445,7 +532,9 @@ export default function ClubClient() {
                 { icon: "💎", uz: "Platinum", ru: "Platinum", condUz: "$40k+", condRu: "$40k+" },
               ].map((m, i) => (
                 <div key={i} className="flex flex-col items-center gap-1">
-                  <div className="w-10 h-10 rounded-full flex items-center justify-center text-xl" style={{ background: i === 0 ? "#FDF8F0" : i === 1 ? "#FEF9C3" : "#EFF6FF", border: `2px solid ${i === 0 ? "#C8A96E" : i === 1 ? "#FCD34D" : "#93C5FD"}` }}>{m.icon}</div>
+                  <div className="w-12 h-12 rounded-full flex items-center justify-center" style={{ background: i === 0 ? "#FDF8F0" : i === 1 ? "#FEF9C3" : "#F0F0F0", border: `2px solid ${i === 0 ? "#C8A96E" : i === 1 ? "#FCD34D" : "#B0B0B0"}` }}>
+                    {i === 0 ? <ClassicIcon size={28}/> : i === 1 ? <GoldIcon size={28}/> : <PlatinumIcon size={28}/>}
+                  </div>
                   <span className="text-xs font-bold text-gray-700">{isUz ? m.uz : m.ru}</span>
                   <span className="text-xs text-gray-400">{isUz ? m.condUz : m.condRu}</span>
                 </div>
@@ -511,7 +600,9 @@ export default function ClubClient() {
                 <div className="rounded-2xl overflow-hidden h-full flex flex-col" style={{ border: `2px solid ${tier.border}`, background: tier.bg, boxShadow: idx === 2 ? "0 8px 32px rgba(0,0,0,0.2)" : "0 2px 12px rgba(0,0,0,0.06)" }}>
                   <div className="p-5 text-center" style={{ background: headerBg }}>
                     {idx === 2 && <div className="inline-block mb-2 px-3 py-0.5 rounded-full text-xs font-bold" style={{ background: "#F5C518", color: "#000" }}>{isUz ? "Eng yuqori" : "Топ статус"}</div>}
-                    <div className="text-4xl mb-1" style={{ animation: `floatZ ${5 + idx}s ease-in-out ${idx * 0.7}s infinite` }}>{tier.icon}</div>
+                    <div className="flex justify-center mb-2" style={{ animation: `floatZ ${5 + idx}s ease-in-out ${idx * 0.7}s infinite` }}>
+                      <TierIcon id={tier.id} size={52} />
+                    </div>
                     <h3 className="text-2xl font-black text-white">{tier.nameUz}</h3>
                     <p className="text-sm mt-1" style={{ color: "rgba(255,255,255,0.8)" }}>{isUz ? tier.conditionUz : tier.conditionRu}</p>
                   </div>
@@ -539,7 +630,9 @@ export default function ClubClient() {
               const back = (
                 <div className="p-6 h-full flex flex-col justify-between" style={{ borderRadius: 16 }}>
                   <div>
-                    <div className="text-4xl mb-3 text-center" style={{ animation: "spinSlow 4s linear infinite" }}>{tier.icon}</div>
+                    <div className="flex justify-center mb-3" style={{ animation: "spinSlow 4s linear infinite" }}>
+                      <TierIcon id={tier.id} size={48} />
+                    </div>
                     <h4 className="text-white font-black text-center text-lg mb-4">{tier.nameUz} — {isUz ? "barcha imtiyozlar" : "все привилегии"}</h4>
                     <ul className="space-y-2">
                       {tier.benefits.map((b, i) => (
@@ -572,7 +665,9 @@ export default function ClubClient() {
               <tr>
                 <th className="text-left p-4 text-gray-600 font-semibold" style={{ borderBottom: "1px solid #E5E7EB" }}>{isUz ? "Imtiyoz" : "Привилегия"}</th>
                 {tiers.map((t) => (
-                  <th key={t.id} className="p-4 text-center font-extrabold" style={{ borderBottom: "1px solid #E5E7EB", color: t.color }}>{t.icon} {t.nameUz}</th>
+                  <th key={t.id} className="p-4 text-center font-extrabold" style={{ borderBottom: "1px solid #E5E7EB", color: t.color }}>
+                    <div className="flex flex-col items-center gap-1"><TierIcon id={t.id} size={24}/>{t.nameUz}</div>
+                  </th>
                 ))}
               </tr>
             </thead>
@@ -612,8 +707,8 @@ export default function ClubClient() {
             {testimonials.map((t, i) => (
               <Card3D key={i} intensity={10} style={{ borderRadius: 16, background: "#fff", border: "1px solid #E5E7EB", padding: 20 }}>
                 <div className="flex items-center gap-3 mb-3">
-                  <div className="w-10 h-10 rounded-full flex items-center justify-center text-xl font-bold" style={{ background: t.status === "platinum" ? "#EFF6FF" : t.status === "gold" ? "#FFFBEB" : "#FDF8F0" }}>
-                    {t.icon}
+                  <div className="w-10 h-10 rounded-full flex items-center justify-center" style={{ background: t.status === "platinum" ? "#F0F0F0" : t.status === "gold" ? "#FFFBEB" : "#FDF8F0" }}>
+                    <TierIcon id={t.status} size={28} />
                   </div>
                   <div>
                     <p className="font-bold text-gray-900 text-sm">{t.name}</p>
@@ -670,14 +765,15 @@ export default function ClubClient() {
                     <p className="text-xs font-semibold tracking-widest uppercase" style={{ color: "#A07840" }}>SEM TRAVEL AGENCY</p>
                     <p className="font-black text-xl mt-0.5" style={{ color: "#6B4C1E", fontStyle: "italic" }}>Classic Card</p>
                   </div>
-                  <div className="w-10 h-10 rounded-full flex items-center justify-center text-xl" style={{ background: "rgba(200,169,110,0.2)", border: "1.5px solid #C8A96E", animation: "floatZ 4s ease-in-out infinite" }}>🥈</div>
+                  <div style={{ animation: "floatZ 4s ease-in-out infinite" }}>
+                    <ClassicIcon size={44} />
+                  </div>
                 </div>
                 <div className="mt-4 pt-4" style={{ borderTop: "1px solid rgba(200,169,110,0.4)" }}>
-                  <p className="text-xs font-mono tracking-widest" style={{ color: "#A07840" }}>1000–1200</p>
-                  <div className="flex justify-between items-end mt-2">
+                  <div className="flex justify-between items-end">
                     <div>
                       <p className="text-xs" style={{ color: "#A07840" }}>{isUz ? "Cashback" : "Кэшбэк"}</p>
-                      <p className="font-extrabold text-lg" style={{ color: "#6B4C1E" }}>0.5%</p>
+                      <p className="font-extrabold text-2xl" style={{ color: "#6B4C1E" }}>0.5%</p>
                     </div>
                     <p className="text-xs font-bold" style={{ color: "#A07840" }}>1–3% {isUz ? "chegirma" : "скидка"}</p>
                   </div>
@@ -702,14 +798,15 @@ export default function ClubClient() {
                     <p className="text-xs font-semibold tracking-widest uppercase text-white/80">SEM TRAVEL AGENCY</p>
                     <p className="font-black text-xl mt-0.5 text-white" style={{ fontStyle: "italic" }}>Gold Card</p>
                   </div>
-                  <div className="w-10 h-10 rounded-full flex items-center justify-center text-xl" style={{ background: "rgba(255,255,255,0.2)", border: "1.5px solid rgba(255,255,255,0.5)", animation: "floatZ 5s ease-in-out 0.8s infinite" }}>🥇</div>
+                  <div style={{ animation: "floatZ 5s ease-in-out 0.8s infinite" }}>
+                    <GoldIcon size={44} />
+                  </div>
                 </div>
                 <div className="mt-4 pt-4" style={{ borderTop: "1px solid rgba(255,255,255,0.3)" }}>
-                  <p className="text-xs font-mono tracking-widest text-white/70">200–249</p>
-                  <div className="flex justify-between items-end mt-2">
+                  <div className="flex justify-between items-end">
                     <div>
                       <p className="text-xs text-white/70">{isUz ? "Cashback" : "Кэшбэк"}</p>
-                      <p className="font-extrabold text-lg text-white">1%</p>
+                      <p className="font-extrabold text-2xl text-white">1%</p>
                     </div>
                     <p className="text-xs font-bold text-white/90">3–5% {isUz ? "chegirma" : "скидка"}</p>
                   </div>
@@ -734,14 +831,15 @@ export default function ClubClient() {
                     <p className="text-xs font-semibold tracking-widest uppercase" style={{ color: "#666" }}>SEM TRAVEL AGENCY</p>
                     <p className="font-black text-xl mt-0.5" style={{ color: "#333", fontStyle: "italic" }}>Platinum Card</p>
                   </div>
-                  <div className="w-10 h-10 rounded-full flex items-center justify-center text-xl" style={{ background: "rgba(0,0,0,0.08)", border: "1.5px solid #999", animation: "floatZ 6s ease-in-out 1.5s infinite" }}>💎</div>
+                  <div style={{ animation: "floatZ 6s ease-in-out 1.5s infinite" }}>
+                    <PlatinumIcon size={44} />
+                  </div>
                 </div>
                 <div className="mt-4 pt-4" style={{ borderTop: "1px solid rgba(0,0,0,0.15)" }}>
-                  <p className="text-xs font-mono tracking-widest" style={{ color: "#666" }}>001–010</p>
-                  <div className="flex justify-between items-end mt-2">
+                  <div className="flex justify-between items-end">
                     <div>
                       <p className="text-xs" style={{ color: "#666" }}>{isUz ? "Cashback" : "Кэшбэк"}</p>
-                      <p className="font-extrabold text-lg" style={{ color: "#222" }}>1.5%</p>
+                      <p className="font-extrabold text-2xl" style={{ color: "#222" }}>1.5%</p>
                     </div>
                     <p className="text-xs font-bold" style={{ color: "#444" }}>5% {isUz ? "chegirma" : "скидка"}</p>
                   </div>

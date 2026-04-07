@@ -443,10 +443,64 @@ export default function ClubClient() {
           <button onClick={() => setModal(true)} className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-extrabold text-base transition-all hover:scale-105 active:scale-95" style={{ background: "#FF6B35", color: "#fff", boxShadow: "0 6px 28px rgba(255,107,53,0.5)" }}>
             🎯 {isUz ? "SEM Club a'zosi bo'lish" : "Стать участником SEM Club"}
           </button>
+          <div className="mt-4">
+            <Link href="/club/qoidalar" className="inline-flex items-center gap-1.5 text-sm font-semibold transition-opacity hover:opacity-80" style={{ color: "rgba(255,255,255,0.6)" }}>
+              📋 {isUz ? "Dastur qoidalarini o'qish →" : "Читать правила программы →"}
+            </Link>
+          </div>
         </div>
       </section>
 
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 mt-10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 mt-10">
+        <div className="flex gap-7 items-start">
+
+        {/* ── SIDEBAR ── */}
+        <div className="hidden lg:block w-56 flex-shrink-0">
+          <div className="sticky top-24 rounded-2xl overflow-hidden" style={{ border: "1.5px solid #E5E7EB", background: "#fff" }}>
+            <div className="p-4" style={{ background: "linear-gradient(135deg, #0057A8, #003F7A)" }}>
+              <div className="text-white font-extrabold text-sm">💳 SEM Club</div>
+              <div className="text-xs mt-0.5" style={{ color: "rgba(255,255,255,0.65)" }}>{isUz ? "Navigatsiya" : "Навигация"}</div>
+            </div>
+            <div className="p-2">
+              {[
+                { href: "#ishlaydi",    icon: "⚙️", uz: "Qanday ishlaydi",       ru: "Как работает" },
+                { href: "#statuslar",   icon: "🏆", uz: "Status darajalari",      ru: "Уровни статуса" },
+                { href: "#ballar",      icon: "🎯", uz: "Ballar to'planishi",     ru: "Накопление баллов" },
+                { href: "#kalkulator",  icon: "💰", uz: "Cashback kalkulyator",   ru: "Калькулятор" },
+                { href: "#taqqoslash",  icon: "📊", uz: "Imtiyozlar jadvali",     ru: "Таблица привилегий" },
+                { href: "#kartalar",    icon: "💳", uz: "Kartalar",               ru: "Карты" },
+                { href: "#faq",         icon: "❓", uz: "Savollar",               ru: "Вопросы" },
+              ].map((item) => (
+                <a key={item.href} href={item.href}
+                  className="flex items-center gap-2.5 px-3 py-2 rounded-xl text-xs font-semibold transition-colors hover:bg-blue-50 text-gray-700"
+                  style={{ borderLeft: "3px solid transparent" }}
+                  onMouseEnter={e => (e.currentTarget.style.borderLeftColor = "#0057A8")}
+                  onMouseLeave={e => (e.currentTarget.style.borderLeftColor = "transparent")}
+                >
+                  <span>{item.icon}</span>
+                  <span>{isUz ? item.uz : item.ru}</span>
+                </a>
+              ))}
+              <div className="mt-2 pt-2" style={{ borderTop: "1px solid #F3F4F6" }}>
+                <Link href="/club/qoidalar"
+                  className="flex items-center gap-2 px-3 py-2.5 rounded-xl text-xs font-bold transition-colors hover:bg-orange-50"
+                  style={{ color: "#FF6B35" }}>
+                  📋 {isUz ? "Dastur qoidalari" : "Правила программы"}
+                </Link>
+              </div>
+            </div>
+            <div className="p-3 pt-0">
+              <button onClick={() => setModal(true)}
+                className="w-full py-2.5 rounded-xl text-xs font-bold text-white transition-opacity hover:opacity-80"
+                style={{ background: "#FF6B35" }}>
+                🎯 {isUz ? "A'zo bo'lish" : "Вступить"}
+              </button>
+            </div>
+          </div>
+        </div>
+
+        {/* ── MAIN CONTENT ── */}
+        <div className="flex-1 min-w-0">
 
         {/* ── 6 — ANIMATED STATS ── */}
         <div ref={statsRef} className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-12">
@@ -465,7 +519,7 @@ export default function ClubClient() {
         </div>
 
         {/* ── HOW IT WORKS ── */}
-        <div className="mb-12">
+        <div id="ishlaydi" className="mb-12 scroll-mt-24">
           <h2 className="text-2xl font-extrabold text-gray-900 mb-2 text-center">{isUz ? "⚙️ Qanday ishlaydi?" : "⚙️ Как это работает?"}</h2>
           <p className="text-sm text-gray-500 text-center mb-8">{isUz ? "4 ta oddiy qadam" : "4 простых шага"}</p>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
@@ -481,7 +535,7 @@ export default function ClubClient() {
         </div>
 
         {/* ── EARN POINTS SECTION ── */}
-        <div className="mb-12 rounded-2xl overflow-hidden" style={{ border: "1px solid #E5E7EB" }}>
+        <div id="ballar" className="mb-12 rounded-2xl overflow-hidden scroll-mt-24" style={{ border: "1px solid #E5E7EB" }}>
           <div className="px-6 py-4" style={{ background: "linear-gradient(135deg, #0057A8, #003F7A)" }}>
             <h2 className="text-white font-extrabold text-lg">{isUz ? "🎯 Ballar qanday to'planadi?" : "🎯 Как накапливаются баллы?"}</h2>
             <p className="text-sm mt-0.5" style={{ color: "rgba(255,255,255,0.75)" }}>{isUz ? "6 ta yo'l — ko'proq ball to'plang" : "6 способов — накапливайте больше баллов"}</p>
@@ -544,7 +598,7 @@ export default function ClubClient() {
         </div>
 
         {/* ── 2 — SAVINGS CALCULATOR ── */}
-        <div className="rounded-2xl p-6 mb-12" style={{ background: "linear-gradient(135deg, #F0F7FF 0%, #EFF6FF 100%)", border: "1.5px solid #BFDBFE" }}>
+        <div id="kalkulator" className="rounded-2xl p-6 mb-12 scroll-mt-24" style={{ background: "linear-gradient(135deg, #F0F7FF 0%, #EFF6FF 100%)", border: "1.5px solid #BFDBFE" }}>
           <h2 className="text-xl font-extrabold text-gray-900 mb-1">🧮 {isUz ? "Tejash kalkulyatori" : "Калькулятор экономии"}</h2>
           <p className="text-sm text-gray-500 mb-6">{isUz ? "Statusingizga qarab qancha tejashingizni hisoblang" : "Рассчитайте экономию в зависимости от вашего статуса"}</p>
 
@@ -585,7 +639,7 @@ export default function ClubClient() {
         </div>
 
         {/* ── TIER CARDS ── */}
-        <div className="mb-12">
+        <div id="statuslar" className="mb-12 scroll-mt-24">
           <h2 className="text-2xl font-extrabold text-gray-900 mb-2 text-center">{isUz ? "🏆 Status darajalari" : "🏆 Уровни статуса"}</h2>
           <p className="text-sm text-gray-500 text-center mb-8">{isUz ? "Har bir daraja yangi imtiyozlar ochadi" : "Каждый уровень открывает новые привилегии"}</p>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
@@ -658,7 +712,7 @@ export default function ClubClient() {
         </div>
 
         {/* ── COMPARISON TABLE ── */}
-        <div className="mb-12 overflow-x-auto">
+        <div id="taqqoslash" className="mb-12 overflow-x-auto scroll-mt-24">
           <h2 className="text-2xl font-extrabold text-gray-900 mb-6 text-center">{isUz ? "📊 Imtiyozlar taqqoslash" : "📊 Сравнение привилегий"}</h2>
           <table className="w-full bg-white rounded-2xl overflow-hidden text-sm" style={{ border: "1px solid #E5E7EB", borderCollapse: "separate", borderSpacing: 0 }}>
             <thead>
@@ -739,7 +793,7 @@ export default function ClubClient() {
         </div>
 
         {/* ── 7 — CARD PREVIEW ── */}
-        <div className="mb-12">
+        <div id="kartalar" className="mb-12 scroll-mt-24">
           <h2 className="text-2xl font-extrabold text-gray-900 mb-2 text-center">{isUz ? "💳 SEM Club Kartalar" : "💳 Карты SEM Club"}</h2>
           <p className="text-sm text-gray-500 text-center mb-8">{isUz ? "A'zo bo'lganingizdan keyin kartangiz beriladi" : "Карта выдаётся после вступления в клуб"}</p>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
@@ -854,7 +908,7 @@ export default function ClubClient() {
         </div>
 
         {/* ── FAQ ── */}
-        <div className="mb-12">
+        <div id="faq" className="mb-12 scroll-mt-24">
           <h2 className="text-2xl font-extrabold text-gray-900 mb-6 text-center">{isUz ? "❓ Ko'p so'raladigan savollar" : "❓ Часто задаваемые вопросы"}</h2>
           <div className="space-y-3">
             {faqs.map((faq, i) => (
@@ -919,6 +973,9 @@ export default function ClubClient() {
             ← {isUz ? "Bosh sahifaga qaytish" : "Вернуться на главную"}
           </Link>
         </div>
+
+        </div>{/* end main content */}
+        </div>{/* end flex */}
       </div>
 
       {modal && (

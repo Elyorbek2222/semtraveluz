@@ -32,6 +32,7 @@ export default function Navbar() {
     { label: lang === "uz" ? "Mehmonxona" : "Отели", href: "/hotels", emoji: "🏨" },
     { label: t.nav.about,   href: "/about",    emoji: "ℹ️" },
     { label: t.nav.contact, href: "/contact",  emoji: "📞" },
+    { label: lang === "uz" ? "SEM Club" : "SEM Club", href: "/club", emoji: "💎" },
   ];
 
   useEffect(() => {

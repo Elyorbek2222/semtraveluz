@@ -168,6 +168,8 @@ export default function RootLayout({
           <Footer />
           <BottomNav />
           <AiChat />
+          {/* Tourvisor feedback button — barcha sahifalarda */}
+          <div className="tv-free-button tv-moduleid-9990312" />
           <Analytics />
         </LangProvider>
       </body>

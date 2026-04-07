@@ -13,6 +13,7 @@ Barcha Tourvisor widget komponentlari shu papkada.
 | `TourSlider.tsx` | `9990308` | 🎠 Slider | Bosh sahifa, blog postlar |
 | `TourCalendar.tsx` | `9990310` | 📅 Narx kalendari | `destinations/[slug]` |
 | `MinPrices.tsx` | `9990311` | 💰 Minimal narxlar | Bosh sahifa, `tours` sahifasi |
+| `FeedbackButton` | `9990312` | 💬 Feedback tugmasi | `layout.tsx` — **barcha sahifalar** |
 
 ## Yangi modul qo'shish tartibi
 

@@ -902,19 +902,21 @@ export default function ClubClient() {
               ✈️ {isUz ? "Turlarni ko'rish" : "Смотреть туры"}
             </Link>
           </div>
+          {/* Qoidalar link — CTA ichida */}
+          <div className="mt-5 pt-5" style={{ borderTop: "1px solid rgba(255,255,255,0.15)" }}>
+            <Link
+              href="/club/qoidalar"
+              className="inline-flex items-center gap-2 text-sm font-semibold transition-opacity hover:opacity-80"
+              style={{ color: "rgba(255,255,255,0.65)" }}
+            >
+              📋 {isUz ? "Dastur qoidalarini o'qish →" : "Читать правила программы →"}
+            </Link>
+          </div>
         </div>
 
-        <div className="pb-6 flex flex-wrap items-center gap-4">
+        <div className="pb-6">
           <Link href="/" className="text-sm font-medium" style={{ color: "#0057A8" }}>
             ← {isUz ? "Bosh sahifaga qaytish" : "Вернуться на главную"}
-          </Link>
-          <span className="text-gray-300">|</span>
-          <Link
-            href="/club/qoidalar"
-            className="text-sm font-semibold flex items-center gap-1.5 px-3 py-1.5 rounded-full transition-all hover:opacity-80"
-            style={{ background: "#EFF6FF", color: "#0057A8", border: "1px solid #BFDBFE" }}
-          >
-            📋 {isUz ? "Dastur qoidalari" : "Правила программы"}
           </Link>
         </div>
       </div>

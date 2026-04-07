@@ -92,7 +92,7 @@ export const DESTINATIONS: Record<string, Destination> = {
     ],
     tourCountryMatch: "Turkiya",
     tvCountryName: "Турция",
-    tvModuleId: "9976360", // TODO: Tourvisor adminida Turkiya uchun alohida modul yarating
+    tvModuleId: "9976621",
   },
 
   dubai: {

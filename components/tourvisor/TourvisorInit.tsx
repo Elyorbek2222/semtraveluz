@@ -33,11 +33,46 @@ function patchTourvisorPrices() {
   });
 }
 
+// Feedback button text by language
+const FEEDBACK_TEXT: Record<string, string> = {
+  uz: "Tur narxini bilish",
+  ru: "Подобрать тур",
+  en: "Find a tour",
+};
+
+function patchFeedbackButton(lang: string) {
+  const text = FEEDBACK_TEXT[lang] || FEEDBACK_TEXT["ru"];
+  // Tourvisor feedback button selectors
+  const selectors = [
+    ".tv-feedback-btn",
+    ".tv-feedback button",
+    ".tv-callback-btn",
+    '[class*="feedback"] button',
+    '[class*="callback"] button',
+  ];
+  for (const sel of selectors) {
+    document.querySelectorAll<HTMLElement>(sel).forEach((el) => {
+      if (el.children.length === 0) el.textContent = text;
+    });
+  }
+}
+
 function observeTourvisor() {
   // Run once immediately
   patchTourvisorPrices();
 
-  // Then watch for dynamically added content (lazy-loaded tours)
+  // Set feedback button language on load
+  const lang = localStorage.getItem("lang") || "ru";
+  setTimeout(() => patchFeedbackButton(lang), 2000);
+
+  // Watch for language changes (user switches language)
+  window.addEventListener("storage", (e) => {
+    if (e.key === "lang" && e.newValue) {
+      patchFeedbackButton(e.newValue);
+    }
+  });
+
+  // Watch for dynamically added content (lazy-loaded tours)
   const observer = new MutationObserver(() => {
     patchTourvisorPrices();
   });

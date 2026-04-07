@@ -295,6 +295,17 @@ export default function ToursClient() {
           <div className="tv-hot-tours tv-moduleid-9989885" />
         </div>
 
+        {/* ── MINIMUM PRICES ── */}
+        <div className="mb-10">
+          <h2 className="text-xl font-extrabold text-gray-900 mb-1">
+            💰 {isUz ? "Yo'nalishlar bo'yicha minimal narxlar" : "Минимальные цены по направлениям"}
+          </h2>
+          <p className="text-sm text-gray-500 mb-4">
+            {isUz ? "Toshkentdan — narxlar har kuni yangilanadi" : "Из Ташкента — цены обновляются ежедневно"}
+          </p>
+          <div className="tv-min-price tv-moduleid-9990311" />
+        </div>
+
         {/* ── TRUST SIGNALS ── */}
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-10">
           {[

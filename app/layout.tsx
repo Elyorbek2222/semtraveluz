@@ -7,7 +7,6 @@ import BottomNav from "@/components/BottomNav";
 import AiChat from "@/components/AiChat";
 import JsonLd from "@/components/JsonLd";
 import { LangProvider } from "@/lib/language-context";
-import TourvisorInit from "@/components/TourvisorInit";
 import { Analytics } from "@vercel/analytics/next";
 
 const inter = Inter({
@@ -170,7 +169,6 @@ export default function RootLayout({
           <BottomNav />
           <AiChat />
           <Analytics />
-          <TourvisorInit />
         </LangProvider>
       </body>
     </html>

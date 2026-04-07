@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
 import HotTours from "@/components/HotTours";
+import TourSlider from "@/components/TourSlider";
 import StatsWhyUs from "@/components/StatsWhyUs";
 import Testimonials from "@/components/Testimonials";
 import FAQ from "@/components/FAQ";
@@ -12,6 +13,7 @@ export default function Home() {
       <Hero />
       <Services />
       <HotTours />
+      <TourSlider />
       <StatsWhyUs />
       <Testimonials />
       <FAQ />

@@ -160,6 +160,14 @@ export default function BlogPostClient({ post }: { post: BlogPost }) {
             </a>
           </div>
 
+          {/* TOUR SLIDER */}
+          <div className="mb-8">
+            <p className="text-xs font-bold uppercase tracking-widest mb-3" style={{ color: "#9CA3AF" }}>
+              {isUz ? "✈️ Mos turlar" : "✈️ Подходящие туры"}
+            </p>
+            <div className="tv-image-slider tv-moduleid-9990308" />
+          </div>
+
           {/* TAGS */}
           <div className="flex flex-wrap gap-2 mb-8">
             {tags.map((tag) => (

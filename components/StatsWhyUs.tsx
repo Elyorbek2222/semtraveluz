@@ -3,13 +3,13 @@
 import { useLang } from "@/lib/language-context";
 
 const statsUz = [
-  { num: "40", suffix: "+", label: "Mamlakatlar" },
+  { num: "50", suffix: "+", label: "Mamlakatlar" },
   { num: "30", suffix: "K+", label: "Mamnun sayohatchilar" },
   { num: "15", suffix: "+", label: "Yillik tajriba" },
   { num: "98", suffix: "%", label: "Mamnunlik darajasi" },
 ];
 const statsRu = [
-  { num: "40", suffix: "+", label: "Стран" },
+  { num: "50", suffix: "+", label: "Стран" },
   { num: "30", suffix: "K+", label: "Довольных клиентов" },
   { num: "15", suffix: "+", label: "Лет опыта" },
   { num: "98", suffix: "%", label: "Уровень довольности" },

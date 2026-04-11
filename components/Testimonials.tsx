@@ -26,7 +26,7 @@ const AVATAR_COLORS = [
 ];
 
 export default function Testimonials() {
-  const { t } = useLang();
+  const { t, lang } = useLang();
 
   return (
     <section className="py-20 bg-white" id="testimonials">
@@ -89,7 +89,9 @@ export default function Testimonials() {
               ))}
             </div>
             <div className="text-left">
-              <div className="font-bold text-gray-900 text-sm">30 000+ mamnun mijoz</div>
+              <div className="font-bold text-gray-900 text-sm">
+                {lang === "uz" ? "30 000+ mamnun mijoz" : "30 000+ довольных клиентов"}
+              </div>
               <div className="flex items-center gap-1">
                 <StarRow />
                 <span className="text-xs text-gray-500">4.9 / 5.0</span>

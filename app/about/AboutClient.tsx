@@ -189,9 +189,9 @@ export default function AboutClient() {
               <>
                 <p>
                   <strong>SEM Travel</strong> — 2011 yildan beri O'zbekistonda faoliyat
-                  yuritayotgan litsenziyalangan sayohat agentligi. Biz Toshkent, Uchtepa tumanida
-                  joylashgan bo'lib, 50+ mamlakatga tur paketlar, viza yordam, mehmonxona bron va
-                  aviabilet xizmatlarini ko'rsatamiz.
+                  yuritayotgan litsenziyalangan sayohat agentligi. Biz Toshkentda 2 ta ofis —
+                  Uchtepa va Olmazar tumanlarida joylashganmiz. 50+ mamlakatga tur paketlar,
+                  viza yordam, mehmonxona bron va aviabilet xizmatlarini ko'rsatamiz.
                 </p>
                 <p>
                   15 yillik tajribamiz davomida <strong>30 000 dan ortiq</strong> mijozimizga
@@ -208,9 +208,9 @@ export default function AboutClient() {
               <>
                 <p>
                   <strong>SEM Travel</strong> — лицензированное туристическое агентство в
-                  Узбекистане, работающее с 2011 года. Мы находимся в Ташкенте, Учтепинский район,
-                  и предоставляем услуги по турпакетам в 50+ странах, помощи с визами,
-                  бронированию отелей и авиабилетов.
+                  Узбекистане, работающее с 2011 года. У нас 2 офиса в Ташкенте —
+                  Учтепинский и Алмазарский районы. Предоставляем услуги по турпакетам
+                  в 50+ странах, помощи с визами, бронированию отелей и авиабилетов.
                 </p>
                 <p>
                   За 15 лет работы мы обслужили более <strong>30 000 клиентов</strong>.
@@ -317,69 +317,98 @@ export default function AboutClient() {
         </div>
 
         {/* ── ADDRESS ── */}
-        <div
-          className="rounded-2xl p-5 mb-10 bg-white"
-          style={{ border: "1.5px solid #E5E7EB" }}
-        >
-          <h2 className="text-base font-extrabold text-gray-900 mb-4">
+        <div className="mb-10">
+          <h2 className="text-xl font-extrabold text-gray-900 mb-4">
             {isUz ? "📍 Bizni toping" : "📍 Как нас найти"}
           </h2>
-          <div className="space-y-3 text-sm">
-            <div className="flex items-start gap-3">
-              <span className="text-lg">📍</span>
-              <div>
-                <span className="font-semibold text-gray-700">
-                  {isUz ? "Manzil:" : "Адрес:"}
-                </span>
-                <p className="text-gray-600">
-                  {isUz
-                    ? "Toshkent, Uchtepa tumani, Katta Xirmontepa ko'chasi, 12B"
-                    : "Ташкент, Учтепинский район, ул. Катта Хирмонтепа, 12Б"}
-                </p>
+
+          {/* Umumiy kontakt */}
+          <div className="rounded-2xl p-4 mb-4 bg-white" style={{ border: "1.5px solid #E5E7EB" }}>
+            <div className="flex flex-wrap gap-4 text-sm">
+              <div className="flex items-center gap-2">
+                <span>📞</span>
+                <div className="flex gap-3">
+                  <a href="tel:+998712755555" className="font-semibold" style={{ color: "#0057A8" }}>+998 71 275-55-55</a>
+                  <a href="tel:+998946642222" className="font-semibold" style={{ color: "#0057A8" }}>+998 94 664-22-22</a>
+                </div>
               </div>
-            </div>
-            <div className="flex items-center gap-3">
-              <span className="text-lg">⏰</span>
-              <div>
-                <span className="font-semibold text-gray-700">
-                  {isUz ? "Ish vaqti:" : "Режим работы:"}
-                </span>
-                <p className="text-gray-600">
-                  {isUz ? "Dush–Shan: 9:00 – 19:00" : "Пн–Сб: 9:00 – 19:00"}
-                </p>
+              <div className="flex items-center gap-2">
+                <span>✉️</span>
+                <a href="mailto:semtraveluz@mail.ru" className="font-semibold" style={{ color: "#0057A8" }}>semtraveluz@mail.ru</a>
               </div>
-            </div>
-            <div className="flex items-center gap-3">
-              <span className="text-lg">📞</span>
-              <div className="flex flex-wrap gap-3">
-                <a href="tel:+998712755555" className="font-semibold" style={{ color: "#0057A8" }}>
-                  +998 71 275-55-55
-                </a>
-                <a href="tel:+998946642222" className="font-semibold" style={{ color: "#0057A8" }}>
-                  +998 94 664-22-22
-                </a>
-              </div>
-            </div>
-            <div className="flex items-center gap-3">
-              <span className="text-lg">✉️</span>
-              <a href="mailto:semtraveluz@mail.ru" className="font-semibold" style={{ color: "#0057A8" }}>
-                semtraveluz@mail.ru
-              </a>
             </div>
           </div>
 
-          {/* Google Maps */}
-          <div className="mt-4 rounded-xl overflow-hidden" style={{ height: 200 }}>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2997.0!2d69.2085!3d41.3293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDHCsDE5JzQ1LjUiTiA2OcKwMTInMzAuNiJF!5e0!3m2!1suz!2suz!4v1!5m2!1suz!2suz"
-              width="100%"
-              height="200"
-              style={{ border: 0 }}
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              title="SEM Travel ofisi"
-            />
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            {/* Ofis 1 — Uchtepa */}
+            <div className="rounded-2xl p-4 bg-white" style={{ border: "1.5px solid #E5E7EB" }}>
+              <div className="flex items-center gap-2 mb-3">
+                <span className="px-2.5 py-0.5 rounded-full text-xs font-bold text-white" style={{ background: "#0057A8" }}>
+                  {isUz ? "1-ofis" : "Офис 1"}
+                </span>
+                <span className="text-sm font-bold text-gray-700">Uchtepa</span>
+              </div>
+              <div className="space-y-1.5 text-sm mb-3">
+                <div className="flex items-start gap-2">
+                  <span>📍</span>
+                  <p className="text-gray-600">
+                    {isUz ? "Uchtepa tumani, Katta Xirmontepa, 12B" : "Учтепинский р-н, Катта Хирмонтепа, 12Б"}
+                  </p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span>⏰</span>
+                  <p className="text-gray-600">{isUz ? "Har kuni: 8:00 – 20:00" : "Ежедневно: 8:00 – 20:00"}</p>
+                </div>
+              </div>
+              <div className="rounded-xl overflow-hidden" style={{ height: 160 }}>
+                <iframe
+                  src="https://maps.google.com/maps?q=41.2885182,69.1719742&z=17&output=embed"
+                  width="100%" height="160" style={{ border: 0 }}
+                  allowFullScreen loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="SEM Travel — Ofis 1 Uchtepa"
+                />
+              </div>
+              <a href="https://maps.google.com/maps?q=41.2885182,69.1719742" target="_blank" rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 mt-2 text-xs font-bold" style={{ color: "#0057A8" }}>
+                🗺 {isUz ? "Google Mapsda ochish →" : "Открыть в Google Maps →"}
+              </a>
+            </div>
+
+            {/* Ofis 2 — Olmazar */}
+            <div className="rounded-2xl p-4 bg-white" style={{ border: "1.5px solid #E5E7EB" }}>
+              <div className="flex items-center gap-2 mb-3">
+                <span className="px-2.5 py-0.5 rounded-full text-xs font-bold text-white" style={{ background: "#FF6B35" }}>
+                  {isUz ? "2-ofis" : "Офис 2"}
+                </span>
+                <span className="text-sm font-bold text-gray-700">Olmazar</span>
+              </div>
+              <div className="space-y-1.5 text-sm mb-3">
+                <div className="flex items-start gap-2">
+                  <span>📍</span>
+                  <p className="text-gray-600">
+                    {isUz ? "Olmazar tumani, Toshkent" : "Алмазарский район, Ташкент"}
+                  </p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span>⏰</span>
+                  <p className="text-gray-600">{isUz ? "Har kuni: 9:00 – 18:00" : "Ежедневно: 9:00 – 18:00"}</p>
+                </div>
+              </div>
+              <div className="rounded-xl overflow-hidden" style={{ height: 160 }}>
+                <iframe
+                  src="https://maps.google.com/maps?q=41.348022,69.253153&z=17&output=embed"
+                  width="100%" height="160" style={{ border: 0 }}
+                  allowFullScreen loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="SEM Travel — Ofis 2 Olmazar"
+                />
+              </div>
+              <a href="https://maps.google.com/maps?q=41.348022,69.253153" target="_blank" rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 mt-2 text-xs font-bold" style={{ color: "#0057A8" }}>
+                🗺 {isUz ? "Google Mapsda ochish →" : "Открыть в Google Maps →"}
+              </a>
+            </div>
           </div>
         </div>
 

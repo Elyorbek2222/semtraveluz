@@ -2,6 +2,7 @@ import Hero from "@/components/Hero";
 import Services from "@/components/Services";
 import HotTours from "@/components/HotTours";
 import TourSlider from "@/components/tourvisor/TourSlider";
+import SpecialOffers from "@/components/SpecialOffers";
 import MinPrices from "@/components/tourvisor/MinPrices";
 import StatsWhyUs from "@/components/StatsWhyUs";
 import Testimonials from "@/components/Testimonials";
@@ -14,6 +15,7 @@ export default function Home() {
       <Services />
       <HotTours />
       <TourSlider />
+      <SpecialOffers />
       <MinPrices />
       <StatsWhyUs />
       <Testimonials />

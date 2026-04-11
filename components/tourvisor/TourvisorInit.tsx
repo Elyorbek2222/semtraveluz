@@ -77,20 +77,22 @@ export default function TourvisorInit() {
   return (
     <Script
       src="https://tourvisor.ru/module/init.js"
-      strategy="lazyOnload"
+      strategy="afterInteractive"
       onLoad={() => {
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
         (window as any).tourvisor?.init?.();
 
-        // Widget yuklanganidan keyin patch qilish
+        // Widget yuklanganidan keyin patch qilish (500ms yetarli)
         setTimeout(() => {
           patchTourvisorPrices();
           patchFeedbackButton(langRef.current);
-        }, 1500);
+        }, 500);
 
-        // Dinamik content uchun kuzatuvchi
+        // Dinamik content uchun kuzatuvchi — 300ms debounce bilan
+        let debounceTimer: ReturnType<typeof setTimeout>;
         const observer = new MutationObserver(() => {
-          patchTourvisorPrices();
+          clearTimeout(debounceTimer);
+          debounceTimer = setTimeout(patchTourvisorPrices, 300);
         });
         observer.observe(document.body, { childList: true, subtree: true });
       }}

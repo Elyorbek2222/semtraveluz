@@ -280,7 +280,7 @@ export default function ContactClient() {
             </div>
             <div className="rounded-xl overflow-hidden" style={{ height: 200 }}>
               <iframe
-                src="https://maps.google.com/maps?q=41.288557,69.172061&z=16&output=embed"
+                src="https://maps.google.com/maps?q=41.2885182,69.1719742&z=16&output=embed"
                 width="100%"
                 height="200"
                 style={{ border: 0 }}
@@ -291,7 +291,7 @@ export default function ContactClient() {
               />
             </div>
             <a
-              href="https://maps.google.com/maps?q=41.288557,69.172061"
+              href="https://maps.google.com/maps?q=41.2885182,69.1719742"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1 mt-3 text-xs font-bold"

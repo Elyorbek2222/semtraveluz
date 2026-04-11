@@ -174,7 +174,8 @@ export default function RootLayout({
   return (
     <html lang="uz">
       <head>
-        <link rel="preconnect" href="https://tourvisor.ru" />
+        <link rel="preconnect" href="https://tourvisor.ru" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://tourvisor.ru" />
         <link rel="preconnect" href="https://images.unsplash.com" crossOrigin="anonymous" />
         <link rel="alternate" hrefLang="uz" href="https://semtravel.uz" />
         <link rel="alternate" hrefLang="ru" href="https://semtravel.uz" />
@@ -192,8 +193,11 @@ export default function RootLayout({
           <Footer />
           <BottomNav />
           <AiChat />
-          {/* Tourvisor feedback button — barcha sahifalarda */}
-          <div className="tv-free-button tv-moduleid-9990312" />
+          {/* Tourvisor feedback button — barcha sahifalarda, fixed pozitsiya */}
+          <div
+            className="tv-free-button tv-moduleid-9990312"
+            style={{ position: "fixed", bottom: "20px", left: "20px", zIndex: 9999 }}
+          />
           <TourvisorInit />
           <Analytics />
           <Script

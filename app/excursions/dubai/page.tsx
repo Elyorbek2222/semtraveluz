@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { DUBAI_FREE_EXCURSIONS, DUBAI_PAID_EXCURSIONS, DUBAI_EXCURSION_FAQS } from "@/lib/excursions-data";
 import ExcursionsClient from "./ExcursionsClient";
 
 function buildExcursionsSchema() {
@@ -8,68 +9,58 @@ function buildExcursionsSchema() {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "ItemList",
-        "@id": `${pageUrl}#excursions`,
-        "name": "Dubai Ekskursiyalari",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "@id": `${pageUrl}#jumeirah-beach`,
-            "name": "Jumeirah Public Beach",
-            "description": "Dubai ning eng mashhur plyaji. Bepul kiresh.",
-            "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800&q=70",
-            "url": pageUrl,
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "@id": `${pageUrl}#desert-safari`,
-            "name": "Desert Safari",
-            "description": "Cho'l safarisi, tuya minish, BBQ ziyofat. $50/kishi.",
-            "image": "https://images.unsplash.com/photo-1466442929976-97f336a657be?w=800&q=70",
-            "url": pageUrl,
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "@id": `${pageUrl}#burj-khalifa`,
-            "name": "Burj Khalifa",
-            "description": "Dunyoning eng baland binosi. 124-qavat ko'rinish. $40/kishi.",
-            "image": "https://images.unsplash.com/photo-1580674684081-7617fbf3d745?w=800&q=70",
-            "url": pageUrl,
-          },
-        ],
+        "@type": "CollectionPage",
+        "@id": pageUrl,
+        "name": "Dubai Ekskursiyalari 2025",
+        "description": "5 ta bepul va 8 ta eng yaxshi pullik Dubai ekskursiyalari. Desert Safari, Burj Khalifa, XLine Zipline, Dune Buggy va boshqalar.",
+        "url": pageUrl,
+        "mainEntity": {
+          "@type": "ItemList",
+          "itemListElement": [
+            ...DUBAI_FREE_EXCURSIONS.map((ex, i) => ({
+              "@type": "TouristAttraction",
+              "position": i + 1,
+              "@id": `${pageUrl}#${ex.id}`,
+              "name": ex.nameUz,
+              "description": ex.descUz,
+              "image": ex.image,
+              "url": pageUrl,
+              "aggregateRating": ex.rating ? {
+                "@type": "AggregateRating",
+                "ratingValue": ex.rating,
+                "ratingCount": parseInt(ex.reviewCount?.replace(/[^0-9]/g, "") || "0"),
+              } : undefined,
+              "priceRange": "FREE",
+            })),
+            ...DUBAI_PAID_EXCURSIONS.map((ex, i) => ({
+              "@type": "TouristAttraction",
+              "position": DUBAI_FREE_EXCURSIONS.length + i + 1,
+              "@id": `${pageUrl}#${ex.id}`,
+              "name": ex.nameUz,
+              "description": ex.descUz,
+              "image": ex.image,
+              "url": pageUrl,
+              "aggregateRating": ex.rating ? {
+                "@type": "AggregateRating",
+                "ratingValue": ex.rating,
+                "ratingCount": parseInt(ex.reviewCount?.replace(/[^0-9]/g, "") || "0"),
+              } : undefined,
+              "priceRange": `$${ex.priceUsd}`,
+            })),
+          ],
+        },
       },
       {
         "@type": "FAQPage",
         "@id": `${pageUrl}#faq`,
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Dubayda qanday tekinga joylarga borsa bo'ladi?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Jumeirah Beach, Dubai Fountain, Dubai Creek, Kite Beach, Dubai Mall, Dubai Marina — barchi bepul!",
-            },
+        "mainEntity": DUBAI_EXCURSION_FAQS.map(faq => ({
+          "@type": "Question",
+          "name": faq.qUz,
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": faq.aUz,
           },
-          {
-            "@type": "Question",
-            "name": "Desert Safari qancha turadi?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "$50 kishi boshiga. Kiradi: dune bashing, tuya minish, BBQ ziyofat, foto-surat.",
-            },
-          },
-          {
-            "@type": "Question",
-            "name": "Burj Khalifaga bilet qancha?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "$40 kishi boshiga (124-qavat). Onlayndan buyurtma qilsa arzonroq.",
-            },
-          },
-        ],
+        })),
       },
       {
         "@type": "BreadcrumbList",
@@ -86,27 +77,30 @@ function buildExcursionsSchema() {
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://semtravel.uz"),
-  title: "Dubai Ekskursiyalari 2025 — Tekinga va Pullik | SEM Travel",
+  title: "Dubai Ekskursiyalari 2025 — 5 Bepul + 8 TOP Ekskursiya | SEM Travel",
   description:
-    "Dubayda eng yaxshi ekskursiyalar: Desert Safari, Burj Khalifa, Dhow Cruise va 6 ta tekinga joy. Narxlar, vaqt, maslahatlar. Toshkentdan Dubai turi $522 dan.",
+    "Dubayda 5 ta bepul ekskursiya (Jumeirah Beach, Dubai Fountain, Gold Souk) va 8 ta eng zo'r to'lovli: Desert Safari ($50), Burj Khalifa ($45), XLine Zipline ($150), Dune Buggy ($110). Barcha narxlar, reytinglar (4.6★ o'rtacha), vaqti, maslahatlar. Toshkentdan Dubai turi $522 dan.",
   keywords: [
     "dubai ekskursiyalar toshkent",
     "dubai tekinga joylari",
     "desert safari narxi",
     "burj khalifa bilet",
+    "xline zipline dubai",
+    "dune buggy dubai",
     "dubayda nima korish kerak",
     "dubai sayohati toshkent",
     "дубай экскурсии ташкент",
     "дубай достопримечательности",
     "сафари в дубае цена",
+    "горка для катания на багги",
   ],
   alternates: {
     canonical: "https://semtravel.uz/excursions/dubai",
   },
   openGraph: {
-    title: "Dubai Ekskursiyalari — Tekinga va Pullik",
+    title: "Dubai Ekskursiyalari 2025 — 5 Bepul + 8 TOP",
     description:
-      "6 ta tekinga ekskursiya va 6 ta eng yaxshi pullik joylar. Desert Safari, Burj Khalifa, Yacht va boshqalar.",
+      "5 ta bepul ekskursiya va 8 ta eng yaxshi pullik joylar. Desert Safari, Burj Khalifa, XLine Zipline, Dune Buggy va boshqalar.",
     url: "https://semtravel.uz/excursions/dubai",
     type: "website",
     images: [

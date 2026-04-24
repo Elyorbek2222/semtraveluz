@@ -32,6 +32,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: "https://semtravel.uz/tours", lastModified: BUILD_DATE, changeFrequency: "daily", priority: 0.9 },
     { url: "https://semtravel.uz/hotels", lastModified: BUILD_DATE, changeFrequency: "weekly", priority: 0.8 },
     { url: "https://semtravel.uz/visa", lastModified: BUILD_DATE, changeFrequency: "weekly", priority: 0.8 },
+    { url: "https://semtravel.uz/lounge", lastModified: BUILD_DATE, changeFrequency: "weekly", priority: 0.8 },
     { url: "https://semtravel.uz/transfer", lastModified: BUILD_DATE, changeFrequency: "monthly", priority: 0.7 },
     { url: "https://semtravel.uz/about", lastModified: BUILD_DATE, changeFrequency: "monthly", priority: 0.6 },
     { url: "https://semtravel.uz/contact", lastModified: BUILD_DATE, changeFrequency: "monthly", priority: 0.6 },

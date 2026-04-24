@@ -3,7 +3,7 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   images: {
     formats: ["image/avif", "image/webp"],
-    minimumCacheTTL: 86400,
+    minimumCacheTTL: 2592000,
     remotePatterns: [
       {
         protocol: "https",
@@ -28,7 +28,7 @@ const nextConfig: NextConfig = {
       {
         source: "/:path((?!api/).*\\.(?:png|jpg|jpeg|gif|webp|svg)$)",
         headers: [
-          { key: "Cache-Control", value: "public, max-age=604800, must-revalidate" },
+          { key: "Cache-Control", value: "public, max-age=2592000, stale-while-revalidate=86400" },
         ],
       },
       {

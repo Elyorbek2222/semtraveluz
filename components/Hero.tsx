@@ -24,7 +24,7 @@ export default function Hero() {
       <section className="relative overflow-hidden" style={{ minHeight: 420, background: "linear-gradient(160deg, #0057A8 0%, #003F7A 100%)", paddingBottom: 80 }}>
         {/* Background image overlay */}
         <Image
-          src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=40"
+          src="/hero-bg.jpg"
           alt=""
           fill
           priority
@@ -89,7 +89,7 @@ export default function Hero() {
           {/* Tourvisor Search Widget */}
           <div className="tv-search-form tv-moduleid-9976360" style={{ minHeight: 120 }}></div>
           {/* Tourvisor Search History */}
-          <div className="tv-history tv-moduleid-9990306 mt-2"></div>
+          <div className="tv-history tv-moduleid-9990306 mt-2" style={{ minHeight: 40 }}></div>
         </div>
       </div>
 

@@ -13,7 +13,7 @@ import Script from "next/script";
 
 const inter = Inter({
   subsets: ["latin", "cyrillic"],
-  weight: ["400", "600", "700", "800"],
+  weight: ["400", "500", "600", "700", "800", "900"],
   display: "swap",
   preload: true,
 });
@@ -176,8 +176,6 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://tourvisor.ru" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://tourvisor.ru" />
-        <link rel="preconnect" href="https://images.unsplash.com" crossOrigin="anonymous" />
-        <link rel="preconnect" href="https://mc.yandex.ru" />
         <link rel="alternate" hrefLang="uz" href="https://semtravel.uz" />
         <link rel="alternate" hrefLang="ru" href="https://semtravel.uz" />
         <link rel="alternate" hrefLang="x-default" href="https://semtravel.uz" />
@@ -205,7 +203,7 @@ export default function RootLayout({
             id="yandex-metrica"
             strategy="afterInteractive"
             dangerouslySetInnerHTML={{
-              __html: `(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};m[i].l=1*new Date();for(var j=0;j<document.scripts.length;j++){if(document.scripts[j].src===r){return;}}k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})(window,document,'script','https://mc.yandex.ru/metrika/tag.js','ym');ym(102097944,'init',{webvisor:true,clickmap:true,referrer:document.referrer,url:location.href,accurateTrackBounce:true,trackLinks:true});`,
+              __html: `(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};m[i].l=1*new Date();for(var j=0;j<document.scripts.length;j++){if(document.scripts[j].src===r){return;}}k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})(window,document,'script','https://mc.yandex.ru/metrika/tag.js','ym');ym(102097944,'init',{webvisor:false,clickmap:false,referrer:document.referrer,url:location.href,accurateTrackBounce:true,trackLinks:true});`,
             }}
           />
         </LangProvider>

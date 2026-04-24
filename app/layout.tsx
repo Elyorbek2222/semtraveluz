@@ -193,11 +193,6 @@ export default function RootLayout({
           <Footer />
           <BottomNav />
           <AiChat />
-          {/* Tourvisor feedback button — barcha sahifalarda, fixed pozitsiya */}
-          <div
-            className="tv-free-button tv-moduleid-9990312"
-            style={{ position: "fixed", bottom: "20px", left: "20px", zIndex: 9999 }}
-          />
           <TourvisorInit />
           <Analytics />
           <Script

@@ -180,6 +180,7 @@ export default function RootLayout({
         <link rel="alternate" hrefLang="ru" href="https://semtravel.uz" />
         <link rel="alternate" hrefLang="x-default" href="https://semtravel.uz" />
         <link rel="llms-txt" href="https://semtravel.uz/llms.txt" />
+        <script dangerouslySetInnerHTML={{__html: `window.isTelegramMiniApp = !!window.Telegram?.WebApp;`}} />
       </head>
       <body className={inter.className}>
         <noscript>

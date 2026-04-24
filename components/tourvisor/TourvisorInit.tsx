@@ -89,12 +89,18 @@ export default function TourvisorInit() {
         }, 500);
 
         // Dinamik content uchun kuzatuvchi — 300ms debounce bilan
+        // Faqat Tourvisor widget container larini kuzat, document.body emas (INP optimization)
         let debounceTimer: ReturnType<typeof setTimeout>;
         const observer = new MutationObserver(() => {
           clearTimeout(debounceTimer);
           debounceTimer = setTimeout(patchTourvisorPrices, 300);
         });
-        observer.observe(document.body, { childList: true, subtree: true });
+        const tvContainer = document.querySelector(
+          "[class*='tv-hot-tours'], [class*='tv-search'], [class*='tv-history'], [class*='tv-image-slider'], [class*='tv-min-price']"
+        );
+        if (tvContainer) {
+          observer.observe(tvContainer, { childList: true, subtree: true });
+        }
       }}
     />
   );

@@ -177,6 +177,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://tourvisor.ru" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://tourvisor.ru" />
         <link rel="preconnect" href="https://images.unsplash.com" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://mc.yandex.ru" />
         <link rel="alternate" hrefLang="uz" href="https://semtravel.uz" />
         <link rel="alternate" hrefLang="ru" href="https://semtravel.uz" />
         <link rel="alternate" hrefLang="x-default" href="https://semtravel.uz" />

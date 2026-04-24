@@ -216,25 +216,28 @@ export default function LoungeClient() {
 
   // Load Highpass widget script
   useEffect(() => {
-    if (scriptLoaded) return;
-
     const script = document.createElement("script");
     script.src = "https://highpass.aero/Widget/Init?apiKey=47c02e57-1c75-a608-a508-000205688bba&airportIata=TAS&BackgroundColor=%23ffffff&ButtonColor=%232934D0&InputColor=%23F8F9FD&LinkColor=%23323755&HeadingColor=%23FF6609&DefaultTextColor=%23173E67&ErrorColor=%23FF0000&ServiceDescriptionColor=%23767676&LabelColor=%23333333&ImportantColor=%23000000&HeaderTextColor=%23173E67&DescriptionTextColor=%23173E67&height=800&lang=" + (isUz ? "uz" : "ru");
     script.type = "text/javascript";
     script.async = true;
     script.onload = () => setScriptLoaded(true);
+    script.onerror = () => {
+      console.error("Failed to load Highpass widget");
+      setScriptLoaded(false);
+    };
 
     const container = document.getElementById("highpass-widget-container");
-    if (container) {
+    if (container && !container.querySelector("script")) {
       container.appendChild(script);
     }
 
     return () => {
-      if (container && container.contains(script)) {
-        container.removeChild(script);
+      const existing = container?.querySelector("script");
+      if (existing) {
+        existing.remove();
       }
     };
-  }, [isUz, scriptLoaded]);
+  }, [isUz]);
 
   async function handleFormSubmit(e: React.FormEvent) {
     e.preventDefault();

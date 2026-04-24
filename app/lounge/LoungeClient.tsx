@@ -305,19 +305,12 @@ export default function LoungeClient() {
               </div>
             ))}
           </div>
-          <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <button
-              onClick={() => { setShowForm(true); setSent(false); }}
-              className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full font-bold text-sm transition-opacity hover:opacity-90"
-              style={{ background: "#FF6B35", color: "#fff" }}>
-              🎫 {isUz ? "Lounge access olish" : "Получить доступ"}
-            </button>
-            <a href="tel:+998712755555"
-              className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full font-bold text-sm"
-              style={{ background: "rgba(255,255,255,0.15)", color: "#fff", border: "1.5px solid rgba(255,255,255,0.3)" }}>
-              📞 +998 71 275-55-55
-            </a>
-          </div>
+          <button
+            onClick={() => { setShowForm(true); setSent(false); }}
+            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3 rounded-full font-bold text-sm transition-opacity hover:opacity-90"
+            style={{ background: "#FF6B35", color: "#fff" }}>
+            🎫 {isUz ? "Lounge access olish" : "Получить доступ"}
+          </button>
         </div>
       </section>
 
@@ -574,19 +567,19 @@ export default function LoungeClient() {
           <p className="text-sm mb-6" style={{ color: "rgba(255,255,255,0.8)", maxWidth: "500px", margin: "0 auto" }}>
             {isUz ? "Premium xizmatlari aeroportda - Wi-Fi, snacks, shower, work space va boshqa." : "Премиум услуги в аэропорту — Wi-Fi, закуски, душ и рабочее место."}
           </p>
-          <div className="flex flex-col sm:flex-row gap-3 justify-center">
+          <div className="flex flex-col sm:flex-row gap-2 sm:gap-3 justify-center">
             <a href="https://wa.me/998946642222" target="_blank" rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full font-bold text-sm"
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full font-bold text-sm"
               style={{ background: "#25D366", color: "#fff" }}>
               💬 WhatsApp
             </a>
             <a href="https://t.me/semtravel" target="_blank" rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full font-bold text-sm"
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full font-bold text-sm"
               style={{ background: "#229ED9", color: "#fff" }}>
               ✈️ Telegram
             </a>
             <a href="tel:+998712755555"
-              className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full font-bold text-sm"
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full font-bold text-sm"
               style={{ background: "rgba(255,255,255,0.15)", color: "#fff", border: "1.5px solid rgba(255,255,255,0.3)" }}>
               📞 +998 71 275-55-55
             </a>

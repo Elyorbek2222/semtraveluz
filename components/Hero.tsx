@@ -7,7 +7,7 @@ import { useLang } from "@/lib/language-context";
 
 const destinations = [
   { slug: "turkiya", flag: "🇹🇷", uz: "Turkiya",  ru: "Турция",   priceFrom: 620 },
-  { slug: "dubai",   flag: "🇦🇪", uz: "Dubai",    ru: "Дубай",    priceFrom: 1100 },
+  { slug: "dubai",   flag: "🇦🇪", uz: "Dubai",    ru: "Дубай",    priceFrom: 522 },
   { slug: "misr",    flag: "🇪🇬", uz: "Misr",     ru: "Египет",   priceFrom: 790 },
   { slug: "tailand", flag: "🇹🇭", uz: "Tailand",  ru: "Таиланд",  priceFrom: 1290 },
   { slug: "maldiv",  flag: "🇲🇻", uz: "Maldiv",   ru: "Мальдивы", priceFrom: 2800 },

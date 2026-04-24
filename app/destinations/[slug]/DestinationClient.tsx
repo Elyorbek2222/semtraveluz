@@ -155,6 +155,28 @@ export default function DestinationClient({ slug }: { slug: string }) {
           </div>
         </div>
 
+        {/* ── EXCURSIONS LINK (DUBAI ONLY) ── */}
+        {slug === "dubai" && (
+          <div className="mb-8">
+            <Link
+              href="/excursions/dubai"
+              className="flex items-center gap-3 p-5 bg-gradient-to-r rounded-2xl transition-all hover:shadow-md hover:-translate-y-0.5"
+              style={{
+                background: "linear-gradient(135deg, #F5C518 0%, #FF6B35 100%)",
+                color: "white",
+                border: "none",
+              }}
+            >
+              <span className="text-2xl">🗺️</span>
+              <div>
+                <h3 className="font-extrabold text-sm">{isUz ? "Dubai Ekskursiyalari" : "Экскурсии в Дубае"}</h3>
+                <p className="text-xs opacity-90">{isUz ? "6 tekinga + 6 pullik joylar" : "6 бесплатных + 6 платных экскурсий"}</p>
+              </div>
+              <span className="ml-auto font-bold">→</span>
+            </Link>
+          </div>
+        )}
+
         {/* ── TOURS FROM THIS DESTINATION ── */}
         {tours.length > 0 && (
           <div className="mb-8">

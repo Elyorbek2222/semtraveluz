@@ -18,20 +18,24 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   // Dynamic blog posts from database (auto-generated)
   let dynamicBlogUrls: MetadataRoute.Sitemap = [];
-  try {
-    const publishedPosts = await prisma.blogPost.findMany({
-      where: { status: "published" },
-      select: { slug: true, updatedAt: true },
-    });
 
-    dynamicBlogUrls = publishedPosts.map((post: any) => ({
-      url: `${SITE_URL}/blog/${post.slug}`,
-      lastModified: post.updatedAt,
-      changeFrequency: "monthly" as const,
-      priority: 0.7,
-    }));
-  } catch (error) {
-    console.warn("Failed to fetch published blog posts for sitemap:", error);
+  // Skip database queries if configured (IPv6 connectivity issues with Supabase)
+  if (process.env.SKIP_BLOG_DATABASE !== "true") {
+    try {
+      const publishedPosts = await prisma.blogPost.findMany({
+        where: { status: "published" },
+        select: { slug: true, updatedAt: true },
+      });
+
+      dynamicBlogUrls = publishedPosts.map((post: any) => ({
+        url: `${SITE_URL}/blog/${post.slug}`,
+        lastModified: post.updatedAt,
+        changeFrequency: "monthly" as const,
+        priority: 0.7,
+      }));
+    } catch (error) {
+      console.warn("Failed to fetch published blog posts for sitemap:", error);
+    }
   }
 
   // Destinations

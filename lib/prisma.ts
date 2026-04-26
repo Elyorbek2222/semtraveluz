@@ -7,12 +7,9 @@ declare global {
   var prisma: PrismaClient | undefined;
 }
 
-let prismaInstance: PrismaClient | undefined;
+const globalForPrisma = global as unknown as { prisma: PrismaClient };
 
-export function getPrisma(): PrismaClient {
-  if (prismaInstance) return prismaInstance;
-  if (global.prisma) return global.prisma;
-
+function createPrismaClient() {
   if (!process.env.DATABASE_URL) {
     throw new Error('DATABASE_URL is not set');
   }
@@ -23,46 +20,23 @@ export function getPrisma(): PrismaClient {
 
   const adapter = new PrismaPg(pool);
 
-  const client = new PrismaClient({
+  return new PrismaClient({
     adapter,
     log:
       process.env.NODE_ENV === 'development'
         ? ['error', 'warn']
         : ['error'],
   });
-
-  prismaInstance = client;
-
-  if (process.env.NODE_ENV !== 'production') {
-    global.prisma = client;
-  }
-
-  return client;
 }
 
-export const prisma = {
-  get blogPost() {
-    return getPrisma().blogPost;
-  },
-  get generationLog() {
-    return getPrisma().generationLog;
-  },
-  get keyword() {
-    return getPrisma().keyword;
-  },
-  get featureFlag() {
-    return getPrisma().featureFlag;
-  },
-  get cronExecution() {
-    return getPrisma().cronExecution;
-  },
-  get translationResult() {
-    return getPrisma().translationResult;
-  },
-  $connect() {
-    return getPrisma().$connect();
-  },
-  $disconnect() {
-    return getPrisma().$disconnect();
-  },
-} as PrismaClient;
+export const prisma =
+  globalForPrisma.prisma ??
+  (() => {
+    const client = createPrismaClient();
+
+    if (process.env.NODE_ENV !== 'production') {
+      globalForPrisma.prisma = client;
+    }
+
+    return client;
+  })();

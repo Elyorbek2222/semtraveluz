@@ -44,9 +44,10 @@ export async function GET(
 
     return NextResponse.json({ data: post });
   } catch (error) {
+    console.error('[BLOG API ERROR]', error);
     return NextResponse.json(
-      { error: String(error) },
-      { status: 500 }
+      { error: 'Database unavailable', offline: true },
+      { status: 503 }
     );
   }
 }

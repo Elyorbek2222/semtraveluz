@@ -35,10 +35,44 @@ export async function GET(request: NextRequest) {
     });
   } catch (error) {
     console.error('[ANALYTICS ERROR]', error);
-    return NextResponse.json(
-      { error: String(error) },
-      { status: 500 }
-    );
+
+    // Return default analytics if database is unreachable
+    const defaultAnalytics = {
+      blog: {
+        totalGenerated: 0,
+        totalPublished: 0,
+        avgSeoScore: 0,
+        totalWords: 0,
+        avgWordCount: 0,
+        scoreDistribution: {
+          excellent: 0,
+          good: 0,
+          needsWork: 0,
+          poor: 0,
+        },
+      },
+      cron: {
+        totalRuns: 0,
+        successfulRuns: 0,
+        failedRuns: 0,
+        successRate: 0,
+        avgDuration: 0,
+        totalTokensUsed: 0,
+      },
+      period: {
+        startDate: new Date(Date.now() - 30 * 24 * 60 * 60 * 1000),
+        endDate: new Date(),
+      },
+    };
+
+    return NextResponse.json({
+      success: true,
+      data: defaultAnalytics,
+      cached: false,
+      offline: true,
+      message: 'Database unavailable - showing default analytics',
+      expiresAt: new Date(Date.now() + 5 * 60 * 1000).toISOString(),
+    });
   }
 }
 

@@ -55,10 +55,28 @@ export async function GET(request: NextRequest) {
       },
     });
   } catch (error) {
-    return NextResponse.json(
-      { error: String(error) },
-      { status: 500 }
-    );
+    console.error('[BLOG API ERROR]', error);
+
+    // Return empty data if database is unreachable
+    return NextResponse.json({
+      success: true,
+      data: {
+        posts: [],
+        counts: {
+          pending_generation: 0,
+          generated: 0,
+          pending_review: 0,
+          approved: 0,
+          published: 0,
+          rejected: 0,
+          archived: 0,
+        },
+        total: 0,
+        requestedStatus: request.nextUrl.searchParams.get('status') || 'pending_review',
+      },
+      offline: true,
+      message: 'Database unavailable',
+    });
   }
 }
 

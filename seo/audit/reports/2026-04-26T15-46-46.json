@@ -1,0 +1,1455 @@
+{
+  "timestamp": "2026-04-26T15:46:46.536Z",
+  "totalPages": 55,
+  "successfulPages": 55,
+  "failedPages": 0,
+  "issues": [],
+  "summary": {
+    "missingTitle": 0,
+    "missingDescription": 0,
+    "missingCanonical": 0,
+    "missingH1": 0,
+    "multipleH1": 0,
+    "noSchema": 0,
+    "missingHrefLang": 0,
+    "httpErrors": 0
+  },
+  "healthScore": 100,
+  "audits": [
+    {
+      "url": "https://semtravel.uz/",
+      "title": "SEM Travel — Sayohat Agentligi Toshkent | Turlar, Viza, Mehmonxona",
+      "description": "SEM Travel — O'zbekistondagi ishonchli sayohat agentligi. 2011 yildan beri 30 000+ mijozga xizmat. Turkiya, Dubai, Tailand, Misr turlariga eng arzon narxlar. Viza yordam, mehmonxona, aviabilet.",
+      "canonical": "https://semtravel.uz",
+      "h1": [
+        "Orzu sayohatingiznibiz bilan amalga oshiring"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "SEM Travel — Sayohat Agentligi Toshkent",
+      "ogDescription": "O'zbekistondagi eng ishonchli sayohat agentligi. 50+ mamlakatga turlar, viza yordam, mehmonxona bron.",
+      "ogImage": "https://semtravel.uz/opengraph-image?5a76c66448d61acf",
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/about",
+      "title": "Haqimizda — SEM Travel Toshkent | 2011 Yildan Beri",
+      "description": "SEM Travel — 2011 yildan beri O'zbekistonda faoliyat ko'rsatayotgan litsenziyalangan sayohat agentligi. 15 yillik tajriba, 30 000+ mamnun mijoz, 50+ mamlakat. Toshkent, Olmazor.",
+      "canonical": "https://semtravel.uz/about",
+      "h1": [
+        "SEM Travel — ishonchli sayohat sherigingiz"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Haqimizda | SEM Travel",
+      "ogDescription": "2011 yildan beri 30 000+ mijozga xizmat. Toshkentdagi ishonchli sayohat agentligi.",
+      "ogImage": null,
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/blog",
+      "title": "Blog — SEM Travel | Sayohat maqolalari va maslahatlar",
+      "description": "SEM Travel blogida sayohat maslahatlari, viza qo'llanmalari va eng yaxshi yo'nalishlar. Блог о путешествиях из Узбекистана: советы, памятки, лайфхаки.",
+      "canonical": "https://semtravel.uz/blog",
+      "h1": [
+        "Sayohat bo'yicha maqolalar"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default",
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Blog | SEM Travel — Sayohat maqolalari | Блог о путешествиях",
+      "ogDescription": "Sayohat maslahatlari, viza va yo'nalishlar haqida foydali maqolalar. Советы, памятки и лайфхаки для туристов из Узбекистана.",
+      "ogImage": null,
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/club",
+      "title": "SEM Club — Loyallik Dasturi | Bonus va Imtiyozlar | SEM Travel",
+      "description": "SEM Club a'zosi bo'ling va har bir turdan bonuslar to'plang. Silver, Gold, Platinum statuslar — eksklyuziv chegirmalar, CIP lounge, 5★ mehmonxona sovg'alari. SEM Travel loyalty dasturi.",
+      "canonical": "https://semtravel.uz/club",
+      "h1": [
+        "Sayohat qiling — mukofot oling"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "SEM Club — Loyalty Dasturi | SEM Travel",
+      "ogDescription": "Har bir turdan bonuslar to'plang. Silver, Gold, Platinum — eksklyuziv imtiyozlar va sovg'alar.",
+      "ogImage": "https://semtravel.uz/opengraph-image",
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/club/qoidalar",
+      "title": "SEM Club Dastur Qoidalari — Cashback va Imtiyozlar | SEM Travel",
+      "description": "SEM Club loyalty dasturi qoidalari: cashback hisoblash, status darajalari (Classic, Gold, Platinum), sertifikatlar, do'st taklifi va a'zolik shartlari. SEM Travel — 2011 yildan ishonchli hamkor.",
+      "canonical": "https://semtravel.uz/club/qoidalar",
+      "h1": [
+        "Dastur Qoidalari"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "SEM Club Dastur Qoidalari | SEM Travel",
+      "ogDescription": "SEM Club loyalty dasturi to'liq qoidalari: cashback, status darajalari, sertifikatlar va imtiyozlar.",
+      "ogImage": null,
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/contact",
+      "title": "Bog'lanish — SEM Travel Toshkent | Telefon, Manzil",
+      "description": "SEM Travel bilan bog'laning: +998 71 275-55-55, +998 94 664-22-22. Manzil: Toshkent, Uchtepa tumani, Katta Xirmontepa, 12B. Ish vaqti: Dush–Shan 9:00–19:00. WhatsApp, Telegram.",
+      "canonical": "https://semtravel.uz/contact",
+      "h1": [
+        "Biz bilan bog'laning"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Bog'lanish | SEM Travel",
+      "ogDescription": "Telefon, manzil, WhatsApp va Telegram orqali bog'laning.",
+      "ogImage": null,
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/excursions/dubai",
+      "title": "Dubai Ekskursiyalari 2025 — 5 Bepul + 8 TOP Ekskursiya | SEM Travel | SEM Travel",
+      "description": "Dubayda 5 ta bepul ekskursiya (Jumeirah Beach, Dubai Fountain, Gold Souk) va 8 ta eng zo'r to'lovli: Desert Safari ($50), Burj Khalifa ($45), XLine Zipline ($150), Dune Buggy ($110). Barcha narxlar, reytinglar (4.6★ o'rtacha), vaqti, maslahatlar. Toshkentdan Dubai turi $522 dan.",
+      "canonical": "https://semtravel.uz/excursions/dubai",
+      "h1": [
+        "Dubai Ekskursiyalari — Tekinga va Pullik"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite",
+        "CollectionPage",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Dubai Ekskursiyalari 2025 — 5 Bepul + 8 TOP",
+      "ogDescription": "5 ta bepul ekskursiya va 8 ta eng yaxshi pullik joylar. Desert Safari, Burj Khalifa, XLine Zipline, Dune Buggy va boshqalar.",
+      "ogImage": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=1200&q=70",
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/hotels",
+      "title": "Mehmonxona Bron — Toshkentdan Eng Arzon Narxlar | SEM Travel",
+      "description": "SEM Travel orqali 50+ mamlakatda mehmonxona bron qiling. Turkiya, Dubai, Tailand, Misr, Gretsiya, Maldiv mehmonxonalari. Eng yaxshi narx kafolati. To'g'ridan-to'g'ri bron.",
+      "canonical": "https://semtravel.uz/hotels",
+      "h1": [
+        "Eng yaxshi mehmonxonalareng qulay narxda"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Mehmonxona Bron | SEM Travel",
+      "ogDescription": "50+ mamlakatda mehmonxona bron. Eng yaxshi narx kafolati.",
+      "ogImage": null,
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/lounge",
+      "title": "Business Lounge — Aeroportda Komfort va Xizmat | SEM Travel",
+      "description": "SEM Travel orqali aeroportda business lounge access. Premium xizmatlari, Wi-Fi, snacks, shower, work space. Tashkent, Samarkand aeroportlarida.",
+      "canonical": "https://semtravel.uz/lounge",
+      "h1": [
+        "Business Lounge — Komfort va Xizmat"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite",
+        "Service",
+        "BreadcrumbList"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Business Lounge | SEM Travel",
+      "ogDescription": "Premium airport lounge xizmati. Komfort va xizmat bir joyda.",
+      "ogImage": null,
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/privacy",
+      "title": "Maxfiylik siyosati | SEM Travel",
+      "description": "SEM Travel veb-saytining maxfiylik siyosati va shaxsiy ma'lumotlarni himoya qilish shartlari.",
+      "canonical": "https://semtravel.uz/privacy",
+      "h1": [
+        "Maxfiylik siyosati"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "SEM Travel — Sayohat Agentligi Toshkent",
+      "ogDescription": "O'zbekistondagi eng ishonchli sayohat agentligi. 50+ mamlakatga turlar, viza yordam, mehmonxona bron.",
+      "ogImage": "https://semtravel.uz/opengraph-image",
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/tours",
+      "title": "Turlar Katalogi — Toshkentdan Eng Arzon Tur Paketlar | SEM Travel",
+      "description": "SEM Travel turlar katalogi 2025: Turkiya, Dubai, Tailand, Misr, Maldiv, Gretsiya va 50+ mamlakatga tayyor tur paketlar. Parvoz + mehmonxona + transfer. Toshkentdan eng arzon narxlar.",
+      "canonical": "https://semtravel.uz/tours",
+      "h1": [
+        "Toshkentdan eng arzon turlar"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite",
+        "ItemList"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Turlar Katalogi — Toshkentdan | SEM Travel",
+      "ogDescription": "50+ mamlakatga tur paketlar. Parvoz + mehmonxona + transfer. Toshkentdan eng arzon narxlar.",
+      "ogImage": null,
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/transfer",
+      "title": "Transfer Xizmati — Aeroport va Shahar Transferi | SEM Travel",
+      "description": "SEM Travel transfer xizmati: aeroport-mehmonxona, shahar transferi, VIP transfer, guruh transferi. Toshkent, Samarqand va xalqaro aeroportlardan. 24/7 xizmat.",
+      "canonical": "https://semtravel.uz/transfer",
+      "h1": [
+        "Qulay va xavfsiztransfer xizmati"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Transfer Xizmati | SEM Travel",
+      "ogDescription": "Aeroport-mehmonxona transfer. 24/7 xizmat. Qulay narxlar.",
+      "ogImage": null,
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/visa",
+      "title": "Viza Yordam — O'zbekistondan Viza Olish | SEM Travel",
+      "description": "O'zbekiston fuqarolari uchun viza xizmatlari 2025: Schengen, AQSh, Britaniya, Hindiston, Saudiya, Dubai viza. Vizasiz mamlakatlar ro'yxati. Hujjat tayyorlash, ariza topshirish.",
+      "canonical": "https://semtravel.uz/visa",
+      "h1": [
+        "Viza olishda professional yordam"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite",
+        "Service",
+        "BreadcrumbList"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Viza Yordam | SEM Travel",
+      "ogDescription": "Professional viza xizmatlari. Hujjatlar — ariza — kuzatish.",
+      "ogImage": null,
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/tours/antalya-all-inclusive",
+      "title": "Antalya — All Inclusive Grand Resort — $950 dan | SEM Travel | SEM Travel",
+      "description": "Antalya ga 7 kecha / 8 kun tur paketi. Grand Yazici Club Marmaris 5⭐. Parvoz + mehmonxona + transfer. 24% chegirma — $1250 o'rniga $950.",
+      "canonical": "https://semtravel.uz/tours/antalya-all-inclusive",
+      "h1": [
+        "Antalya — All Inclusive Grand Resort"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite",
+        "TouristTrip",
+        "BreadcrumbList"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Antalya — All Inclusive Grand Resort — $950 dan | SEM Travel",
+      "ogDescription": "Antalya ga 7 kecha / 8 kun tur paketi. Grand Yazici Club Marmaris 5⭐. Parvoz + mehmonxona + transfer. 24% chegirma — $1250 o'rniga $950.",
+      "ogImage": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=700&q=80",
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/tours/dubai-city-sea",
+      "title": "Dubai — Shahar va Dengiz — $1100 dan | SEM Travel | SEM Travel",
+      "description": "Dubai ga 5 kecha / 6 kun tur paketi. Atlantis The Palm 5⭐. Parvoz + mehmonxona + transfer. 24% chegirma — $1450 o'rniga $1100.",
+      "canonical": "https://semtravel.uz/tours/dubai-city-sea",
+      "h1": [
+        "Dubai — Shahar va Dengiz"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite",
+        "TouristTrip",
+        "BreadcrumbList"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Dubai — Shahar va Dengiz — $1100 dan | SEM Travel",
+      "ogDescription": "Dubai ga 5 kecha / 6 kun tur paketi. Atlantis The Palm 5⭐. Parvoz + mehmonxona + transfer. 24% chegirma — $1450 o'rniga $1100.",
+      "ogImage": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=700&q=80",
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/tours/hurghada-red-sea",
+      "title": "Hurghada — Qizil Dengiz Gavhari — $790 dan | SEM Travel | SEM Travel",
+      "description": "Hurghada ga 7 kecha / 8 kun tur paketi. Steigenberger Al Dau Beach 5⭐. Parvoz + mehmonxona + transfer. 28% chegirma — $1100 o'rniga $790.",
+      "canonical": "https://semtravel.uz/tours/hurghada-red-sea",
+      "h1": [
+        "Hurghada — Qizil Dengiz Gavhari"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite",
+        "TouristTrip",
+        "BreadcrumbList"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Hurghada — Qizil Dengiz Gavhari — $790 dan | SEM Travel",
+      "ogDescription": "Hurghada ga 7 kecha / 8 kun tur paketi. Steigenberger Al Dau Beach 5⭐. Parvoz + mehmonxona + transfer. 28% chegirma — $1100 o'rniga $790.",
+      "ogImage": "https://images.unsplash.com/photo-1539768942893-daf53e448371?w=700&q=80",
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/tours/phuket-paradise",
+      "title": "Phuket — Tailand Jannat Orollari — $1290 dan | SEM Travel | SEM Travel",
+      "description": "Phuket ga 9 kecha / 10 kun tur paketi. Kata Rocks Resort 5⭐. Parvoz + mehmonxona + transfer. 19% chegirma — $1600 o'rniga $1290.",
+      "canonical": "https://semtravel.uz/tours/phuket-paradise",
+      "h1": [
+        "Phuket — Tailand Jannat Orollari"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite",
+        "TouristTrip",
+        "BreadcrumbList"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Phuket — Tailand Jannat Orollari — $1290 dan | SEM Travel",
+      "ogDescription": "Phuket ga 9 kecha / 10 kun tur paketi. Kata Rocks Resort 5⭐. Parvoz + mehmonxona + transfer. 19% chegirma — $1600 o'rniga $1290.",
+      "ogImage": "https://images.unsplash.com/photo-1504214208698-ea1916a2195a?w=700&q=80",
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/tours/istanbul-culture",
+      "title": "Istanbul — Sharq va G'arb Tutashgan Shahar — $620 dan | SEM Travel | SEM Travel",
+      "description": "Istanbul ga 4 kecha / 5 kun tur paketi. Sultanahmet Palace Hotel 4⭐. Parvoz + mehmonxona + transfer. 21% chegirma — $780 o'rniga $620.",
+      "canonical": "https://semtravel.uz/tours/istanbul-culture",
+      "h1": [
+        "Istanbul — Sharq va G'arb Tutashgan Shahar"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite",
+        "TouristTrip",
+        "BreadcrumbList"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Istanbul — Sharq va G'arb Tutashgan Shahar — $620 dan | SEM Travel",
+      "ogDescription": "Istanbul ga 4 kecha / 5 kun tur paketi. Sultanahmet Palace Hotel 4⭐. Parvoz + mehmonxona + transfer. 21% chegirma — $780 o'rniga $620.",
+      "ogImage": "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?w=700&q=80",
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/tours/maldives-overwater",
+      "title": "Maldiv — Suv Usti Bungalov — $2800 dan | SEM Travel | SEM Travel",
+      "description": "Maldiv orollari ga 6 kecha / 7 kun tur paketi. Soneva Jani Resort 5⭐. Parvoz + mehmonxona + transfer. 18% chegirma — $3400 o'rniga $2800.",
+      "canonical": "https://semtravel.uz/tours/maldives-overwater",
+      "h1": [
+        "Maldiv — Suv Usti Bungalov"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite",
+        "TouristTrip",
+        "BreadcrumbList"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Maldiv — Suv Usti Bungalov — $2800 dan | SEM Travel",
+      "ogDescription": "Maldiv orollari ga 6 kecha / 7 kun tur paketi. Soneva Jani Resort 5⭐. Parvoz + mehmonxona + transfer. 18% chegirma — $3400 o'rniga $2800.",
+      "ogImage": "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?w=700&q=80",
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/tours/santorini-greece",
+      "title": "Gretsiya — Santorini Orolida Masal — $1650 dan | SEM Travel | SEM Travel",
+      "description": "Santorini ga 6 kecha / 7 kun tur paketi. Canaves Oia Suites 5⭐. Parvoz + mehmonxona + transfer. 18% chegirma — $2000 o'rniga $1650.",
+      "canonical": "https://semtravel.uz/tours/santorini-greece",
+      "h1": [
+        "Gretsiya — Santorini Orolida Masal"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite",
+        "TouristTrip",
+        "BreadcrumbList"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Gretsiya — Santorini Orolida Masal — $1650 dan | SEM Travel",
+      "ogDescription": "Santorini ga 6 kecha / 7 kun tur paketi. Canaves Oia Suites 5⭐. Parvoz + mehmonxona + transfer. 18% chegirma — $2000 o'rniga $1650.",
+      "ogImage": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=700&q=80",
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/tours/bali-gods-island",
+      "title": "Bali — Xudolar Oroli — $1450 dan | SEM Travel | SEM Travel",
+      "description": "Bali ga 8 kecha / 9 kun tur paketi. COMO Uma Ubud 5⭐. Parvoz + mehmonxona + transfer. 19% chegirma — $1800 o'rniga $1450.",
+      "canonical": "https://semtravel.uz/tours/bali-gods-island",
+      "h1": [
+        "Bali — Xudolar Oroli"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite",
+        "TouristTrip",
+        "BreadcrumbList"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Bali — Xudolar Oroli — $1450 dan | SEM Travel",
+      "ogDescription": "Bali ga 8 kecha / 9 kun tur paketi. COMO Uma Ubud 5⭐. Parvoz + mehmonxona + transfer. 19% chegirma — $1800 o'rniga $1450.",
+      "ogImage": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=700&q=80",
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/tours/issiq-kol-safari",
+      "title": "Issiq-Ko'l — Tog' va Ko'l Safarisi — $420 dan | SEM Travel | SEM Travel",
+      "description": "Issiq-Ko'l ga 5 kecha / 6 kun tur paketi. Raduga Resort Cholpon-Ata 4⭐. Parvoz + mehmonxona + transfer. 28% chegirma — $580 o'rniga $420.",
+      "canonical": "https://semtravel.uz/tours/issiq-kol-safari",
+      "h1": [
+        "Issiq-Ko'l — Tog' va Ko'l Safarisi"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite",
+        "TouristTrip",
+        "BreadcrumbList"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Issiq-Ko'l — Tog' va Ko'l Safarisi — $420 dan | SEM Travel",
+      "ogDescription": "Issiq-Ko'l ga 5 kecha / 6 kun tur paketi. Raduga Resort Cholpon-Ata 4⭐. Parvoz + mehmonxona + transfer. 28% chegirma — $580 o'rniga $420.",
+      "ogImage": "https://images.unsplash.com/photo-1586348943529-beaae6c28db9?w=700&q=80",
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/tours/gruziya-batumi-tbilisi",
+      "title": "Batumi & Tbilisi — Gruziya To'liq Turi — $680 dan | SEM Travel | SEM Travel",
+      "description": "Batumi ga 6 kecha / 7 kun tur paketi. Sheraton Batumi Hotel 5⭐. Parvoz + mehmonxona + transfer. 24% chegirma — $890 o'rniga $680.",
+      "canonical": "https://semtravel.uz/tours/gruziya-batumi-tbilisi",
+      "h1": [
+        "Batumi & Tbilisi — Gruziya To'liq Turi"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite",
+        "TouristTrip",
+        "BreadcrumbList"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Batumi & Tbilisi — Gruziya To'liq Turi — $680 dan | SEM Travel",
+      "ogDescription": "Batumi ga 6 kecha / 7 kun tur paketi. Sheraton Batumi Hotel 5⭐. Parvoz + mehmonxona + transfer. 24% chegirma — $890 o'rniga $680.",
+      "ogImage": "https://images.unsplash.com/photo-1565008576549-57569a49371d?w=700&q=80",
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/tours/xitoy-biznes-tur",
+      "title": "Xitoy Biznes Tur — Kanton Yarmarkasi & Pekin — $2500 dan | SEM Travel | SEM Travel",
+      "description": "Guangzhou & Pekin ga 7 kecha / 8 kun tur paketi. Guangzhou Marriott Hotel 5⭐. Parvoz + mehmonxona + transfer. 14% chegirma — $2900 o'rniga $2500.",
+      "canonical": "https://semtravel.uz/tours/xitoy-biznes-tur",
+      "h1": [
+        "Xitoy Biznes Tur — Kanton Yarmarkasi & Pekin"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite",
+        "TouristTrip",
+        "BreadcrumbList"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Xitoy Biznes Tur — Kanton Yarmarkasi & Pekin — $2500 dan | SEM Travel",
+      "ogDescription": "Guangzhou & Pekin ga 7 kecha / 8 kun tur paketi. Guangzhou Marriott Hotel 5⭐. Parvoz + mehmonxona + transfer. 14% chegirma — $2900 o'rniga $2500.",
+      "ogImage": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=700&q=80",
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/destinations/turkiya",
+      "title": "Turkiya Turlari Toshkentdan — Narxlar 620$ dan | SEM Travel",
+      "description": "Toshkentdan Turkiyaga tur paketlar 620$ dan. Parvoz + mehmonxona + transfer. Viza: Viza kerak emas. Eng yaxshi narxlar kafolati. SEM Travel — 15+ yil tajriba.",
+      "canonical": "https://semtravel.uz/destinations/turkiya",
+      "h1": [
+        "Turkiyaga tur — $620 dan"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite",
+        "TouristDestination",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Turkiya Turlari | SEM Travel",
+      "ogDescription": "Toshkentdan Turkiyaga tur paketlar 620$ dan. Parvoz + mehmonxona + transfer. Viza: Viza kerak emas. Eng yaxshi narxlar kafolati. SEM Travel — 15+ yil tajriba.",
+      "ogImage": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=1200&q=70",
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/destinations/dubai",
+      "title": "Dubai Turlari Toshkentdan — Narxlar 522$ dan | SEM Travel",
+      "description": "Toshkentdan Dubaiga tur paketlar 522$ dan. Parvoz + mehmonxona + transfer. Viza: Viza kerak emas (30 kun). Eng yaxshi narxlar kafolati. SEM Travel — 15+ yil tajriba.",
+      "canonical": "https://semtravel.uz/destinations/dubai",
+      "h1": [
+        "Dubaiga tur — $522 dan"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite",
+        "TouristDestination",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Dubai Turlari | SEM Travel",
+      "ogDescription": "Toshkentdan Dubaiga tur paketlar 522$ dan. Parvoz + mehmonxona + transfer. Viza: Viza kerak emas (30 kun). Eng yaxshi narxlar kafolati. SEM Travel — 15+ yil tajriba.",
+      "ogImage": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=1200&q=70",
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/destinations/misr",
+      "title": "Misr Turlari Toshkentdan — Narxlar 790$ dan | SEM Travel",
+      "description": "Toshkentdan Misrga tur paketlar 790$ dan. Parvoz + mehmonxona + transfer. Viza: Vizasiz (arrival visa). Eng yaxshi narxlar kafolati. SEM Travel — 15+ yil tajriba.",
+      "canonical": "https://semtravel.uz/destinations/misr",
+      "h1": [
+        "Misrga tur — $790 dan"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite",
+        "TouristDestination",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Misr Turlari | SEM Travel",
+      "ogDescription": "Toshkentdan Misrga tur paketlar 790$ dan. Parvoz + mehmonxona + transfer. Viza: Vizasiz (arrival visa). Eng yaxshi narxlar kafolati. SEM Travel — 15+ yil tajriba.",
+      "ogImage": "https://images.unsplash.com/photo-1539768942893-daf53e448371?w=1200&q=70",
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/destinations/tailand",
+      "title": "Tailand Turlari Toshkentdan — Narxlar 1290$ dan | SEM Travel",
+      "description": "Toshkentdan Tailandga tur paketlar 1290$ dan. Parvoz + mehmonxona + transfer. Viza: Vizasiz (30 kun). Eng yaxshi narxlar kafolati. SEM Travel — 15+ yil tajriba.",
+      "canonical": "https://semtravel.uz/destinations/tailand",
+      "h1": [
+        "Tailandga tur — $1290 dan"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite",
+        "TouristDestination",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Tailand Turlari | SEM Travel",
+      "ogDescription": "Toshkentdan Tailandga tur paketlar 1290$ dan. Parvoz + mehmonxona + transfer. Viza: Vizasiz (30 kun). Eng yaxshi narxlar kafolati. SEM Travel — 15+ yil tajriba.",
+      "ogImage": "https://images.unsplash.com/photo-1504214208698-ea1916a2195a?w=1200&q=70",
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/destinations/maldiv",
+      "title": "Maldiv Turlari Toshkentdan — Narxlar 2800$ dan | SEM Travel",
+      "description": "Toshkentdan Maldivga tur paketlar 2800$ dan. Parvoz + mehmonxona + transfer. Viza: Vizasiz (30 kun). Eng yaxshi narxlar kafolati. SEM Travel — 15+ yil tajriba.",
+      "canonical": "https://semtravel.uz/destinations/maldiv",
+      "h1": [
+        "Maldivga tur — $2800 dan"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite",
+        "TouristDestination",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Maldiv Turlari | SEM Travel",
+      "ogDescription": "Toshkentdan Maldivga tur paketlar 2800$ dan. Parvoz + mehmonxona + transfer. Viza: Vizasiz (30 kun). Eng yaxshi narxlar kafolati. SEM Travel — 15+ yil tajriba.",
+      "ogImage": "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?w=1200&q=70",
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/destinations/gretsiya",
+      "title": "Gretsiya Turlari Toshkentdan — Narxlar 1650$ dan | SEM Travel",
+      "description": "Toshkentdan Gretsiyaga tur paketlar 1650$ dan. Parvoz + mehmonxona + transfer. Viza: Schengen viza kerak. Eng yaxshi narxlar kafolati. SEM Travel — 15+ yil tajriba.",
+      "canonical": "https://semtravel.uz/destinations/gretsiya",
+      "h1": [
+        "Gretsiyaga tur — $1650 dan"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite",
+        "TouristDestination",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Gretsiya Turlari | SEM Travel",
+      "ogDescription": "Toshkentdan Gretsiyaga tur paketlar 1650$ dan. Parvoz + mehmonxona + transfer. Viza: Schengen viza kerak. Eng yaxshi narxlar kafolati. SEM Travel — 15+ yil tajriba.",
+      "ogImage": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=1200&q=70",
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/destinations/qirgiziston",
+      "title": "Qirg'iziston Turlari Toshkentdan — Narxlar 420$ dan | SEM Travel",
+      "description": "Toshkentdan Qirg'izistonga tur paketlar 420$ dan. Parvoz + mehmonxona + transfer. Viza: Viza kerak emas. Eng yaxshi narxlar kafolati. SEM Travel — 15+ yil tajriba.",
+      "canonical": "https://semtravel.uz/destinations/qirgiziston",
+      "h1": [
+        "Qirg'izistonga tur — $420 dan"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite",
+        "TouristDestination",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Qirg'iziston Turlari | SEM Travel",
+      "ogDescription": "Toshkentdan Qirg'izistonga tur paketlar 420$ dan. Parvoz + mehmonxona + transfer. Viza: Viza kerak emas. Eng yaxshi narxlar kafolati. SEM Travel — 15+ yil tajriba.",
+      "ogImage": "https://images.unsplash.com/photo-1586348943529-beaae6c28db9?w=1200&q=70",
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/destinations/gruziya",
+      "title": "Gruziya Turlari Toshkentdan — Narxlar 680$ dan | SEM Travel",
+      "description": "Toshkentdan Gruziyaga tur paketlar 680$ dan. Parvoz + mehmonxona + transfer. Viza: Viza kerak emas. Eng yaxshi narxlar kafolati. SEM Travel — 15+ yil tajriba.",
+      "canonical": "https://semtravel.uz/destinations/gruziya",
+      "h1": [
+        "Gruziyaga tur — $680 dan"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite",
+        "TouristDestination",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Gruziya Turlari | SEM Travel",
+      "ogDescription": "Toshkentdan Gruziyaga tur paketlar 680$ dan. Parvoz + mehmonxona + transfer. Viza: Viza kerak emas. Eng yaxshi narxlar kafolati. SEM Travel — 15+ yil tajriba.",
+      "ogImage": "https://images.unsplash.com/photo-1565008576549-57569a49371d?w=1200&q=70",
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/destinations/xitoy",
+      "title": "Xitoy Turlari Toshkentdan — Narxlar 1200$ dan | SEM Travel",
+      "description": "Toshkentdan Xitoyga tur paketlar 1200$ dan. Parvoz + mehmonxona + transfer. Viza: Viza kerak. Eng yaxshi narxlar kafolati. SEM Travel — 15+ yil tajriba.",
+      "canonical": "https://semtravel.uz/destinations/xitoy",
+      "h1": [
+        "Xitoyga tur — $1200 dan"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite",
+        "TouristDestination",
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Xitoy Turlari | SEM Travel",
+      "ogDescription": "Toshkentdan Xitoyga tur paketlar 1200$ dan. Parvoz + mehmonxona + transfer. Viza: Viza kerak. Eng yaxshi narxlar kafolati. SEM Travel — 15+ yil tajriba.",
+      "ogImage": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?w=1200&q=70",
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/blog/dubai-sayohati-maslahatlari",
+      "title": "Dubai sayohati: bilishingiz kerak bo'lgan 10 ta maslahat | SEM Travel",
+      "description": "Dubai — hashamatli mehmonxonalar, baland binolar va ajoyib plyaj dam olishi bilan dunyodagi eng mashhur turistik shaharlardan biri. Bu maqolada Dubai sayohati uchun eng muhim maslahatlar berilgan.",
+      "canonical": "https://semtravel.uz/blog/dubai-sayohati-maslahatlari",
+      "h1": [
+        "Dubai sayohati: bilishingiz kerak bo'lgan 10 ta maslahat"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite",
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default",
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Dubai sayohati: bilishingiz kerak bo'lgan 10 ta maslahat",
+      "ogDescription": "Dubai — hashamatli mehmonxonalar, baland binolar va ajoyib plyaj dam olishi bilan dunyodagi eng mashhur turistik shaharlardan biri. Bu maqolada Dubai sayohati uchun eng muhim maslahatlar berilgan.",
+      "ogImage": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800&q=70",
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/blog/turkiya-viza-qollanma",
+      "title": "Turkiyaga viza: qanday olish mumkin? To'liq qo'llanma 2026 | SEM Travel",
+      "description": "O'zbekiston fuqarolari uchun Turkiyaga viza olish jarayoni: kerakli hujjatlar, ariza topshirish tartibi, muddat va narxlar.",
+      "canonical": "https://semtravel.uz/blog/turkiya-viza-qollanma",
+      "h1": [
+        "Turkiyaga viza: qanday olish mumkin? To'liq qo'llanma 2026"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite",
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default",
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Turkiyaga viza: qanday olish mumkin? To'liq qo'llanma 2026",
+      "ogDescription": "O'zbekiston fuqarolari uchun Turkiyaga viza olish jarayoni: kerakli hujjatlar, ariza topshirish tartibi, muddat va narxlar.",
+      "ogImage": "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=800&q=70",
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/blog/maldiv-yoki-tailand",
+      "title": "Maldiv orollari yoki Tailand: qayerga borishni tanlash kerak? | SEM Travel",
+      "description": "Ikki mashhur dam olish yo'nalishi — Maldiv orollari va Tailandni narx, tabiat, xizmat va dam olish turlari bo'yicha qiyoslaymiz.",
+      "canonical": "https://semtravel.uz/blog/maldiv-yoki-tailand",
+      "h1": [
+        "Maldiv orollari yoki Tailand: qayerga borishni tanlash kerak?"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite",
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default",
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Maldiv orollari yoki Tailand: qayerga borishni tanlash kerak?",
+      "ogDescription": "Ikki mashhur dam olish yo'nalishi — Maldiv orollari va Tailandni narx, tabiat, xizmat va dam olish turlari bo'yicha qiyoslaymiz.",
+      "ogImage": "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?w=800&q=70",
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/blog/toshkentdan-eng-arzon-turlar",
+      "title": "Toshkentdan eng arzon xorijiy turlar 2026 — top 5 yo'nalish | SEM Travel",
+      "description": "Toshkentdan eng arzon narxlarda xorijga sayohat qilmoqchimisiz? Mana 2026-yilning top 5 arzon yo'nalishlari va narxlari.",
+      "canonical": "https://semtravel.uz/blog/toshkentdan-eng-arzon-turlar",
+      "h1": [
+        "Toshkentdan eng arzon xorijiy turlar 2026 — top 5 yo'nalish"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite",
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default",
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Toshkentdan eng arzon xorijiy turlar 2026 — top 5 yo'nalish",
+      "ogDescription": "Toshkentdan eng arzon narxlarda xorijga sayohat qilmoqchimisiz? Mana 2026-yilning top 5 arzon yo'nalishlari va narxlari.",
+      "ogImage": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=800&q=70",
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/blog/misr-hurghada-sayohati",
+      "title": "Misr Hurghada: 2026-yilgi to'liq sayohat qo'llanmasi | SEM Travel",
+      "description": "Hurghada — Misrning eng mashhur kurort shahri. Qizil dengiz, marjonlar, All Inclusive mehmonxonalar va arzon narxlar haqida to'liq ma'lumot.",
+      "canonical": "https://semtravel.uz/blog/misr-hurghada-sayohati",
+      "h1": [
+        "Misr Hurghada: 2026-yilgi to'liq sayohat qo'llanmasi"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite",
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default",
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Misr Hurghada: 2026-yilgi to'liq sayohat qo'llanmasi",
+      "ogDescription": "Hurghada — Misrning eng mashhur kurort shahri. Qizil dengiz, marjonlar, All Inclusive mehmonxonalar va arzon narxlar haqida to'liq ma'lumot.",
+      "ogImage": "https://images.unsplash.com/photo-1568322445389-f64ac2515020?w=800&q=70",
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/blog/gruziya-tbilisi-batumi",
+      "title": "Gruziya: Tbilisi va Batumi — vizasiz sayohat qo'llanmasi | SEM Travel",
+      "description": "Gruziya — O'zbekistondan eng yaqin va arzon xorijiy yo'nalish. Vizasiz, ajoyib oshxona, tog'lar va dengiz — barchasi bir mamlakatda.",
+      "canonical": "https://semtravel.uz/blog/gruziya-tbilisi-batumi",
+      "h1": [
+        "Gruziya: Tbilisi va Batumi — vizasiz sayohat qo'llanmasi"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite",
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default",
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Gruziya: Tbilisi va Batumi — vizasiz sayohat qo'llanmasi",
+      "ogDescription": "Gruziya — O'zbekistondan eng yaqin va arzon xorijiy yo'nalish. Vizasiz, ajoyib oshxona, tog'lar va dengiz — barchasi bir mamlakatda.",
+      "ogImage": "https://images.unsplash.com/photo-1565008576549-57569a49371d?w=800&q=70",
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/blog/tailand-phuket-qollanma",
+      "title": "Tailand Phuket: to'liq qo'llanma — plyajlar, narxlar, maslahatlar | SEM Travel",
+      "description": "Phuket — Tailandning eng mashhur oroli. Oq qumli plyajlar, tropik tabiat, mazali taom va vizasiz kirish — barchasi bu maqolada.",
+      "canonical": "https://semtravel.uz/blog/tailand-phuket-qollanma",
+      "h1": [
+        "Tailand Phuket: to'liq qo'llanma — plyajlar, narxlar, maslahatlar"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite",
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default",
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Tailand Phuket: to'liq qo'llanma — plyajlar, narxlar, maslahatlar",
+      "ogDescription": "Phuket — Tailandning eng mashhur oroli. Oq qumli plyajlar, tropik tabiat, mazali taom va vizasiz kirish — barchasi bu maqolada.",
+      "ogImage": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=800&q=70",
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/blog/yangi-yil-xorijda",
+      "title": "Yangi yilni xorijda kutib olish: top 5 yo'nalish Toshkentdan | SEM Travel",
+      "description": "2026-2027 yangi yilini xorijda kutib olmoqchimisiz? Mana eng mashhur 5 ta yo'nalish, narxlar va maslahatlar.",
+      "canonical": "https://semtravel.uz/blog/yangi-yil-xorijda",
+      "h1": [
+        "Yangi yilni xorijda kutib olish: top 5 yo'nalish Toshkentdan"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite",
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default",
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Yangi yilni xorijda kutib olish: top 5 yo'nalish Toshkentdan",
+      "ogDescription": "2026-2027 yangi yilini xorijda kutib olmoqchimisiz? Mana eng mashhur 5 ta yo'nalish, narxlar va maslahatlar.",
+      "ogImage": "https://images.unsplash.com/photo-1467810563316-b5476525c0f9?w=800&q=70",
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/blog/oilaviy-sayohat-qayerga",
+      "title": "Oilaviy sayohat: bolalar bilan qayerga borish kerak? Top 5 yo'nalish | SEM Travel",
+      "description": "Bolalar bilan sayohat qilish haqida o'ylayapsizmi? Mana oilaviy sayohat uchun eng mos 5 ta yo'nalish — xavfsiz, qiziqarli va arzon.",
+      "canonical": "https://semtravel.uz/blog/oilaviy-sayohat-qayerga",
+      "h1": [
+        "Oilaviy sayohat: bolalar bilan qayerga borish kerak? Top 5 yo'nalish"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite",
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default",
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Oilaviy sayohat: bolalar bilan qayerga borish kerak? Top 5 yo'nalish",
+      "ogDescription": "Bolalar bilan sayohat qilish haqida o'ylayapsizmi? Mana oilaviy sayohat uchun eng mos 5 ta yo'nalish — xavfsiz, qiziqarli va arzon.",
+      "ogImage": "https://images.unsplash.com/photo-1503220317375-aaad61436b1b?w=800&q=70",
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/blog/schengen-viza-olish",
+      "title": "Schengen vizasi: O'zbekistondan qanday olish mumkin? 2026 qo'llanma | SEM Travel",
+      "description": "Yevropa Shengen zonasiga viza olish — ko'pchilik uchun murakkab jarayon. Bu qo'llanmada hamma narsa sodda tushuntirilgan: hujjatlar, muddatlar, narxlar.",
+      "canonical": "https://semtravel.uz/blog/schengen-viza-olish",
+      "h1": [
+        "Schengen vizasi: O'zbekistondan qanday olish mumkin? 2026 qo'llanma"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite",
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default",
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Schengen vizasi: O'zbekistondan qanday olish mumkin? 2026 qo'llanma",
+      "ogDescription": "Yevropa Shengen zonasiga viza olish — ko'pchilik uchun murakkab jarayon. Bu qo'llanmada hamma narsa sodda tushuntirilgan: hujjatlar, muddatlar, narxlar.",
+      "ogImage": "https://images.unsplash.com/photo-1519677100203-a0e668c92439?w=800&q=70",
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/blog/issiq-kol-2026",
+      "title": "Issiq-Ko'l 2026 — Narxlar, Mehmonxonalar va Sanalar | SEM Travel | SEM Travel",
+      "description": "Toshkentdan Issiq-Ko'lga 2026 yil yozida tur: 7 kecha $400 dan, 10 kecha $530 dan. Aviaparvoz, transfer va mehmonxona kiritilgan. Sanalar, narxlar va bron qilish.",
+      "canonical": "https://semtravel.uz/blog/issiq-kol-2026",
+      "h1": [
+        "Issiq-Ko'l 2026 — Narxlar, Mehmonxonalar va Sanalar | SEM Travel"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite",
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default",
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Issiq-Ko'l 2026 — Narxlar, Mehmonxonalar va Sanalar | SEM Travel",
+      "ogDescription": "Toshkentdan Issiq-Ko'lga 2026 yil yozida tur: 7 kecha $400 dan, 10 kecha $530 dan. Aviaparvoz, transfer va mehmonxona kiritilgan. Sanalar, narxlar va bron qilish.",
+      "ogImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=70",
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/blog/tbilisi-trabzon-batumi-2026",
+      "title": "Tbilisi + Trabzon + Batumi 2026 — Qora dengiz bo'ylab sayohat | SEM Travel | SEM Travel",
+      "description": "Toshkentdan Tbilisi–Trabzon–Batumi turi 2026: ikkita davlat, uchta shahar, $849 dan. Barcha ekskursiyalar narxga kiritilgan. Iyun-iyul sanalari va bron qilish.",
+      "canonical": "https://semtravel.uz/blog/tbilisi-trabzon-batumi-2026",
+      "h1": [
+        "Tbilisi + Trabzon + Batumi 2026 — Qora dengiz bo'ylab sayohat | SEM Travel"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite",
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default",
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Tbilisi + Trabzon + Batumi 2026 — Qora dengiz bo'ylab sayohat | SEM Travel",
+      "ogDescription": "Toshkentdan Tbilisi–Trabzon–Batumi turi 2026: ikkita davlat, uchta shahar, $849 dan. Barcha ekskursiyalar narxga kiritilgan. Iyun-iyul sanalari va bron qilish.",
+      "ogImage": "https://images.unsplash.com/photo-1565008576549-57569a49371d?w=800&q=70",
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/blog/turkiya-mo-jizalari-2026",
+      "title": "Turkiya Mo'jizalari 2026 — Istanbul, Kappadokiya, Pamukkale | SEM Travel | SEM Travel",
+      "description": "Toshkentdan Turkiya bo'ylab ekskursiya turi 2026: Istanbul–Kappadokiya–Pamukkale. May oyidan $732 dan. Aviaparvoz, mehmonxona, ovqat, sug'urta va ekskursiyalar kiritilgan.",
+      "canonical": "https://semtravel.uz/blog/turkiya-mo-jizalari-2026",
+      "h1": [
+        "Turkiya Mo'jizalari 2026 — Istanbul, Kappadokiya, Pamukkale | SEM Travel"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite",
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default",
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Turkiya Mo'jizalari 2026 — Istanbul, Kappadokiya, Pamukkale | SEM Travel",
+      "ogDescription": "Toshkentdan Turkiya bo'ylab ekskursiya turi 2026: Istanbul–Kappadokiya–Pamukkale. May oyidan $732 dan. Aviaparvoz, mehmonxona, ovqat, sug'urta va ekskursiyalar kiritilgan.",
+      "ogImage": "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?w=800&q=70",
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/blog/gruziya-mo-jizalari-2026",
+      "title": "Gruziya Mo'jizalari 2026 — Tbilisi va Batumi | Erta bron $629 | SEM Travel | SEM Travel",
+      "description": "Toshkentdan Gruziya turi 2026: Tbilisi–Batumi yoki Tbilisi–Bakuriani–Batumi, $629 dan. 3 ekskursiya sovg'a. 23 may uchish. Aviaparvoz, 4* mehmonxona, nonushta, sug'urta kiritilgan.",
+      "canonical": "https://semtravel.uz/blog/gruziya-mo-jizalari-2026",
+      "h1": [
+        "Gruziya Mo'jizalari 2026 — Tbilisi va Batumi | Erta bron $629 | SEM Travel"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite",
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default",
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Gruziya Mo'jizalari 2026 — Tbilisi va Batumi | Erta bron $629 | SEM Travel",
+      "ogDescription": "Toshkentdan Gruziya turi 2026: Tbilisi–Batumi yoki Tbilisi–Bakuriani–Batumi, $629 dan. 3 ekskursiya sovg'a. 23 may uchish. Aviaparvoz, 4* mehmonxona, nonushta, sug'urta kiritilgan.",
+      "ogImage": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=70",
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/blog/xitoy-biznes-tur-2026",
+      "title": "Xitoyga 8 Kunlik Biznes Safari — Chengdu, Zhangjiajie, Guangzhou | Asoschilar Club × SEM Travel | SEM Travel",
+      "description": "24 aprel – 2 may 2026: Xitoyga eksklyuziv biznes safari. Standart $2500, Biznes $2750. Club a'zolariga $150 chegirma. Canton Fair, zavodlar, Avatar tog'lari. Joy soni cheklangan.",
+      "canonical": "https://semtravel.uz/blog/xitoy-biznes-tur-2026",
+      "h1": [
+        "Xitoyga 8 Kunlik Biznes Safari — Chengdu, Zhangjiajie, Guangzhou | Asoschilar Club × SEM Travel"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite",
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default",
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Xitoyga 8 Kunlik Biznes Safari — Chengdu, Zhangjiajie, Guangzhou | Asoschilar Club × SEM Travel",
+      "ogDescription": "24 aprel – 2 may 2026: Xitoyga eksklyuziv biznes safari. Standart $2500, Biznes $2750. Club a'zolariga $150 chegirma. Canton Fair, zavodlar, Avatar tog'lari. Joy soni cheklangan.",
+      "ogImage": "https://images.unsplash.com/photo-1547981609-4b6bfe67ca0b?w=800&q=70",
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/blog/antalya-tur-narxi-2026",
+      "title": "Toshkentdan Antalyaga tur 2026: narxlar, eng yaxshi vaqt va maslahatlar | SEM Travel",
+      "description": "Antalya — O'zbekistondan eng ko'p boriladigan plyaj yo'nalishi. Tur narxi, viza tartibi, eng yaxshi mehmonxonalar va qachon borish kerakligi haqida to'liq ma'lumot.",
+      "canonical": "https://semtravel.uz/blog/antalya-tur-narxi-2026",
+      "h1": [
+        "Toshkentdan Antalyaga tur 2026: narxlar, eng yaxshi vaqt va maslahatlar"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite",
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default",
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Toshkentdan Antalyaga tur 2026: narxlar, eng yaxshi vaqt va maslahatlar",
+      "ogDescription": "Antalya — O'zbekistondan eng ko'p boriladigan plyaj yo'nalishi. Tur narxi, viza tartibi, eng yaxshi mehmonxonalar va qachon borish kerakligi haqida to'liq ma'lumot.",
+      "ogImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=70",
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/blog/maldiv-orollari-pamyatka-2026",
+      "title": "Maldiv orollari: to'liq sayohat pamyatkasi 2026 — nima bilish kerak? | SEM Travel",
+      "description": "Maldiv orollariga borish uchun viza, parvoz, narxlar, eng yaxshi orollar va amaliy maslahatlar. O'zbek sayyohlari uchun to'liq qo'llanma.",
+      "canonical": "https://semtravel.uz/blog/maldiv-orollari-pamyatka-2026",
+      "h1": [
+        "Maldiv orollari: to'liq sayohat pamyatkasi 2026 — nima bilish kerak?"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite",
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default",
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Maldiv orollari: to'liq sayohat pamyatkasi 2026 — nima bilish kerak?",
+      "ogDescription": "Maldiv orollariga borish uchun viza, parvoz, narxlar, eng yaxshi orollar va amaliy maslahatlar. O'zbek sayyohlari uchun to'liq qo'llanma.",
+      "ogImage": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=800&q=70",
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/blog/bali-indoneziya-sayohati-qollanma",
+      "title": "Bali sayohati: O'zbek sayyohlari uchun to'liq qo'llanma 2026 | SEM Travel",
+      "description": "Bali ga qanday borish, viza, narxlar, eng yaxshi rayonlar va amaliy lifehaklar. Arzon va mazali Bali sayohati uchun hamma narsani bilib oling.",
+      "canonical": "https://semtravel.uz/blog/bali-indoneziya-sayohati-qollanma",
+      "h1": [
+        "Bali sayohati: O'zbek sayyohlari uchun to'liq qo'llanma 2026"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite",
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default",
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Bali sayohati: O'zbek sayyohlari uchun to'liq qo'llanma 2026",
+      "ogDescription": "Bali ga qanday borish, viza, narxlar, eng yaxshi rayonlar va amaliy lifehaklar. Arzon va mazali Bali sayohati uchun hamma narsani bilib oling.",
+      "ogImage": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=800&q=70",
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/blog/gretsiya-sayohati-pamyatka-2026",
+      "title": "Gretsiya sayohati pamyatkasi 2026: Santorini, Afina, viza va narxlar | SEM Travel",
+      "description": "Gretsiya uchun Schengen vizasi qanday olinadi, qaysi orollarni ko'rish kerak, Santorini vs Mykonos, narxlar va lifehaklar. O'zbek sayyohlari uchun.",
+      "canonical": "https://semtravel.uz/blog/gretsiya-sayohati-pamyatka-2026",
+      "h1": [
+        "Gretsiya sayohati pamyatkasi 2026: Santorini, Afina, viza va narxlar"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite",
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default",
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Gretsiya sayohati pamyatkasi 2026: Santorini, Afina, viza va narxlar",
+      "ogDescription": "Gretsiya uchun Schengen vizasi qanday olinadi, qaysi orollarni ko'rish kerak, Santorini vs Mykonos, narxlar va lifehaklar. O'zbek sayyohlari uchun.",
+      "ogImage": "https://images.unsplash.com/photo-1555993539-1732b0258235?w=800&q=70",
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/blog/tailand-lifehaklar-va-maslahatlar",
+      "title": "Tailand lifehaklar: real sayyohlardan 20 ta maslahat — pul tejash va xatolardan qochish | SEM Travel",
+      "description": "Tailandda qanday tejash, qanday xatolardan qochish, eng arzon va yaxshi joylar, transport, ovqat va xavfsizlik bo'yicha real maslahatlar.",
+      "canonical": "https://semtravel.uz/blog/tailand-lifehaklar-va-maslahatlar",
+      "h1": [
+        "Tailand lifehaklar: real sayyohlardan 20 ta maslahat — pul tejash va xatolardan qochish"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite",
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default",
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Tailand lifehaklar: real sayyohlardan 20 ta maslahat — pul tejash va xatolardan qochish",
+      "ogDescription": "Tailandda qanday tejash, qanday xatolardan qochish, eng arzon va yaxshi joylar, transport, ovqat va xavfsizlik bo'yicha real maslahatlar.",
+      "ogImage": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?w=800&q=70",
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/blog/misr-sharm-el-shayx-pamyatka-2026",
+      "title": "Sharm el-Shayx pamyatkasi 2026: viza, narxlar, plyajlar va lifehaklar | SEM Travel",
+      "description": "Sharm el-Shayx ga borish uchun hamma narsani bilib oling: viza, narxlar, eng yaxshi plyajlar, diving, All Inclusive va amaliy maslahatlar.",
+      "canonical": "https://semtravel.uz/blog/misr-sharm-el-shayx-pamyatka-2026",
+      "h1": [
+        "Sharm el-Shayx pamyatkasi 2026: viza, narxlar, plyajlar va lifehaklar"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite",
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default",
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Sharm el-Shayx pamyatkasi 2026: viza, narxlar, plyajlar va lifehaklar",
+      "ogDescription": "Sharm el-Shayx ga borish uchun hamma narsani bilib oling: viza, narxlar, eng yaxshi plyajlar, diving, All Inclusive va amaliy maslahatlar.",
+      "ogImage": "https://images.unsplash.com/photo-1539768942893-daf53e448371?w=800&q=70",
+      "statusCode": 200
+    },
+    {
+      "url": "https://semtravel.uz/blog/qirgiziston-tabiat-va-tog-sayr-qollanma",
+      "title": "Qirg'iziston sayohati: Issiq Ko'l, tog' marshrutlari va amaliy qo'llanma 2026 | SEM Travel",
+      "description": "Qirg'izistonga sayohat uchun hamma narsani bilib oling: viza, Issiq Ko'l, eng yaxshi marshrutlar, narxlar va tog' sayohati uchun maslahatlar.",
+      "canonical": "https://semtravel.uz/blog/qirgiziston-tabiat-va-tog-sayr-qollanma",
+      "h1": [
+        "Qirg'iziston sayohati: Issiq Ko'l, tog' marshrutlari va amaliy qo'llanma 2026"
+      ],
+      "schemaTypes": [
+        "TravelAgency",
+        "LocalBusiness",
+        "WebSite",
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "hreflangs": [
+        "uz",
+        "ru",
+        "x-default",
+        "uz",
+        "ru",
+        "x-default"
+      ],
+      "ogTitle": "Qirg'iziston sayohati: Issiq Ko'l, tog' marshrutlari va amaliy qo'llanma 2026",
+      "ogDescription": "Qirg'izistonga sayohat uchun hamma narsani bilib oling: viza, Issiq Ko'l, eng yaxshi marshrutlar, narxlar va tog' sayohati uchun maslahatlar.",
+      "ogImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=70",
+      "statusCode": 200
+    }
+  ]
+}

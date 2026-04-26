@@ -1,0 +1,207 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "../lib/generated/prisma"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+// ============================================================================
+// BlogPost Model — Avtomatik yaratilgan maqolalar
+// ============================================================================
+model BlogPost {
+  id            String   @id @default(cuid())
+  slug          String   @unique
+
+  // Multilingual content (JSON)
+  title         Json     // { en: "...", ru: "...", uz: "..." }
+  content       Json     // { en: "<html>...", ru: "<html>...", uz: "<html>..." }
+  metaTitle     Json     // { en: "...", ru: "...", uz: "..." }
+  metaDescription Json   // { en: "...", ru: "...", uz: "..." }
+
+  // SEO Meta
+  keyword       String
+  primaryKeyword String?
+  secondaryKeywords String?  // JSON array
+  lsiKeywords   String?      // JSON array
+
+  // Scoring
+  seoScore      Int      @default(0)
+  seoBreakdown  Json?    // { criterion: string, maxPoints: int, earnedPoints: int, passed: bool }[]
+
+  // Status Workflow
+  status        String   @default("pending_generation")  // pending_generation, generated, pending_review, approved, published, rejected, archived
+
+  // Publishing
+  publishedAt   DateTime?
+  reviewedAt    DateTime?
+  reviewedBy    String?  // Admin username yoki email
+
+  // Content Metadata
+  wordCount     Int      @default(0)
+  languages     String   @default("uz,ru,en")  // Comma-separated
+  category      String?  // "turlar", "mehmonxona", "viza", "blog", etc.
+  tags          String?  // JSON array
+
+  // Media
+  imageUrl      String?
+  featureImage  String?
+
+  // Relations
+  logs          GenerationLog[]
+
+  // Timestamps
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+}
+
+// ============================================================================
+// GenerationLog Model — Har bir bosqichni logla
+// ============================================================================
+model GenerationLog {
+  id            String   @id @default(cuid())
+  blogPostId    String
+  blogPost      BlogPost @relation(fields: [blogPostId], references: [id], onDelete: Cascade)
+
+  // Step Information
+  action        String   // "research", "generate", "audit", "refine", "translate", "save", "notify", "publish"
+  status        String   // "success", "failed", "skipped", "pending"
+
+  // Performance
+  tokensUsed    Int      @default(0)
+  duration      Int      @default(0)  // milliseconds
+
+  // Error Tracking
+  error         String?
+  errorDetails  String?
+
+  // Extra Metadata
+  details       Json?    // { model: "claude-sonnet-4-20250514", wordCount: 950, language: "uz", ... }
+
+  // Timestamps
+  createdAt     DateTime @default(now())
+
+  @@index([blogPostId])
+  @@index([action])
+  @@index([status])
+}
+
+// ============================================================================
+// Keyword Model — SEO kalit so'z bazasi
+// ============================================================================
+model Keyword {
+  id            String   @id @default(cuid())
+
+  // Keyword Data
+  keyword       String
+  niche         String   // "turlar", "mehmonxona", "viza", "blog", etc.
+  language      String   @default("uz")  // uz, ru, en
+
+  // Keyword Metrics
+  searchVolume  Int      @default(0)
+  difficulty    String   @default("medium")  // easy, medium, hard
+  intent        String   @default("informational")  // informational, commercial, transactional, navigational
+
+  // Classification
+  keywordType   String?  // "primary", "secondary", "lsi", "longtail"
+  relatedKeywords String?  // JSON array
+
+  // Content Association
+  usedInPosts   String?  // JSON array of BlogPost IDs
+  postCount     Int      @default(0)
+
+  // Status
+  isActive      Boolean  @default(true)
+  lastUsedAt    DateTime?
+
+  // Timestamps
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  @@unique([keyword, language])
+  @@index([niche])
+  @@index([intent])
+  @@index([difficulty])
+}
+
+// ============================================================================
+// FeatureFlag Model — Feature flags boshqarish (optional, bu-xotira uchun)
+// ============================================================================
+model FeatureFlag {
+  id            String   @id @default(cuid())
+
+  name          String   @unique
+  description   String?
+  enabled       Boolean  @default(true)
+
+  // Config
+  value         String?  // JSON string uchun
+
+  // Audit
+  updatedBy     String?
+  updatedAt     DateTime @updatedAt
+
+  createdAt     DateTime @default(now())
+}
+
+// ============================================================================
+// CronExecution Model — CRON ishlarni logla
+// ============================================================================
+model CronExecution {
+  id            String   @id @default(cuid())
+
+  // Execution Info
+  topic         String
+  status        String   // "success", "failed", "skipped"
+
+  // Results
+  postId        String?  // Generated BlogPost ID
+  seoScore      Int?
+  tokensUsed    Int?
+
+  // Timing
+  duration      Int?     // milliseconds
+
+  // Error
+  error         String?
+
+  // Metadata
+  details       Json?
+
+  // Timestamps
+  createdAt     DateTime @default(now())
+
+  @@index([status])
+  @@index([createdAt])
+}
+
+// ============================================================================
+// Translation Model — Tarjima natijalarini saqlash (optional)
+// ============================================================================
+model TranslationResult {
+  id            String   @id @default(cuid())
+
+  blogPostId    String
+  sourceLanguage String
+  targetLanguage String
+
+  // Content
+  originalText  String
+  translatedText String
+
+  // Quality
+  success       Boolean
+  error         String?
+  retries       Int      @default(0)
+
+  // Performance
+  tokensUsed    Int      @default(0)
+  duration      Int      @default(0)
+
+  // Timestamps
+  createdAt     DateTime @default(now())
+
+  @@index([blogPostId])
+  @@index([targetLanguage])
+}

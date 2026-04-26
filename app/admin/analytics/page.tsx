@@ -63,7 +63,7 @@ export default function AnalyticsDashboard() {
       <div className="mb-8">
         <h1 className="text-3xl font-bold text-gray-900">Analytics Dashboard</h1>
         <p className="text-gray-600 mt-2">
-          {period.startDate.toISOString().split('T')[0]} — {period.endDate.toISOString().split('T')[0]}
+          {typeof period.startDate === 'string' ? period.startDate.split('T')[0] : period.startDate.toISOString().split('T')[0]} — {typeof period.endDate === 'string' ? period.endDate.split('T')[0] : period.endDate.toISOString().split('T')[0]}
         </p>
       </div>
 
@@ -218,7 +218,7 @@ export default function AnalyticsDashboard() {
 
       {/* Footer */}
       <div className="mt-8 text-center text-gray-500 text-sm">
-        Oxirgi yangilash: {new Date(analytics.lastUpdated).toLocaleString()}
+        Oxirgi yangilash: {typeof analytics.lastUpdated === 'string' ? new Date(analytics.lastUpdated).toLocaleString() : analytics.lastUpdated.toLocaleString()}
       </div>
     </div>
   );

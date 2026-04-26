@@ -6,6 +6,9 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getDashboardAnalytics } from '@/seo/utils/analytics';
 
+// Mark this route as dynamic (don't prerender)
+export const dynamic = 'force-dynamic';
+
 // ============================================================================
 // GET — Retrieve Analytics Data
 // ============================================================================

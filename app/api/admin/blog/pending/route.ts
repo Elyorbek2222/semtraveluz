@@ -6,6 +6,9 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getPostsPendingReview, getLatestPosts, countPostsByStatus } from '@/seo/publishing/blog-publisher';
 
+// Mark this route as dynamic (don't prerender)
+export const dynamic = 'force-dynamic';
+
 // ============================================================================
 // Auth Check
 // ============================================================================

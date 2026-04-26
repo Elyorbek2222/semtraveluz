@@ -9,6 +9,9 @@ import { prisma } from '@/lib/prisma';
 import { runContentPipeline, DEFAULT_PIPELINE_CONFIG } from '@/seo/pipeline/content-pipeline';
 import { sendBlogPostNotification } from '@/seo/notifications/notify';
 
+// Mark this route as dynamic (don't prerender)
+export const dynamic = 'force-dynamic';
+
 // ============================================================================
 // Auth Check
 // ============================================================================

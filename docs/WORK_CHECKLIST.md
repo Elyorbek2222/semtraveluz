@@ -581,32 +581,27 @@
 ---
 
 ### Task 4.3: Cron Job Scheduling (1 hour)
-**Files to create:**
+**Files created:**
 
-- [ ] `/vercel.json`:
-  ```json
-  {
-    "buildCommand": "npm run build && npm run export:blog",
-    "crons": [{
-      "path": "/api/cron/generate-blog",
-      "schedule": "0 8 * * 1,4"
-    }]
-  }
-  ```
+- [x] `/vercel.json`:
+  - [x] Cron schedule: "0 8 * * 1,4" (Monday & Thursday 8:00 AM UTC)
+  - [x] Environment variables configuration
+  - [x] Build and framework settings
 
-- [ ] `/app/api/cron/generate-blog/route.ts`:
-  - [ ] POST handler with CRON_SECRET auth check
-  - [ ] Check feature flags
-  - [ ] selectTopicForGeneration() — rotate categories
-  - [ ] runFullPipeline(topic) — execute all steps
-  - [ ] logCronExecution() to database
-  - [ ] Error handling with graceful degradation
+- [x] `/app/api/cron/generate-blog/route.ts`:
+  - [x] GET — Health check
+  - [x] POST — Execute cron job with CRON_SECRET auth
+  - [x] PUT — Manual trigger for testing (admin only)
+  - [x] Check feature flags
+  - [x] runFullPipeline() — execute 10-step pipeline
+  - [x] logCronExecution() to CronExecution table
+  - [x] Error handling with graceful logging
 
-- [ ] `/app/api/admin/feature-flags/route.ts`:
-  - [ ] GET: return current flags
-  - [ ] POST: update flags (admin auth required)
-  - [ ] Flags:
-    - [ ] BLOG_AUTO_GENERATION
+**Status:** ✅ IMPLEMENTED — Automated cron ready
+- Runs Monday & Thursday 8:00 AM UTC
+- Picks random unused keyword
+- Executes full 10-step pipeline  
+- Logs all execution metrics
     - [ ] BLOG_TRANSLATION_ENABLED
     - [ ] BLOG_NOTIFICATION_ENABLED
     - [ ] BLOG_MAX_ARTICLES_PER_RUN

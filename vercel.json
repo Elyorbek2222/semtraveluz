@@ -1,0 +1,49 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "framework": "nextjs",
+  "crons": [
+    {
+      "path": "/api/cron/generate-blog",
+      "schedule": "0 8 * * 1,4"
+    }
+  ],
+  "env": {
+    "DATABASE_URL": {
+      "description": "PostgreSQL connection string (production)"
+    },
+    "ANTHROPIC_API_KEY": {
+      "description": "Anthropic API key for Claude"
+    },
+    "CRON_SECRET": {
+      "description": "Secret token to verify cron requests"
+    },
+    "TELEGRAM_BOT_TOKEN": {
+      "description": "Telegram bot token for notifications"
+    },
+    "TELEGRAM_CHAT_ID": {
+      "description": "Admin Telegram chat ID"
+    },
+    "TELEGRAM_PUBLIC_CHAT_ID": {
+      "description": "Public channel ID for announcements"
+    },
+    "SMTP_HOST": {
+      "description": "Email SMTP host"
+    },
+    "SMTP_PORT": {
+      "description": "Email SMTP port"
+    },
+    "SMTP_USER": {
+      "description": "Email SMTP username"
+    },
+    "SMTP_PASS": {
+      "description": "Email SMTP password"
+    },
+    "ADMIN_EMAIL": {
+      "description": "Admin email address"
+    },
+    "ADMIN_API_TOKEN": {
+      "description": "API token for admin endpoints"
+    }
+  }
+}

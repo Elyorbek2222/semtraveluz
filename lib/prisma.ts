@@ -5,26 +5,24 @@ import { Pool } from 'pg';
 declare global {
   // eslint-disable-next-line no-var
   var prisma: PrismaClient | undefined;
-  var pool: Pool | undefined;
 }
 
-function getPrismaClient() {
-  if (global.prisma) {
-    return global.prisma;
-  }
+let prismaInstance: PrismaClient | undefined;
 
-  // Only create pool and adapter if DATABASE_URL exists
+export function getPrisma(): PrismaClient {
+  if (prismaInstance) return prismaInstance;
+  if (global.prisma) return global.prisma;
+
   if (!process.env.DATABASE_URL) {
-    throw new Error('DATABASE_URL environment variable is not set');
+    throw new Error('DATABASE_URL is not set');
   }
 
-  if (!global.pool) {
-    global.pool = new Pool({
-      connectionString: process.env.DATABASE_URL,
-    });
-  }
+  const pool = new Pool({
+    connectionString: process.env.DATABASE_URL,
+  });
 
-  const adapter = new PrismaPg(global.pool);
+  const adapter = new PrismaPg(pool);
+
   const client = new PrismaClient({
     adapter,
     log:
@@ -33,6 +31,8 @@ function getPrismaClient() {
         : ['error'],
   });
 
+  prismaInstance = client;
+
   if (process.env.NODE_ENV !== 'production') {
     global.prisma = client;
   }
@@ -40,4 +40,29 @@ function getPrismaClient() {
   return client;
 }
 
-export const prisma = global.prisma || getPrismaClient();
+export const prisma = {
+  get blogPost() {
+    return getPrisma().blogPost;
+  },
+  get generationLog() {
+    return getPrisma().generationLog;
+  },
+  get keyword() {
+    return getPrisma().keyword;
+  },
+  get featureFlag() {
+    return getPrisma().featureFlag;
+  },
+  get cronExecution() {
+    return getPrisma().cronExecution;
+  },
+  get translationResult() {
+    return getPrisma().translationResult;
+  },
+  $connect() {
+    return getPrisma().$connect();
+  },
+  $disconnect() {
+    return getPrisma().$disconnect();
+  },
+} as PrismaClient;

@@ -1,93 +1,55 @@
 /**
  * Telegram Webhook Handler
- * Receives button callbacks from Telegram inline keyboard
+ * Receives messages and callbacks from Telegram
  */
 
 import { NextRequest, NextResponse } from 'next/server';
-import { BlogPublisher } from '@/seo/publishing/blog-publisher';
+import { handleTelegramCallback } from '@/seo/notifications/telegram';
 
-// ============================================================================
-// Telegram Message Type
-// ============================================================================
-interface TelegramUpdate {
-  update_id: number;
-  callback_query?: {
-    id: string;
-    from: {
-      id: number;
-      username: string;
-      first_name: string;
-    };
-    chat_instance: string;
-    data: string; // approve_postId, reject_postId, edit_postId
-    message?: {
-      message_id: number;
-      chat: {
-        id: number;
-      };
-    };
-  };
-}
+export const dynamic = 'force-dynamic';
 
-// ============================================================================
-// POST Handler - Receive Telegram Webhooks
-// ============================================================================
 export async function POST(request: NextRequest) {
   try {
-    const body: TelegramUpdate = await request.json();
+    const update = await request.json();
 
-    // Verify Telegram token in query
-    const token = request.nextUrl.searchParams.get('token');
-    if (token !== process.env.TELEGRAM_BOT_TOKEN) {
-      return NextResponse.json(
-        { error: 'Unauthorized' },
-        { status: 401 }
-      );
+    console.log('[TELEGRAM WEBHOOK]', JSON.stringify(update, null, 2));
+
+    // Handle callback query (button clicks)
+    if (update.callback_query) {
+      const { id: callbackQueryId, data, from } = update.callback_query;
+
+      console.log(`[TELEGRAM] Callback received: ${data} from user ${from.id}`);
+
+      const result = await handleTelegramCallback(callbackQueryId, data, from.id);
+
+      return NextResponse.json({
+        success: result,
+        message: 'Callback processed',
+      });
     }
 
-    // Handle callback query (button click)
-    if (body.callback_query) {
-      const { id: callbackId, data, from } = body.callback_query;
-      const [action, postId] = data.split('_');
+    // Handle regular messages (future: for commands)
+    if (update.message) {
+      const { text, from } = update.message;
 
-      let result;
-      let responseText = '';
+      console.log(`[TELEGRAM] Message from ${from.id}: ${text}`);
 
-      switch (action) {
-        case 'approve':
-          result = await BlogPublisher.approve(postId);
-          responseText = result.success
-            ? '✅ Maqola tasdiqlandi!'
-            : `❌ Xato: ${result.error}`;
-          break;
-
-        case 'reject':
-          result = await BlogPublisher.reject(postId);
-          responseText = result.success
-            ? '❌ Maqola rad etildi'
-            : `❌ Xato: ${result.error}`;
-          break;
-
-        case 'edit':
-          responseText = `✏️ Tahrir: https://semtravel.uz/admin/blog/${postId}/edit`;
-          break;
-
-        default:
-          responseText = '❓ Noma\'lum amal';
+      // Handle /status command
+      if (text === '/status') {
+        return NextResponse.json({
+          success: true,
+          message: 'Status command received',
+        });
       }
-
-      // Acknowledge callback (remove loading indicator)
-      await acknowledgeCallback(callbackId, responseText);
-
-      // Log action
-      console.log(`[TELEGRAM] ${from.username} → ${action} ${postId}`);
-
-      return NextResponse.json({ success: true });
     }
 
-    return NextResponse.json({ ok: true });
+    return NextResponse.json({
+      success: true,
+      message: 'Update received',
+    });
   } catch (error) {
     console.error('[TELEGRAM WEBHOOK ERROR]', error);
+
     return NextResponse.json(
       { error: String(error) },
       { status: 500 }
@@ -95,48 +57,9 @@ export async function POST(request: NextRequest) {
   }
 }
 
-// ============================================================================
-// Acknowledge Callback Query
-// ============================================================================
-async function acknowledgeCallback(
-  callbackId: string,
-  notificationText: string
-): Promise<void> {
-  const token = process.env.TELEGRAM_BOT_TOKEN;
-
-  if (!token) {
-    console.warn('Telegram token not configured');
-    return;
-  }
-
-  try {
-    const response = await fetch(
-      `https://api.telegram.org/bot${token}/answerCallbackQuery`,
-      {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          callback_query_id: callbackId,
-          text: notificationText,
-          show_alert: false, // Toast notification, not alert
-        }),
-      }
-    );
-
-    if (!response.ok) {
-      console.warn('Failed to acknowledge callback:', response.statusText);
-    }
-  } catch (error) {
-    console.error('Callback acknowledgment error:', error);
-  }
-}
-
-// ============================================================================
-// GET Handler - Verify Webhook
-// ============================================================================
 export async function GET(request: NextRequest) {
   return NextResponse.json({
-    message: 'Telegram webhook endpoint is active',
-    timestamp: new Date().toISOString(),
+    status: 'Telegram webhook is active',
+    endpoint: '/api/telegram/webhook',
   });
 }

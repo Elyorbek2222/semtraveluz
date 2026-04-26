@@ -10,6 +10,7 @@ import {
   updatePostStatus,
 } from '@/seo/publishing/blog-publisher';
 import { sendBlogPostNotification, announcePublishedPost } from '@/seo/notifications/notify';
+import { notifyAdminBlogPostReview } from '@/seo/notifications/telegram';
 
 // Mark this route as dynamic (don't prerender)
 export const dynamic = 'force-dynamic';

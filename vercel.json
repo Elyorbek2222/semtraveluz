@@ -10,39 +10,51 @@
   ],
   "env": {
     "DATABASE_URL": {
+      "type": "string",
       "description": "PostgreSQL connection string (production)"
     },
     "ANTHROPIC_API_KEY": {
+      "type": "string",
       "description": "Anthropic API key for Claude"
     },
     "CRON_SECRET": {
+      "type": "string",
       "description": "Secret token to verify cron requests"
     },
     "TELEGRAM_BOT_TOKEN": {
+      "type": "string",
       "description": "Telegram bot token for notifications"
     },
     "TELEGRAM_CHAT_ID": {
+      "type": "string",
       "description": "Admin Telegram chat ID"
     },
     "TELEGRAM_PUBLIC_CHAT_ID": {
+      "type": "string",
       "description": "Public channel ID for announcements"
     },
     "SMTP_HOST": {
+      "type": "string",
       "description": "Email SMTP host"
     },
     "SMTP_PORT": {
+      "type": "string",
       "description": "Email SMTP port"
     },
     "SMTP_USER": {
+      "type": "string",
       "description": "Email SMTP username"
     },
     "SMTP_PASS": {
+      "type": "string",
       "description": "Email SMTP password"
     },
     "ADMIN_EMAIL": {
+      "type": "string",
       "description": "Admin email address"
     },
     "ADMIN_API_TOKEN": {
+      "type": "string",
       "description": "API token for admin endpoints"
     }
   }

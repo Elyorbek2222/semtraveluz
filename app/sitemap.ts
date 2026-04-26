@@ -1,47 +1,74 @@
 import type { MetadataRoute } from "next";
+import { prisma } from "@/lib/prisma";
 import { BLOG_POSTS } from "@/lib/blog-data";
 import { DESTINATION_SLUGS } from "@/lib/destinations-data";
 import { TOURS } from "@/lib/tours-data";
 
 const BUILD_DATE = new Date().toISOString();
+const SITE_URL = "https://semtravel.uz";
 
-export default function sitemap(): MetadataRoute.Sitemap {
-  const blogUrls = BLOG_POSTS.map((post) => ({
-    url: `https://semtravel.uz/blog/${post.slug}`,
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  // Static blog posts
+  const staticBlogUrls = BLOG_POSTS.map((post) => ({
+    url: `${SITE_URL}/blog/${post.slug}`,
     lastModified: new Date(post.date),
     changeFrequency: "monthly" as const,
     priority: 0.7,
   }));
 
+  // Dynamic blog posts from database (auto-generated)
+  let dynamicBlogUrls: MetadataRoute.Sitemap = [];
+  try {
+    const publishedPosts = await prisma.blogPost.findMany({
+      where: { status: "published" },
+      select: { slug: true, updatedAt: true },
+    });
+
+    dynamicBlogUrls = publishedPosts.map((post) => ({
+      url: `${SITE_URL}/blog/${post.slug}`,
+      lastModified: post.updatedAt,
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    }));
+  } catch (error) {
+    console.warn("Failed to fetch published blog posts for sitemap:", error);
+  }
+
+  // Destinations
   const destinationUrls = DESTINATION_SLUGS.map((slug) => ({
-    url: `https://semtravel.uz/destinations/${slug}`,
+    url: `${SITE_URL}/destinations/${slug}`,
     lastModified: BUILD_DATE,
     changeFrequency: "weekly" as const,
     priority: 0.85,
   }));
 
+  // Tours
   const tourUrls = TOURS.map((tour) => ({
-    url: `https://semtravel.uz/tours/${tour.slug}`,
+    url: `${SITE_URL}/tours/${tour.slug}`,
     lastModified: BUILD_DATE,
     changeFrequency: "weekly" as const,
     priority: 0.85,
   }));
 
-  return [
-    { url: "https://semtravel.uz", lastModified: BUILD_DATE, changeFrequency: "daily", priority: 1 },
-    { url: "https://semtravel.uz/tours", lastModified: BUILD_DATE, changeFrequency: "daily", priority: 0.9 },
-    { url: "https://semtravel.uz/hotels", lastModified: BUILD_DATE, changeFrequency: "weekly", priority: 0.8 },
-    { url: "https://semtravel.uz/visa", lastModified: BUILD_DATE, changeFrequency: "weekly", priority: 0.8 },
-    { url: "https://semtravel.uz/lounge", lastModified: BUILD_DATE, changeFrequency: "weekly", priority: 0.8 },
-    { url: "https://semtravel.uz/transfer", lastModified: BUILD_DATE, changeFrequency: "monthly", priority: 0.7 },
-    { url: "https://semtravel.uz/about", lastModified: BUILD_DATE, changeFrequency: "monthly", priority: 0.6 },
-    { url: "https://semtravel.uz/contact", lastModified: BUILD_DATE, changeFrequency: "monthly", priority: 0.6 },
-    { url: "https://semtravel.uz/club", lastModified: BUILD_DATE, changeFrequency: "monthly", priority: 0.5 },
-    { url: "https://semtravel.uz/club/qoidalar", lastModified: BUILD_DATE, changeFrequency: "monthly", priority: 0.5 },
-    { url: "https://semtravel.uz/privacy", lastModified: BUILD_DATE, changeFrequency: "yearly", priority: 0.3 },
-    { url: "https://semtravel.uz/blog", lastModified: BUILD_DATE, changeFrequency: "weekly", priority: 0.8 },
+  // Combine all URLs
+  const allUrls = [
+    { url: SITE_URL, lastModified: BUILD_DATE, changeFrequency: "daily" as const, priority: 1 },
+    { url: `${SITE_URL}/tours`, lastModified: BUILD_DATE, changeFrequency: "daily" as const, priority: 0.9 },
+    { url: `${SITE_URL}/hotels`, lastModified: BUILD_DATE, changeFrequency: "weekly" as const, priority: 0.8 },
+    { url: `${SITE_URL}/visa`, lastModified: BUILD_DATE, changeFrequency: "weekly" as const, priority: 0.8 },
+    { url: `${SITE_URL}/lounge`, lastModified: BUILD_DATE, changeFrequency: "weekly" as const, priority: 0.8 },
+    { url: `${SITE_URL}/transfer`, lastModified: BUILD_DATE, changeFrequency: "monthly" as const, priority: 0.7 },
+    { url: `${SITE_URL}/about`, lastModified: BUILD_DATE, changeFrequency: "monthly" as const, priority: 0.6 },
+    { url: `${SITE_URL}/contact`, lastModified: BUILD_DATE, changeFrequency: "monthly" as const, priority: 0.6 },
+    { url: `${SITE_URL}/club`, lastModified: BUILD_DATE, changeFrequency: "monthly" as const, priority: 0.5 },
+    { url: `${SITE_URL}/club/qoidalar`, lastModified: BUILD_DATE, changeFrequency: "monthly" as const, priority: 0.5 },
+    { url: `${SITE_URL}/privacy`, lastModified: BUILD_DATE, changeFrequency: "yearly" as const, priority: 0.3 },
+    { url: `${SITE_URL}/blog`, lastModified: BUILD_DATE, changeFrequency: "weekly" as const, priority: 0.8 },
     ...destinationUrls,
     ...tourUrls,
-    ...blogUrls,
+    ...staticBlogUrls,
+    ...dynamicBlogUrls, // Add generated posts
   ];
+
+  return allUrls;
 }

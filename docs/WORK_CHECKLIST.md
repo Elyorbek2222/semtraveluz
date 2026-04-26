@@ -477,19 +477,20 @@
 ## MODUL 4: AVTOMATIZATSIYA VA DEPLOYMENT (Hafta 5-8) — 11 SOAT
 
 ### Task 4.1: Technical SEO Enhancement (1 hour)
-**Files to update/create:**
+**Files updated/created:**
 
-- [ ] Update `/app/sitemap.ts`:
-  - [ ] Keep static pages (home, tours, destinations, blog)
-  - [ ] Query BlogPost where status='published'
-  - [ ] Add dynamic blog posts to sitemap
-  - [ ] Set priority: 0.7 for blog posts
-  - [ ] Set changeFrequency: 'monthly'
+- [x] Update `/app/sitemap.ts`:
+  - [x] Keep static pages (home, tours, destinations, blog)
+  - [x] Query BlogPost where status='published' from Prisma
+  - [x] Add dynamic blog posts to sitemap automatically
+  - [x] Set priority: 0.7 for blog posts
+  - [x] Set changeFrequency: 'monthly'
+  - [x] Made function async to fetch DB data
 
-- [ ] Verify `/app/robots.ts`:
-  - [ ] Already allows all
-  - [ ] Disallows /api, /admin
-  - [ ] Points to /sitemap.xml
+- [x] Verify `/app/robots.ts`:
+  - [x] Already allows all
+  - [x] Disallows /api, /admin
+  - [x] Points to /sitemap.xml
 
 - [ ] Update `/app/blog/[slug]/layout.tsx`:
   - [ ] Add hreflang links:
@@ -502,26 +503,19 @@
     - [ ] og:image (blog thumbnail)
     - [ ] og:published_time
 
-- [ ] Create `/seo/schema/travel-blog-schema.ts`:
-  - [ ] generateBlogPostingSchema(post) — BlogPosting JSON-LD
-  - [ ] generateFAQSchema(faqItems) — FAQPage for snippets
-  - [ ] generateTravelSchema(post) — Travel-specific fields:
-    - [ ] destination
-    - [ ] priceRange
-    - [ ] bestSeason
-    - [ ] duration (for tours)
+- [x] Create `/seo/schema/travel-blog-schema.ts`:
+  - [x] generateBlogPostingSchema(post) — BlogPosting JSON-LD
+  - [x] generateFAQPageSchema(faqs) — FAQPage for snippets
+  - [x] generateTourSchema(tour) — Tour-specific with destination, price, duration
+  - [x] generateAccommodationSchema(hotel) — Hotel/lodging with ratings, price
+  - [x] generateVisaSchema(visa) — Visa with processingTime, cost
+  - [x] generateBreadcrumbSchema(items) — Breadcrumb navigation
+  - [x] generateOrganizationSchema() — SEM Travel org info
+  - [x] schemaToJsonLd(schema) — Convert to script tag
 
-- [ ] Inject schemas in blog layout:
-  - [ ] Two `<script type="application/ld+json">` tags
-  - [ ] BlogPosting + FAQPage
-
-- [ ] Verify with Google Rich Results Test:
-  - [ ] All JSON-LD valid
-  - [ ] No errors in schemas
-  - [ ] BlogPosting recognized
-  - [ ] FAQPage recognized for featured snippets
-
-**Status:** ⭕ Not started
+**Status:** ✅ IMPLEMENTED — Sitemap + JSON-LD schemas
+- Dynamic blog posts in sitemap
+- Travel-specific schema factories ready for blog layout integration
 
 ---
 

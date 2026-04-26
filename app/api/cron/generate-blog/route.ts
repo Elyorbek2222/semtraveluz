@@ -138,7 +138,7 @@ export async function POST(request: NextRequest) {
         duration: Date.now() - startTime,
         error: String(error),
       },
-    }).catch((e) => console.error('Failed to log cron error:', e));
+    }).catch((e: any) => console.error('Failed to log cron error:', e));
 
     return NextResponse.json(
       {

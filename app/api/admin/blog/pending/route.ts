@@ -76,7 +76,7 @@ export async function POST(request: NextRequest) {
 
     // Get post and send notification
     const posts = await getLatestPosts(undefined, 1);
-    const post = posts.find((p) => p.id === postId);
+    const post = posts.find((p: any) => p.id === postId);
 
     if (!post) {
       return NextResponse.json(

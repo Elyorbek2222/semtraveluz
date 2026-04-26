@@ -24,7 +24,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       select: { slug: true, updatedAt: true },
     });
 
-    dynamicBlogUrls = publishedPosts.map((post) => ({
+    dynamicBlogUrls = publishedPosts.map((post: any) => ({
       url: `${SITE_URL}/blog/${post.slug}`,
       lastModified: post.updatedAt,
       changeFrequency: "monthly" as const,

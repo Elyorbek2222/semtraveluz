@@ -6,7 +6,7 @@
  */
 
 import { useEffect, useState } from 'react';
-import { getDashboardAnalytics, formatCurrency, formatDuration, getScoreColor } from '@/seo/utils/analytics';
+import { formatCurrency, formatDuration } from '@/seo/utils/format';
 
 interface Analytics {
   period: any;
@@ -28,8 +28,12 @@ export default function AnalyticsDashboard() {
   async function fetchAnalytics() {
     try {
       setLoading(true);
-      const data = await getDashboardAnalytics(days);
-      setAnalytics(data);
+      const response = await fetch(`/api/admin/analytics?days=${days}`);
+      const result = await response.json();
+      if (!response.ok) {
+        throw new Error(result.error || 'Failed to fetch analytics');
+      }
+      setAnalytics(result.data);
       setError(null);
     } catch (err) {
       setError(String(err));

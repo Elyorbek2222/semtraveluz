@@ -122,7 +122,10 @@ async function testFullPipeline(): Promise<TestResult> {
     const result = await runContentPipeline({
       minSeoScore: 65,
       maxRefinementRetries: 2,
-      targetArticleWords: 800,
+      targetArticleWords: { min: 800, max: 1000 },
+      translationLanguages: ['uz', 'ru'],
+      apiTimeout: 30000,
+      databaseTimeout: 10000,
       enableNotifications: true,
       enableTranslation: true,
       dryRun: false,

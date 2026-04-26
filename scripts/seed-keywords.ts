@@ -269,9 +269,15 @@ async function main() {
     const deletedCount = await prisma.keyword.deleteMany({});
     console.log(`🗑️  Deleted ${deletedCount.count} existing keywords`);
 
+    // Convert keywords to Prisma format (relatedKeywords as JSON string)
+    const formattedKeywords = allKeywords.map((k) => ({
+      ...k,
+      relatedKeywords: k.relatedKeywords ? JSON.stringify(k.relatedKeywords) : null,
+    }));
+
     // Insert keywords
     const createdKeywords = await prisma.keyword.createMany({
-      data: allKeywords,
+      data: formattedKeywords,
     });
 
     console.log(`✅ Successfully seeded ${createdKeywords.count} keywords!`);

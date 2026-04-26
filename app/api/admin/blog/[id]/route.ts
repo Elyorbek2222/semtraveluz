@@ -26,10 +26,11 @@ function verifyAdminToken(request: NextRequest): boolean {
 // ============================================================================
 export async function GET(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   try {
-    const post = await getPostById(params.id);
+    const { id } = await params;
+    const post = await getPostById(id);
 
     if (!post) {
       return NextResponse.json(
@@ -52,9 +53,11 @@ export async function GET(
 // ============================================================================
 export async function POST(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   try {
+    const { id } = await params;
+
     // Check admin token
     if (!verifyAdminToken(request)) {
       return NextResponse.json(
@@ -70,26 +73,26 @@ export async function POST(
 
     switch (action) {
       case 'approve':
-        result = await BlogPublisher.approve(params.id);
+        result = await BlogPublisher.approve(id);
         break;
 
       case 'reject':
-        result = await BlogPublisher.reject(params.id);
+        result = await BlogPublisher.reject(id);
         break;
 
       case 'publish':
-        result = await BlogPublisher.publish(params.id);
+        result = await BlogPublisher.publish(id);
 
         // Announce published post
         if (result.success) {
-          const post = await getPostById(params.id);
+          const post = await getPostById(id);
           if (post) {
             await announcePublishedPost(
               {
                 id: post.id,
                 keyword: post.keyword,
                 seoScore: post.seoScore,
-                category: post.category,
+                category: post.category || undefined,
                 title: post.title as any,
                 metaDescription: post.metaDescription as any,
                 wordCount: post.wordCount,
@@ -102,7 +105,7 @@ export async function POST(
         break;
 
       case 'archive':
-        result = await BlogPublisher.archive(params.id);
+        result = await BlogPublisher.archive(id);
         break;
 
       default:
@@ -136,8 +139,9 @@ export async function POST(
 // ============================================================================
 export async function PATCH(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
+  const { id } = await params;
   try {
     if (!verifyAdminToken(request)) {
       return NextResponse.json(

@@ -22,7 +22,7 @@ export async function getKeywordsByDifficulty(
     orderBy: { searchVolume: 'desc' },
   });
 
-  return keywords as Keyword[];
+  return keywords as unknown as Keyword[];
 }
 
 /**
@@ -40,7 +40,7 @@ export async function getKeywordsByIntent(
     orderBy: { searchVolume: 'desc' },
   });
 
-  return keywords as Keyword[];
+  return keywords as unknown as Keyword[];
 }
 
 /**
@@ -55,7 +55,7 @@ export async function getKeywordsByNiche(niche: string, language?: string): Prom
     orderBy: { difficulty: 'asc', searchVolume: 'desc' },
   });
 
-  return keywords as Keyword[];
+  return keywords as unknown as Keyword[];
 }
 
 /**
@@ -67,7 +67,7 @@ export async function getKeywordsByLanguage(language: string): Promise<Keyword[]
     orderBy: { searchVolume: 'desc' },
   });
 
-  return keywords as Keyword[];
+  return keywords as unknown as Keyword[];
 }
 
 /**
@@ -76,17 +76,13 @@ export async function getKeywordsByLanguage(language: string): Promise<Keyword[]
 export async function getUnusedKeywords(limit?: number): Promise<Keyword[]> {
   const keywords = await prisma.keyword.findMany({
     where: {
-      NOT: {
-        BlogPost: {
-          some: {},
-        },
-      },
+      usedInPosts: null,
     },
     orderBy: [{ difficulty: 'asc' }, { searchVolume: 'desc' }],
     take: limit,
   });
 
-  return keywords as Keyword[];
+  return keywords as unknown as Keyword[];
 }
 
 /**
@@ -110,17 +106,13 @@ export async function filterKeywords(filters: {
       ...(filters.niche && { niche: filters.niche }),
       ...(filters.minSearchVolume && { searchVolume: { gte: filters.minSearchVolume } }),
       ...(filters.maxSearchVolume && { searchVolume: { lte: filters.maxSearchVolume } }),
-      ...(filters.unused && {
-        NOT: {
-          BlogPost: { some: {} },
-        },
-      }),
+      ...(filters.unused && { usedInPosts: null }),
     },
     orderBy: [{ difficulty: 'asc' }, { searchVolume: 'desc' }],
     take: filters.limit,
   });
 
-  return keywords as Keyword[];
+  return keywords as unknown as Keyword[];
 }
 
 /**
@@ -140,7 +132,7 @@ export async function getTopKeywordsByNiche(
     take: count,
   });
 
-  return keywords as Keyword[];
+  return keywords as unknown as Keyword[];
 }
 
 /**
@@ -156,7 +148,7 @@ export async function getEasyKeywords(limit: number = 10, language?: string): Pr
     take: limit,
   });
 
-  return keywords as Keyword[];
+  return keywords as unknown as Keyword[];
 }
 
 /**
@@ -176,7 +168,7 @@ export async function getKeywordSuggestionsForContent(
     },
   });
 
-  const filtered = (allKeywords as Keyword[])
+  const filtered = (allKeywords as unknown as Keyword[])
     .filter((k) => difficultyMap[k.difficulty] <= difficultyMap[maxDifficulty])
     .sort((a, b) => {
       // Prioritize: easy > medium, high volume, then alphabetical
@@ -201,7 +193,7 @@ export async function getPrimaryKeywords(language?: string): Promise<Keyword[]> 
     orderBy: { searchVolume: 'desc' },
   });
 
-  return keywords as Keyword[];
+  return keywords as unknown as Keyword[];
 }
 
 /**
@@ -227,7 +219,7 @@ export async function getLSIKeywords(targetKeyword: string, limit: number = 10):
     take: limit,
   });
 
-  return related as Keyword[];
+  return related as unknown as Keyword[];
 }
 
 /**
@@ -270,9 +262,7 @@ export async function getKeywordStats(): Promise<{
   });
 
   const allKeywords = await prisma.keyword.findMany();
-  const used = (allKeywords as any[]).filter(
-    (k) => (k as any).BlogPost && (k as any).BlogPost.length > 0
-  ).length;
+  const used = (allKeywords as any[]).filter((k) => (k as any).usedInPosts).length;
   const unused = total - used;
 
   return {
@@ -307,7 +297,7 @@ export async function searchKeywords(
     take: limit,
   });
 
-  return keywords as Keyword[];
+  return keywords as unknown as Keyword[];
 }
 
 /**
@@ -357,7 +347,7 @@ export async function getKeywordClusters(niche: string, language: string): Promi
     }
   >
 > {
-  const keywords = (await getKeywordsByNiche(niche, language)) as Keyword[];
+  const keywords = (await getKeywordsByNiche(niche, language)) as unknown as Keyword[];
 
   const clusters: Record<
     string,

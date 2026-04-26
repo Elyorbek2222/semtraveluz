@@ -74,7 +74,7 @@ async function selectKeyword(): Promise<Keyword> {
   }
 
   const randomIndex = Math.floor(Math.random() * unusedKeywords.length);
-  return unusedKeywords[randomIndex];
+  return unusedKeywords[randomIndex] as unknown as Keyword;
 }
 
 // ============================================================================
@@ -245,7 +245,7 @@ async function saveToDatabase(
       metaDescription: metaDescriptionJson,
       keyword: keyword.keyword,
       seoScore: auditResult.totalScore,
-      seoBreakdown: auditResult.breakdown,
+      seoBreakdown: auditResult.breakdown as any,
       wordCount: article.wordCount,
       category: keyword.niche,
       status: 'pending_review',
@@ -322,7 +322,7 @@ async function publishOnApproval(
 
     return {
       published: true,
-      publishedAt: updated.publishedAt,
+      publishedAt: updated.publishedAt || undefined,
     };
   }
 

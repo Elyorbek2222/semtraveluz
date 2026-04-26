@@ -246,7 +246,7 @@ export async function updatePostStatus(
       postId,
       oldStatus: post.status,
       newStatus,
-      publishedAt: updated.publishedAt,
+      publishedAt: updated.publishedAt || undefined,
     };
   } catch (error) {
     return {

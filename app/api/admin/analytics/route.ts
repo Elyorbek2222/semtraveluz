@@ -42,14 +42,25 @@ export async function GET(request: NextRequest) {
         totalGenerated: 0,
         totalPublished: 0,
         avgSeoScore: 0,
+        minSeoScore: 0,
+        maxSeoScore: 0,
         totalWords: 0,
         avgWordCount: 0,
+        translationSuccessRate: 0,
+        estimatedTokenCost: 0,
         scoreDistribution: {
           excellent: 0,
           good: 0,
           needsWork: 0,
           poor: 0,
         },
+        byStatus: {
+          pending_review: 0,
+          approved: 0,
+          published: 0,
+          rejected: 0,
+        },
+        byCategory: {},
       },
       cron: {
         totalRuns: 0,
@@ -58,11 +69,13 @@ export async function GET(request: NextRequest) {
         successRate: 0,
         avgDuration: 0,
         totalTokensUsed: 0,
+        lastRun: null,
       },
       period: {
         startDate: new Date(Date.now() - 30 * 24 * 60 * 60 * 1000),
         endDate: new Date(),
       },
+      lastUpdated: new Date().toISOString(),
     };
 
     return NextResponse.json({

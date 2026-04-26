@@ -63,7 +63,7 @@ export default function AnalyticsDashboard() {
       <div className="mb-8">
         <h1 className="text-3xl font-bold text-gray-900">Analytics Dashboard</h1>
         <p className="text-gray-600 mt-2">
-          {typeof period.startDate === 'string' ? period.startDate.split('T')[0] : period.startDate.toISOString().split('T')[0]} — {typeof period.endDate === 'string' ? period.endDate.split('T')[0] : period.endDate.toISOString().split('T')[0]}
+          {String(period.startDate).split('T')[0]} — {String(period.endDate).split('T')[0]}
         </p>
       </div>
 
@@ -174,7 +174,7 @@ export default function AnalyticsDashboard() {
               <div className="mt-6 pt-6 border-t">
                 <h3 className="font-semibold mb-2">Oxirgi Ishlar</h3>
                 <p className="text-sm text-gray-600">
-                  {new Date(cron.lastRun.date).toLocaleString()}
+                  {new Date(String(cron.lastRun.date || new Date())).toLocaleString()}
                 </p>
                 <p className={`text-sm font-semibold mt-1 ${cron.lastRun.status === 'success' ? 'text-green-600' : 'text-red-600'}`}>
                   {cron.lastRun.status === 'success' ? '✅ Muaffaqiyat' : '❌ Muvaffaqsiz'}
@@ -218,7 +218,7 @@ export default function AnalyticsDashboard() {
 
       {/* Footer */}
       <div className="mt-8 text-center text-gray-500 text-sm">
-        Oxirgi yangilash: {typeof analytics.lastUpdated === 'string' ? new Date(analytics.lastUpdated).toLocaleString() : analytics.lastUpdated.toLocaleString()}
+        Oxirgi yangilash: {new Date(String(analytics.lastUpdated || new Date())).toLocaleString()}
       </div>
     </div>
   );

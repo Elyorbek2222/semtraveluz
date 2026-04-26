@@ -519,12 +519,34 @@
 
 ---
 
-### Task 4.2: Email & Telegram Notifications (2 hours)
-**Files to create:**
+### Task 4.2: Notifications Integration (2 hours)
+**Files created/configured:**
 
-- [ ] `/lib/email-templates.ts`:
-  - [ ] HTML template with dark theme
-  - [ ] Dynamic variables: title, keyword, score, density, wordCount
+- [x] `/app/api/telegram/webhook/route.ts`:
+  - [x] Receive Telegram callback queries
+  - [x] Handle approve/reject/edit buttons
+  - [x] Acknowledge callbacks with toast notifications
+  - [x] Log admin actions
+
+- [x] `/app/api/admin/blog/[id]/route.ts`:
+  - [x] GET — retrieve single blog post
+  - [x] POST — approve, reject, publish, archive
+  - [x] PATCH — update category, tags, image
+  - [x] Token-based auth (ADMIN_API_TOKEN)
+
+- [x] `/app/api/admin/blog/pending/route.ts`:
+  - [x] GET — list pending posts with pagination
+  - [x] Get counts by status
+  - [x] Filter by status
+  - [x] POST — trigger manual notification
+
+- [x] `/api/notifications/test/route.ts`:
+  - [x] Test Telegram notifications
+  - [x] Test Email notifications
+  - [x] Test both simultaneously
+  - [x] Announce published posts
+
+**Status:** ✅ IMPLEMENTED — Full notification integration ready
   - [ ] Color-coded score (green≥85, orange≥65, red<65)
 
 - [ ] `/seo/notifications/notifier.ts` (main implementation):

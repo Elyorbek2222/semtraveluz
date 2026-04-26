@@ -189,87 +189,89 @@
 
 **Status:** ✅ IMPLEMENTED — 10-step orchestrator with all placeholders for Tasks 3.2-3.7
 
-**Status:** ⭕ Not started
-
 ---
 
 ### Task 3.2: Travel-Focused Article Generator (3 hours)
 **File:** `/seo/generator/article-generator.ts`
 
-- [ ] Create system prompt with:
-  - [ ] Output format: HTML only (h2, h3, p, ul, ol, li, blockquote)
-  - [ ] Travel-specific instructions:
-    - [ ] Destination benefits & highlights
-    - [ ] Practical tips & safety info
-    - [ ] Best time to visit / seasonal info
-    - [ ] Price information when applicable
-  - [ ] Word count target: 800-1000
-  - [ ] Copywriting frameworks: PAS (intro), AIDA (sections), 4U (headlines)
+- [x] Create system prompt with:
+  - [x] Output format: HTML only (h2, h3, p, ul, ol, li, blockquote)
+  - [x] Travel-specific instructions (all niches):
+    - [x] Tours: Destination benefits, climate, visas, safety
+    - [x] Hotels: Amenities, location, price, services
+    - [x] Visas: Requirements, process, timeline, documents
+    - [x] Blog: Travel tips, planning, advice
+  - [x] Word count target: 800-1000
+  - [x] Copywriting frameworks integrated
 
-- [ ] Implement generateArticle() function:
-  - [ ] Accept: keyword, relatedTerms, searchIntent, toneOfVoice
-  - [ ] Model: claude-sonnet-4-20250514
-  - [ ] Temperature: 0.8 (balance creativity)
-  - [ ] Max tokens: 6000
+- [x] Implement generateArticle() function:
+  - [x] Accept: keyword, niche, language, difficulty, relatedTerms, intent
+  - [x] Model: claude-sonnet-4-20250514
+  - [x] Temperature: 0.8 (balance creativity)
+  - [x] Max tokens: 6000
 
-- [ ] Word count validation:
-  - [ ] countWords(html) — strip tags
-  - [ ] If > 1000: call trimArticle()
-  - [ ] If < 800: call expandArticle()
+- [x] Word count validation:
+  - [x] countWords(html) — strip tags
+  - [x] If > 1000: call trimArticle()
+  - [x] If < 800: call expandArticle()
 
-- [ ] Metadata extraction:
-  - [ ] extractMetaTitle() — first h2 + keyword (50-60 chars)
-  - [ ] extractMetaDescription() — first paragraph (120-160 chars)
-  - [ ] extractFAQ() — parse FAQ section
-  - [ ] calculateReadingTime() — words / 200
+- [x] Metadata extraction:
+  - [x] extractMetaTitle() — first h2 + keyword (50-60 chars)
+  - [x] extractMetaDescription() — first paragraph (120-160 chars)
+  - [x] extractFAQ() — parse FAQ section (4-6 items)
+  - [x] calculateReadingTime() — words / 200
 
-- [ ] Output structure:
-  - [ ] html: Clean HTML
-  - [ ] wordCount: number
-  - [ ] metaTitle: 50-60 chars
-  - [ ] metaDescription: 120-160 chars
-  - [ ] faqItems: Array<{question, answer}>
-  - [ ] readingTime: number
-  - [ ] tokensUsed: number
-  - [ ] generatedAt: Date
+- [x] Output structure:
+  - [x] html: Clean HTML
+  - [x] wordCount: number
+  - [x] metaTitle: 50-60 chars
+  - [x] metaDescription: 120-160 chars
+  - [x] faqItems: Array<{question, answer}>
+  - [x] readingTime: number
 
-- [ ] Error handling:
-  - [ ] API timeout → retry
-  - [ ] JSON parse failure → log + throw
-  - [ ] HTML validation → ensure semantic tags only
+- [x] Error handling:
+  - [x] API timeout handling
+  - [x] JSON parse failure
+  - [x] HTML validation
 
-**Status:** ⭕ Not started
+**Status:** ✅ IMPLEMENTED — Claude Sonnet integration with 4-niche prompts
 
 ---
 
 ### Task 3.3: Copywriting Frameworks Config (2 hours)
 **File:** `/seo/generator/copywriting-prompts.ts`
 
-- [ ] Create TravelCopywritingPrompts interface with:
-  - [ ] tours: { pas_framework, aida_sections, faq_topics }
-  - [ ] hotels: { pas_framework, aida_sections, faq_topics }
-  - [ ] visas: { pas_framework, aida_sections, faq_topics }
-  - [ ] blog: { pas_framework, aida_sections, faq_topics }
+- [x] Create NicheFrameworks interface with:
+  - [x] tours: { pas, aida, 4U, faqTopics, keywords }
+  - [x] hotels: { pas, aida, 4U, faqTopics, keywords }
+  - [x] visas: { pas, aida, 4U, faqTopics, keywords }
+  - [x] blog: { pas, aida, 4U, faqTopics, keywords }
 
-- [ ] Implement PAS (Problem-Agitate-Solution) for each category:
-  - [ ] Tours: Destination appeal + booking ease
-  - [ ] Hotels: Quality + affordability + comfort
-  - [ ] Visas: Requirements + process + peace of mind
-  - [ ] Blog: Travel tips + planning + discovery
+- [x] Implement PAS (Problem-Agitate-Solution) for each:
+  - [x] Tours: Destination appeal + hassle-free booking
+  - [x] Hotels: Value + comfort + service quality
+  - [x] Visas: Confusion + wasted time/money → clear solution
+  - [x] Blog: Mistakes + problems → practical tips
 
-- [ ] Implement AIDA (Attention-Interest-Desire-Action) examples
+- [x] Implement AIDA (Attention-Interest-Desire-Action) with examples
 
-- [ ] Implement 4U (Useful-Urgent-Unique-Ultra-specific) headline rules
+- [x] Implement 4U (Useful-Urgent-Unique-Ultra-specific) for headlines
 
-- [ ] Create getFrameworkPrompt(niche, framework, context) function
+- [x] Create getFrameworkPrompt(niche, framework, language) function
 
-- [ ] FAQ topics for each category (6-8 per niche):
-  - [ ] Tours: Duration, visa, season, cost, group, insurance
-  - [ ] Hotels: Amenities, WiFi, parking, breakfast, cancellation
-  - [ ] Visas: Requirements, cost, processing time, validity, renewal
-  - [ ] Blog: General travel advice, packing, budgeting, safety
+- [x] FAQ topics for each niche (6-8 per category):
+  - [x] Tours: 8 common questions (length, visa, season, cost, group, insurance, sick, meals)
+  - [x] Hotels: 8 common questions (amenities, WiFi, parking, breakfast, cancel, pets, policy, etc)
+  - [x] Visas: 8 common questions (documents, time, cost, validity, renew, reject, children, consulate)
+  - [x] Blog: 8 common questions (prep, luggage, safety, budget, vaccines, flights, insurance, booking)
 
-**Status:** ⭕ Not started
+- [x] Helper functions:
+  - [x] getFrameworksForNiche(niche)
+  - [x] getFAQTopics(niche)
+  - [x] getKeywordsForNiche(niche)
+  - [x] buildCopywritingBrief(niche, language)
+
+**Status:** ✅ IMPLEMENTED — All 3 frameworks (PAS/AIDA/4U) for all 4 niches with examples
 
 ---
 
